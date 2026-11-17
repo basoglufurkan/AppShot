@@ -1,0 +1,46 @@
+{
+  "id": "clean-light",
+  "name": "Clean Light",
+  "description": "Bright, neutral and trustworthy. Lets real UI carry the page; brand colour only on highlights.",
+  "mood": [
+    "neutral",
+    "trustworthy",
+    "productivity",
+    "utility"
+  ],
+  "bg": {
+    "type": "linear",
+    "angle": 180,
+    "colors": [
+      "#FFFFFF",
+      "#F2F3F8"
+    ]
+  },
+  "text": "#0B0B12",
+  "accent": "#4F46E5",
+  "highlight": "color",
+  "fontDisplay": {
+    "family": "Inter",
+    "google": "Inter:wght@500;600;700;800;900"
+  },
+  "fontText": {
+    "family": "Inter",
+    "google": "Inter:wght@500;600;700;800;900"
+  },
+  "headlineWeight": 800,
+  "tracking": "-0.035em",
+  "leading": 1.04,
+  "device": {
+    "frame": "iphone",
+    "color": "black",
+    "shadow": "float"
+  },
+  "decor": [
+    {
+      "type": "glow",
+      "y": 0.72,
+      "size": 1.1,
+      "opacity": 0.1
+    }
+  ]
+}

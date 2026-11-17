@@ -1,0 +1,712 @@
+{
+  "_note": "Canvas sizes in pixels, checked against App Store Connect / Play Console docs on 2026-11-04 (see skills/aso/apple-rules.md and google-play-rules.md). `alt` = other accepted sizes for the same slot. Apple requires at least the Dynamic Island medium class (6.3\") and scales the large classes down; Appshot renders 6.9\" + 6.3\" by default. Google Play: each side 320–3840 px and the long side at most 2x the short side, so iPhone renders (2.17:1) cannot be reused on Play.",
+  "sizes": [
+    {
+      "id": "iphone-6.9",
+      "store": "ios",
+      "kind": "phone",
+      "width": 1320,
+      "height": 2868,
+      "alt": [
+        [
+          1290,
+          2796
+        ],
+        [
+          1260,
+          2736
+        ]
+      ],
+      "label": "iPhone 6.9\" — Dynamic Island large (16/17 Pro Max, Air)",
+      "required": false,
+      "frame": "iphone",
+      "fastlane": "APP_IPHONE_69"
+    },
+    {
+      "id": "iphone-6.5",
+      "store": "ios",
+      "kind": "phone",
+      "width": 1284,
+      "height": 2778,
+      "alt": [
+        [
+          1242,
+          2688
+        ]
+      ],
+      "label": "iPhone 6.5\" — Face ID large (required only if 6.9\" is missing)",
+      "required": false,
+      "frame": "iphone",
+      "fastlane": "APP_IPHONE_65"
+    },
+    {
+      "id": "iphone-6.3",
+      "store": "ios",
+      "kind": "phone",
+      "width": 1206,
+      "height": 2622,
+      "alt": [
+        [
+          1179,
+          2556
+        ]
+      ],
+      "label": "iPhone 6.3\" — Dynamic Island medium (required class)",
+      "required": true,
+      "frame": "iphone",
+      "fastlane": "APP_IPHONE_63"
+    },
+    {
+      "id": "iphone-6.1",
+      "store": "ios",
+      "kind": "phone",
+      "width": 1170,
+      "height": 2532,
+      "alt": [
+        [
+          1125,
+          2436
+        ],
+        [
+          1080,
+          2340
+        ]
+      ],
+      "label": "iPhone 6.1\"",
+      "required": false,
+      "frame": "iphone",
+      "fastlane": "APP_IPHONE_61"
+    },
+    {
+      "id": "iphone-5.5",
+      "store": "ios",
+      "kind": "phone",
+      "width": 1242,
+      "height": 2208,
+      "alt": [],
+      "label": "iPhone 5.5\" (8 Plus) — legacy",
+      "required": false,
+      "frame": "iphone-classic",
+      "fastlane": "APP_IPHONE_55"
+    },
+    {
+      "id": "iphone-duo-inner",
+      "store": "ios",
+      "kind": "tablet",
+      "width": 2007,
+      "height": 2853,
+      "alt": [],
+      "label": "iPhone Duo inner display (required from April 2027 with the iOS 27.1 SDK)",
+      "required": false,
+      "frame": "flat",
+      "fastlane": "APP_IPHONE_DUO_INNER"
+    },
+    {
+      "id": "iphone-duo-outer",
+      "store": "ios",
+      "kind": "phone",
+      "width": 1398,
+      "height": 2034,
+      "alt": [],
+      "label": "iPhone Duo outer display",
+      "required": false,
+      "frame": "flat",
+      "fastlane": "APP_IPHONE_DUO_OUTER"
+    },
+    {
+      "id": "ipad-13",
+      "store": "ios",
+      "kind": "tablet",
+      "width": 2064,
+      "height": 2752,
+      "alt": [
+        [
+          2048,
+          2732
+        ]
+      ],
+      "label": "iPad 13\" (Pro / Air M-series)",
+      "required": true,
+      "frame": "ipad",
+      "fastlane": "APP_IPAD_PRO_129"
+    },
+    {
+      "id": "ipad-11",
+      "store": "ios",
+      "kind": "tablet",
+      "width": 1668,
+      "height": 2420,
+      "alt": [
+        [
+          1668,
+          2388
+        ],
+        [
+          1640,
+          2360
+        ],
+        [
+          1488,
+          2266
+        ]
+      ],
+      "label": "iPad 11\"",
+      "required": false,
+      "frame": "ipad",
+      "fastlane": "APP_IPAD_PRO_3GEN_11"
+    },
+    {
+      "id": "android-phone",
+      "store": "android",
+      "kind": "phone",
+      "width": 1080,
+      "height": 1920,
+      "alt": [
+        [
+          1080,
+          2160
+        ],
+        [
+          1440,
+          2560
+        ]
+      ],
+      "label": "Google Play phone (9:16)",
+      "required": true,
+      "frame": "android",
+      "fastlane": "phoneScreenshots"
+    },
+    {
+      "id": "android-phone-tall",
+      "store": "android",
+      "kind": "phone",
+      "width": 1080,
+      "height": 2160,
+      "alt": [],
+      "label": "Google Play phone (1:2, max allowed ratio)",
+      "required": false,
+      "frame": "android",
+      "fastlane": "phoneScreenshots"
+    },
+    {
+      "id": "android-tablet-7",
+      "store": "android",
+      "kind": "tablet",
+      "width": 1200,
+      "height": 1920,
+      "alt": [],
+      "label": "Google Play 7\" tablet",
+      "required": false,
+      "frame": "android-tablet",
+      "fastlane": "sevenInchScreenshots"
+    },
+    {
+      "id": "android-tablet-10",
+      "store": "android",
+      "kind": "tablet",
+      "width": 1600,
+      "height": 2560,
+      "alt": [],
+      "label": "Google Play 10\" tablet",
+      "required": false,
+      "frame": "android-tablet",
+      "fastlane": "tenInchScreenshots"
+    }
+  ],
+  "graphics": [
+    {
+      "id": "play-feature",
+      "store": "android",
+      "width": 1024,
+      "height": 500,
+      "label": "Google Play feature graphic",
+      "fastlane": "featureGraphic"
+    },
+    {
+      "id": "appstore-header",
+      "store": "ios",
+      "creative": "header",
+      "width": 3840,
+      "height": 1646,
+      "alt": [],
+      "aspect": "21:9",
+      "label": "App Store product page header (iOS 27+) — 21:9 image or looping video",
+      "formats": [
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "video": {
+        "formats": [
+          "mp4",
+          "mov",
+          "m4v"
+        ],
+        "fps": [
+          30,
+          60
+        ],
+        "minSec": 5,
+        "maxSec": 30,
+        "muted": true,
+        "loops": true
+      },
+      "safe": {
+        "x": 0.2,
+        "y": 0.08,
+        "w": 0.6,
+        "h": 0.8
+      },
+      "safeNote": "Appshot assumption. iPhone shows the header as a centre crop of about 1.51:1 (≈17.6% cut from each side; measured in App Store Connect Preview and on iOS 27.0.1, developer forums thread 850418); iPad and Mac show more. Key elements stay inside the middle 60% width, the outer bands carry only ambience. Confirm in App Store Connect → Preview.",
+      "crops": [
+        {
+          "label": "iPhone (≈1.51:1 centre crop)",
+          "x": 0.176,
+          "y": 0,
+          "w": 0.648,
+          "h": 1,
+          "preview": true
+        }
+      ]
+    },
+    {
+      "id": "appstore-search",
+      "store": "ios",
+      "creative": "search",
+      "width": 3840,
+      "height": 2560,
+      "alt": [
+        [
+          1920,
+          1280
+        ]
+      ],
+      "range": {
+        "min": [
+          1920,
+          1280
+        ],
+        "max": [
+          3840,
+          2560
+        ]
+      },
+      "aspect": "3:2",
+      "label": "App Store search results asset (iOS 27+) — 3:2 image or looping video; replaces the screenshot strip in search",
+      "formats": [
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "video": {
+        "formats": [
+          "mp4",
+          "mov",
+          "m4v"
+        ],
+        "fps": [
+          30,
+          60
+        ],
+        "minSec": 5,
+        "maxSec": 30,
+        "muted": true,
+        "loops": true
+      },
+      "safe": {
+        "x": 0.04,
+        "y": 0.04,
+        "w": 0.92,
+        "h": 0.53
+      },
+      "safeNote": "Measured in App Store Connect -> Preview (iPhone search results, 2026-11-05): the card shows the full width but only the top ≈61% of the 3:2 asset (≈2.46:1, top-aligned); the lower ≈39% is cut. Phrase and whole screens stay in the top band, the bottom carries only ambience. iPad may show more of the asset. Confirm in App Store Connect -> Preview.",
+      "crops": [
+        {
+          "label": "iPhone search (top ≈61%)",
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.61,
+          "preview": true
+        }
+      ]
+    },
+    {
+      "id": "appstore-universal",
+      "store": "ios",
+      "creative": "universal",
+      "width": 5244,
+      "height": 2950,
+      "alt": [],
+      "aspect": "16:9",
+      "label": "App Store universal creative asset (iOS 27+) — 16:9 PNG used for both header and search results",
+      "formats": [
+        "png"
+      ],
+      "video": null,
+      "safe": {
+        "x": 0.19,
+        "y": 0.14,
+        "w": 0.62,
+        "h": 0.43
+      },
+      "safeNote": "Appshot assumption: intersection of the iPhone header crop (21:9 band, then ≈1.51:1 centre) and the iPhone search crop (centred 3:2, then its top ≈61%), minus a margin. Key elements sit in the upper middle. Confirm in App Store Connect -> Preview.",
+      "crops": [
+        {
+          "label": "21:9 header",
+          "x": 0,
+          "y": 0.119,
+          "w": 1,
+          "h": 0.762
+        },
+        {
+          "label": "3:2 search",
+          "x": 0.078,
+          "y": 0,
+          "w": 0.844,
+          "h": 1
+        },
+        {
+          "label": "iPhone header",
+          "x": 0.176,
+          "y": 0.119,
+          "w": 0.647,
+          "h": 0.762
+        },
+        {
+          "label": "iPhone search",
+          "x": 0.078,
+          "y": 0,
+          "w": 0.844,
+          "h": 0.61
+        }
+      ]
+    },
+    {
+      "id": "event-card",
+      "store": "ios",
+      "creative": "event",
+      "width": 1920,
+      "height": 1080,
+      "alt": [],
+      "aspect": "16:9",
+      "label": "In-App Event card — 16:9 image or looping video (1920×1080 to 3840×2160)",
+      "formats": [
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "video": {
+        "formats": [
+          "mp4",
+          "mov",
+          "m4v"
+        ],
+        "fps": [
+          30,
+          60
+        ],
+        "minSec": 5,
+        "maxSec": 30,
+        "muted": false,
+        "loops": true
+      },
+      "safe": {
+        "x": 0.1,
+        "y": 0.06,
+        "w": 0.8,
+        "h": 0.56
+      },
+      "safeNote": "Appshot assumption: the card's lower part carries the event name, badge and a gradient laid on by the App Store, so the hero stays in the upper-middle band. Check in App Store Connect → event preview.",
+      "crops": [],
+      "maxPx": [
+        3840,
+        2160
+      ],
+      "note": "Apple In-App Events: 'avoid using text or logos in your media'; 'don't add borders or gradients' (crops and gradients are applied by the App Store); videos autoplay and repeat — seamless loops. developer.apple.com/app-store/in-app-events/"
+    },
+    {
+      "id": "event-details",
+      "store": "ios",
+      "creative": "event",
+      "width": 1080,
+      "height": 1920,
+      "alt": [],
+      "aspect": "9:16",
+      "label": "In-App Event details page — 9:16 image or looping video (1080×1920 to 2160×3840)",
+      "formats": [
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "video": {
+        "formats": [
+          "mp4",
+          "mov",
+          "m4v"
+        ],
+        "fps": [
+          30,
+          60
+        ],
+        "minSec": 5,
+        "maxSec": 30,
+        "muted": false,
+        "loops": true
+      },
+      "safe": {
+        "x": 0.08,
+        "y": 0.12,
+        "w": 0.84,
+        "h": 0.46
+      },
+      "safeNote": "Appshot assumption: the lower half of the details page holds the event name, description and button over an App Store gradient; the hero stays in the upper-middle.",
+      "crops": [],
+      "maxPx": [
+        2160,
+        3840
+      ],
+      "note": "Apple In-App Events: 'avoid using text or logos in your media'; 'don't add borders or gradients' (crops and gradients are applied by the App Store); videos autoplay and repeat — seamless loops. developer.apple.com/app-store/in-app-events/"
+    }
+  ],
+  "limits": {
+    "ios": {
+      "min": 1,
+      "max": 10,
+      "formats": [
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "alpha": false
+    },
+    "android": {
+      "min": 2,
+      "max": 8,
+      "formats": [
+        "png",
+        "jpg",
+        "jpeg"
+      ],
+      "alpha": false,
+      "maxBytes": 8388608,
+      "minSide": 320,
+      "maxSide": 3840,
+      "maxRatio": 2,
+      "captionAreaMax": 0.2
+    },
+    "creative": {
+      "maxBytesImage": null,
+      "alpha": false,
+      "note": "Specs from developer.apple.com/help/app-store-connect/reference/app-information/creative-assets-specifications (checked 2026-11-05). 16:9 is PNG-only and image-only."
+    },
+    "preview": {
+      "minSec": 15,
+      "maxSec": 30,
+      "maxFps": 30,
+      "maxBytes": 524288000,
+      "perLocale": 3,
+      "formats": [
+        "mp4",
+        "mov",
+        "m4v"
+      ],
+      "h264": {
+        "profile": "high",
+        "maxLevel": 40,
+        "kbps": [
+          10000,
+          12000
+        ]
+      },
+      "audio": {
+        "codec": "aac",
+        "kbps": 256,
+        "rates": [
+          44100,
+          48000
+        ],
+        "channels": 2
+      },
+      "posterDefaultSec": 5,
+      "note": "Specs from developer.apple.com/help/app-store-connect/reference/app-information/app-preview-specifications (checked 2026-11-06): 15–30 s, up to 30 fps, H.264 progressive up to High Profile Level 4.0 at 10–12 Mbps or ProRes 422 HQ, stereo 256 kbps AAC at 44.1/48 kHz, up to 500 MB, up to 3 per device size and language, poster frame defaults to 5 s. Use the accepted resolution, not the device resolution."
+    },
+    "metadata": {
+      "note": "App Store Connect and Google Play Console text limits (characters unless noted). Keyword field: 100 BYTES (UTF-8).",
+      "ios": {
+        "name": 30,
+        "subtitle": 30,
+        "promo": 170,
+        "keywords": {
+          "bytes": 100
+        },
+        "description": 4000,
+        "whatsNew": 4000
+      },
+      "android": {
+        "playTitle": 30,
+        "playShort": 80,
+        "playFull": 4000
+      },
+      "sources": [
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information",
+        "https://support.google.com/googleplay/android-developer/answer/9859152"
+      ]
+    },
+    "event": {
+      "name": 30,
+      "short": 50,
+      "long": 120,
+      "maxDays": 31,
+      "promoteDaysBefore": 14,
+      "badges": [
+        "Challenge",
+        "Competition",
+        "Live Event",
+        "Major Update",
+        "New Season",
+        "Premiere",
+        "Special Event"
+      ],
+      "source": "https://developer.apple.com/app-store/in-app-events/"
+    }
+  },
+  "defaults": {
+    "ios": [
+      "iphone-6.9",
+      "iphone-6.3"
+    ],
+    "ipad": [
+      "ipad-13"
+    ],
+    "android": [
+      "android-phone"
+    ]
+  },
+  "previews": [
+    {
+      "id": "preview-iphone",
+      "store": "ios",
+      "preview": true,
+      "kind": "phone",
+      "width": 886,
+      "height": 1920,
+      "landscape": [
+        1920,
+        886
+      ],
+      "label": "App preview — iPhone with Face ID / Dynamic Island (6.9\", 6.7\", 6.5\", 6.3\", 6.1\"); upload once, App Store Connect scales it to the other Face ID iPhones",
+      "covers": [
+        "iphone-6.9",
+        "iphone-6.5",
+        "iphone-6.3",
+        "iphone-6.1"
+      ],
+      "short": "iphone"
+    },
+    {
+      "id": "preview-iphone-home",
+      "store": "ios",
+      "preview": true,
+      "kind": "phone",
+      "width": 1080,
+      "height": 1920,
+      "landscape": [
+        1920,
+        1080
+      ],
+      "label": "App preview — iPhone with Home button (5.5\", 4\")",
+      "covers": [
+        "iphone-5.5"
+      ],
+      "short": "iphone-home"
+    },
+    {
+      "id": "preview-iphone-4.7",
+      "store": "ios",
+      "preview": true,
+      "kind": "phone",
+      "width": 750,
+      "height": 1334,
+      "landscape": [
+        1334,
+        750
+      ],
+      "label": "App preview — iPhone with Home button (4.7\")",
+      "covers": [],
+      "short": "iphone-4.7"
+    },
+    {
+      "id": "preview-ipad",
+      "store": "ios",
+      "preview": true,
+      "kind": "tablet",
+      "width": 1200,
+      "height": 1600,
+      "landscape": [
+        1600,
+        1200
+      ],
+      "label": "App preview — iPad 13\", 12.9\", 11\", 10.5\"",
+      "covers": [
+        "ipad-13",
+        "ipad-11"
+      ],
+      "short": "ipad",
+      "alt": [
+        [
+          900,
+          1200
+        ]
+      ]
+    },
+    {
+      "id": "preview-mac",
+      "store": "ios",
+      "preview": true,
+      "kind": "desktop",
+      "width": 1920,
+      "height": 1080,
+      "landscape": null,
+      "label": "App preview — Mac (landscape only)",
+      "covers": [],
+      "short": "mac"
+    },
+    {
+      "id": "promo-vertical",
+      "store": "promo",
+      "preview": true,
+      "promo": true,
+      "kind": "phone",
+      "width": 1080,
+      "height": 1920,
+      "landscape": null,
+      "label": "Promo video — vertical 9:16 (Reels, TikTok, Shorts, ads); device frames and brand motion allowed",
+      "short": "vertical"
+    },
+    {
+      "id": "promo-landscape",
+      "store": "promo",
+      "preview": true,
+      "promo": true,
+      "kind": "phone",
+      "width": 1920,
+      "height": 1080,
+      "landscape": null,
+      "label": "Promo video — landscape 16:9 (YouTube, Google Play promo video, web)",
+      "short": "landscape"
+    },
+    {
+      "id": "promo-square",
+      "store": "promo",
+      "preview": true,
+      "promo": true,
+      "kind": "phone",
+      "width": 1080,
+      "height": 1080,
+      "landscape": null,
+      "label": "Promo video — square 1:1 (social feeds)",
+      "short": "square"
+    }
+  ]
+}

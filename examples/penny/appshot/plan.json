@@ -1,0 +1,274 @@
+{
+  "$schema": "appshot/plan@1",
+  "app": {
+    "name": "Penny",
+    "icon": "raw/icon.png",
+    "subtitle": {
+      "en-US": "Budget & Bill Tracker",
+      "tr": "Bütçe ve Fatura Takibi"
+    }
+  },
+  "niche": "budget-expense",
+  "theme": "mint",
+  "themeOverrides": {
+    "accent": "#039855"
+  },
+  "brand": {
+    "primary": "#12B76A",
+    "secondary": "#6172F3"
+  },
+  "panorama": false,
+  "sizes": [
+    "iphone-6.9",
+    "iphone-6.3",
+    "android-phone"
+  ],
+  "locales": [
+    "en-US",
+    "tr"
+  ],
+  "defaultLocale": "en-US",
+  "keywords": {
+    "en-US": [
+      "budget",
+      "expense tracker",
+      "money",
+      "bills",
+      "spending"
+    ],
+    "tr": [
+      "bütçe",
+      "harcama takibi",
+      "fatura",
+      "para"
+    ]
+  },
+  "storeOverrides": {
+    "android": {
+      "theme": {
+        "device": {
+          "frame": "flat"
+        }
+      }
+    }
+  },
+  "shots": [
+    {
+      "id": "hook",
+      "layout": "hero-device",
+      "screen": "raw/home.png",
+      "headline": {
+        "en-US": "See where your **money goes**",
+        "tr": "Paran **nereye** gidiyor, gör"
+      },
+      "subhead": {
+        "en-US": "Budget, bills and spending in one calm view",
+        "tr": "Bütçe, faturalar ve harcamalar tek ekranda"
+      },
+      "alternatives": {
+        "en-US": [
+          "Your **budget**, finally clear"
+        ],
+        "tr": [
+          "Bütçen artık **net**"
+        ]
+      }
+    },
+    {
+      "id": "left",
+      "layout": "zoom-callout",
+      "screen": "raw/home.png",
+      "headline": {
+        "en-US": "Know what's **left to spend**",
+        "tr": "**Kalan** bütçeni her an bil"
+      },
+      "subhead": {
+        "en-US": "Updated with every expense you add",
+        "tr": "Eklediğin her harcamayla güncellenir"
+      },
+      "zoom": {
+        "rect": [
+          0.03,
+          0.06,
+          0.94,
+          0.13
+        ],
+        "side": "right"
+      }
+    },
+    {
+      "id": "track",
+      "layout": "floating-cards",
+      "screen": "raw/budgets.png",
+      "headline": {
+        "en-US": "Stay **on track** every month",
+        "tr": "Her ay **yolunda** kal"
+      },
+      "cards": [
+        {
+          "icon": "✅",
+          "value": {
+            "en-US": "On track",
+            "tr": "Yolundasın"
+          },
+          "title": {
+            "en-US": "May budget",
+            "tr": "Mayıs bütçesi"
+          },
+          "pos": "tr"
+        },
+        {
+          "icon": "🛒",
+          "value": "81%",
+          "title": {
+            "en-US": "Groceries used",
+            "tr": "Market harcandı"
+          },
+          "pos": "ml"
+        }
+      ]
+    },
+    {
+      "id": "bills",
+      "layout": "notification-stack",
+      "screen": "raw/home.png",
+      "headline": {
+        "en-US": "Never miss a **bill** again",
+        "tr": "Hiçbir **faturayı** kaçırma"
+      },
+      "notifications": [
+        {
+          "title": {
+            "en-US": "Electricity bill due in 2 days",
+            "tr": "Elektrik faturası 2 gün sonra"
+          },
+          "body": {
+            "en-US": "Tap to mark it as paid",
+            "tr": "Ödendi olarak işaretlemek için dokun"
+          },
+          "time": "9:41"
+        },
+        {
+          "title": {
+            "en-US": "Eating out is over budget",
+            "tr": "Dışarıda yemek bütçeyi aştı"
+          },
+          "body": {
+            "en-US": "Want to move money from Shopping?",
+            "tr": "Alışveriş bütçesinden aktaralım mı?"
+          },
+          "time": {
+            "en-US": "now",
+            "tr": "şimdi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "private",
+      "layout": "feature-list",
+      "screen": "raw/budgets.png",
+      "headline": {
+        "en-US": "Private by **design**",
+        "tr": "Verin **sende** kalır"
+      },
+      "bullets": {
+        "en-US": [
+          "Locked with Face ID",
+          "Works fully offline",
+          "Balance widget on your Home Screen"
+        ],
+        "tr": [
+          "Face ID ile kilitli",
+          "Tamamen çevrimdışı çalışır",
+          "Ana ekranda bakiye widget'ı"
+        ]
+      },
+      "storeOverrides": {
+        "android": {
+          "bullets": {
+            "en-US": [
+              "Biometric lock",
+              "Works fully offline",
+              "Balance widget on your home screen"
+            ],
+            "tr": [
+              "Biyometrik kilit",
+              "Tamamen çevrimdışı çalışır",
+              "Ana ekranda bakiye widget'ı"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "close",
+      "layout": "text-hero",
+      "headline": {
+        "en-US": "Spend **without guilt**",
+        "tr": "**Suçluluk duymadan** harca"
+      },
+      "chips": [
+        {
+          "text": {
+            "en-US": "Monthly budgets",
+            "tr": "Aylık bütçeler"
+          },
+          "icon": "📊"
+        },
+        {
+          "text": {
+            "en-US": "Bill reminders",
+            "tr": "Fatura hatırlatma"
+          },
+          "icon": "🔔"
+        },
+        {
+          "text": {
+            "en-US": "Face ID lock",
+            "tr": "Face ID kilidi"
+          },
+          "icon": "🔒"
+        }
+      ],
+      "storeOverrides": {
+        "android": {
+          "chips": [
+            {
+              "text": {
+                "en-US": "Monthly budgets",
+                "tr": "Aylık bütçeler"
+              },
+              "icon": "📊"
+            },
+            {
+              "text": {
+                "en-US": "Bill reminders",
+                "tr": "Fatura hatırlatma"
+              },
+              "icon": "🔔"
+            },
+            {
+              "text": {
+                "en-US": "Biometric lock",
+                "tr": "Biyometrik kilit"
+              },
+              "icon": "🔒"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "creative": {
+    "screens": [
+      "raw/home.png",
+      "raw/budgets.png"
+    ],
+    "headline": {
+      "en-US": "See where your **money goes**",
+      "tr": "Paran **nereye** gidiyor, gör"
+    },
+    "video": true
+  }
+}

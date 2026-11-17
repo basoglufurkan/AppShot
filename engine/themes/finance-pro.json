@@ -1,0 +1,56 @@
+{
+  "id": "finance-pro",
+  "name": "Finance Pro",
+  "description": "Navy with emerald accents and a faint grid. Money, banking, investing, business — signals trust and control.",
+  "mood": [
+    "trust",
+    "money",
+    "pro",
+    "serious"
+  ],
+  "bg": {
+    "type": "linear",
+    "angle": 180,
+    "colors": [
+      "#0B1B33",
+      "#0E2A4F"
+    ]
+  },
+  "text": "#FFFFFF",
+  "accent": "#34D399",
+  "highlight": "color",
+  "positive": "#34D399",
+  "fontDisplay": {
+    "family": "Manrope",
+    "google": "Manrope:wght@500;600;700;800"
+  },
+  "fontText": {
+    "family": "Manrope",
+    "google": "Manrope:wght@500;600;700;800"
+  },
+  "headlineWeight": 800,
+  "tracking": "-0.035em",
+  "leading": 1.04,
+  "device": {
+    "frame": "iphone",
+    "color": "black",
+    "shadow": "soft"
+  },
+  "card": {
+    "glass": true
+  },
+  "decor": [
+    {
+      "type": "grid",
+      "opacity": 0.05,
+      "size": 0.1
+    },
+    {
+      "type": "glow",
+      "color": "#34D399",
+      "y": 0.72,
+      "size": 1,
+      "opacity": 0.18
+    }
+  ]
+}

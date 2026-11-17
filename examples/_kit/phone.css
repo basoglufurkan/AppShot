@@ -1,0 +1,19 @@
+/* Mock-screen kit: 440×956 CSS px → captured at 3× = 1320×2868 (iPhone 6.9"). Only for demos and examples. */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 440px; height: 956px; overflow: hidden; }
+body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif; -webkit-font-smoothing: antialiased; background: var(--bg); color: var(--fg); }
+.status { height: 54px; display: flex; align-items: center; justify-content: space-between; padding: 14px 34px 0 46px; font: 600 17px -apple-system; letter-spacing: -0.2px; }
+.status .icons { display: flex; gap: 6px; align-items: center; }
+.status svg { display: block; }
+.home-ind { position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); width: 144px; height: 5px; border-radius: 3px; background: var(--fg); opacity: .9; }
+.tabbar { position: absolute; left: 0; right: 0; bottom: 0; height: 88px; display: flex; justify-content: space-around; padding-top: 10px; background: var(--tab); backdrop-filter: blur(20px); border-top: 0.5px solid var(--line); }
+.tab { display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 10.5px; font-weight: 600; color: var(--muted); }
+.tab.on { color: var(--accent); }
+.tab i { width: 26px; height: 26px; border-radius: 8px; background: currentColor; opacity: .9; mask-size: cover; -webkit-mask-size: cover; }
+.h1 { font-size: 34px; font-weight: 800; letter-spacing: -0.8px; }
+.h2 { font-size: 22px; font-weight: 700; letter-spacing: -0.4px; }
+.muted { color: var(--muted); }
+.card { background: var(--card); border-radius: 22px; padding: 18px; }
+.row { display: flex; align-items: center; }
+.pill { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 999px; font-size: 14px; font-weight: 700; }
+.px { padding-left: 20px; padding-right: 20px; }

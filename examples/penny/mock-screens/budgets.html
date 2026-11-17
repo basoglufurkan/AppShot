@@ -1,0 +1,9 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="../../_kit/phone.css"><link rel="stylesheet" href="_penny.css">
+<body style="position:relative"><div class="status"></div>
+<div class="px" style="margin-top:12px">
+  <div class="h1">Budgets</div>
+  <div class="card row" style="margin-top:14px;gap:12px;background:#ECFDF3"><div style="font-size:26px">✅</div><div><div style="font-weight:800;font-size:16px;color:#027A48">You're on track this month</div><div style="font-size:13px;color:#039855;font-weight:600">On pace to save $340</div></div></div>
+  <script>document.write([['🛒','Groceries',812,1000,'#12B76A'],['🍽️','Eating out',431,400,'#F04438'],['🚌','Transport',353,450,'#6172F3'],['🎁','Shopping',186,300,'#F79009'],['💡','Bills',520,600,'#0BA5EC']].map(b=>`<div class="card" style="margin-top:12px"><div class="row" style="gap:10px"><span style="font-size:22px">${b[0]}</span><span style="flex:1;font-weight:700;font-size:16px">${b[1]}</span><span style="font-weight:700;${b[2]>b[3]?'color:#F04438':''}">$${b[2]} <span class="muted" style="font-weight:600">/ $${b[3]}</span></span></div><div style="height:8px;border-radius:4px;background:#E4E7EC;margin-top:10px"><div style="width:${Math.min(100,b[2]/b[3]*100)}%;height:100%;border-radius:4px;background:${b[4]}"></div></div>${b[2]>b[3]?'<div style="font-size:12px;color:#F04438;font-weight:700;margin-top:6px">$31 over — Penny will nudge you before the next order</div>':''}</div>`).join(''))</script>
+</div>
+<div class="tabbar"><div class="tab"><i style="border-radius:50%"></i>Home</div><div class="tab"><i></i>Activity</div><div class="tab on"><i style="border-radius:4px"></i>Budgets</div><div class="tab"><i style="border-radius:50%"></i>Goals</div></div>
+<div class="home-ind"></div><script src="../../_kit/statusbar.js"></script></body>

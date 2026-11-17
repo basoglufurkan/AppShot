@@ -1,0 +1,46 @@
+{
+  "id": "volt",
+  "name": "Volt",
+  "description": "Pure black, electric lime pills, tight heavy type. Fitness, running, sports tech, productivity hackers.",
+  "mood": [
+    "sport",
+    "energetic",
+    "sharp",
+    "tech"
+  ],
+  "bg": {
+    "type": "solid",
+    "color": "#0A0A0A"
+  },
+  "text": "#FFFFFF",
+  "accent": "#D7FF3A",
+  "accentText": "#0A0A0A",
+  "highlight": "pill",
+  "fontDisplay": {
+    "family": "Inter",
+    "google": "Inter:wght@500;600;700;800;900"
+  },
+  "fontText": {
+    "family": "Inter",
+    "google": "Inter:wght@500;600;700;800;900"
+  },
+  "headlineWeight": 900,
+  "tracking": "-0.045em",
+  "leading": 1,
+  "device": {
+    "frame": "iphone",
+    "color": "black",
+    "shadow": "soft"
+  },
+  "card": {
+    "bg": "#1A1A1A",
+    "text": "#FFFFFF"
+  },
+  "decor": [
+    {
+      "type": "grid",
+      "opacity": 0.06,
+      "size": 0.1
+    }
+  ]
+}

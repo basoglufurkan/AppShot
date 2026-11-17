@@ -1,0 +1,44 @@
+{
+  "id": "mint",
+  "name": "Mint",
+  "description": "Fresh light mint with deep green type. Health, nutrition, money-saving, eco.",
+  "mood": [
+    "fresh",
+    "healthy",
+    "positive",
+    "light"
+  ],
+  "bg": {
+    "type": "linear",
+    "angle": 180,
+    "colors": [
+      "#F1FFF8",
+      "#D3F8E6"
+    ]
+  },
+  "text": "#06281B",
+  "accent": "#0E9F6E",
+  "highlight": "color",
+  "fontDisplay": {
+    "family": "Manrope",
+    "google": "Manrope:wght@500;600;700;800"
+  },
+  "fontText": {
+    "family": "Manrope",
+    "google": "Manrope:wght@500;600;700;800"
+  },
+  "headlineWeight": 800,
+  "tracking": "-0.035em",
+  "leading": 1.04,
+  "device": {
+    "frame": "iphone",
+    "color": "black",
+    "shadow": "float"
+  },
+  "decor": [
+    {
+      "type": "dots",
+      "opacity": 0.12
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "luxe",
+  "name": "Luxe",
+  "description": "Black and gold with a classic serif. Premium memberships, fashion, astrology, finance for HNW.",
+  "mood": [
+    "luxury",
+    "premium",
+    "exclusive",
+    "classic"
+  ],
+  "bg": {
+    "type": "radial",
+    "at": "50% 20%",
+    "colors": [
+      "#1E1A12",
+      "#0A0907"
+    ]
+  },
+  "text": "#F6EEDC",
+  "accent": "#E2BE5C",
+  "secondary": "#B8892B",
+  "highlight": "gradient",
+  "fontDisplay": {
+    "family": "Playfair Display",
+    "google": "Playfair Display:wght@600;700;800;900",
+    "fallback": "Georgia, serif"
+  },
+  "fontText": {
+    "family": "Inter",
+    "google": "Inter:wght@500;600;700;800;900"
+  },
+  "headlineWeight": 700,
+  "tracking": "-0.02em",
+  "leading": 1.04,
+  "device": {
+    "frame": "iphone",
+    "color": "black",
+    "shadow": "float"
+  },
+  "decor": [
+    {
+      "type": "glow",
+      "color": "#E2BE5C",
+      "y": 0.75,
+      "size": 0.9,
+      "opacity": 0.16
+    },
+    {
+      "type": "grain",
+      "opacity": 0.07
+    }
+  ]
+}

@@ -1,0 +1,1492 @@
+{
+  "plan": "examples/pulse/appshot/plan.json",
+  "renderedAt": "2026-11-16T13:40:00.547Z",
+  "scale": 0.4,
+  "ms": 5898,
+  "outDir": "examples/pulse/appshot/drafts",
+  "jobs": [
+    {
+      "size": "android-phone",
+      "store": "android",
+      "canvas": {
+        "width": 1080,
+        "height": 1920
+      },
+      "locale": "en-US",
+      "width": 432,
+      "height": 768,
+      "html": "examples/pulse/appshot/.cache/html/main/android-phone.en-US.html",
+      "files": [
+        "examples/pulse/appshot/drafts/android-phone/en-US/01-hook.png",
+        "examples/pulse/appshot/drafts/android-phone/en-US/02-form.png",
+        "examples/pulse/appshot/drafts/android-phone/en-US/03-progress.png",
+        "examples/pulse/appshot/drafts/android-phone/en-US/04-library.png",
+        "examples/pulse/appshot/drafts/android-phone/en-US/05-streak.png",
+        "examples/pulse/appshot/drafts/android-phone/en-US/06-fit.png",
+        "examples/pulse/appshot/drafts/android-phone/en-US/07-close.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "hero-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 182,
+                "w": 918,
+                "h": 292
+              },
+              "headline": "Home workouts that adapt to you"
+            }
+          ],
+          "devices": [
+            {
+              "x": 108,
+              "y": 586,
+              "w": 864,
+              "h": 1877
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "form",
+          "layout": "zoom-callout",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 182,
+                "w": 918,
+                "h": 292
+              },
+              "headline": "Perfect form, every rep"
+            }
+          ],
+          "devices": [
+            {
+              "x": 54,
+              "y": 601,
+              "w": 756,
+              "h": 1643
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "progress",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 239,
+                "w": 918,
+                "h": 177
+              },
+              "headline": "Watch your strength grow"
+            }
+          ],
+          "devices": [
+            {
+              "x": 151,
+              "y": 591,
+              "w": 778,
+              "h": 1690
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "library",
+          "layout": "tilted-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 182,
+                "w": 918,
+                "h": 292
+              },
+              "headline": "400+ workouts, zero equipment"
+            }
+          ],
+          "devices": [
+            {
+              "x": -63,
+              "y": 563,
+              "w": 1141,
+              "h": 2067
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "streak",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 206,
+                "w": 918,
+                "h": 243
+              },
+              "headline": "Keep your streak alive"
+            }
+          ],
+          "devices": [
+            {
+              "x": 108,
+              "y": 591,
+              "w": 864,
+              "h": 1877
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 5,
+          "shot": "fit",
+          "layout": "feature-list",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 80,
+              "max": 79.75,
+              "min": 47.85,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 235,
+                "w": 674,
+                "h": 80
+              },
+              "headline": "Built for your level"
+            }
+          ],
+          "devices": [
+            {
+              "x": 140,
+              "y": 716,
+              "w": 799,
+              "h": 1736
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 6,
+          "shot": "close",
+          "layout": "text-hero",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 115,
+              "max": 115.19,
+              "min": 62.03,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 698,
+                "w": 918,
+                "h": 230
+              },
+              "headline": "Your strongest year starts today"
+            }
+          ],
+          "devices": [],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Inter",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    },
+    {
+      "size": "android-phone",
+      "store": "android",
+      "canvas": {
+        "width": 1080,
+        "height": 1920
+      },
+      "locale": "tr",
+      "width": 432,
+      "height": 768,
+      "html": "examples/pulse/appshot/.cache/html/main/android-phone.tr.html",
+      "files": [
+        "examples/pulse/appshot/drafts/android-phone/tr/01-hook.png",
+        "examples/pulse/appshot/drafts/android-phone/tr/02-form.png",
+        "examples/pulse/appshot/drafts/android-phone/tr/03-progress.png",
+        "examples/pulse/appshot/drafts/android-phone/tr/04-library.png",
+        "examples/pulse/appshot/drafts/android-phone/tr/05-streak.png",
+        "examples/pulse/appshot/drafts/android-phone/tr/06-fit.png",
+        "examples/pulse/appshot/drafts/android-phone/tr/07-close.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "hero-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 182,
+                "w": 918,
+                "h": 292
+              },
+              "headline": "Sana uyan ev antrenmanları"
+            }
+          ],
+          "devices": [
+            {
+              "x": 108,
+              "y": 586,
+              "w": 864,
+              "h": 1877
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "form",
+          "layout": "zoom-callout",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 182,
+                "w": 918,
+                "h": 292
+              },
+              "headline": "Her tekrarda doğru form"
+            }
+          ],
+          "devices": [
+            {
+              "x": 54,
+              "y": 601,
+              "w": 756,
+              "h": 1643
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "progress",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 94,
+                "y": 283,
+                "w": 891,
+                "h": 89
+              },
+              "headline": "Gücünün arttığını izle"
+            }
+          ],
+          "devices": [
+            {
+              "x": 151,
+              "y": 591,
+              "w": 778,
+              "h": 1690
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "library",
+          "layout": "tilted-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 206,
+                "w": 918,
+                "h": 243
+              },
+              "headline": "400+ antrenman, sıfır ekipman"
+            }
+          ],
+          "devices": [
+            {
+              "x": -63,
+              "y": 563,
+              "w": 1141,
+              "h": 2067
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "streak",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 223,
+                "y": 250,
+                "w": 635,
+                "h": 155
+              },
+              "headline": "Serini bozma"
+            }
+          ],
+          "devices": [
+            {
+              "x": 108,
+              "y": 591,
+              "w": 864,
+              "h": 1877
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 5,
+          "shot": "fit",
+          "layout": "feature-list",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 80,
+              "max": 79.75,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 195,
+                "w": 918,
+                "h": 160
+              },
+              "headline": "Seviyene ve gününe uyar"
+            }
+          ],
+          "devices": [
+            {
+              "x": 140,
+              "y": 716,
+              "w": 799,
+              "h": 1736
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 6,
+          "shot": "close",
+          "layout": "text-hero",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 115,
+              "max": 115.19,
+              "min": 62.03,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 698,
+                "w": 918,
+                "h": 230
+              },
+              "headline": "En güçlü yılın bugün başlıyor"
+            }
+          ],
+          "devices": [],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Inter",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    },
+    {
+      "size": "iphone-6.3",
+      "store": "ios",
+      "canvas": {
+        "width": 1206,
+        "height": 2622
+      },
+      "locale": "en-US",
+      "width": 482,
+      "height": 1049,
+      "html": "examples/pulse/appshot/.cache/html/main/iphone-6.3.en-US.html",
+      "files": [
+        "examples/pulse/appshot/drafts/iphone-6.3/en-US/01-hook.png",
+        "examples/pulse/appshot/drafts/iphone-6.3/en-US/02-form.png",
+        "examples/pulse/appshot/drafts/iphone-6.3/en-US/03-progress.png",
+        "examples/pulse/appshot/drafts/iphone-6.3/en-US/04-library.png",
+        "examples/pulse/appshot/drafts/iphone-6.3/en-US/05-streak.png",
+        "examples/pulse/appshot/drafts/iphone-6.3/en-US/06-fit.png",
+        "examples/pulse/appshot/drafts/iphone-6.3/en-US/07-close.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "hero-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 249,
+                "w": 1025,
+                "h": 397
+              },
+              "headline": "Home workouts that adapt to you"
+            }
+          ],
+          "devices": [
+            {
+              "x": 155,
+              "y": 834,
+              "w": 895,
+              "h": 1945
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "form",
+          "layout": "zoom-callout",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 249,
+                "w": 1025,
+                "h": 397
+              },
+              "headline": "Perfect form, every rep"
+            }
+          ],
+          "devices": [
+            {
+              "x": 91,
+              "y": 851,
+              "w": 783,
+              "h": 1702
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "progress",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 326,
+                "w": 1025,
+                "h": 241
+              },
+              "headline": "Watch your strength grow"
+            }
+          ],
+          "devices": [
+            {
+              "x": 200,
+              "y": 839,
+              "w": 806,
+              "h": 1751
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "library",
+          "layout": "tilted-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 249,
+                "w": 1025,
+                "h": 397
+              },
+              "headline": "400+ workouts, zero equipment"
+            }
+          ],
+          "devices": [
+            {
+              "x": -24,
+              "y": 821,
+              "w": 1182,
+              "h": 2142
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "streak",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 281,
+                "w": 1025,
+                "h": 331
+              },
+              "headline": "Keep your streak alive"
+            }
+          ],
+          "devices": [
+            {
+              "x": 155,
+              "y": 842,
+              "w": 895,
+              "h": 1945
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 5,
+          "shot": "fit",
+          "layout": "feature-list",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 109,
+              "max": 108.54,
+              "min": 65.12,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 321,
+                "w": 918,
+                "h": 109
+              },
+              "headline": "Built for your level"
+            }
+          ],
+          "devices": [
+            {
+              "x": 189,
+              "y": 1009,
+              "w": 828,
+              "h": 1799
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 6,
+          "shot": "close",
+          "layout": "text-hero",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 157,
+              "max": 156.78,
+              "min": 84.42,
+              "lines": 4,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 953,
+                "w": 1025,
+                "h": 627
+              },
+              "headline": "Your strongest year starts today"
+            }
+          ],
+          "devices": [],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Inter",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    },
+    {
+      "size": "iphone-6.3",
+      "store": "ios",
+      "canvas": {
+        "width": 1206,
+        "height": 2622
+      },
+      "locale": "tr",
+      "width": 482,
+      "height": 1049,
+      "html": "examples/pulse/appshot/.cache/html/main/iphone-6.3.tr.html",
+      "files": [
+        "examples/pulse/appshot/drafts/iphone-6.3/tr/01-hook.png",
+        "examples/pulse/appshot/drafts/iphone-6.3/tr/02-form.png",
+        "examples/pulse/appshot/drafts/iphone-6.3/tr/03-progress.png",
+        "examples/pulse/appshot/drafts/iphone-6.3/tr/04-library.png",
+        "examples/pulse/appshot/drafts/iphone-6.3/tr/05-streak.png",
+        "examples/pulse/appshot/drafts/iphone-6.3/tr/06-fit.png",
+        "examples/pulse/appshot/drafts/iphone-6.3/tr/07-close.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "hero-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 249,
+                "w": 1025,
+                "h": 397
+              },
+              "headline": "Sana uyan ev antrenmanları"
+            }
+          ],
+          "devices": [
+            {
+              "x": 155,
+              "y": 834,
+              "w": 895,
+              "h": 1945
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "form",
+          "layout": "zoom-callout",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 249,
+                "w": 1025,
+                "h": 397
+              },
+              "headline": "Her tekrarda doğru form"
+            }
+          ],
+          "devices": [
+            {
+              "x": 91,
+              "y": 851,
+              "w": 783,
+              "h": 1702
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "progress",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 326,
+                "w": 1025,
+                "h": 241
+              },
+              "headline": "Gücünün arttığını izle"
+            }
+          ],
+          "devices": [
+            {
+              "x": 200,
+              "y": 839,
+              "w": 806,
+              "h": 1751
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "library",
+          "layout": "tilted-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 249,
+                "w": 1025,
+                "h": 397
+              },
+              "headline": "400+ antrenman, sıfır ekipman"
+            }
+          ],
+          "devices": [
+            {
+              "x": -24,
+              "y": 821,
+              "w": 1182,
+              "h": 2142
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "streak",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 171,
+                "y": 342,
+                "w": 864,
+                "h": 211
+              },
+              "headline": "Serini bozma"
+            }
+          ],
+          "devices": [
+            {
+              "x": 155,
+              "y": 842,
+              "w": 895,
+              "h": 1945
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 5,
+          "shot": "fit",
+          "layout": "feature-list",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 109,
+              "max": 108.54,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 266,
+                "w": 1025,
+                "h": 217
+              },
+              "headline": "Seviyene ve gününe uyar"
+            }
+          ],
+          "devices": [
+            {
+              "x": 189,
+              "y": 1009,
+              "w": 828,
+              "h": 1799
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 6,
+          "shot": "close",
+          "layout": "text-hero",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 157,
+              "max": 156.78,
+              "min": 84.42,
+              "lines": 3,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 953,
+                "w": 1025,
+                "h": 470
+              },
+              "headline": "En güçlü yılın bugün başlıyor"
+            }
+          ],
+          "devices": [],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Inter",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    },
+    {
+      "size": "iphone-6.9",
+      "store": "ios",
+      "canvas": {
+        "width": 1320,
+        "height": 2868
+      },
+      "locale": "en-US",
+      "width": 528,
+      "height": 1147,
+      "html": "examples/pulse/appshot/.cache/html/main/iphone-6.9.en-US.html",
+      "files": [
+        "examples/pulse/appshot/drafts/iphone-6.9/en-US/01-hook.png",
+        "examples/pulse/appshot/drafts/iphone-6.9/en-US/02-form.png",
+        "examples/pulse/appshot/drafts/iphone-6.9/en-US/03-progress.png",
+        "examples/pulse/appshot/drafts/iphone-6.9/en-US/04-library.png",
+        "examples/pulse/appshot/drafts/iphone-6.9/en-US/05-streak.png",
+        "examples/pulse/appshot/drafts/iphone-6.9/en-US/06-fit.png",
+        "examples/pulse/appshot/drafts/iphone-6.9/en-US/07-close.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "hero-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 272,
+                "w": 1122,
+                "h": 435
+              },
+              "headline": "Home workouts that adapt to you"
+            }
+          ],
+          "devices": [
+            {
+              "x": 170,
+              "y": 913,
+              "w": 980,
+              "h": 2129
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "form",
+          "layout": "zoom-callout",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 272,
+                "w": 1122,
+                "h": 435
+              },
+              "headline": "Perfect form, every rep"
+            }
+          ],
+          "devices": [
+            {
+              "x": 99,
+              "y": 931,
+              "w": 857,
+              "h": 1863
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "progress",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 357,
+                "w": 1122,
+                "h": 264
+              },
+              "headline": "Watch your strength grow"
+            }
+          ],
+          "devices": [
+            {
+              "x": 219,
+              "y": 918,
+              "w": 882,
+              "h": 1916
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "library",
+          "layout": "tilted-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 272,
+                "w": 1122,
+                "h": 435
+              },
+              "headline": "400+ workouts, zero equipment"
+            }
+          ],
+          "devices": [
+            {
+              "x": -26,
+              "y": 898,
+              "w": 1294,
+              "h": 2344
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "streak",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 308,
+                "w": 1122,
+                "h": 362
+              },
+              "headline": "Keep your streak alive"
+            }
+          ],
+          "devices": [
+            {
+              "x": 170,
+              "y": 921,
+              "w": 980,
+              "h": 2129
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 5,
+          "shot": "fit",
+          "layout": "feature-list",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 119,
+              "max": 118.8,
+              "min": 71.28,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 351,
+                "w": 1005,
+                "h": 119
+              },
+              "headline": "Built for your level"
+            }
+          ],
+          "devices": [
+            {
+              "x": 207,
+              "y": 1104,
+              "w": 906,
+              "h": 1970
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 6,
+          "shot": "close",
+          "layout": "text-hero",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 172,
+              "max": 171.6,
+              "min": 92.4,
+              "lines": 4,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 1042,
+                "w": 1122,
+                "h": 686
+              },
+              "headline": "Your strongest year starts today"
+            }
+          ],
+          "devices": [],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Inter",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    },
+    {
+      "size": "iphone-6.9",
+      "store": "ios",
+      "canvas": {
+        "width": 1320,
+        "height": 2868
+      },
+      "locale": "tr",
+      "width": 528,
+      "height": 1147,
+      "html": "examples/pulse/appshot/.cache/html/main/iphone-6.9.tr.html",
+      "files": [
+        "examples/pulse/appshot/drafts/iphone-6.9/tr/01-hook.png",
+        "examples/pulse/appshot/drafts/iphone-6.9/tr/02-form.png",
+        "examples/pulse/appshot/drafts/iphone-6.9/tr/03-progress.png",
+        "examples/pulse/appshot/drafts/iphone-6.9/tr/04-library.png",
+        "examples/pulse/appshot/drafts/iphone-6.9/tr/05-streak.png",
+        "examples/pulse/appshot/drafts/iphone-6.9/tr/06-fit.png",
+        "examples/pulse/appshot/drafts/iphone-6.9/tr/07-close.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "hero-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 272,
+                "w": 1122,
+                "h": 435
+              },
+              "headline": "Sana uyan ev antrenmanları"
+            }
+          ],
+          "devices": [
+            {
+              "x": 170,
+              "y": 913,
+              "w": 980,
+              "h": 2129
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "form",
+          "layout": "zoom-callout",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 272,
+                "w": 1122,
+                "h": 435
+              },
+              "headline": "Her tekrarda doğru form"
+            }
+          ],
+          "devices": [
+            {
+              "x": 99,
+              "y": 931,
+              "w": 857,
+              "h": 1863
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "progress",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 357,
+                "w": 1122,
+                "h": 264
+              },
+              "headline": "Gücünün arttığını izle"
+            }
+          ],
+          "devices": [
+            {
+              "x": 219,
+              "y": 918,
+              "w": 882,
+              "h": 1916
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "library",
+          "layout": "tilted-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 272,
+                "w": 1122,
+                "h": 435
+              },
+              "headline": "400+ antrenman, sıfır ekipman"
+            }
+          ],
+          "devices": [
+            {
+              "x": -26,
+              "y": 898,
+              "w": 1294,
+              "h": 2344
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "streak",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 187,
+                "y": 374,
+                "w": 946,
+                "h": 230
+              },
+              "headline": "Serini bozma"
+            }
+          ],
+          "devices": [
+            {
+              "x": 170,
+              "y": 921,
+              "w": 980,
+              "h": 2129
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 5,
+          "shot": "fit",
+          "layout": "feature-list",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 119,
+              "max": 118.8,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 291,
+                "w": 1122,
+                "h": 238
+              },
+              "headline": "Seviyene ve gününe uyar"
+            }
+          ],
+          "devices": [
+            {
+              "x": 207,
+              "y": 1104,
+              "w": 906,
+              "h": 1970
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 6,
+          "shot": "close",
+          "layout": "text-hero",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 172,
+              "max": 171.6,
+              "min": 92.4,
+              "lines": 3,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 1042,
+                "w": 1122,
+                "h": 515
+              },
+              "headline": "En güçlü yılın bugün başlıyor"
+            }
+          ],
+          "devices": [],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Inter",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    }
+  ],
+  "file": "examples/pulse/appshot/review/draft-report.json"
+}

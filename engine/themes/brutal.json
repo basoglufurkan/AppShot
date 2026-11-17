@@ -1,0 +1,55 @@
+{
+  "id": "brutal",
+  "name": "Brutal",
+  "description": "Flat yellow, black outlines, heavy type, hard shadows. Loud and memorable — Gen-Z, productivity, creators.",
+  "mood": [
+    "loud",
+    "playful",
+    "gen-z",
+    "confident"
+  ],
+  "bg": {
+    "type": "solid",
+    "color": "#FFE14D"
+  },
+  "text": "#0A0A0A",
+  "accent": "#0A0A0A",
+  "accentText": "#FFE14D",
+  "highlight": "pill",
+  "stroke": "#0A0A0A",
+  "fontDisplay": {
+    "family": "Archivo Black",
+    "google": "Archivo Black"
+  },
+  "fontText": {
+    "family": "Space Grotesk",
+    "google": "Space Grotesk:wght@500;600;700"
+  },
+  "headlineWeight": 400,
+  "tracking": "-0.02em",
+  "leading": 1.02,
+  "device": {
+    "frame": "iphone",
+    "color": "black",
+    "shadow": "hard"
+  },
+  "card": {
+    "bg": "#FFFFFF",
+    "text": "#0A0A0A",
+    "border": "5px solid #0A0A0A",
+    "shadow": "10px 10px 0 #0A0A0A",
+    "radius": 2.2
+  },
+  "decor": [
+    {
+      "type": "shapes",
+      "colors": [
+        "#FF5C8A",
+        "#4D7CFE",
+        "#FFFFFF"
+      ],
+      "outline": true,
+      "count": 3
+    }
+  ]
+}

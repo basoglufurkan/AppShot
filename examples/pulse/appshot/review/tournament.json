@@ -1,0 +1,77 @@
+{
+  "size": "iphone-6.9",
+  "locale": "en-US",
+  "ranAt": "2026-11-04T19:47:49.569Z",
+  "results": [
+    {
+      "name": "theme-ember",
+      "score": 100,
+      "parts": {
+        "copy": 34.9,
+        "legibility": 25,
+        "contrast": 15,
+        "composition": 15,
+        "story": 10
+      },
+      "verdict": "ship",
+      "top": [],
+      "dir": "examples/pulse/.appshot/drafts/variants/theme-ember/iphone-6.9/en-US"
+    },
+    {
+      "name": "main",
+      "score": 99,
+      "parts": {
+        "copy": 34.9,
+        "legibility": 24.3,
+        "contrast": 15,
+        "composition": 15,
+        "story": 10
+      },
+      "verdict": "ship",
+      "top": [],
+      "dir": "examples/pulse/.appshot/drafts/iphone-6.9/en-US"
+    },
+    {
+      "name": "hook-b",
+      "score": 99,
+      "parts": {
+        "copy": 34.7,
+        "legibility": 24.3,
+        "contrast": 15,
+        "composition": 15,
+        "story": 10
+      },
+      "verdict": "ship",
+      "top": [],
+      "dir": "examples/pulse/.appshot/drafts/variants/hook-b/iphone-6.9/en-US"
+    },
+    {
+      "name": "hook-c",
+      "score": 99,
+      "parts": {
+        "copy": 35,
+        "legibility": 24.3,
+        "contrast": 15,
+        "composition": 15,
+        "story": 10
+      },
+      "verdict": "ship",
+      "top": [],
+      "dir": "examples/pulse/.appshot/drafts/variants/hook-c/iphone-6.9/en-US"
+    },
+    {
+      "name": "theme-midnight",
+      "score": 99,
+      "parts": {
+        "copy": 34.9,
+        "legibility": 24.3,
+        "contrast": 15,
+        "composition": 15,
+        "story": 10
+      },
+      "verdict": "ship",
+      "top": [],
+      "dir": "examples/pulse/.appshot/drafts/variants/theme-midnight/iphone-6.9/en-US"
+    }
+  ]
+}

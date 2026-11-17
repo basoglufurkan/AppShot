@@ -1,0 +1,38 @@
+{
+  "id": "brand",
+  "name": "Brand (derived)",
+  "description": "Generated from the app’s own colours (plan.brand.primary/secondary/bg, or the scanned palette). Use when the brand is strong.",
+  "mood": [
+    "brand",
+    "consistent"
+  ],
+  "bg": {
+    "type": "solid",
+    "color": "#111"
+  },
+  "text": "#FFFFFF",
+  "accent": "#5B5BF7",
+  "highlight": "color",
+  "fontDisplay": {
+    "family": "Inter",
+    "google": "Inter:wght@500;600;700;800;900"
+  },
+  "fontText": {
+    "family": "Inter",
+    "google": "Inter:wght@500;600;700;800;900"
+  },
+  "headlineWeight": 800,
+  "tracking": "-0.035em",
+  "leading": 1.04,
+  "device": {
+    "frame": "iphone",
+    "color": "black",
+    "shadow": "float"
+  },
+  "decor": [
+    {
+      "type": "grain",
+      "opacity": 0.05
+    }
+  ]
+}

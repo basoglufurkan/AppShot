@@ -1,0 +1,45 @@
+{
+  "id": "sunset",
+  "name": "Sunset",
+  "description": "Warm coral-to-peach gradient. Energetic, social, optimistic — dating, social, travel, food.",
+  "mood": [
+    "warm",
+    "social",
+    "energetic",
+    "friendly"
+  ],
+  "bg": {
+    "type": "linear",
+    "angle": 180,
+    "colors": [
+      "#E43E5C",
+      "#FF7A59",
+      "#FFB36B"
+    ]
+  },
+  "text": "#FFFFFF",
+  "accent": "#FFE58A",
+  "highlight": "color",
+  "fontDisplay": {
+    "family": "Bricolage Grotesque",
+    "google": "Bricolage Grotesque:opsz,wght@12..96,500..800"
+  },
+  "fontText": {
+    "family": "Inter",
+    "google": "Inter:wght@500;600;700;800;900"
+  },
+  "headlineWeight": 800,
+  "tracking": "-0.03em",
+  "leading": 1.02,
+  "device": {
+    "frame": "iphone",
+    "color": "black",
+    "shadow": "float"
+  },
+  "decor": [
+    {
+      "type": "grain",
+      "opacity": 0.06
+    }
+  ]
+}

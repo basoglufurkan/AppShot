@@ -1,0 +1,54 @@
+{
+  "id": "midnight",
+  "name": "Midnight",
+  "description": "Deep navy-black with a soft accent bloom behind the device. Premium, focused, tech.",
+  "mood": [
+    "premium",
+    "tech",
+    "focus",
+    "ai"
+  ],
+  "bg": {
+    "type": "radial",
+    "at": "50% 0%",
+    "colors": [
+      "#1B1F3B",
+      "#07070C"
+    ]
+  },
+  "text": "#FFFFFF",
+  "accent": "#8EA2FF",
+  "secondary": "#C58BFF",
+  "highlight": "color",
+  "fontDisplay": {
+    "family": "Inter",
+    "google": "Inter:wght@500;600;700;800;900"
+  },
+  "fontText": {
+    "family": "Inter",
+    "google": "Inter:wght@500;600;700;800;900"
+  },
+  "headlineWeight": 800,
+  "tracking": "-0.035em",
+  "leading": 1.04,
+  "device": {
+    "frame": "iphone",
+    "color": "black",
+    "shadow": "glow"
+  },
+  "card": {
+    "glass": true
+  },
+  "decor": [
+    {
+      "type": "glow",
+      "y": 0.7,
+      "size": 1.15,
+      "opacity": 0.38
+    },
+    {
+      "type": "grain",
+      "opacity": 0.05
+    }
+  ]
+}

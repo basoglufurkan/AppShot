@@ -1,0 +1,95 @@
+{
+  "createdAt": "2026-11-16T13:41:37.671Z",
+  "draft": true,
+  "previews": [
+    {
+      "locale": "en-US",
+      "size": "promo-vertical",
+      "file": "examples/pulse/appshot/drafts/promo/en-US/vertical.mp4",
+      "poster": "examples/pulse/appshot/drafts/promo/en-US/vertical-poster.png",
+      "width": 540,
+      "height": 960,
+      "duration": 15.4,
+      "mb": 0.8,
+      "style": "promo",
+      "sfx": [],
+      "qa": {
+        "deadHolds": [],
+        "bare": [],
+        "opening": {
+          "spread": 32.53035535053969,
+          "moving": true
+        },
+        "audio": {
+          "lufs": -70,
+          "peak": null,
+          "lra": 0,
+          "silent": true,
+          "warnings": [],
+          "notes": []
+        }
+      },
+      "timeline": [
+        {
+          "id": "hook",
+          "kind": "still",
+          "start": 0,
+          "len": 4.21,
+          "fadeIn": 0,
+          "caption": "Home workouts that **adapt to you**",
+          "source": "examples/pulse/appshot/raw/today.png"
+        },
+        {
+          "id": "form",
+          "kind": "still",
+          "start": 3.61,
+          "len": 3.659,
+          "fadeIn": 0.6,
+          "caption": "Perfect form, **every rep**",
+          "source": "examples/pulse/appshot/raw/workout.png"
+        },
+        {
+          "id": "progress",
+          "kind": "still",
+          "start": 6.669,
+          "len": 3.718,
+          "fadeIn": 0.6,
+          "caption": "Watch your **strength** grow",
+          "source": "examples/pulse/appshot/raw/progress.png"
+        },
+        {
+          "id": "library",
+          "kind": "still",
+          "start": 9.788,
+          "len": 4.012,
+          "fadeIn": 0.6,
+          "caption": "400+ workouts, **zero equipment**",
+          "source": "examples/pulse/appshot/raw/plans.png"
+        },
+        {
+          "id": "end",
+          "kind": "end",
+          "start": 13.2,
+          "len": 2.2,
+          "fadeIn": 0.6,
+          "caption": "",
+          "source": null
+        }
+      ],
+      "reasons": [
+        "Story: the first 4 screenshots in order, hook first — the preview plays before them, so it opens on the same promise with the same captions.",
+        "End frame discloses \"Some features require a subscription.\" — the scan found subscriptions and Apple asks previews to say so. Confirm the wording or set plan.preview.disclaimer.",
+        "0:00–0:04.2 hook: \"Home workouts that adapt to you\" — still raw/today.png; slow push (no localised action); caption above the device.",
+        "0:03.6–0:07.3 scene 2: \"Perfect form, every rep\" — still raw/workout.png; slow push (no localised action); caption above the device.",
+        "0:06.7–0:10.4 scene 3: \"Watch your strength grow\" — still raw/progress.png; slow push (no localised action); caption above the device.",
+        "0:09.8–0:13.8 scene 4: \"400+ workouts, zero equipment\" — still raw/plans.png; slow push (no localised action); caption above the device.",
+        "0:13.2–0:15.4 end frame (brand): the brand background, icon and name, disclosure.",
+        "0:15.4 total; scenes push in on a spring (18 frames), the device rises in on the first scene and floats in 3D.",
+        "Promo mode: device frame floating in 3D over the brand background and the app's key-art scene, scenes push in sideways — for social, YouTube and the Play promo video, not for App Store previews."
+      ],
+      "issues": [
+        "4 scene(s) use still captures — recordings make a livelier promo: node scripts/preview.mjs record --name today"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ember",
+  "name": "Ember",
+  "description": "Black with a fire-orange glow and condensed caps. Intense fitness, sports, motivation.",
+  "mood": [
+    "intense",
+    "sport",
+    "motivating",
+    "bold"
+  ],
+  "bg": {
+    "type": "radial",
+    "at": "50% 75%",
+    "colors": [
+      "#3A0E06",
+      "#0B0605"
+    ]
+  },
+  "text": "#FFFFFF",
+  "accent": "#FF6A2B",
+  "highlight": "color",
+  "case": "upper",
+  "fontDisplay": {
+    "family": "Anton",
+    "google": "Anton"
+  },
+  "fontText": {
+    "family": "Inter",
+    "google": "Inter:wght@500;600;700;800;900"
+  },
+  "headlineWeight": 400,
+  "tracking": "0.005em",
+  "leading": 1,
+  "device": {
+    "frame": "iphone",
+    "color": "black",
+    "shadow": "glow"
+  },
+  "card": {
+    "glass": true
+  },
+  "decor": [
+    {
+      "type": "glow",
+      "color": "#FF5A1F",
+      "y": 0.72,
+      "size": 1.2,
+      "opacity": 0.5
+    },
+    {
+      "type": "grain",
+      "opacity": 0.07
+    }
+  ]
+}

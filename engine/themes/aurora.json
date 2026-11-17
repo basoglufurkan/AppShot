@@ -1,0 +1,51 @@
+{
+  "id": "aurora",
+  "name": "Aurora",
+  "description": "Dark mesh of violet, cyan and magenta. The look of AI and creative tools; spectacular as a panorama.",
+  "mood": [
+    "ai",
+    "creative",
+    "futuristic",
+    "bold"
+  ],
+  "bg": {
+    "type": "mesh",
+    "base": "#07061A",
+    "colors": [
+      "#5B3CFF",
+      "#00C2FF",
+      "#FF4FD8",
+      "#2B1A9A"
+    ],
+    "blur": 0.18
+  },
+  "text": "#FFFFFF",
+  "accent": "#7DF9FF",
+  "secondary": "#FF7AE6",
+  "highlight": "gradient",
+  "fontDisplay": {
+    "family": "Sora",
+    "google": "Sora:wght@500;600;700;800"
+  },
+  "fontText": {
+    "family": "Inter",
+    "google": "Inter:wght@500;600;700;800;900"
+  },
+  "headlineWeight": 800,
+  "tracking": "-0.035em",
+  "leading": 1.06,
+  "device": {
+    "frame": "iphone",
+    "color": "black",
+    "shadow": "glow"
+  },
+  "card": {
+    "glass": true
+  },
+  "decor": [
+    {
+      "type": "grain",
+      "opacity": 0.06
+    }
+  ]
+}

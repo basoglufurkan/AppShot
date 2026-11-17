@@ -1,0 +1,40 @@
+{
+  "screens": [
+    {
+      "file": "raw/plans.png",
+      "name": "plans",
+      "source": "web",
+      "url": "examples/pulse/mock-screens/plans.html",
+      "width": 3960,
+      "height": 8604,
+      "capturedAt": "2026-11-04T11:35:22.686Z"
+    },
+    {
+      "file": "raw/progress.png",
+      "name": "progress",
+      "source": "web",
+      "url": "examples/pulse/mock-screens/progress.html",
+      "width": 3960,
+      "height": 8604,
+      "capturedAt": "2026-11-04T11:35:23.382Z"
+    },
+    {
+      "file": "raw/today.png",
+      "name": "today",
+      "source": "web",
+      "url": "examples/pulse/mock-screens/today.html",
+      "width": 3960,
+      "height": 8604,
+      "capturedAt": "2026-11-04T11:35:24.807Z"
+    },
+    {
+      "file": "raw/workout.png",
+      "name": "workout",
+      "source": "web",
+      "url": "examples/pulse/mock-screens/workout.html",
+      "width": 3960,
+      "height": 8604,
+      "capturedAt": "2026-11-04T11:35:25.516Z"
+    }
+  ]
+}

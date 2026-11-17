@@ -1,0 +1,129 @@
+{
+  "createdAt": "2026-11-16T13:40:17.719Z",
+  "scene": "heartbeat",
+  "ranking": [
+    {
+      "id": "heartbeat",
+      "score": 18.1,
+      "why": [
+        "niche fitness-workout",
+        "niche home-workout (runner-up)",
+        "words: pulse, workout, fitness, health"
+      ]
+    },
+    {
+      "id": "orbit",
+      "score": 2.7,
+      "why": [
+        "words: ai, scan, smart"
+      ]
+    },
+    {
+      "id": "bloom",
+      "score": 1.8,
+      "why": [
+        "words: grow, streak"
+      ]
+    },
+    {
+      "id": "lens",
+      "score": 1.8,
+      "why": [
+        "words: camera, video"
+      ]
+    },
+    {
+      "id": "route",
+      "score": 1.8,
+      "why": [
+        "words: ev, tracking"
+      ]
+    }
+  ],
+  "reasons": [
+    "Scene \"heartbeat\" (Heartbeat) — niche fitness-workout; niche home-workout (runner-up); words: pulse, workout, fitness, health. Runner-up: orbit (2.7).",
+    "Motion \"gentle\" — default pace; Apple asks for no quick cuts.",
+    "Header → animated key art (creative-scene): one idea, hero centred for the iPhone crop, no text because the name and subtitle are shown right below.",
+    "Search → phrase + real UI (creative-split) over the heartbeat ambience: the app's purpose is clear at a glance and the screens are firsthand experience.",
+    "Universal 16:9 → centred fan of real screens on the scene (creative-stage): reads in both the 21:9 and 3:2 crops.",
+    "Phrase → \"Your pocket trainer\" (written in plan.creative.headline).",
+    "Loop 12 s at 30 fps: long enough to cycle 4 screen(s) slowly, inside Apple's 5–30 s."
+  ],
+  "decided": {
+    "scene": "heartbeat",
+    "motion": "gentle",
+    "duration": 12,
+    "fps": 30,
+    "screens": [
+      "raw/today.png",
+      "raw/workout.png",
+      "raw/progress.png",
+      "raw/plans.png"
+    ],
+    "headline": {
+      "en-US": "Home workouts that **adapt to you**",
+      "tr": "Sana **uyan** ev antrenmanları"
+    },
+    "header": {
+      "layout": "creative-scene",
+      "options": {
+        "scene": "heartbeat",
+        "phrase": false
+      },
+      "poster": 0.42
+    },
+    "search": {
+      "layout": "creative-split",
+      "options": {
+        "backdrop": "heartbeat"
+      },
+      "poster": 0.42
+    },
+    "universal": {
+      "layout": "creative-stage",
+      "options": {
+        "backdrop": "heartbeat"
+      },
+      "poster": 0.42
+    }
+  },
+  "effective": {
+    "scene": "heartbeat",
+    "motion": "gentle",
+    "duration": 12,
+    "fps": 30,
+    "screens": [
+      "raw/today.png",
+      "raw/workout.png",
+      "raw/progress.png",
+      "raw/plans.png"
+    ],
+    "headline": {
+      "en-US": "Your **pocket** trainer",
+      "tr": "Cebindeki **antrenör**"
+    },
+    "header": {
+      "layout": "creative-scene",
+      "options": {
+        "scene": "heartbeat",
+        "phrase": false
+      },
+      "poster": 0.42
+    },
+    "search": {
+      "layout": "creative-split",
+      "options": {
+        "backdrop": "heartbeat"
+      },
+      "poster": 0.42
+    },
+    "universal": {
+      "layout": "creative-stage",
+      "options": {
+        "backdrop": "heartbeat"
+      },
+      "poster": 0.42
+    },
+    "video": true
+  }
+}

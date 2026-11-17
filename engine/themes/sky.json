@@ -1,0 +1,51 @@
+{
+  "id": "sky",
+  "name": "Sky",
+  "description": "Light airy blue with navy type and white clouds. Weather, travel, kids, gentle productivity.",
+  "mood": [
+    "airy",
+    "light",
+    "optimistic",
+    "clear"
+  ],
+  "bg": {
+    "type": "linear",
+    "angle": 180,
+    "colors": [
+      "#62B6FF",
+      "#A9DBFF",
+      "#EAF6FF"
+    ]
+  },
+  "text": "#0A2540",
+  "accent": "#0A2540",
+  "accentText": "#FFFFFF",
+  "highlight": "pill",
+  "fontDisplay": {
+    "family": "Sora",
+    "google": "Sora:wght@500;600;700;800"
+  },
+  "fontText": {
+    "family": "Sora",
+    "google": "Sora:wght@500;600;700;800"
+  },
+  "headlineWeight": 700,
+  "tracking": "-0.035em",
+  "leading": 1.05,
+  "device": {
+    "frame": "iphone",
+    "color": "white",
+    "shadow": "float"
+  },
+  "decor": [
+    {
+      "type": "blobs",
+      "colors": [
+        "#FFFFFF"
+      ],
+      "opacity": 0.45,
+      "count": 3,
+      "blur": 0.06
+    }
+  ]
+}

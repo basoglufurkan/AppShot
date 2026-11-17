@@ -1,0 +1,33 @@
+{
+  "id": "soft-gray",
+  "name": "Soft Gray (iOS native)",
+  "description": "System grey and SF Pro — looks like Apple’s own marketing. Safe default for utilities and pro tools.",
+  "mood": [
+    "native",
+    "calm",
+    "utility",
+    "premium"
+  ],
+  "bg": {
+    "type": "solid",
+    "color": "#F2F2F7"
+  },
+  "text": "#000000",
+  "accent": "#007AFF",
+  "highlight": "color",
+  "fontDisplay": {
+    "family": "system"
+  },
+  "fontText": {
+    "family": "system"
+  },
+  "headlineWeight": 700,
+  "tracking": "-0.03em",
+  "leading": 1.05,
+  "device": {
+    "frame": "iphone",
+    "color": "natural",
+    "shadow": "soft"
+  },
+  "decor": []
+}

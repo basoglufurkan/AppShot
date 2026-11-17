@@ -1,0 +1,22 @@
+{
+  "screens": [
+    {
+      "file": "raw/budgets.png",
+      "name": "budgets",
+      "source": "web",
+      "url": "examples/penny/mock-screens/budgets.html",
+      "width": 3960,
+      "height": 8604,
+      "capturedAt": "2026-11-04T19:49:29.114Z"
+    },
+    {
+      "file": "raw/home.png",
+      "name": "home",
+      "source": "web",
+      "url": "examples/penny/mock-screens/home.html",
+      "width": 3960,
+      "height": 8604,
+      "capturedAt": "2026-11-04T19:49:29.824Z"
+    }
+  ]
+}

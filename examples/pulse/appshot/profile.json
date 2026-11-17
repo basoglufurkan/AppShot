@@ -1,0 +1,634 @@
+{
+  "version": 1,
+  "root": "examples/pulse",
+  "scannedAt": "2026-11-16T13:39:54.154Z",
+  "app": {
+    "displayName": "Pulse",
+    "slug": "pulse-home-workouts",
+    "bundleId": "app.pulse.workouts",
+    "packageName": "app.pulse.workouts",
+    "version": "2.3.0",
+    "description": "AI home workouts that adapt to you. Short daily plans, form tips from an AI coach, streaks and progress tracking.",
+    "urlSchemes": [
+      "pulse"
+    ],
+    "permissions": [
+      {
+        "key": "NSHealthShareUsageDescription",
+        "text": "Pulse reads your workouts and heart rate to adapt your daily plan.",
+        "file": "app.json"
+      },
+      {
+        "key": "NSHealthUpdateUsageDescription",
+        "text": "Pulse saves completed workouts and burned calories to Apple Health.",
+        "file": "app.json"
+      },
+      {
+        "key": "NSCameraUsageDescription",
+        "text": "The AI coach checks your form with the camera. Video never leaves your phone.",
+        "file": "app.json"
+      }
+    ],
+    "expoPlugins": [
+      "expo-router",
+      "expo-notifications",
+      "react-native-health",
+      "expo-camera"
+    ],
+    "npmName": "pulse",
+    "locales": [
+      "en",
+      "tr"
+    ],
+    "name": "Pulse",
+    "category": "Health & Fitness",
+    "categoryInferred": true
+  },
+  "platform": {
+    "kinds": [
+      "expo"
+    ],
+    "primary": "expo",
+    "ui": "react-native",
+    "stores": [
+      "ios",
+      "android"
+    ],
+    "evidence": [
+      "expo in package.json/app.json"
+    ],
+    "fileCount": 21
+  },
+  "store": {
+    "locales": [],
+    "androidLocales": [],
+    "byLocale": {},
+    "android": {},
+    "existingScreenshots": []
+  },
+  "readme": {
+    "file": "README.md",
+    "excerpt": "# Example: Pulse (fictional)\n\nA tiny Expo-shaped project used to demo and test Appshot end to end. It is not a runnable app:\nthe files exist so `scripts/scan.mjs` has something realistic to read, and `mock-screens/` stands in\nfor simulator captures (rendered with `scripts/capture/web.mjs`).\n\nThe finished plan, brief and review boards live in `examples/pulse/appshot/`.\nAll names, numbers and reviews in this example are invented for the demo.",
+    "headings": [
+      "Example: Pulse (fictional)"
+    ],
+    "bullets": []
+  },
+  "icon": {
+    "source": "assets/icon.png",
+    "size": 1024,
+    "copiedTo": "raw/icon.png",
+    "colors": [
+      {
+        "hex": "#c6f432",
+        "share": 0.078,
+        "saturation": 0.9,
+        "lightness": 0.58
+      },
+      {
+        "hex": "#0d0e13",
+        "share": 0.204,
+        "saturation": 0.19,
+        "lightness": 0.06
+      },
+      {
+        "hex": "#292652",
+        "share": 0.023,
+        "saturation": 0.37,
+        "lightness": 0.24
+      },
+      {
+        "hex": "#9cbe34",
+        "share": 0,
+        "saturation": 0.57,
+        "lightness": 0.47
+      },
+      {
+        "hex": "#4a543b",
+        "share": 0,
+        "saturation": 0.17,
+        "lightness": 0.28
+      }
+    ]
+  },
+  "colors": {
+    "primary": "#C6F432",
+    "secondary": "#8B7CFF",
+    "background": "#0D0E12",
+    "appearance": "dark",
+    "palette": [
+      {
+        "hex": "#C6F432",
+        "names": [
+          "primaryColor",
+          "icon",
+          "primary",
+          "frequent"
+        ],
+        "sources": [
+          "app.json",
+          "app icon",
+          "src/theme.ts"
+        ],
+        "score": 18.5
+      },
+      {
+        "hex": "#8B7CFF",
+        "names": [
+          "accent",
+          "frequent"
+        ],
+        "sources": [
+          "src/theme.ts",
+          "theme files"
+        ],
+        "score": 7.5
+      },
+      {
+        "hex": "#FF8A3D",
+        "names": [
+          "warning",
+          "frequent"
+        ],
+        "sources": [
+          "src/theme.ts",
+          "theme files"
+        ],
+        "score": 2
+      },
+      {
+        "hex": "#9CBE34",
+        "names": [
+          "icon"
+        ],
+        "sources": [
+          "app icon"
+        ],
+        "score": 1.7
+      },
+      {
+        "hex": "#292652",
+        "names": [
+          "icon"
+        ],
+        "sources": [
+          "app icon"
+        ],
+        "score": 1.2
+      },
+      {
+        "hex": "#4A543B",
+        "names": [
+          "icon"
+        ],
+        "sources": [
+          "app icon"
+        ],
+        "score": 0.5
+      }
+    ],
+    "neutrals": [
+      {
+        "hex": "#0D0E12",
+        "names": [
+          "splashBackground",
+          "adaptiveIcon",
+          "background",
+          "frequent"
+        ],
+        "sources": [
+          "app.json",
+          "src/theme.ts",
+          "theme files"
+        ],
+        "score": 8
+      },
+      {
+        "hex": "#17191F",
+        "names": [
+          "card",
+          "frequent"
+        ],
+        "sources": [
+          "src/theme.ts",
+          "theme files"
+        ],
+        "score": 2
+      },
+      {
+        "hex": "#F5F6F8",
+        "names": [
+          "text",
+          "frequent"
+        ],
+        "sources": [
+          "src/theme.ts",
+          "theme files"
+        ],
+        "score": 2
+      },
+      {
+        "hex": "#8B8F9C",
+        "names": [
+          "muted",
+          "frequent"
+        ],
+        "sources": [
+          "src/theme.ts",
+          "theme files"
+        ],
+        "score": 2
+      },
+      {
+        "hex": "#0D0E13",
+        "names": [
+          "icon"
+        ],
+        "sources": [
+          "app icon"
+        ],
+        "score": 1.4
+      }
+    ]
+  },
+  "fonts": {
+    "bundled": [],
+    "used": []
+  },
+  "strings": {
+    "locales": [
+      "en",
+      "tr"
+    ],
+    "count": 30,
+    "samples": [
+      "Good morning",
+      "Start workout",
+      "day streak",
+      "Unlock Pulse Pro",
+      "Start my plan",
+      "Full-Body Burn",
+      "Time to move",
+      "What is your main goal?",
+      "Lose weight",
+      "Build strength",
+      "Move more every day",
+      "How much time do you have?",
+      "Personal AI plan that adapts every day",
+      "Real-time form tips from your AI coach",
+      "Syncs with Apple Health",
+      "Apple Health",
+      "Form tip from your AI coach",
+      "Next exercise",
+      "Your AI plan for today",
+      "This week",
+      "Active minutes",
+      "Search 400+ workouts",
+      "No equipment",
+      "Fat Burn",
+      "Strength score",
+      "Personal records",
+      "Body weight"
+    ],
+    "paywall": [
+      "Unlock Pulse Pro",
+      "Personal AI plan that adapts every day",
+      "Real-time form tips from your AI coach",
+      "Syncs with Apple Health",
+      "Start my plan"
+    ],
+    "onboarding": [
+      "What is your main goal?",
+      "Lose weight",
+      "Build strength",
+      "Move more every day",
+      "How much time do you have?"
+    ]
+  },
+  "screens": {
+    "total": 7,
+    "marketing": [
+      {
+        "name": "home",
+        "file": "app/(tabs)/index.tsx",
+        "how": "expo-router",
+        "role": "core",
+        "score": 6.1
+      },
+      {
+        "name": "workout",
+        "file": "app/workout/[id].tsx",
+        "how": "expo-router",
+        "role": "feature",
+        "score": 4.1
+      },
+      {
+        "name": "plans",
+        "file": "app/(tabs)/plans.tsx",
+        "how": "expo-router",
+        "role": "feature",
+        "score": 4.1
+      },
+      {
+        "name": "progress",
+        "file": "app/(tabs)/progress.tsx",
+        "how": "expo-router",
+        "role": "feature",
+        "score": 4.1
+      },
+      {
+        "name": "onboarding",
+        "file": "app/onboarding.tsx",
+        "how": "expo-router",
+        "role": "onboarding",
+        "score": 0.1
+      }
+    ],
+    "paywall": [
+      {
+        "name": "paywall",
+        "file": "app/paywall.tsx",
+        "how": "expo-router",
+        "role": "paywall",
+        "score": -3.9
+      }
+    ],
+    "onboarding": [
+      {
+        "name": "onboarding",
+        "file": "app/onboarding.tsx",
+        "how": "expo-router",
+        "role": "onboarding",
+        "score": 0.1
+      }
+    ],
+    "other": [
+      "settings"
+    ]
+  },
+  "features": [
+    {
+      "id": "healthkit",
+      "label": "Apple Health / Health Connect",
+      "score": 13,
+      "confidence": "high",
+      "benefitSeeds": [
+        "Syncs with Apple Health",
+        "All your health data in one place"
+      ],
+      "evidence": [
+        "3 file(s): app.json, package.json, src/hooks.ts",
+        "dependency",
+        "permission NSHealthShareUsageDescription",
+        "permission NSHealthUpdateUsageDescription"
+      ]
+    },
+    {
+      "id": "camera",
+      "label": "Camera",
+      "score": 10,
+      "confidence": "high",
+      "benefitSeeds": [
+        "Snap it, done",
+        "Point your camera and go"
+      ],
+      "evidence": [
+        "3 file(s): app.json, package.json, app/workout/[id].tsx",
+        "dependency",
+        "permission NSCameraUsageDescription"
+      ]
+    },
+    {
+      "id": "notifications",
+      "label": "Reminders / push",
+      "score": 7,
+      "confidence": "high",
+      "benefitSeeds": [
+        "Smart reminders that keep you on track",
+        "Never miss a beat"
+      ],
+      "evidence": [
+        "3 file(s): app.json, package.json, src/hooks.ts",
+        "dependency"
+      ]
+    },
+    {
+      "id": "ai",
+      "label": "AI / LLM",
+      "score": 6.4,
+      "confidence": "high",
+      "benefitSeeds": [
+        "AI does the heavy lifting",
+        "Answers in seconds",
+        "Personalised by AI"
+      ],
+      "evidence": [
+        "2 file(s): package.json, app/workout/[id].tsx",
+        "dependency"
+      ]
+    },
+    {
+      "id": "charts",
+      "label": "Charts & insights",
+      "score": 6.4,
+      "confidence": "high",
+      "benefitSeeds": [
+        "See your progress at a glance",
+        "Insights that make sense"
+      ],
+      "evidence": [
+        "2 file(s): package.json, app/(tabs)/progress.tsx",
+        "dependency"
+      ]
+    },
+    {
+      "id": "subscriptions",
+      "label": "Subscriptions / IAP",
+      "score": 6.4,
+      "confidence": "high",
+      "benefitSeeds": [],
+      "evidence": [
+        "2 file(s): package.json, app/paywall.tsx",
+        "dependency"
+      ]
+    },
+    {
+      "id": "gamification",
+      "label": "Streaks & achievements",
+      "score": 4,
+      "confidence": "medium",
+      "benefitSeeds": [
+        "Build a streak you will not break",
+        "Earn rewards as you go"
+      ],
+      "evidence": [
+        "3 file(s): locales/en.json, locales/tr.json, app/(tabs)/index.tsx"
+      ]
+    }
+  ],
+  "monetization": {
+    "subscriptions": true,
+    "paywallScreens": [
+      "paywall"
+    ],
+    "sdk": [
+      "react-native-purchases"
+    ]
+  },
+  "dependencies": [
+    "expo",
+    "expo-router",
+    "expo-notifications",
+    "expo-camera",
+    "react",
+    "react-native",
+    "react-native-health",
+    "react-native-purchases",
+    "victory-native",
+    "openai"
+  ],
+  "niche": {
+    "top": [
+      {
+        "id": "fitness-workout",
+        "name": "Gym & Strength Training",
+        "score": 51.7,
+        "matched": [
+          "personal record",
+          "ai coach"
+        ],
+        "themes": [
+          "volt",
+          "ember",
+          "midnight",
+          "brutal"
+        ],
+        "layouts": [
+          "hero-device",
+          "big-number",
+          "ui-pieces",
+          "tilted-device",
+          "floating-cards",
+          "zoom-callout",
+          "feature-list",
+          "social-proof"
+        ],
+        "shots": 7,
+        "file": "skills/niches/fitness-workout.md",
+        "confidence": 1
+      },
+      {
+        "id": "home-workout",
+        "name": "Home Workout",
+        "score": 48.9,
+        "matched": [
+          "home workout",
+          "no equipment"
+        ],
+        "themes": [
+          "ember",
+          "sunset",
+          "volt",
+          "playful"
+        ],
+        "layouts": [
+          "hero-device",
+          "floating-cards",
+          "big-number",
+          "screen-grid",
+          "tilted-device",
+          "feature-list"
+        ],
+        "shots": 7,
+        "file": "skills/niches/home-workout.md",
+        "confidence": 0.95
+      },
+      {
+        "id": "todo-tasks",
+        "name": "To-Do & Tasks",
+        "score": 23.6,
+        "matched": [
+          "reminder",
+          "reminders",
+          "project",
+          "board"
+        ],
+        "themes": [
+          "clean-light",
+          "mono",
+          "soft-gray",
+          "midnight",
+          "volt"
+        ],
+        "layouts": [
+          "hero-device",
+          "before-after",
+          "zoom-callout",
+          "notification-stack",
+          "duo-devices",
+          "ui-pieces",
+          "floating-cards",
+          "feature-list"
+        ],
+        "shots": 6,
+        "file": "skills/niches/todo-tasks.md",
+        "confidence": 0.46
+      },
+      {
+        "id": "language-learning",
+        "name": "Language Learning",
+        "score": 21.2,
+        "matched": [
+          "streak"
+        ],
+        "themes": [
+          "playful",
+          "sky",
+          "volt",
+          "clean-light"
+        ],
+        "layouts": [
+          "chat-bubbles",
+          "hero-device",
+          "zoom-callout",
+          "device-top",
+          "big-number",
+          "floating-cards",
+          "feature-list",
+          "social-proof"
+        ],
+        "shots": 7,
+        "file": "skills/niches/language-learning.md",
+        "confidence": 0.41
+      },
+      {
+        "id": "health-vitals",
+        "name": "Health Vitals Log",
+        "score": 14.6,
+        "matched": [
+          "heart rate",
+          "health connect"
+        ],
+        "themes": [
+          "clean-light",
+          "sky",
+          "soft-gray",
+          "mint"
+        ],
+        "layouts": [
+          "hero-device",
+          "big-number",
+          "ui-pieces",
+          "zoom-callout",
+          "floating-cards",
+          "feature-list"
+        ],
+        "shots": 6,
+        "file": "skills/niches/health-vitals.md",
+        "confidence": 0.28
+      }
+    ],
+    "chosen": "fitness-workout"
+  },
+  "scanMs": 139
+}

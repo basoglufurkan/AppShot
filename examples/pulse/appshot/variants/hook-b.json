@@ -1,0 +1,282 @@
+{
+  "$schema": "appshot/plan@1",
+  "app": {
+    "name": "Pulse",
+    "icon": "raw/icon.png",
+    "subtitle": {
+      "en-US": "AI Home Workout Plans",
+      "tr": "Yapay Zekâ ile Ev Antrenmanı"
+    }
+  },
+  "niche": "home-workout",
+  "theme": "volt",
+  "themeOverrides": {
+    "accent": "#C6F432"
+  },
+  "brand": {
+    "primary": "#C6F432",
+    "secondary": "#8B7CFF"
+  },
+  "panorama": false,
+  "sizes": [
+    "iphone-6.9",
+    "iphone-6.3",
+    "android-phone"
+  ],
+  "locales": [
+    "en-US",
+    "tr"
+  ],
+  "defaultLocale": "en-US",
+  "keywords": {
+    "en-US": [
+      "home workouts",
+      "workout plan",
+      "ai coach",
+      "no equipment",
+      "strength",
+      "streak"
+    ],
+    "tr": [
+      "ev antrenmanı",
+      "antrenman",
+      "yapay zekâ koçu",
+      "ekipman",
+      "güç"
+    ]
+  },
+  "storeOverrides": {
+    "android": {
+      "theme": {
+        "device": {
+          "frame": "flat"
+        }
+      }
+    }
+  },
+  "shots": [
+    {
+      "id": "hook",
+      "layout": "hero-device",
+      "screen": "raw/today.png",
+      "headline": {
+        "en-US": "Get fit at home in **25 minutes**",
+        "tr": "Evde **25 dakikada** forma gir"
+      },
+      "subhead": {
+        "en-US": "A fresh 25-minute plan every morning. No equipment.",
+        "tr": "Her sabah 25 dakikalık yeni bir plan. Ekipman gerekmez."
+      },
+      "alternatives": {
+        "en-US": [
+          "Get fit at home in **25 minutes**",
+          "Your **personal trainer**, built in"
+        ],
+        "tr": [
+          "Evde **25 dakikada** forma gir",
+          "Cebindeki **kişisel antrenör**"
+        ]
+      }
+    },
+    {
+      "id": "form",
+      "layout": "zoom-callout",
+      "screen": "raw/workout.png",
+      "headline": {
+        "en-US": "Perfect form, **every rep**",
+        "tr": "Her tekrarda **doğru form**"
+      },
+      "subhead": {
+        "en-US": "Your AI coach checks your form. Video stays on your phone.",
+        "tr": "Yapay zekâ koçun formunu kontrol eder. Video telefonunda kalır."
+      },
+      "zoom": {
+        "rect": [
+          0.045,
+          0.57,
+          0.91,
+          0.105
+        ],
+        "side": "right"
+      }
+    },
+    {
+      "id": "progress",
+      "layout": "floating-cards",
+      "screen": "raw/progress.png",
+      "headline": {
+        "en-US": "Watch your **strength** grow",
+        "tr": "**Gücünün** arttığını izle"
+      },
+      "cards": [
+        {
+          "icon": "🏆",
+          "value": {
+            "en-US": "+5 kg",
+            "tr": "+5 kg"
+          },
+          "title": {
+            "en-US": "New squat record",
+            "tr": "Yeni squat rekoru"
+          },
+          "pos": "tr"
+        },
+        {
+          "icon": "🔥",
+          "value": {
+            "en-US": "12 days",
+            "tr": "12 gün"
+          },
+          "title": {
+            "en-US": "Workout streak",
+            "tr": "Antrenman serisi"
+          },
+          "pos": "ml"
+        },
+        {
+          "icon": "📈",
+          "value": "+18%",
+          "title": {
+            "en-US": "Strength score",
+            "tr": "Güç skoru"
+          },
+          "pos": "br"
+        }
+      ]
+    },
+    {
+      "id": "library",
+      "layout": "tilted-device",
+      "screen": "raw/plans.png",
+      "headline": {
+        "en-US": "400+ workouts, **zero equipment**",
+        "tr": "400+ antrenman, **sıfır ekipman**"
+      },
+      "subhead": {
+        "en-US": "From 8-minute desk resets to 6-week strength plans",
+        "tr": "8 dakikalık molalardan 6 haftalık güç planlarına"
+      },
+      "options": {
+        "rotate": 7
+      }
+    },
+    {
+      "id": "streak",
+      "layout": "notification-stack",
+      "screen": "raw/today.png",
+      "headline": {
+        "en-US": "Keep your **streak** alive",
+        "tr": "**Serini** bozma"
+      },
+      "subhead": {
+        "en-US": "Friendly nudges at the time that suits you",
+        "tr": "Sana uyan saatte nazik hatırlatmalar"
+      },
+      "notifications": [
+        {
+          "title": {
+            "en-US": "Time to move 💪",
+            "tr": "Hareket zamanı 💪"
+          },
+          "body": {
+            "en-US": "Your 25-min plan is ready",
+            "tr": "25 dakikalık planın hazır"
+          },
+          "time": "8:00"
+        },
+        {
+          "title": {
+            "en-US": "12-day streak!",
+            "tr": "12 günlük seri!"
+          },
+          "body": {
+            "en-US": "A quick 15-min core session keeps it going",
+            "tr": "15 dakikalık kısa bir core antrenmanı yeter"
+          },
+          "time": {
+            "en-US": "now",
+            "tr": "şimdi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fit",
+      "layout": "feature-list",
+      "screen": "raw/progress.png",
+      "headline": {
+        "en-US": "Built for **your level**",
+        "tr": "**Seviyene** ve gününe uyar"
+      },
+      "bullets": {
+        "en-US": [
+          "Plans for beginners to advanced",
+          "Sessions from 8 to 45 minutes",
+          "Syncs with Apple Health"
+        ],
+        "tr": [
+          "Yeni başlayandan ileri seviyeye",
+          "8 ila 45 dakikalık seanslar",
+          "Apple Sağlık ile senkron"
+        ]
+      },
+      "storeOverrides": {
+        "android": {
+          "bullets": {
+            "en-US": [
+              "Plans for beginners to advanced",
+              "Sessions from 8 to 45 minutes",
+              "Syncs with Health Connect"
+            ],
+            "tr": [
+              "Yeni başlayandan ileri seviyeye",
+              "8 ila 45 dakikalık seanslar",
+              "Health Connect ile senkron"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "close",
+      "layout": "text-hero",
+      "headline": {
+        "en-US": "Your **strongest** year starts today",
+        "tr": "En **güçlü** yılın bugün başlıyor"
+      },
+      "chips": [
+        {
+          "text": {
+            "en-US": "No equipment",
+            "tr": "Ekipmansız"
+          },
+          "icon": "🏠"
+        },
+        {
+          "text": {
+            "en-US": "25-min plans",
+            "tr": "25 dk planlar"
+          },
+          "icon": "⏱️"
+        },
+        {
+          "text": {
+            "en-US": "AI coach",
+            "tr": "Yapay zekâ koçu"
+          },
+          "icon": "✨"
+        }
+      ]
+    }
+  ],
+  "workspace": "..",
+  "variant": {
+    "name": "hook-b",
+    "changes": [
+      "#1 en-US: \"Get fit at home in **25 minutes**\"",
+      "#1 tr: \"Evde **25 dakikada** forma gir\""
+    ],
+    "from": "plan.json",
+    "createdAt": "2026-11-04T11:38:28.382Z"
+  }
+}

@@ -1,0 +1,532 @@
+{
+  "version": 1,
+  "root": "examples/penny",
+  "scannedAt": "2026-11-16T13:40:01.568Z",
+  "app": {
+    "displayName": "Penny",
+    "category": "Finance",
+    "permissions": [
+      {
+        "key": "NSFaceIDUsageDescription",
+        "text": "Penny uses Face ID to keep your budget private.",
+        "file": "ios/Runner/Info.plist"
+      }
+    ],
+    "packageName": "app.penny.budget",
+    "androidPermissions": [
+      "notifications",
+      "biometrics"
+    ],
+    "npmName": "penny",
+    "description": "Budget planner and expense tracker. See where your money goes, set monthly budgets and never miss a bill.",
+    "version": "1.8.2",
+    "locales": [
+      "en",
+      "tr"
+    ],
+    "name": "Penny"
+  },
+  "platform": {
+    "kinds": [
+      "flutter"
+    ],
+    "primary": "flutter",
+    "ui": "flutter",
+    "stores": [
+      "ios",
+      "android"
+    ],
+    "evidence": [
+      "pubspec.yaml"
+    ],
+    "fileCount": 16
+  },
+  "store": {
+    "locales": [],
+    "androidLocales": [],
+    "byLocale": {},
+    "android": {},
+    "existingScreenshots": []
+  },
+  "readme": {
+    "file": "README.md",
+    "excerpt": "# Example: Penny (fictional, Flutter)\n\nA Flutter-shaped project (pubspec, Dart screens, ARB files, Android manifest, iOS Info.plist) that exercises the\nFlutter scanner path and a light, finance-style set. Mock screens stand in for captures. All names and numbers are invented.",
+    "headings": [
+      "Example: Penny (fictional, Flutter)"
+    ],
+    "bullets": []
+  },
+  "icon": {
+    "source": "assets/icon.png",
+    "size": 1024,
+    "copiedTo": "raw/icon.png",
+    "colors": [
+      {
+        "hex": "#12ac64",
+        "share": 0.138,
+        "saturation": 0.81,
+        "lightness": 0.37
+      },
+      {
+        "hex": "#2acb7b",
+        "share": 0.089,
+        "saturation": 0.66,
+        "lightness": 0.48
+      },
+      {
+        "hex": "#ffffff",
+        "share": 0.177,
+        "saturation": 0,
+        "lightness": 1
+      },
+      {
+        "hex": "#81ccaa",
+        "share": 0,
+        "saturation": 0.42,
+        "lightness": 0.65
+      },
+      {
+        "hex": "#c0e5d5",
+        "share": 0,
+        "saturation": 0.42,
+        "lightness": 0.83
+      }
+    ]
+  },
+  "colors": {
+    "primary": "#12B76A",
+    "secondary": "#6172F3",
+    "background": "#F6F7F9",
+    "appearance": "light",
+    "palette": [
+      {
+        "hex": "#12B76A",
+        "names": [
+          "brandPrimary"
+        ],
+        "sources": [
+          "lib/theme.dart"
+        ],
+        "score": 7
+      },
+      {
+        "hex": "#6172F3",
+        "names": [
+          "brandSecondary"
+        ],
+        "sources": [
+          "lib/theme.dart"
+        ],
+        "score": 7
+      },
+      {
+        "hex": "#12AC64",
+        "names": [
+          "icon"
+        ],
+        "sources": [
+          "app icon"
+        ],
+        "score": 3
+      },
+      {
+        "hex": "#2ACB7B",
+        "names": [
+          "icon"
+        ],
+        "sources": [
+          "app icon"
+        ],
+        "score": 2.3
+      },
+      {
+        "hex": "#81CCAA",
+        "names": [
+          "icon"
+        ],
+        "sources": [
+          "app icon"
+        ],
+        "score": 1.3
+      },
+      {
+        "hex": "#C0E5D5",
+        "names": [
+          "icon"
+        ],
+        "sources": [
+          "app icon"
+        ],
+        "score": 1.3
+      }
+    ],
+    "neutrals": [
+      {
+        "hex": "#F6F7F9",
+        "names": [
+          "background"
+        ],
+        "sources": [
+          "lib/theme.dart"
+        ],
+        "score": 1.5
+      },
+      {
+        "hex": "#101828",
+        "names": [
+          "ink"
+        ],
+        "sources": [
+          "lib/theme.dart"
+        ],
+        "score": 1.5
+      },
+      {
+        "hex": "#FFFFFF",
+        "names": [
+          "icon"
+        ],
+        "sources": [
+          "app icon"
+        ],
+        "score": 0.7
+      }
+    ]
+  },
+  "fonts": {
+    "bundled": [],
+    "used": []
+  },
+  "strings": {
+    "locales": [
+      "en",
+      "tr"
+    ],
+    "count": 16,
+    "samples": [
+      "Left to spend",
+      "Add expense",
+      "Bills due soon",
+      "You are on track this month",
+      "Monthly budgets",
+      "Savings goal",
+      "You are on track",
+      "Left to spend this month",
+      "Spending by category",
+      "Upcoming bills",
+      "Penny Plus",
+      "Unlimited budgets and categories",
+      "Bill reminders before every due date",
+      "Home screen widget for your balance",
+      "Face ID lock for your data"
+    ],
+    "paywall": [
+      "Penny Plus",
+      "Unlimited budgets and categories",
+      "Bill reminders before every due date",
+      "Home screen widget for your balance",
+      "Face ID lock for your data"
+    ],
+    "onboarding": []
+  },
+  "screens": {
+    "total": 4,
+    "marketing": [
+      {
+        "name": "Home",
+        "file": "lib/screens/home_screen.dart",
+        "how": "Flutter",
+        "role": "core",
+        "score": 6.1
+      },
+      {
+        "name": "Transactions",
+        "file": "lib/screens/transactions_screen.dart",
+        "how": "Flutter",
+        "role": "feature",
+        "score": 4.1
+      },
+      {
+        "name": "Budgets",
+        "file": "lib/screens/budgets_screen.dart",
+        "how": "Flutter",
+        "role": "feature",
+        "score": 4
+      }
+    ],
+    "paywall": [
+      {
+        "name": "Paywall",
+        "file": "lib/screens/paywall_screen.dart",
+        "how": "Flutter",
+        "role": "paywall",
+        "score": -3.9
+      }
+    ],
+    "onboarding": [],
+    "other": []
+  },
+  "features": [
+    {
+      "id": "privacy-lock",
+      "label": "Face ID / biometric lock",
+      "score": 8.5,
+      "confidence": "high",
+      "benefitSeeds": [
+        "Locked with Face ID",
+        "Private by design"
+      ],
+      "evidence": [
+        "1 file(s): pubspec.yaml",
+        "dependency",
+        "permission NSFaceIDUsageDescription"
+      ]
+    },
+    {
+      "id": "charts",
+      "label": "Charts & insights",
+      "score": 6.4,
+      "confidence": "high",
+      "benefitSeeds": [
+        "See your progress at a glance",
+        "Insights that make sense"
+      ],
+      "evidence": [
+        "2 file(s): pubspec.yaml, lib/screens/home_screen.dart",
+        "dependency"
+      ]
+    },
+    {
+      "id": "subscriptions",
+      "label": "Subscriptions / IAP",
+      "score": 6.4,
+      "confidence": "high",
+      "benefitSeeds": [],
+      "evidence": [
+        "2 file(s): pubspec.yaml, lib/screens/paywall_screen.dart",
+        "dependency"
+      ]
+    },
+    {
+      "id": "widgets",
+      "label": "Home-screen widgets",
+      "score": 5.5,
+      "confidence": "high",
+      "benefitSeeds": [
+        "Glanceable widgets",
+        "Right on your Home Screen"
+      ],
+      "evidence": [
+        "1 file(s): pubspec.yaml",
+        "dependency"
+      ]
+    },
+    {
+      "id": "notifications",
+      "label": "Reminders / push",
+      "score": 5.5,
+      "confidence": "high",
+      "benefitSeeds": [
+        "Smart reminders that keep you on track",
+        "Never miss a beat"
+      ],
+      "evidence": [
+        "1 file(s): pubspec.yaml",
+        "dependency"
+      ]
+    },
+    {
+      "id": "offline",
+      "label": "Local-first storage",
+      "score": 5.5,
+      "confidence": "high",
+      "benefitSeeds": [
+        "Works offline",
+        "Your data stays on your device"
+      ],
+      "evidence": [
+        "1 file(s): pubspec.yaml",
+        "dependency"
+      ]
+    }
+  ],
+  "monetization": {
+    "subscriptions": true,
+    "paywallScreens": [
+      "Paywall"
+    ],
+    "sdk": [
+      "purchases_flutter"
+    ]
+  },
+  "dependencies": [
+    "flutter",
+    "fl_chart",
+    "flutter_local_notifications",
+    "local_auth",
+    "purchases_flutter",
+    "home_widget",
+    "drift",
+    "intl"
+  ],
+  "niche": {
+    "top": [
+      {
+        "id": "budget-expense",
+        "name": "Budget & Expense Tracker",
+        "score": 234.1,
+        "matched": [
+          "budget",
+          "monthly budget",
+          "budget planner",
+          "expense",
+          "expense tracker",
+          "spending",
+          "transaction",
+          "transactions",
+          "category",
+          "categories",
+          "savings goal",
+          "bills"
+        ],
+        "themes": [
+          "finance-pro",
+          "mint",
+          "clean-light",
+          "midnight"
+        ],
+        "layouts": [
+          "hero-device",
+          "ui-pieces",
+          "big-number",
+          "floating-cards",
+          "notification-stack",
+          "before-after",
+          "feature-list",
+          "social-proof"
+        ],
+        "shots": 7,
+        "file": "skills/niches/budget-expense.md",
+        "confidence": 1
+      },
+      {
+        "id": "todo-tasks",
+        "name": "To-Do & Tasks",
+        "score": 47.8,
+        "matched": [
+          "due date",
+          "reminder",
+          "reminders",
+          "upcoming",
+          "project"
+        ],
+        "themes": [
+          "clean-light",
+          "mono",
+          "soft-gray",
+          "midnight",
+          "volt"
+        ],
+        "layouts": [
+          "hero-device",
+          "before-after",
+          "zoom-callout",
+          "notification-stack",
+          "duo-devices",
+          "ui-pieces",
+          "floating-cards",
+          "feature-list"
+        ],
+        "shots": 6,
+        "file": "skills/niches/todo-tasks.md",
+        "confidence": 0.2
+      },
+      {
+        "id": "customization-widgets",
+        "name": "Widgets, Themes & Customization",
+        "score": 43.3,
+        "matched": [
+          "widget",
+          "widgets",
+          "home screen"
+        ],
+        "themes": [
+          "aurora",
+          "pastel",
+          "neon",
+          "glass",
+          "mono"
+        ],
+        "layouts": [
+          "full-bleed",
+          "before-after",
+          "trio-fan",
+          "screen-grid",
+          "duo-devices",
+          "tilted-device",
+          "ui-pieces",
+          "text-hero"
+        ],
+        "shots": 7,
+        "file": "skills/niches/customization-widgets.md",
+        "confidence": 0.18
+      },
+      {
+        "id": "calendar-planner",
+        "name": "Calendar & Planner",
+        "score": 11.8,
+        "matched": [
+          "planner"
+        ],
+        "themes": [
+          "clean-light",
+          "pastel",
+          "soft-gray",
+          "sky",
+          "mono"
+        ],
+        "layouts": [
+          "hero-device",
+          "device-top",
+          "zoom-callout",
+          "ui-pieces",
+          "floating-cards",
+          "notification-stack",
+          "duo-devices",
+          "feature-list"
+        ],
+        "shots": 6,
+        "file": "skills/niches/calendar-planner.md",
+        "confidence": 0.05
+      },
+      {
+        "id": "pregnancy-baby",
+        "name": "Pregnancy & Baby Tracker",
+        "score": 9.7,
+        "matched": [
+          "due date"
+        ],
+        "themes": [
+          "pastel",
+          "cream",
+          "sky",
+          "rose"
+        ],
+        "layouts": [
+          "hero-device",
+          "big-number",
+          "floating-cards",
+          "feature-list",
+          "duo-devices",
+          "full-bleed",
+          "notification-stack"
+        ],
+        "shots": 7,
+        "file": "skills/niches/pregnancy-baby.md",
+        "confidence": 0.04
+      }
+    ],
+    "chosen": "budget-expense"
+  },
+  "scanMs": 146
+}

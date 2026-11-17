@@ -1,0 +1,43 @@
+{
+  "id": "editorial",
+  "name": "Editorial",
+  "description": "Warm paper, big serif headlines with italic accents. Reading, writing, journaling, culture, premium lifestyle.",
+  "mood": [
+    "literary",
+    "premium",
+    "calm",
+    "thoughtful"
+  ],
+  "bg": {
+    "type": "solid",
+    "color": "#F4EFE6"
+  },
+  "text": "#141414",
+  "accent": "#C2410C",
+  "highlight": "color",
+  "emStyle": "italic",
+  "fontDisplay": {
+    "family": "Instrument Serif",
+    "google": "Instrument Serif:ital@0;1",
+    "fallback": "Georgia, serif"
+  },
+  "fontText": {
+    "family": "Inter",
+    "google": "Inter:wght@500;600;700;800;900"
+  },
+  "headlineWeight": 400,
+  "tracking": "-0.015em",
+  "leading": 0.98,
+  "device": {
+    "frame": "iphone",
+    "color": "black",
+    "shadow": "soft"
+  },
+  "decor": [
+    {
+      "type": "grain",
+      "opacity": 0.09,
+      "blend": "multiply"
+    }
+  ]
+}

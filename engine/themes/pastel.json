@@ -1,0 +1,42 @@
+{
+  "id": "pastel",
+  "name": "Pastel",
+  "description": "Soft pink, lavender and sky mesh. Gentle and friendly — journaling, period tracking, kids, wellbeing.",
+  "mood": [
+    "gentle",
+    "friendly",
+    "feminine",
+    "soft"
+  ],
+  "bg": {
+    "type": "mesh",
+    "base": "#FFF6F2",
+    "colors": [
+      "#FFD3E6",
+      "#E2D6FF",
+      "#CFF1FF",
+      "#FFE6C2"
+    ],
+    "blur": 0.2
+  },
+  "text": "#1E1B2E",
+  "accent": "#7C3AED",
+  "highlight": "color",
+  "fontDisplay": {
+    "family": "Outfit",
+    "google": "Outfit:wght@500;600;700;800"
+  },
+  "fontText": {
+    "family": "Outfit",
+    "google": "Outfit:wght@500;600;700;800"
+  },
+  "headlineWeight": 700,
+  "tracking": "-0.03em",
+  "leading": 1.05,
+  "device": {
+    "frame": "iphone",
+    "color": "white",
+    "shadow": "soft"
+  },
+  "decor": []
+}

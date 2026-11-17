@@ -1,0 +1,1294 @@
+{
+  "plan": "examples/penny/appshot/plan.json",
+  "renderedAt": "2026-11-16T13:40:08.077Z",
+  "scale": 0.4,
+  "ms": 5965,
+  "outDir": "examples/penny/appshot/drafts",
+  "jobs": [
+    {
+      "size": "android-phone",
+      "store": "android",
+      "canvas": {
+        "width": 1080,
+        "height": 1920
+      },
+      "locale": "en-US",
+      "width": 432,
+      "height": 768,
+      "html": "examples/penny/appshot/.cache/html/main/android-phone.en-US.html",
+      "files": [
+        "examples/penny/appshot/drafts/android-phone/en-US/01-hook.png",
+        "examples/penny/appshot/drafts/android-phone/en-US/02-left.png",
+        "examples/penny/appshot/drafts/android-phone/en-US/03-track.png",
+        "examples/penny/appshot/drafts/android-phone/en-US/04-bills.png",
+        "examples/penny/appshot/drafts/android-phone/en-US/05-private.png",
+        "examples/penny/appshot/drafts/android-phone/en-US/06-close.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "hero-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 202,
+                "w": 918,
+                "h": 250
+              },
+              "headline": "See where your money goes"
+            }
+          ],
+          "devices": [
+            {
+              "x": 108,
+              "y": 586,
+              "w": 864,
+              "h": 1877
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "left",
+          "layout": "zoom-callout",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 202,
+                "w": 918,
+                "h": 250
+              },
+              "headline": "Know what's left to spend"
+            }
+          ],
+          "devices": [
+            {
+              "x": 54,
+              "y": 601,
+              "w": 756,
+              "h": 1643
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "track",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 235,
+                "w": 918,
+                "h": 184
+              },
+              "headline": "Stay on track every month"
+            }
+          ],
+          "devices": [
+            {
+              "x": 151,
+              "y": 591,
+              "w": 778,
+              "h": 1690
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "bills",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 97,
+                "y": 281,
+                "w": 886,
+                "h": 92
+              },
+              "headline": "Never miss a bill again"
+            }
+          ],
+          "devices": [
+            {
+              "x": 108,
+              "y": 591,
+              "w": 864,
+              "h": 1877
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "private",
+          "layout": "feature-list",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 80,
+              "max": 79.75,
+              "min": 47.85,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 233,
+                "w": 622,
+                "h": 83
+              },
+              "headline": "Private by design"
+            }
+          ],
+          "devices": [
+            {
+              "x": 140,
+              "y": 716,
+              "w": 799,
+              "h": 1736
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 5,
+          "shot": "close",
+          "layout": "text-hero",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 115,
+              "max": 115.19,
+              "min": 62.03,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 698,
+                "w": 918,
+                "h": 240
+              },
+              "headline": "Spend without guilt"
+            }
+          ],
+          "devices": [],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    },
+    {
+      "size": "android-phone",
+      "store": "android",
+      "canvas": {
+        "width": 1080,
+        "height": 1920
+      },
+      "locale": "tr",
+      "width": 432,
+      "height": 768,
+      "html": "examples/penny/appshot/.cache/html/main/android-phone.tr.html",
+      "files": [
+        "examples/penny/appshot/drafts/android-phone/tr/01-hook.png",
+        "examples/penny/appshot/drafts/android-phone/tr/02-left.png",
+        "examples/penny/appshot/drafts/android-phone/tr/03-track.png",
+        "examples/penny/appshot/drafts/android-phone/tr/04-bills.png",
+        "examples/penny/appshot/drafts/android-phone/tr/05-private.png",
+        "examples/penny/appshot/drafts/android-phone/tr/06-close.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "hero-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 202,
+                "w": 918,
+                "h": 250
+              },
+              "headline": "Paran nereye gidiyor, gör"
+            }
+          ],
+          "devices": [
+            {
+              "x": 108,
+              "y": 586,
+              "w": 864,
+              "h": 1877
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "left",
+          "layout": "zoom-callout",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 202,
+                "w": 918,
+                "h": 250
+              },
+              "headline": "Kalan bütçeni her an bil"
+            }
+          ],
+          "devices": [
+            {
+              "x": 54,
+              "y": 601,
+              "w": 756,
+              "h": 1643
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "track",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 176,
+                "y": 281,
+                "w": 728,
+                "h": 92
+              },
+              "headline": "Her ay yolunda kal"
+            }
+          ],
+          "devices": [
+            {
+              "x": 151,
+              "y": 591,
+              "w": 778,
+              "h": 1690
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "bills",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 83,
+                "y": 281,
+                "w": 913,
+                "h": 92
+              },
+              "headline": "Hiçbir faturayı kaçırma"
+            }
+          ],
+          "devices": [
+            {
+              "x": 108,
+              "y": 591,
+              "w": 864,
+              "h": 1877
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "private",
+          "layout": "feature-list",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 80,
+              "max": 79.75,
+              "min": 47.85,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 233,
+                "w": 597,
+                "h": 83
+              },
+              "headline": "Verin sende kalır"
+            }
+          ],
+          "devices": [
+            {
+              "x": 140,
+              "y": 716,
+              "w": 799,
+              "h": 1736
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 5,
+          "shot": "close",
+          "layout": "text-hero",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 115,
+              "max": 115.19,
+              "min": 62.03,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 698,
+                "w": 918,
+                "h": 240
+              },
+              "headline": "Suçluluk duymadan harca"
+            }
+          ],
+          "devices": [],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    },
+    {
+      "size": "iphone-6.3",
+      "store": "ios",
+      "canvas": {
+        "width": 1206,
+        "height": 2622
+      },
+      "locale": "en-US",
+      "width": 482,
+      "height": 1049,
+      "html": "examples/penny/appshot/.cache/html/main/iphone-6.3.en-US.html",
+      "files": [
+        "examples/penny/appshot/drafts/iphone-6.3/en-US/01-hook.png",
+        "examples/penny/appshot/drafts/iphone-6.3/en-US/02-left.png",
+        "examples/penny/appshot/drafts/iphone-6.3/en-US/03-track.png",
+        "examples/penny/appshot/drafts/iphone-6.3/en-US/04-bills.png",
+        "examples/penny/appshot/drafts/iphone-6.3/en-US/05-private.png",
+        "examples/penny/appshot/drafts/iphone-6.3/en-US/06-close.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "hero-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 277,
+                "w": 1025,
+                "h": 341
+              },
+              "headline": "See where your money goes"
+            }
+          ],
+          "devices": [
+            {
+              "x": 155,
+              "y": 834,
+              "w": 895,
+              "h": 1945
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "left",
+          "layout": "zoom-callout",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 277,
+                "w": 1025,
+                "h": 341
+              },
+              "headline": "Know what's left to spend"
+            }
+          ],
+          "devices": [
+            {
+              "x": 91,
+              "y": 851,
+              "w": 783,
+              "h": 1702
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "track",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 322,
+                "w": 1025,
+                "h": 251
+              },
+              "headline": "Stay on track every month"
+            }
+          ],
+          "devices": [
+            {
+              "x": 200,
+              "y": 839,
+              "w": 806,
+              "h": 1751
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "bills",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 322,
+                "w": 1025,
+                "h": 251
+              },
+              "headline": "Never miss a bill again"
+            }
+          ],
+          "devices": [
+            {
+              "x": 155,
+              "y": 842,
+              "w": 895,
+              "h": 1945
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "private",
+          "layout": "feature-list",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 109,
+              "max": 108.54,
+              "min": 65.12,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 319,
+                "w": 846,
+                "h": 113
+              },
+              "headline": "Private by design"
+            }
+          ],
+          "devices": [
+            {
+              "x": 189,
+              "y": 1009,
+              "w": 828,
+              "h": 1799
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 5,
+          "shot": "close",
+          "layout": "text-hero",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 157,
+              "max": 156.78,
+              "min": 84.42,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 953,
+                "w": 1025,
+                "h": 326
+              },
+              "headline": "Spend without guilt"
+            }
+          ],
+          "devices": [],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    },
+    {
+      "size": "iphone-6.3",
+      "store": "ios",
+      "canvas": {
+        "width": 1206,
+        "height": 2622
+      },
+      "locale": "tr",
+      "width": 482,
+      "height": 1049,
+      "html": "examples/penny/appshot/.cache/html/main/iphone-6.3.tr.html",
+      "files": [
+        "examples/penny/appshot/drafts/iphone-6.3/tr/01-hook.png",
+        "examples/penny/appshot/drafts/iphone-6.3/tr/02-left.png",
+        "examples/penny/appshot/drafts/iphone-6.3/tr/03-track.png",
+        "examples/penny/appshot/drafts/iphone-6.3/tr/04-bills.png",
+        "examples/penny/appshot/drafts/iphone-6.3/tr/05-private.png",
+        "examples/penny/appshot/drafts/iphone-6.3/tr/06-close.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "hero-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 277,
+                "w": 1025,
+                "h": 341
+              },
+              "headline": "Paran nereye gidiyor, gör"
+            }
+          ],
+          "devices": [
+            {
+              "x": 155,
+              "y": 834,
+              "w": 895,
+              "h": 1945
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "left",
+          "layout": "zoom-callout",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 277,
+                "w": 1025,
+                "h": 341
+              },
+              "headline": "Kalan bütçeni her an bil"
+            }
+          ],
+          "devices": [
+            {
+              "x": 91,
+              "y": 851,
+              "w": 783,
+              "h": 1702
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "track",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 107,
+                "y": 384,
+                "w": 991,
+                "h": 125
+              },
+              "headline": "Her ay yolunda kal"
+            }
+          ],
+          "devices": [
+            {
+              "x": 200,
+              "y": 839,
+              "w": 806,
+              "h": 1751
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "bills",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 121,
+              "max": 120.6,
+              "min": 65.12,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 322,
+                "w": 1025,
+                "h": 251
+              },
+              "headline": "Hiçbir faturayı kaçırma"
+            }
+          ],
+          "devices": [
+            {
+              "x": 155,
+              "y": 842,
+              "w": 895,
+              "h": 1945
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "private",
+          "layout": "feature-list",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 109,
+              "max": 108.54,
+              "min": 65.12,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 319,
+                "w": 813,
+                "h": 113
+              },
+              "headline": "Verin sende kalır"
+            }
+          ],
+          "devices": [
+            {
+              "x": 189,
+              "y": 1009,
+              "w": 828,
+              "h": 1799
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 5,
+          "shot": "close",
+          "layout": "text-hero",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 157,
+              "max": 156.78,
+              "min": 84.42,
+              "lines": 3,
+              "ok": true,
+              "rect": {
+                "x": 90,
+                "y": 953,
+                "w": 1025,
+                "h": 489
+              },
+              "headline": "Suçluluk duymadan harca"
+            }
+          ],
+          "devices": [],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    },
+    {
+      "size": "iphone-6.9",
+      "store": "ios",
+      "canvas": {
+        "width": 1320,
+        "height": 2868
+      },
+      "locale": "en-US",
+      "width": 528,
+      "height": 1147,
+      "html": "examples/penny/appshot/.cache/html/main/iphone-6.9.en-US.html",
+      "files": [
+        "examples/penny/appshot/drafts/iphone-6.9/en-US/01-hook.png",
+        "examples/penny/appshot/drafts/iphone-6.9/en-US/02-left.png",
+        "examples/penny/appshot/drafts/iphone-6.9/en-US/03-track.png",
+        "examples/penny/appshot/drafts/iphone-6.9/en-US/04-bills.png",
+        "examples/penny/appshot/drafts/iphone-6.9/en-US/05-private.png",
+        "examples/penny/appshot/drafts/iphone-6.9/en-US/06-close.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "hero-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 302,
+                "w": 1122,
+                "h": 373
+              },
+              "headline": "See where your money goes"
+            }
+          ],
+          "devices": [
+            {
+              "x": 170,
+              "y": 913,
+              "w": 980,
+              "h": 2129
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "left",
+          "layout": "zoom-callout",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 302,
+                "w": 1122,
+                "h": 373
+              },
+              "headline": "Know what's left to spend"
+            }
+          ],
+          "devices": [
+            {
+              "x": 99,
+              "y": 931,
+              "w": 857,
+              "h": 1863
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "track",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 352,
+                "w": 1122,
+                "h": 275
+              },
+              "headline": "Stay on track every month"
+            }
+          ],
+          "devices": [
+            {
+              "x": 219,
+              "y": 918,
+              "w": 882,
+              "h": 1916
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "bills",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 352,
+                "w": 1122,
+                "h": 275
+              },
+              "headline": "Never miss a bill again"
+            }
+          ],
+          "devices": [
+            {
+              "x": 170,
+              "y": 921,
+              "w": 980,
+              "h": 2129
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "private",
+          "layout": "feature-list",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 119,
+              "max": 118.8,
+              "min": 71.28,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 348,
+                "w": 926,
+                "h": 124
+              },
+              "headline": "Private by design"
+            }
+          ],
+          "devices": [
+            {
+              "x": 207,
+              "y": 1104,
+              "w": 906,
+              "h": 1970
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 5,
+          "shot": "close",
+          "layout": "text-hero",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 172,
+              "max": 171.6,
+              "min": 92.4,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 1042,
+                "w": 1122,
+                "h": 357
+              },
+              "headline": "Spend without guilt"
+            }
+          ],
+          "devices": [],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    },
+    {
+      "size": "iphone-6.9",
+      "store": "ios",
+      "canvas": {
+        "width": 1320,
+        "height": 2868
+      },
+      "locale": "tr",
+      "width": 528,
+      "height": 1147,
+      "html": "examples/penny/appshot/.cache/html/main/iphone-6.9.tr.html",
+      "files": [
+        "examples/penny/appshot/drafts/iphone-6.9/tr/01-hook.png",
+        "examples/penny/appshot/drafts/iphone-6.9/tr/02-left.png",
+        "examples/penny/appshot/drafts/iphone-6.9/tr/03-track.png",
+        "examples/penny/appshot/drafts/iphone-6.9/tr/04-bills.png",
+        "examples/penny/appshot/drafts/iphone-6.9/tr/05-private.png",
+        "examples/penny/appshot/drafts/iphone-6.9/tr/06-close.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "hero-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 302,
+                "w": 1122,
+                "h": 373
+              },
+              "headline": "Paran nereye gidiyor, gör"
+            }
+          ],
+          "devices": [
+            {
+              "x": 170,
+              "y": 913,
+              "w": 980,
+              "h": 2129
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "left",
+          "layout": "zoom-callout",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 302,
+                "w": 1122,
+                "h": 373
+              },
+              "headline": "Kalan bütçeni her an bil"
+            }
+          ],
+          "devices": [
+            {
+              "x": 99,
+              "y": 931,
+              "w": 857,
+              "h": 1863
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "track",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 117,
+                "y": 420,
+                "w": 1085,
+                "h": 137
+              },
+              "headline": "Her ay yolunda kal"
+            }
+          ],
+          "devices": [
+            {
+              "x": 219,
+              "y": 918,
+              "w": 882,
+              "h": 1916
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "bills",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 352,
+                "w": 1122,
+                "h": 275
+              },
+              "headline": "Hiçbir faturayı kaçırma"
+            }
+          ],
+          "devices": [
+            {
+              "x": 170,
+              "y": 921,
+              "w": 980,
+              "h": 2129
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "private",
+          "layout": "feature-list",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 119,
+              "max": 118.8,
+              "min": 71.28,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 348,
+                "w": 890,
+                "h": 124
+              },
+              "headline": "Verin sende kalır"
+            }
+          ],
+          "devices": [
+            {
+              "x": 207,
+              "y": 1104,
+              "w": 906,
+              "h": 1970
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 5,
+          "shot": "close",
+          "layout": "text-hero",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 172,
+              "max": 171.6,
+              "min": 92.4,
+              "lines": 3,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 1042,
+                "w": 1122,
+                "h": 535
+              },
+              "headline": "Suçluluk duymadan harca"
+            }
+          ],
+          "devices": [],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Manrope",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    }
+  ],
+  "file": "examples/penny/appshot/review/draft-report.json"
+}

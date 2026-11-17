@@ -1,0 +1,46 @@
+{
+  "id": "glass",
+  "name": "Glass",
+  "description": "Light colourful blur with frosted cards. Modern and airy — AI, productivity, wellness.",
+  "mood": [
+    "modern",
+    "airy",
+    "ai",
+    "light"
+  ],
+  "bg": {
+    "type": "mesh",
+    "base": "#E9EEFF",
+    "colors": [
+      "#7AA2FF",
+      "#FF9AD5",
+      "#8FEFD0",
+      "#B79CFF"
+    ],
+    "blur": 0.2
+  },
+  "text": "#0E1430",
+  "accent": "#4F46E5",
+  "highlight": "color",
+  "fontDisplay": {
+    "family": "Plus Jakarta Sans",
+    "google": "Plus Jakarta Sans:wght@500;600;700;800"
+  },
+  "fontText": {
+    "family": "Plus Jakarta Sans",
+    "google": "Plus Jakarta Sans:wght@500;600;700;800"
+  },
+  "headlineWeight": 800,
+  "tracking": "-0.035em",
+  "leading": 1.04,
+  "device": {
+    "frame": "iphone",
+    "color": "silver",
+    "shadow": "float"
+  },
+  "card": {
+    "bg": "rgba(255,255,255,0.55)",
+    "glass": true
+  },
+  "decor": []
+}

@@ -1,0 +1,125 @@
+{
+  "createdAt": "2026-11-05T06:38:14.987Z",
+  "scene": "growth",
+  "ranking": [
+    {
+      "id": "growth",
+      "score": 14.5,
+      "why": [
+        "niche budget-expense",
+        "words: budget, money, finance, expense, spending"
+      ]
+    },
+    {
+      "id": "tasks",
+      "score": 1.9,
+      "why": [
+        "niche todo-tasks (runner-up)",
+        "words: planner"
+      ]
+    },
+    {
+      "id": "shield",
+      "score": 1.8,
+      "why": [
+        "words: private, lock"
+      ]
+    },
+    {
+      "id": "orbit",
+      "score": 0.9,
+      "why": [
+        "words: smart"
+      ]
+    },
+    {
+      "id": "pond",
+      "score": 0.9,
+      "why": [
+        "words: calm"
+      ]
+    }
+  ],
+  "reasons": [
+    "Scene \"growth\" (Growth) — niche budget-expense; words: budget, money, finance, expense, spending. Runner-up: tasks (1.9).",
+    "Motion \"calm\" — trust-first category, slow and premium; Apple asks for no quick cuts.",
+    "Header → animated key art (creative-scene): one idea, hero centred for the iPhone crop, no text because the name and subtitle are shown right below.",
+    "Search → phrase + real UI (creative-split) over the growth ambience: the app's purpose is clear at a glance and the screens are firsthand experience.",
+    "Universal 16:9 → centred fan of real screens on the scene (creative-stage): reads in both the 21:9 and 3:2 crops.",
+    "Phrase → \"See where your money goes\" (written in plan.creative.headline).",
+    "Loop 14 s at 30 fps: long enough to cycle 2 screen(s) slowly, inside Apple's 5–30 s."
+  ],
+  "decided": {
+    "scene": "growth",
+    "motion": "calm",
+    "duration": 14,
+    "fps": 30,
+    "screens": [
+      "raw/home.png",
+      "raw/budgets.png"
+    ],
+    "headline": {
+      "en-US": "See where your **money goes**",
+      "tr": "Paran **nereye** gidiyor, gör"
+    },
+    "header": {
+      "layout": "creative-scene",
+      "options": {
+        "scene": "growth",
+        "phrase": false
+      },
+      "poster": 0.62
+    },
+    "search": {
+      "layout": "creative-split",
+      "options": {
+        "backdrop": "growth"
+      },
+      "poster": 0.42
+    },
+    "universal": {
+      "layout": "creative-stage",
+      "options": {
+        "backdrop": "growth"
+      },
+      "poster": 0.42
+    }
+  },
+  "effective": {
+    "scene": "growth",
+    "motion": "calm",
+    "duration": 14,
+    "fps": 30,
+    "screens": [
+      "raw/home.png",
+      "raw/budgets.png"
+    ],
+    "headline": {
+      "en-US": "See where your **money goes**",
+      "tr": "Paran **nereye** gidiyor, gör"
+    },
+    "header": {
+      "layout": "creative-scene",
+      "options": {
+        "scene": "growth",
+        "phrase": false
+      },
+      "poster": 0.62
+    },
+    "search": {
+      "layout": "creative-split",
+      "options": {
+        "backdrop": "growth"
+      },
+      "poster": 0.42
+    },
+    "universal": {
+      "layout": "creative-stage",
+      "options": {
+        "backdrop": "growth"
+      },
+      "poster": 0.42
+    },
+    "video": true
+  }
+}

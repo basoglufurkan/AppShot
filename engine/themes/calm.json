@@ -1,0 +1,57 @@
+{
+  "id": "calm",
+  "name": "Calm Night",
+  "description": "Dusky indigo-to-lavender with tiny stars. Sleep, meditation, relaxation, bedtime stories.",
+  "mood": [
+    "calm",
+    "sleep",
+    "soothing",
+    "dreamy"
+  ],
+  "bg": {
+    "type": "linear",
+    "angle": 180,
+    "colors": [
+      "#1E2754",
+      "#4B4F9A",
+      "#9B8CCB"
+    ]
+  },
+  "text": "#FFFFFF",
+  "accent": "#FFE1A8",
+  "highlight": "color",
+  "fontDisplay": {
+    "family": "Manrope",
+    "google": "Manrope:wght@500;600;700;800"
+  },
+  "fontText": {
+    "family": "Manrope",
+    "google": "Manrope:wght@500;600;700;800"
+  },
+  "headlineWeight": 700,
+  "tracking": "-0.025em",
+  "leading": 1.06,
+  "device": {
+    "frame": "iphone",
+    "color": "black",
+    "shadow": "soft"
+  },
+  "card": {
+    "glass": true
+  },
+  "decor": [
+    {
+      "type": "sparkles",
+      "color": "#FFFFFF",
+      "area": "top",
+      "count": 7
+    },
+    {
+      "type": "glow",
+      "color": "#FFE1A8",
+      "y": 0.8,
+      "size": 0.9,
+      "opacity": 0.16
+    }
+  ]
+}

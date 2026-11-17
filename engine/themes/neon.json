@@ -1,0 +1,51 @@
+{
+  "id": "neon",
+  "name": "Neon",
+  "description": "Black with electric green grid and glow. Gaming, crypto, VPN, nightlife, bold utilities.",
+  "mood": [
+    "bold",
+    "edgy",
+    "gaming",
+    "tech"
+  ],
+  "bg": {
+    "type": "solid",
+    "color": "#050505"
+  },
+  "text": "#FFFFFF",
+  "accent": "#39FF14",
+  "secondary": "#FF2BD6",
+  "highlight": "color",
+  "fontDisplay": {
+    "family": "Space Grotesk",
+    "google": "Space Grotesk:wght@500;600;700"
+  },
+  "fontText": {
+    "family": "Space Grotesk",
+    "google": "Space Grotesk:wght@500;600;700"
+  },
+  "headlineWeight": 700,
+  "tracking": "-0.035em",
+  "leading": 1.02,
+  "device": {
+    "frame": "iphone",
+    "color": "black",
+    "shadow": "glow"
+  },
+  "card": {
+    "glass": true
+  },
+  "decor": [
+    {
+      "type": "grid",
+      "opacity": 0.09,
+      "size": 0.08
+    },
+    {
+      "type": "glow",
+      "y": 0.72,
+      "size": 1,
+      "opacity": 0.3
+    }
+  ]
+}

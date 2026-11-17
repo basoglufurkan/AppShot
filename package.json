@@ -1,0 +1,23 @@
+{
+  "name": "appshot",
+  "version": "1.0.0",
+  "description": "Agent skill that scans a mobile app project and renders ASO-optimised App Store and Google Play screenshots.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "appshot-doctor": "scripts/doctor.mjs"
+  },
+  "scripts": {
+    "doctor": "node scripts/doctor.mjs --render",
+    "example": "node scripts/render.mjs --project examples/pulse --draft && node scripts/sheet.mjs --project examples/pulse --draft && node scripts/score.mjs --project examples/pulse --draft",
+    "editor:example": "node editor/server.mjs --project examples/pulse",
+    "install-skill": "node scripts/install.mjs",
+    "test": "node --test 'tests/*.test.mjs'",
+    "regress": "node scripts/regress.mjs",
+    "regress:quick": "node scripts/regress.mjs --quick"
+  },
+  "license": "SEE LICENSE IN LICENSE.md"
+}

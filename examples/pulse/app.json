@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Pulse",
+    "slug": "pulse-home-workouts",
+    "description": "AI home workouts that adapt to you. Short daily plans, form tips from an AI coach, streaks and progress tracking.",
+    "version": "2.3.0",
+    "scheme": "pulse",
+    "icon": "./assets/icon.png",
+    "primaryColor": "#C6F432",
+    "userInterfaceStyle": "dark",
+    "splash": { "backgroundColor": "#0D0E12" },
+    "ios": {
+      "bundleIdentifier": "app.pulse.workouts",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSHealthShareUsageDescription": "Pulse reads your workouts and heart rate to adapt your daily plan.",
+        "NSHealthUpdateUsageDescription": "Pulse saves completed workouts and burned calories to Apple Health.",
+        "NSCameraUsageDescription": "The AI coach checks your form with the camera. Video never leaves your phone."
+      }
+    },
+    "android": { "package": "app.pulse.workouts", "adaptiveIcon": { "backgroundColor": "#0D0E12" } },
+    "plugins": ["expo-router", "expo-notifications", "react-native-health", "expo-camera"]
+  }
+}

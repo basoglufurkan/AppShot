@@ -1,0 +1,64 @@
+{
+  "id": "playful",
+  "name": "Playful",
+  "description": "Bright rotating colours, rounded heavy type and confetti. Kids, games, learning, habit streaks.",
+  "mood": [
+    "fun",
+    "kids",
+    "games",
+    "cheerful"
+  ],
+  "bg": {
+    "type": "solid",
+    "color": "#2F6FED"
+  },
+  "bgAlt": [
+    {
+      "type": "solid",
+      "color": "#2F6FED"
+    },
+    {
+      "type": "solid",
+      "color": "#E5484D"
+    },
+    {
+      "type": "solid",
+      "color": "#12A150"
+    },
+    {
+      "type": "solid",
+      "color": "#7C3AED"
+    },
+    {
+      "type": "solid",
+      "color": "#E8590C"
+    }
+  ],
+  "text": "#FFFFFF",
+  "accent": "#FFE066",
+  "accentText": "#2B1B00",
+  "highlight": "color",
+  "fontDisplay": {
+    "family": "Baloo 2",
+    "google": "Baloo 2:wght@600;700;800"
+  },
+  "fontText": {
+    "family": "Nunito",
+    "google": "Nunito:wght@600;700;800;900"
+  },
+  "headlineWeight": 800,
+  "tracking": "-0.01em",
+  "leading": 1,
+  "device": {
+    "frame": "iphone",
+    "color": "white",
+    "shadow": "float"
+  },
+  "decor": [
+    {
+      "type": "confetti",
+      "count": 16,
+      "band": 0.3
+    }
+  ]
+}

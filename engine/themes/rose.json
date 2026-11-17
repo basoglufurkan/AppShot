@@ -1,0 +1,45 @@
+{
+  "id": "rose",
+  "name": "Rose",
+  "description": "Blush pink with deep berry type. Beauty, skincare, period and pregnancy, self-care.",
+  "mood": [
+    "soft",
+    "beauty",
+    "self-care",
+    "feminine"
+  ],
+  "bg": {
+    "type": "linear",
+    "angle": 180,
+    "colors": [
+      "#FFF1F4",
+      "#FFD9E3"
+    ]
+  },
+  "text": "#3A0D1E",
+  "accent": "#E8436E",
+  "highlight": "color",
+  "fontDisplay": {
+    "family": "Poppins",
+    "google": "Poppins:wght@500;600;700;800"
+  },
+  "fontText": {
+    "family": "Poppins",
+    "google": "Poppins:wght@500;600;700;800"
+  },
+  "headlineWeight": 700,
+  "tracking": "-0.03em",
+  "leading": 1.06,
+  "device": {
+    "frame": "iphone",
+    "color": "white",
+    "shadow": "soft"
+  },
+  "decor": [
+    {
+      "type": "sparkles",
+      "color": "#F49AB3",
+      "count": 5
+    }
+  ]
+}
