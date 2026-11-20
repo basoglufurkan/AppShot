@@ -111,7 +111,7 @@ export function lintPlan(plan, { locale, store = 'ios', size, profile = {}, layo
     const dropsProof = !!meta?.dropsProofOn?.includes(store);
     issues.push(...lintCaption(h, { ...opts, kind: 'headline' }).issues.map((i) => ({ ...i, field: 'headline' })));
     if (sub) issues.push(...lintCaption(sub, { ...opts, kind: 'subhead' }).issues.map((i) => ({ ...i, field: 'subhead' })));
-    for (const [field, v] of [['cards', s.cards], ['bullets', s.bullets], ['notifications', s.notifications], ['messages', s.messages], ['chips', s.chips]]) {
+    for (const [field, v] of [['cards', s.cards], ['bullets', s.bullets], ['notifications', s.notifications], ['messages', s.messages], ['chips', s.chips], ['stickers', s.stickers]]) {
       if (!v) continue;
       const blob = JSON.stringify(typeof v === 'object' && !Array.isArray(v) ? L(v, locale, fb) : v);
       if (RX.placeholder.test(blob)) issues.push({ level: 'error', code: 'placeholder', field, msg: `Unfilled {placeholder} in ${field}.` });
@@ -137,6 +137,7 @@ export function lintPlan(plan, { locale, store = 'ios', size, profile = {}, layo
       if (kw > 6 && !LOCALES[locale]?.cjk) issues.push({ level: 'warn', code: 'billboard-kicker', field: 'subhead', msg: `On a billboard the subhead is the kicker, set in display type: 2–5 words that finish the promise ("& websites", "in seconds"), not a sentence (${kw} words).` });
       if (!s.screen && !s.screens && !s.hero?.image) issues.push({ level: 'error', code: 'billboard-empty', msg: 'A billboard needs a hero: a screen (with "pop" for the money moment) and/or "hero.image".' });
       else if (!s.screen && !s.screens) issues.push({ level: 'info', code: 'billboard-no-ui', msg: 'No app UI in this frame: Apple 2.3.3 wants the app in use — make sure shots 2–3 show the real screens.' });
+      if (!s.hero?.image) issues.push({ level: 'info', code: 'billboard-no-art', msg: 'No hero art. If you can generate images (Codex, ChatGPT, Figma AI…), make the one object this app is about: `hero.mjs prompt` → your image tool → `hero.mjs cutout` → `hero.mjs use` (skills/design/hero-art.md).' });
     }
     return { index, id: s.id || String(index + 1), headline: h, issues };
   });

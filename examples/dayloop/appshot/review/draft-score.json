@@ -1,0 +1,192 @@
+[
+  {
+    "locale": "en-US",
+    "size": "android-phone",
+    "store": "android",
+    "total": 99,
+    "parts": {
+      "copy": 33.3,
+      "legibility": 25,
+      "contrast": 15,
+      "composition": 15,
+      "story": 10
+    },
+    "shots": [
+      {
+        "n": 1,
+        "id": "hook",
+        "layout": "billboard",
+        "headline": "Never break the chain",
+        "copy": 35,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 17.2,
+        "composition": 15,
+        "total": 90,
+        "weight": 1.6
+      },
+      {
+        "n": 2,
+        "id": "streak",
+        "layout": "big-number",
+        "headline": "days in a row you read",
+        "copy": 34,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 5.8,
+        "composition": 15,
+        "total": 89,
+        "weight": 1.6
+      },
+      {
+        "n": 3,
+        "id": "consistency",
+        "layout": "floating-cards",
+        "headline": "See your consistency grow",
+        "copy": 35,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 5.8,
+        "composition": 15,
+        "total": 90,
+        "weight": 1.6
+      },
+      {
+        "n": 4,
+        "id": "create",
+        "layout": "ui-pieces",
+        "headline": "Set up a habit in seconds",
+        "copy": 34,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 15.1,
+        "composition": 15,
+        "total": 89,
+        "weight": 1
+      },
+      {
+        "n": 5,
+        "id": "nudges",
+        "layout": "notification-stack",
+        "headline": "Reminders at the right time",
+        "copy": 31,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 17.7,
+        "composition": 15,
+        "total": 86,
+        "weight": 1
+      },
+      {
+        "n": 6,
+        "id": "flex",
+        "layout": "feature-list",
+        "headline": "Goals that fit real life",
+        "copy": 31,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 17.7,
+        "composition": 15,
+        "total": 86,
+        "weight": 1
+      }
+    ],
+    "fixes": [],
+    "verdict": "ship"
+  },
+  {
+    "locale": "en-US",
+    "size": "iphone-6.9",
+    "store": "ios",
+    "total": 99,
+    "parts": {
+      "copy": 33.3,
+      "legibility": 25,
+      "contrast": 15,
+      "composition": 15,
+      "story": 10
+    },
+    "shots": [
+      {
+        "n": 1,
+        "id": "hook",
+        "layout": "billboard",
+        "headline": "Never break the chain",
+        "copy": 35,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 18.2,
+        "composition": 15,
+        "total": 90,
+        "weight": 1.6
+      },
+      {
+        "n": 2,
+        "id": "streak",
+        "layout": "big-number",
+        "headline": "days in a row you read",
+        "copy": 34,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 5.8,
+        "composition": 15,
+        "total": 89,
+        "weight": 1.6
+      },
+      {
+        "n": 3,
+        "id": "consistency",
+        "layout": "floating-cards",
+        "headline": "See your consistency grow",
+        "copy": 35,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 17.7,
+        "composition": 15,
+        "total": 90,
+        "weight": 1.6
+      },
+      {
+        "n": 4,
+        "id": "create",
+        "layout": "ui-pieces",
+        "headline": "Set up a habit in seconds",
+        "copy": 34,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 17.7,
+        "composition": 15,
+        "total": 89,
+        "weight": 1
+      },
+      {
+        "n": 5,
+        "id": "nudges",
+        "layout": "notification-stack",
+        "headline": "Reminders at the right time",
+        "copy": 31,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 17.7,
+        "composition": 15,
+        "total": 86,
+        "weight": 1
+      },
+      {
+        "n": 6,
+        "id": "flex",
+        "layout": "feature-list",
+        "headline": "Goals that fit real life",
+        "copy": 31,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 13.2,
+        "composition": 15,
+        "total": 86,
+        "weight": 1
+      }
+    ],
+    "fixes": [],
+    "verdict": "ship"
+  }
+]

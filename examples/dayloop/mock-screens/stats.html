@@ -1,0 +1,18 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="../../_kit/phone.css"><link rel="stylesheet" href="_dayloop.css"><script src="_habits.js"></script>
+<body style="position:relative">
+<div class="status"></div>
+<div class="px" style="margin-top:12px">
+  <div class="h1">Stats</div>
+  <div class="row" style="margin-top:14px;background:#EFECE8;border-radius:12px;padding:3px">
+    <script>document.write(['Week','Month','Year'].map((t,i)=>`<div style="flex:1;text-align:center;padding:8px;border-radius:10px;font-size:14px;font-weight:700;${i===1?'background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.08)':'color:var(--muted)'}">${t}</div>`).join(''))</script>
+  </div>
+  <div class="card row" style="margin-top:14px;gap:18px">
+    <div style="width:104px;height:104px;border-radius:50%;background:conic-gradient(var(--accent) 0 87%, #FFE5DE 87% 100%);display:flex;align-items:center;justify-content:center;flex:none"><div style="width:80px;height:80px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:900">87%</div></div>
+    <div><div style="font-size:20px;font-weight:800">November so far</div><div class="muted" style="font-size:14px;margin-top:4px">122 of 140 check-ins</div><span class="chip" style="margin-top:10px;background:#E6F7EE;color:#14955B">↑ 9% vs October</span></div>
+  </div>
+  <script>document.write(HABITS.slice(0,5).map((h,k)=>`<div class="card" style="margin-top:10px;padding:13px 14px"><div class="row" style="justify-content:space-between"><div class="row" style="gap:8px;font-weight:700;font-size:15px"><span>${h.icon}</span>${h.name}</div><div style="font-weight:800;font-size:15px;color:${h.hex}">${[97,90,83,93,80][k]}%</div></div><div class="row" style="gap:3px;margin-top:9px">${Array.from({length:21},(_,i)=>`<div style="flex:1;height:14px;border-radius:3px;background:${h.hex};opacity:${((i*7+k*3)%9===0)?0.12:0.85}"></div>`).join('')}</div></div>`).join(''))</script>
+</div>
+<div class="tabbar"><div class="tab"><i style="border-radius:50%"></i>Today</div><div class="tab on"><i></i>Stats</div><div class="tab"><i style="border-radius:4px"></i>Ideas</div><div class="tab"><i style="border-radius:50%"></i>Settings</div></div>
+<div class="home-ind"></div>
+<script src="../../_kit/statusbar.js"></script>
+</body>

@@ -1,0 +1,32 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="../../_kit/phone.css"><link rel="stylesheet" href="_tide.css"><script src="_glass.js"></script>
+<body style="position:relative">
+<div class="status"></div>
+<div class="px" style="margin-top:12px">
+  <div class="row" style="justify-content:space-between">
+    <div><div class="muted" style="font-size:15px;font-weight:600">Thursday, 21 November</div><div class="h1" style="margin-top:2px">Today</div></div>
+    <span class="chip" style="background:#FFF1E6;color:#E2711D;font-size:14px">🔥 14 days</span>
+  </div>
+  <div class="card row" style="margin-top:16px;gap:20px;padding:20px 22px">
+    <script>document.write(glass(128, 186, 0.66))</script>
+    <div style="flex:1">
+      <div class="muted" style="font-size:14px;font-weight:700">Today</div>
+      <div style="font-size:44px;font-weight:900;letter-spacing:-1.5px;line-height:1.05;margin-top:2px">1,650<span style="font-size:20px;letter-spacing:0"> ml</span></div>
+      <div class="muted" style="font-size:16px;font-weight:600;margin-top:2px">of 2,500 ml</div>
+      <div style="height:10px;border-radius:5px;background:#E1ECF8;margin-top:14px;overflow:hidden"><div style="width:66%;height:100%;border-radius:5px;background:linear-gradient(90deg,#5FD3F3,#1E7BF0)"></div></div>
+      <div class="row" style="justify-content:space-between;margin-top:8px;font-size:14px;font-weight:700"><span style="color:var(--accent)">66%</span><span class="muted">850 ml to go</span></div>
+    </div>
+  </div>
+  <div class="row" style="gap:10px;margin-top:12px">
+    <script>document.write([['🥛','200 ml','Glass'],['🥤','330 ml','Can'],['🍶','500 ml','Bottle']].map(([e,v,n],i)=>`<div class="card" style="flex:1;text-align:center;padding:14px 6px;${i===1?'background:var(--accent);color:#fff':''}"><div style="font-size:28px">${e}</div><div style="font-size:17px;font-weight:800;margin-top:4px">${v}</div><div style="font-size:12px;font-weight:600;opacity:.7">${n}</div></div>`).join(''))</script>
+    <div class="card" style="width:64px;display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:600;color:var(--accent)">+</div>
+  </div>
+  <div class="card row" style="margin-top:12px;gap:12px;padding:13px 16px"><div style="font-size:22px">🔔</div><div style="flex:1;font-weight:700;font-size:15px">Next reminder at 17:30</div><span class="muted" style="font-size:13px;font-weight:600">every 90 min</span></div>
+  <div class="row" style="justify-content:space-between;margin-top:20px"><div class="h2" style="font-size:20px">Log</div><div class="muted" style="font-weight:700;font-size:14px">5 drinks</div></div>
+  <div class="card" style="margin-top:10px;padding:4px 16px">
+    <script>document.write([['16:40','🫧','Sparkling water','290 ml'],['15:10','🥤','Water','330 ml'],['12:45','🍶','Water','500 ml'],['10:30','🍵','Green tea','200 ml'],['08:10','🥤','Water','330 ml']].map(([t,e,n,v],i)=>`<div class="row" style="gap:12px;padding:11px 0;${i?'border-top:1px solid var(--line)':''}"><div style="width:34px;height:34px;border-radius:10px;background:#E7F1FC;display:flex;align-items:center;justify-content:center;font-size:17px">${e}</div><div style="flex:1;font-weight:700;font-size:15px">${n}<div class="muted" style="font-size:12px;font-weight:600">${t}</div></div><div style="font-weight:800;font-size:15px;color:var(--deep)">${v}</div></div>`).join(''))</script>
+  </div>
+</div>
+<div class="tabbar"><div class="tab on"><i style="border-radius:50%"></i>Today</div><div class="tab"><i></i>History</div><div class="tab"><i style="border-radius:4px"></i>Reminders</div><div class="tab"><i style="border-radius:50%"></i>Profile</div></div>
+<div class="home-ind"></div>
+<script src="../../_kit/statusbar.js"></script>
+</body>

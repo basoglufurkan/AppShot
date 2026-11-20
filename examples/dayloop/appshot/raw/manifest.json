@@ -1,0 +1,58 @@
+{
+  "screens": [
+    {
+      "file": "raw/ideas.png",
+      "name": "ideas",
+      "source": "web",
+      "url": "file://examples/dayloop/mock-screens/ideas.html",
+      "width": 3960,
+      "height": 8604,
+      "capturedAt": "2026-11-20T09:25:09.535Z"
+    },
+    {
+      "file": "raw/new-habit.png",
+      "name": "new-habit",
+      "source": "web",
+      "url": "file://examples/dayloop/mock-screens/new-habit.html",
+      "width": 3960,
+      "height": 8604,
+      "capturedAt": "2026-11-20T09:25:10.360Z"
+    },
+    {
+      "file": "raw/stats.png",
+      "name": "stats",
+      "source": "web",
+      "url": "file://examples/dayloop/mock-screens/stats.html",
+      "width": 3960,
+      "height": 8604,
+      "capturedAt": "2026-11-20T09:25:11.301Z"
+    },
+    {
+      "file": "raw/streak.png",
+      "name": "streak",
+      "source": "web",
+      "url": "file://examples/dayloop/mock-screens/streak.html",
+      "width": 3960,
+      "height": 8604,
+      "capturedAt": "2026-11-20T09:25:12.194Z"
+    },
+    {
+      "file": "raw/today.png",
+      "name": "today",
+      "source": "web",
+      "url": "file://examples/dayloop/mock-screens/today.html",
+      "width": 3960,
+      "height": 8604,
+      "capturedAt": "2026-11-20T09:25:13.007Z"
+    },
+    {
+      "file": "raw/icon.png",
+      "name": "icon-html",
+      "source": "web",
+      "url": "file://examples/dayloop/mock-screens/_icon.html",
+      "width": 1024,
+      "height": 1024,
+      "capturedAt": "2026-11-20T09:25:14.043Z"
+    }
+  ]
+}

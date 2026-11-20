@@ -27,7 +27,7 @@ for (const t of targets) {
 if (args.project && !args.uninstall) {
   const rule = path.join(path.resolve(args.project), '.cursor', 'rules', 'appshot.mdc');
   fs.mkdirSync(path.dirname(rule), { recursive: true });
-  fs.writeFileSync(rule, `---\ndescription: Create App Store / Google Play screenshots with Appshot\nalwaysApply: false\n---\nWhen asked for store screenshots, follow ${path.join(SKILL_DIR, 'AGENTS.md')} and run the scripts in ${path.join(SKILL_DIR, 'scripts')}.\n`);
+  fs.writeFileSync(rule, `---\ndescription: Create App Store / Google Play screenshots with Appshot\nalwaysApply: false\n---\nWhen asked for store screenshots, follow ${path.join(SKILL_DIR, 'AGENTS.md')} and run the scripts in ${path.join(SKILL_DIR, 'scripts')}.\nIf you can generate images, make shot 1's hero art yourself (scripts/hero.mjs, skills/design/hero-art.md) — do not skip it.\n`);
   log.ok(`${rule}`);
 }
 if (!args.uninstall) log.info('In Claude Code: type /appshot (or just ask for App Store screenshots) inside your app project.');

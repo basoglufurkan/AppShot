@@ -15,7 +15,7 @@ import { layouts as loadLayouts } from '../engine/registry.mjs';
 import { resolveTheme, highlightContrast } from '../engine/compose.mjs';
 
 const BENEFIT = /\b(you|your|yours|without|in seconds|in minutes|every|never|always|finally|instantly|anywhere|together)\b|(\d)/i;
-const VERB_START = /^(\*\*)?(get|make|turn|build|track|plan|save|learn|find|stay|keep|feel|sleep|lose|grow|start|stop|meet|see|know|cook|create|edit|scan|speak|write|focus|move|train|run|eat|breathe|pay|send|share|play|listen|read|watch|organize|organise|never|take|go|do|be|hit|reach|beat|own|spend|earn|invest|fix|clean|protect|explore|discover|try|connect|capture|transform|unlock|master)\b/i;
+const VERB_START = /^(\*\*)?(get|make|turn|build|track|plan|save|learn|find|stay|keep|feel|sleep|lose|grow|start|stop|meet|see|know|cook|create|edit|scan|speak|write|focus|move|train|run|eat|drink|log|break|breathe|pay|send|share|play|listen|read|watch|organize|organise|never|take|go|do|be|hit|reach|beat|own|spend|earn|invest|fix|clean|protect|explore|discover|try|connect|capture|transform|unlock|master)\b/i;
 
 const lin = (v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; };
 const lumOfGray = (g) => lin(g);

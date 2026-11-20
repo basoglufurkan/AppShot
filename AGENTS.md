@@ -22,6 +22,9 @@ node $A/scripts/keywords.mjs seed
 # capture real screens into appshot/raw (see $A/skills/core/capture.md)
 node $A/scripts/plan.mjs init                  # then write captions into appshot/plan.json
 node $A/scripts/copy-check.mjs
+# CAN YOU GENERATE IMAGES (Codex, ChatGPT, Figma AI…)? Then make shot 1's hero art — do not skip:
+node $A/scripts/hero.mjs prompt               # → your image tool → save the PNG in appshot/raw/
+node $A/scripts/hero.mjs cutout appshot/raw/<file>.png && node $A/scripts/hero.mjs use raw/hero-<name>.png
 node $A/scripts/render.mjs --draft && node $A/scripts/sheet.mjs --draft && node $A/scripts/score.mjs --draft
 # LOOK at appshot/review/*.png, fix, repeat until ≥ 85 and clean
 node $A/scripts/variants.mjs make --hooks && node $A/scripts/variants.mjs tournament
@@ -33,6 +36,8 @@ node $A/scripts/render.mjs && node $A/scripts/check.mjs && node $A/scripts/expor
 1. Real UI and real claims only — no invented ratings, awards, reviews or numbers.
 2. Shots 1–3 carry the three strongest benefits; captions 2–6 words, one `**highlight**`. Shot 1 stops the scroll:
    a `billboard` (2–4 word promise as the biggest type, the money moment lifted out, real proof); shots 2+ show the app.
+   If you can generate images, give the billboard **hero art you made**: one bold object the app is about, transparent
+   PNG, no text, logos, UI or people (`skills/design/hero-art.md`). Record the tool in the shot's `note`.
 3. Read `skills/locales/<id>.md` before writing any non-English caption; transcreate.
 4. `copy-check.mjs` and `check.mjs` must pass; Google Play images carry no social proof, prices, "free" or CTAs.
 5. Look at the rendered PNGs before declaring done.

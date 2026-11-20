@@ -1,0 +1,21 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="../../_kit/phone.css"><link rel="stylesheet" href="_tide.css">
+<body style="position:relative">
+<div class="status"></div>
+<div class="px" style="margin-top:12px">
+  <div class="row" style="justify-content:space-between;font-size:17px;font-weight:600"><span style="color:var(--accent)">‹ Profile</span><span></span></div>
+  <div class="h1" style="margin-top:10px">Your daily goal</div>
+  <div class="card" style="margin-top:16px;text-align:center;padding:26px 18px;background:linear-gradient(160deg,#2C8CF5,#0B4FB3);color:#fff">
+    <div style="font-size:15px;font-weight:700;opacity:.85">Today's target</div>
+    <div style="font-size:64px;font-weight:900;letter-spacing:-2.5px;line-height:1.05;margin-top:6px">2,500<span style="font-size:24px;letter-spacing:0"> ml</span></div>
+    <div style="font-size:15px;margin-top:6px;opacity:.85">Recalculated every morning</div>
+  </div>
+  <div class="card" style="margin-top:12px;padding:6px 18px">
+    <script>document.write([['⚖️','Weight','68 kg','2,100 ml'],['🏃','Activity','Moderate','+ 200 ml'],['☀️','Hot day','31°','+ 200 ml']].map(([e,n,v,a],i)=>`<div class="row" style="gap:12px;padding:13px 0;${i?'border-top:1px solid var(--line)':''}"><div style="font-size:22px">${e}</div><div style="flex:1"><div style="font-weight:700;font-size:16px">${n}</div><div class="muted" style="font-size:13px;font-weight:600">${v}</div></div><div style="font-weight:800;font-size:16px;color:var(--deep)">${a}</div></div>`).join(''))</script>
+  </div>
+  <div class="lbl">ACTIVITY</div>
+  <div class="row" style="gap:8px"><script>document.write(['Light','Moderate','Active','Athlete'].map((t,i)=>`<span class="chip" style="font-size:15px;padding:10px 16px;${i===1?'background:var(--fg);color:#fff':'background:#fff;color:var(--fg);box-shadow:inset 0 0 0 1.5px #D6E2EF'}">${t}</span>`).join(''))</script></div>
+  <div class="card row" style="margin-top:16px;gap:14px;padding:16px 18px"><div style="font-size:24px">🌡️</div><div style="flex:1"><div style="font-weight:700;font-size:16px">Adjust for weather</div><div class="muted" style="font-size:13px;margin-top:2px">Drink a little more on hot days</div></div><div class="toggle"></div></div>
+</div>
+<div class="home-ind"></div>
+<script src="../../_kit/statusbar.js"></script>
+</body>

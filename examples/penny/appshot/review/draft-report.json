@@ -1,9 +1,9 @@
 {
-  "plan": "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/plan.json",
-  "renderedAt": "2026-11-20T08:38:55.757Z",
+  "plan": "./plan.json",
+  "renderedAt": "2026-11-20T12:02:33.467Z",
   "scale": 0.4,
-  "ms": 3447,
-  "outDir": "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts",
+  "ms": 3692,
+  "outDir": "./drafts",
   "jobs": [
     {
       "size": "android-phone",
@@ -15,14 +15,14 @@
       "locale": "en-US",
       "width": 432,
       "height": 768,
-      "html": "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/.cache/html/main/android-phone.en-US.html",
+      "html": "./.cache/html/main/android-phone.en-US.html",
       "files": [
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/android-phone/en-US/01-hook.png",
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/android-phone/en-US/02-left.png",
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/android-phone/en-US/03-track.png",
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/android-phone/en-US/04-bills.png",
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/android-phone/en-US/05-private.png",
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/android-phone/en-US/06-close.png"
+        "./drafts/android-phone/en-US/01-hook.png",
+        "./drafts/android-phone/en-US/02-left.png",
+        "./drafts/android-phone/en-US/03-track.png",
+        "./drafts/android-phone/en-US/04-bills.png",
+        "./drafts/android-phone/en-US/05-private.png",
+        "./drafts/android-phone/en-US/06-close.png"
       ],
       "slots": [
         {
@@ -229,14 +229,14 @@
       "locale": "en-US",
       "width": 482,
       "height": 1049,
-      "html": "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/.cache/html/main/iphone-6.3.en-US.html",
+      "html": "./.cache/html/main/iphone-6.3.en-US.html",
       "files": [
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/iphone-6.3/en-US/01-hook.png",
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/iphone-6.3/en-US/02-left.png",
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/iphone-6.3/en-US/03-track.png",
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/iphone-6.3/en-US/04-bills.png",
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/iphone-6.3/en-US/05-private.png",
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/iphone-6.3/en-US/06-close.png"
+        "./drafts/iphone-6.3/en-US/01-hook.png",
+        "./drafts/iphone-6.3/en-US/02-left.png",
+        "./drafts/iphone-6.3/en-US/03-track.png",
+        "./drafts/iphone-6.3/en-US/04-bills.png",
+        "./drafts/iphone-6.3/en-US/05-private.png",
+        "./drafts/iphone-6.3/en-US/06-close.png"
       ],
       "slots": [
         {
@@ -443,14 +443,14 @@
       "locale": "en-US",
       "width": 528,
       "height": 1147,
-      "html": "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/.cache/html/main/iphone-6.9.en-US.html",
+      "html": "./.cache/html/main/iphone-6.9.en-US.html",
       "files": [
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/iphone-6.9/en-US/01-hook.png",
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/iphone-6.9/en-US/02-left.png",
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/iphone-6.9/en-US/03-track.png",
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/iphone-6.9/en-US/04-bills.png",
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/iphone-6.9/en-US/05-private.png",
-        "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/drafts/iphone-6.9/en-US/06-close.png"
+        "./drafts/iphone-6.9/en-US/01-hook.png",
+        "./drafts/iphone-6.9/en-US/02-left.png",
+        "./drafts/iphone-6.9/en-US/03-track.png",
+        "./drafts/iphone-6.9/en-US/04-bills.png",
+        "./drafts/iphone-6.9/en-US/05-private.png",
+        "./drafts/iphone-6.9/en-US/06-close.png"
       ],
       "slots": [
         {
@@ -648,5 +648,5 @@
       "consoleErrors": []
     }
   ],
-  "file": "/Users/basoglu/Desktop/AppShot/examples/penny/appshot/review/draft-report.json"
+  "file": "./review/draft-report.json"
 }

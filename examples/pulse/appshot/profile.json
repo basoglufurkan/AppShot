@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "root": "/Users/basoglu/Desktop/AppShot/examples/pulse",
+  "root": "examples/pulse",
   "scannedAt": "2026-11-20T08:38:46.994Z",
   "app": {
     "displayName": "Pulse",

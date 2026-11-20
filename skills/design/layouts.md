@@ -25,7 +25,8 @@ subhead, set in the display face at 0.44×), one hero, and real proof at the foo
 2. **Hero** — the device, with the screen's **money moment lifted out of it** (`pop.rect`: the plan card, the result,
    the chart — 0.86 W wide, so it breaks past the frame on both sides). Or/and `hero.image`: a cutout of the real
    thing the app is about (the car it identifies, the coach, the dish) that you own the rights to, `shape: "card"`
-   for an ordinary photo. A soft accent glow sits behind (`options.glow: false` removes it).
+   for an ordinary photo. **Agents that can generate images make this object themselves** (`hero.mjs`,
+   `skills/design/hero-art.md`). A soft accent glow sits behind (`options.glow: false` removes it).
 3. **Proof** — `rating` and/or `awards` (laurels; `"style": "seal"` draws a scalloped badge). The device dissolves
    above the row. **iOS only, automatically:** on Google Play the row is not drawn and the device grows, so the shot
    needs no `skipOn` — keep it, it is still the Play opener.

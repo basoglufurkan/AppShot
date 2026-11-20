@@ -1105,7 +1105,7 @@ from shot 2 on the layouts show much more of the actual app.
 
 | Layout | What it is |
 | --- | --- |
-| billboard | shot 1 only: a giant 2–4 word promise with a kicker, the screen's money moment lifted out of the device (or a cutout image), real proof at the foot (iOS only, dropped on Play by itself) |
+| billboard | shot 1 only: a giant 2–4 word promise with a kicker, the screen's money moment lifted out of the device (or hero art the agent generates — `hero.mjs`), real proof at the foot (iOS only, dropped on Play by itself) |
 | hero-device | headline band on top, one large device rising from the bottom edge (the classic opener when a billboard doesn't fit) |
 | device-top | device enters from the top edge, caption at the bottom; a rhythm-breaker |
 | tilted-device | caption on top, device rotated in 2D or 3D perspective |

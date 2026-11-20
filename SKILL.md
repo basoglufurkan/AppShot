@@ -23,6 +23,8 @@ Every command below is `node $SKILL_DIR/scripts/<name>.mjs …`, run from the **
 2. **Shots 1–3 decide; shot 1 stops the scroll.** They are what search results show. Shot 1 has one job — stop the
    thumb and say the value in one look — so it looks unlike the rest: a `billboard` (the promise as the biggest type
    in the set, the money moment lifted out of the device, real proof). From shot 2 on, show much more of the app.
+   **If you can generate images (Codex, ChatGPT, Figma AI…), make the billboard's hero art yourself** — one bold
+   object the app is about, no text/logos/people (`hero.mjs`, `skills/design/hero-art.md`).
 3. **Captions are 2–6 words, benefit-first, one `**highlight**`.** Every caption traces back to a line in `brief.md`.
 4. **Look before you ship.** Always open `review/contact-*.png` and `review/search-*.png` with the Read tool and
    critique them (`skills/review/critique.md`). A score is not a substitute for looking.
@@ -74,6 +76,7 @@ step 11 renders + score), `run.mjs final` (step 14). Your judgement steps (2, 4,
 | 8 | Structure | `plan.mjs init` (the design director picks THIS app's theme, opening and panorama from niche + brand + market + reference; B and C go to `variants/dir-b`, `dir-c`) → edit order, layouts, screens, fields | `skills/core/story.md`, `skills/design/layouts.md`, `skills/design/direction.md` |
 | 9 | Write the captions | 3 candidates per shot → pick with the drills → keep losers in `shot.alternatives` · `copy-check.mjs` | `skills/copy/hooks.md`, `formulas.md`, `sequence.md`, `rewrite-drills.md`, `anti-patterns.md` |
 | 10 | Design | `design.mjs directions --write` (three directions with reasons) · `themes.mjs board`, `layouts.mjs board` · `plan.mjs validate`. Never ship the niche default unexamined: two apps in one category must not get the same set | `skills/design/direction.md`, `taste.md`, `themes.md`, `color.md` |
+| 10b | Hero art | Can you generate images? Then: `hero.mjs prompt` → your image tool → save PNG in `appshot/raw/` → `hero.mjs cutout <png>` → `hero.mjs use raw/hero-<name>.png`. No image tool: skip (`hero.mjs` says what is missing) | `skills/design/hero-art.md` |
 | 11 | Draft, look, score, fix | `render.mjs --draft` · `sheet.mjs --draft` · **Read the PNGs** · `score.mjs --draft` | `skills/review/critique.md`, `skills/review/scoring.md` |
 | 12 | Find the best | `variants.mjs make --hooks` · `variants.mjs tournament` (ranks by score + distinctiveness vs the market + match to the reference) · look · `variants.mjs adopt <name>` · keep two runners-up as PPO treatments | `skills/aso/testing.md`, `skills/design/direction.md` |
 | 13 | Localise | `localize.mjs add de-DE` · `localize.mjs sheet de-DE` → write · `localize.mjs apply` · `copy-check.mjs --locale de-DE` | `skills/locales/<id>.md`, `skills/aso/localization.md` |
@@ -91,7 +94,7 @@ nothing a top-grossing app would not ship. Typical: 2–4 iterations.
 | `skills/niches/` | 69 niche playbooks: searcher, what wins the install, shot-by-shot story, headline banks, visuals, keyword clusters, policy pitfalls |
 | `skills/copy/` | hooks, formulas, voice, power words, proof, anti-patterns, length, sequence, rewrite drills, headline bank |
 | `skills/aso/` | Apple and Google rules and specs, creative assets (header / search results), app preview videos, keywords, caption indexing, first impression, conversion, testing (PPO / experiments), metadata, localisation, seasonal refresh |
-| `skills/design/` | taste, layouts and themes catalogues, typography, colour, devices, composition, panorama, highlights, motion (looping video, 19 animated key-art scenes), tablet, accessibility, anti-patterns |
+| `skills/design/` | taste, layouts and themes catalogues, hero art (generated billboard objects), typography, colour, devices, composition, panorama, highlights, motion (looping video, 19 animated key-art scenes), tablet, accessibility, anti-patterns |
 | `skills/locales/` | 23 store locales: register, typography, length, search habits, transcreation examples, pitfalls |
 | `skills/review/` | visual critique rubric, pre-ship checklist, how scoring works |
 | `engine/` | renderer (do not edit during a job; read `templates/*.mjs` meta when unsure what a layout needs) |

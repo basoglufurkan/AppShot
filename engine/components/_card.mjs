@@ -1,12 +1,17 @@
 // Shared card surface used by chips, stat cards, notifications, quotes.
 import { style, round } from '../lib/html.mjs';
+import { contrast, onColor } from '../lib/color.mjs';
 
 export function surface(theme, u, { radius = 3.2, pad = [2.2, 3], glass } = {}) {
   const c = theme.card || {};
   const isGlass = glass ?? c.glass;
+  const background = c.bg || (theme.dark ? 'rgba(255,255,255,0.1)' : '#FFFFFF');
+  // A shot that recolours its caption (white text on a bold poster) must not turn a solid white card's text white too.
+  const solid = /^#[0-9a-f]{6}$/i.test(background);
+  const color = c.text || (solid && contrast(theme.text, background) < 3 ? onColor(background) : theme.text);
   return {
-    background: c.bg || (theme.dark ? 'rgba(255,255,255,0.1)' : '#FFFFFF'),
-    color: c.text || theme.text,
+    background,
+    color,
     borderRadius: u * (c.radius ?? radius),
     padding: `${round(u * pad[0])}px ${round(u * pad[1])}px`,
     boxShadow: c.shadow || (theme.dark

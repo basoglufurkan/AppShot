@@ -24,7 +24,7 @@ const FIELDS = ['headline', 'subhead', 'eyebrow', 'labels'];
 function* strings(p) {
   for (const [i, s] of p.shots.entries()) {
     for (const f of FIELDS) if (s[f] !== undefined) yield { path: `shots.${i}.${f}`, value: s[f], shot: s.id };
-    for (const key of ['cards', 'notifications', 'messages', 'quotes', 'awards', 'chips']) {
+    for (const key of ['cards', 'notifications', 'messages', 'quotes', 'awards', 'chips', 'stickers']) {
       for (const [j, it] of (s[key] || []).entries()) {
         if (!it || typeof it !== 'object') continue;
         for (const [k, v] of Object.entries(it)) if (['title', 'value', 'trend', 'body', 'text', 'sub', 'time', 'app'].includes(k)) yield { path: `shots.${i}.${key}.${j}.${k}`, value: v, shot: s.id };

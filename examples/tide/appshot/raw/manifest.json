@@ -1,0 +1,49 @@
+{
+  "screens": [
+    {
+      "file": "raw/goal.png",
+      "name": "goal",
+      "source": "web",
+      "url": "file://examples/tide/mock-screens/goal.html",
+      "width": 3960,
+      "height": 8604,
+      "capturedAt": "2026-11-20T09:28:06.862Z"
+    },
+    {
+      "file": "raw/history.png",
+      "name": "history",
+      "source": "web",
+      "url": "file://examples/tide/mock-screens/history.html",
+      "width": 3960,
+      "height": 8604,
+      "capturedAt": "2026-11-20T09:28:07.696Z"
+    },
+    {
+      "file": "raw/reminders.png",
+      "name": "reminders",
+      "source": "web",
+      "url": "file://examples/tide/mock-screens/reminders.html",
+      "width": 3960,
+      "height": 8604,
+      "capturedAt": "2026-11-20T09:28:08.477Z"
+    },
+    {
+      "file": "raw/today.png",
+      "name": "today",
+      "source": "web",
+      "url": "file://examples/tide/mock-screens/today.html",
+      "width": 3960,
+      "height": 8604,
+      "capturedAt": "2026-11-20T09:28:09.299Z"
+    },
+    {
+      "file": "raw/icon.png",
+      "name": "icon-html",
+      "source": "web",
+      "url": "file://examples/tide/mock-screens/_icon.html",
+      "width": 1024,
+      "height": 1024,
+      "capturedAt": "2026-11-20T09:28:10.337Z"
+    }
+  ]
+}

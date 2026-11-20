@@ -1,0 +1,386 @@
+{
+  "plan": "examples/tide/appshot/plan.json",
+  "renderedAt": "2026-11-20T10:28:47.488Z",
+  "scale": 0.4,
+  "ms": 2191,
+  "outDir": "examples/tide/appshot/drafts",
+  "jobs": [
+    {
+      "size": "android-phone",
+      "store": "android",
+      "canvas": {
+        "width": 1080,
+        "height": 1920
+      },
+      "locale": "en-US",
+      "width": 432,
+      "height": 768,
+      "html": "examples/tide/appshot/.cache/html/main/android-phone.en-US.html",
+      "files": [
+        "examples/tide/appshot/drafts/android-phone/en-US/01-hook.png",
+        "examples/tide/appshot/drafts/android-phone/en-US/02-reminders.png",
+        "examples/tide/appshot/drafts/android-phone/en-US/03-one-tap.png",
+        "examples/tide/appshot/drafts/android-phone/en-US/04-goal.png",
+        "examples/tide/appshot/drafts/android-phone/en-US/05-habit.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "billboard",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 115,
+              "max": 115.19,
+              "min": 74.43,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 198,
+                "w": 918,
+                "h": 315
+              },
+              "headline": "Drink more water"
+            }
+          ],
+          "devices": [
+            {
+              "x": 86,
+              "y": 651,
+              "w": 713,
+              "h": 1549
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "reminders",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 234,
+                "w": 918,
+                "h": 186
+              },
+              "headline": "Never forget to drink water"
+            }
+          ],
+          "devices": [
+            {
+              "x": 108,
+              "y": 591,
+              "w": 864,
+              "h": 1877
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "one-tap",
+          "layout": "ui-pieces",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 201,
+                "w": 918,
+                "h": 252
+              },
+              "headline": "Log every glass in one tap"
+            }
+          ],
+          "devices": [
+            {
+              "x": 151,
+              "y": 601,
+              "w": 778,
+              "h": 1690
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "goal",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 119,
+                "y": 281,
+                "w": 843,
+                "h": 93
+              },
+              "headline": "A goal sized for you"
+            }
+          ],
+          "devices": [
+            {
+              "x": 151,
+              "y": 591,
+              "w": 778,
+              "h": 1690
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "habit",
+          "layout": "hero-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 113,
+                "y": 248,
+                "w": 855,
+                "h": 159
+              },
+              "headline": "Little sips, big habit"
+            }
+          ],
+          "devices": [
+            {
+              "x": 108,
+              "y": 586,
+              "w": 864,
+              "h": 1877
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Sora",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    },
+    {
+      "size": "iphone-6.9",
+      "store": "ios",
+      "canvas": {
+        "width": 1320,
+        "height": 2868
+      },
+      "locale": "en-US",
+      "width": 528,
+      "height": 1147,
+      "html": "examples/tide/appshot/.cache/html/main/iphone-6.9.en-US.html",
+      "files": [
+        "examples/tide/appshot/drafts/iphone-6.9/en-US/01-hook.png",
+        "examples/tide/appshot/drafts/iphone-6.9/en-US/02-reminders.png",
+        "examples/tide/appshot/drafts/iphone-6.9/en-US/03-one-tap.png",
+        "examples/tide/appshot/drafts/iphone-6.9/en-US/04-goal.png",
+        "examples/tide/appshot/drafts/iphone-6.9/en-US/05-habit.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "billboard",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 198,
+              "max": 198,
+              "min": 110.88,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 262,
+                "w": 1122,
+                "h": 538
+              },
+              "headline": "Drink more water"
+            }
+          ],
+          "devices": [
+            {
+              "x": 137,
+              "y": 1004,
+              "w": 808,
+              "h": 1757
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "reminders",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 350,
+                "w": 1122,
+                "h": 277
+              },
+              "headline": "Never forget to drink water"
+            }
+          ],
+          "devices": [
+            {
+              "x": 170,
+              "y": 921,
+              "w": 980,
+              "h": 2129
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "one-tap",
+          "layout": "ui-pieces",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 301,
+                "w": 1122,
+                "h": 376
+              },
+              "headline": "Log every glass in one tap"
+            }
+          ],
+          "devices": [
+            {
+              "x": 219,
+              "y": 932,
+              "w": 882,
+              "h": 1916
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "goal",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 350,
+                "w": 1122,
+                "h": 277
+              },
+              "headline": "A goal sized for you"
+            }
+          ],
+          "devices": [
+            {
+              "x": 219,
+              "y": 918,
+              "w": 882,
+              "h": 1916
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "habit",
+          "layout": "hero-device",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 301,
+                "w": 1122,
+                "h": 376
+              },
+              "headline": "Little sips, big habit"
+            }
+          ],
+          "devices": [
+            {
+              "x": 170,
+              "y": 913,
+              "w": 980,
+              "h": 2129
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Sora",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    }
+  ],
+  "file": "examples/tide/appshot/review/draft-report.json"
+}

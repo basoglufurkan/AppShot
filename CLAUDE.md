@@ -43,6 +43,8 @@ running the scripts with `--project <app path>`.
 - Store text: `engine/lib/metadata.mjs` (Markdown per locale in `appshot/metadata/`, checks, fastlane export),
   `engine/lib/glossary.mjs` (the app's own translations), `scripts/metadata.mjs`. Limits in `engine/sizes.json` →
   `limits.metadata`.
+- Hero art (billboard objects the agent generates with its own image tool): `engine/lib/heroart.mjs` (subjects per
+  niche, prompt), `engine/lib/cutout.mjs` (white background → alpha), `scripts/hero.mjs`, `skills/design/hero-art.md`.
 - Store specs live only in `engine/sizes.json` and `engine/locales.json`.
 
 - Capture: `scripts/capture/auto.mjs` (per-locale launch arguments, deep links, settled screenshots, preview clips).

@@ -1,0 +1,480 @@
+{
+  "plan": "examples/dayloop/appshot/plan.json",
+  "renderedAt": "2026-11-20T10:28:43.465Z",
+  "scale": 0.4,
+  "ms": 2745,
+  "outDir": "examples/dayloop/appshot/drafts",
+  "jobs": [
+    {
+      "size": "android-phone",
+      "store": "android",
+      "canvas": {
+        "width": 1080,
+        "height": 1920
+      },
+      "locale": "en-US",
+      "width": 432,
+      "height": 768,
+      "html": "examples/dayloop/appshot/.cache/html/main/android-phone.en-US.html",
+      "files": [
+        "examples/dayloop/appshot/drafts/android-phone/en-US/01-hook.png",
+        "examples/dayloop/appshot/drafts/android-phone/en-US/02-streak.png",
+        "examples/dayloop/appshot/drafts/android-phone/en-US/03-consistency.png",
+        "examples/dayloop/appshot/drafts/android-phone/en-US/04-create.png",
+        "examples/dayloop/appshot/drafts/android-phone/en-US/05-nudges.png",
+        "examples/dayloop/appshot/drafts/android-phone/en-US/06-flex.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "billboard",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 115,
+              "max": 115.19,
+              "min": 74.43,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 199,
+                "w": 918,
+                "h": 313
+              },
+              "headline": "Never break the chain"
+            }
+          ],
+          "devices": [
+            {
+              "x": 86,
+              "y": 651,
+              "w": 713,
+              "h": 1549
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "streak",
+          "layout": "big-number",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 235,
+              "max": 265.82,
+              "min": 106.33,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 406,
+                "y": 101,
+                "w": 268,
+                "h": 245
+              },
+              "headline": "32"
+            },
+            {
+              "fontSize": 66,
+              "max": 65.57,
+              "min": 40.76,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 205,
+                "y": 365,
+                "w": 670,
+                "h": 68
+              },
+              "headline": "days in a row you read"
+            }
+          ],
+          "devices": [
+            {
+              "x": 130,
+              "y": 634,
+              "w": 821,
+              "h": 1783
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "consistency",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 235,
+                "w": 918,
+                "h": 184
+              },
+              "headline": "See your consistency grow"
+            }
+          ],
+          "devices": [
+            {
+              "x": 151,
+              "y": 591,
+              "w": 778,
+              "h": 1690
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "create",
+          "layout": "ui-pieces",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 235,
+                "w": 918,
+                "h": 184
+              },
+              "headline": "Set up a habit in seconds"
+            }
+          ],
+          "devices": [
+            {
+              "x": 151,
+              "y": 601,
+              "w": 778,
+              "h": 1690
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "nudges",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 89,
+              "max": 88.61,
+              "min": 47.85,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 235,
+                "w": 918,
+                "h": 184
+              },
+              "headline": "Reminders at the right time"
+            }
+          ],
+          "devices": [
+            {
+              "x": 108,
+              "y": 591,
+              "w": 864,
+              "h": 1877
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 5,
+          "shot": "flex",
+          "layout": "feature-list",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 80,
+              "max": 79.75,
+              "min": 47.85,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 81,
+                "y": 233,
+                "w": 782,
+                "h": 83
+              },
+              "headline": "Goals that fit real life"
+            }
+          ],
+          "devices": [
+            {
+              "x": 140,
+              "y": 716,
+              "w": 799,
+              "h": 1736
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Nunito",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    },
+    {
+      "size": "iphone-6.9",
+      "store": "ios",
+      "canvas": {
+        "width": 1320,
+        "height": 2868
+      },
+      "locale": "en-US",
+      "width": 528,
+      "height": 1147,
+      "html": "examples/dayloop/appshot/.cache/html/main/iphone-6.9.en-US.html",
+      "files": [
+        "examples/dayloop/appshot/drafts/iphone-6.9/en-US/01-hook.png",
+        "examples/dayloop/appshot/drafts/iphone-6.9/en-US/02-streak.png",
+        "examples/dayloop/appshot/drafts/iphone-6.9/en-US/03-consistency.png",
+        "examples/dayloop/appshot/drafts/iphone-6.9/en-US/04-create.png",
+        "examples/dayloop/appshot/drafts/iphone-6.9/en-US/05-nudges.png",
+        "examples/dayloop/appshot/drafts/iphone-6.9/en-US/06-flex.png"
+      ],
+      "slots": [
+        {
+          "index": 0,
+          "shot": "hook",
+          "layout": "billboard",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 198,
+              "max": 198,
+              "min": 110.88,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 264,
+                "w": 1122,
+                "h": 534
+              },
+              "headline": "Never break the chain"
+            }
+          ],
+          "devices": [
+            {
+              "x": 137,
+              "y": 1004,
+              "w": 808,
+              "h": 1757
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 1,
+          "shot": "streak",
+          "layout": "big-number",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 350,
+              "max": 396,
+              "min": 158.4,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 460,
+                "y": 152,
+                "w": 399,
+                "h": 364
+              },
+              "headline": "32"
+            },
+            {
+              "fontSize": 98,
+              "max": 97.68,
+              "min": 60.72,
+              "lines": 1,
+              "ok": true,
+              "rect": {
+                "x": 161,
+                "y": 545,
+                "w": 998,
+                "h": 102
+              },
+              "headline": "days in a row you read"
+            }
+          ],
+          "devices": [
+            {
+              "x": 195,
+              "y": 983,
+              "w": 931,
+              "h": 2023
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 2,
+          "shot": "consistency",
+          "layout": "floating-cards",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 352,
+                "w": 1122,
+                "h": 275
+              },
+              "headline": "See your consistency grow"
+            }
+          ],
+          "devices": [
+            {
+              "x": 219,
+              "y": 918,
+              "w": 882,
+              "h": 1916
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 3,
+          "shot": "create",
+          "layout": "ui-pieces",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 352,
+                "w": 1122,
+                "h": 275
+              },
+              "headline": "Set up a habit in seconds"
+            }
+          ],
+          "devices": [
+            {
+              "x": 219,
+              "y": 932,
+              "w": 882,
+              "h": 1916
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 4,
+          "shot": "nudges",
+          "layout": "notification-stack",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 132,
+              "max": 132,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 352,
+                "w": 1122,
+                "h": 275
+              },
+              "headline": "Reminders at the right time"
+            }
+          ],
+          "devices": [
+            {
+              "x": 170,
+              "y": 921,
+              "w": 980,
+              "h": 2129
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        },
+        {
+          "index": 5,
+          "shot": "flex",
+          "layout": "feature-list",
+          "missingScreens": 0,
+          "text": [
+            {
+              "fontSize": 119,
+              "max": 118.8,
+              "min": 71.28,
+              "lines": 2,
+              "ok": true,
+              "rect": {
+                "x": 99,
+                "y": 287,
+                "w": 1122,
+                "h": 247
+              },
+              "headline": "Goals that fit real life"
+            }
+          ],
+          "devices": [
+            {
+              "x": 207,
+              "y": 1104,
+              "w": 906,
+              "h": 1970
+            }
+          ],
+          "textOverDevice": 0,
+          "brokenImages": []
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Nunito",
+          "loaded": true
+        }
+      ],
+      "consoleErrors": []
+    }
+  ],
+  "file": "examples/dayloop/appshot/review/draft-report.json"
+}

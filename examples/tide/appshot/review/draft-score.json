@@ -1,0 +1,166 @@
+[
+  {
+    "locale": "en-US",
+    "size": "android-phone",
+    "store": "android",
+    "total": 100,
+    "parts": {
+      "copy": 34.8,
+      "legibility": 25,
+      "contrast": 15,
+      "composition": 15,
+      "story": 10
+    },
+    "shots": [
+      {
+        "n": 1,
+        "id": "hook",
+        "layout": "billboard",
+        "headline": "Drink more water",
+        "copy": 35,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 12.8,
+        "composition": 15,
+        "total": 90,
+        "weight": 1.6
+      },
+      {
+        "n": 2,
+        "id": "reminders",
+        "layout": "notification-stack",
+        "headline": "Never forget to drink water",
+        "copy": 35,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 13.2,
+        "composition": 15,
+        "total": 90,
+        "weight": 1.6
+      },
+      {
+        "n": 3,
+        "id": "one-tap",
+        "layout": "ui-pieces",
+        "headline": "Log every glass in one tap",
+        "copy": 34,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 8.4,
+        "composition": 15,
+        "total": 89,
+        "weight": 1.6
+      },
+      {
+        "n": 4,
+        "id": "goal",
+        "layout": "floating-cards",
+        "headline": "A goal sized for you",
+        "copy": 35,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 16.1,
+        "composition": 15,
+        "total": 90,
+        "weight": 1
+      },
+      {
+        "n": 5,
+        "id": "habit",
+        "layout": "hero-device",
+        "headline": "Little sips, big habit",
+        "copy": 35,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 10.2,
+        "composition": 15,
+        "total": 90,
+        "weight": 1
+      }
+    ],
+    "fixes": [],
+    "verdict": "ship"
+  },
+  {
+    "locale": "en-US",
+    "size": "iphone-6.9",
+    "store": "ios",
+    "total": 100,
+    "parts": {
+      "copy": 34.8,
+      "legibility": 25,
+      "contrast": 15,
+      "composition": 15,
+      "story": 10
+    },
+    "shots": [
+      {
+        "n": 1,
+        "id": "hook",
+        "layout": "billboard",
+        "headline": "Drink more water",
+        "copy": 35,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 12.7,
+        "composition": 15,
+        "total": 90,
+        "weight": 1.6
+      },
+      {
+        "n": 2,
+        "id": "reminders",
+        "layout": "notification-stack",
+        "headline": "Never forget to drink water",
+        "copy": 35,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 13.3,
+        "composition": 15,
+        "total": 90,
+        "weight": 1.6
+      },
+      {
+        "n": 3,
+        "id": "one-tap",
+        "layout": "ui-pieces",
+        "headline": "Log every glass in one tap",
+        "copy": 34,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 8.4,
+        "composition": 15,
+        "total": 89,
+        "weight": 1.6
+      },
+      {
+        "n": 4,
+        "id": "goal",
+        "layout": "floating-cards",
+        "headline": "A goal sized for you",
+        "copy": 35,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 16.1,
+        "composition": 15,
+        "total": 90,
+        "weight": 1
+      },
+      {
+        "n": 5,
+        "id": "habit",
+        "layout": "hero-device",
+        "headline": "Little sips, big habit",
+        "copy": 35,
+        "legible": 25,
+        "contrast": 15,
+        "measuredContrast": 10.8,
+        "composition": 15,
+        "total": 90,
+        "weight": 1
+      }
+    ],
+    "fixes": [],
+    "verdict": "ship"
+  }
+]

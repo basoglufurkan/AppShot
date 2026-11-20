@@ -99,3 +99,9 @@ test('score: shot 1 that reads like the rest loses story points; a billboard-siz
   assert.ok(!msg(poster));
   assert.ok(poster.parts.story > flat.parts.story);
 });
+
+test('a white card keeps dark text when the shot recolours its caption white', async () => {
+  const { surface } = await import('../engine/components/_card.mjs');
+  assert.equal(surface({ text: '#FFFFFF', dark: false }, 10).color, '#0B0B12');
+  assert.equal(surface({ text: '#16151A', dark: false }, 10).color, '#16151A');
+});

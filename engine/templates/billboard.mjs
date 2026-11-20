@@ -6,7 +6,7 @@
 // and the device takes its room (meta.dropsProofOn — the lint knows, no skipOn needed).
 import { pad, isTablet } from './_shared.mjs';
 import { rgba } from '../lib/color.mjs';
-import { esc, style, round } from '../lib/html.mjs';
+import { esc, style, round, markup } from '../lib/html.mjs';
 
 export const meta = {
   id: 'billboard', name: 'Billboard', hook: true, firstOnly: true, dropsProofOn: ['android'],
@@ -16,10 +16,13 @@ export const meta = {
   options: {
     textSize: 'max headline size in u (15; Play phones 13 for the 20 % tagline cap; tablet 12.5) — the subhead becomes the kicker at 0.44×',
     deviceScale: 'device width / canvas width (0.74, or 0.64 above a proof row; tablet 0.54 / 0.46)',
+    deviceX: 'device centre as a fraction of W (0.5); move it aside (0.4) to give a big hero object room',
     'pop.rect': '[x,y,w,h] of the screen to lift out of the device — the money moment',
     'pop.w': 'pop-out width / canvas width (0.86; tablet 0.68)', 'pop.y': 'its centre as a fraction of H (default: where it sits on the device)', 'pop.rotate': 'degrees (0)', 'pop.shape': 'rounded|circle',
     'hero.image': 'a cutout PNG you own (product, person, food, car…); per-locale object allowed', 'hero.x|y|w|h': 'centre (canvas fractions), width (of W), height (of the hero zone)', 'hero.shape': 'cutout|card (a photo cropped to hero.aspect, 1.25)', 'hero.rotate': 'degrees',
+    'hero.layer': 'front (default with a device) | back: a big object behind the device, like a prop in a poster',
     'cards[]': 'up to 2 stat cards beside the hero {icon, value, title, pos: tl|tr|ml|mr|bl|br}',
+    'stickers[]': 'up to 4 floating chips around the hero {text?, icon?, style: card|accent|dark|emoji, pos: tl|tr|ml|mr|bl|br or x, y (canvas fractions), rotate, size} — facts the screen shows, not proof',
     'rating | awards[]': 'proof at the foot, iOS only, real and sourced: laurels, or "style": "seal" for a badge',
     glow: 'accent light behind the hero (true)',
   },
@@ -64,9 +67,11 @@ export function render(ctx) {
   let d = null;
   if (hasScreen) {
     const scale = proof.length ? (tab ? 0.46 : 0.64) : (tab ? 0.54 : 0.74);
-    d = ctx.placeDevice({ width: W * opt('deviceScale', scale), cx: W / 2, top: heroTop + H * 0.012, z: 2 });
-    back += d.html;
+    d = ctx.placeDevice({ width: W * opt('deviceScale', scale), cx: W * opt('deviceX', 0.5), top: heroTop + H * 0.012, z: 2 });
   }
+  const behind = imgRef && d && hero.layer === 'back';
+  if (behind) back += heroImage(ctx, { src: ctx.asset(imgRef), hero, d, heroTop, zoneBottom, zoneH, back: true });
+  if (d) back += d.html;
   const fade = proof.length
     ? `linear-gradient(to bottom, #000 ${round(footTop - H * 0.08)}px, transparent ${round(footTop + H * 0.01)}px)` : '';
   if (back) html += `<div style="${style({ position: 'absolute', left: 0, top: 0, width: W, height: H, zIndex: 2, WebkitMaskImage: fade || undefined, maskImage: fade || undefined })}">${back}</div>`;
@@ -92,25 +97,15 @@ export function render(ctx) {
     html += ctx.at(x, heroTop + fy * zoneH, card, { rotate: c.rotate ?? (side === 'l' ? -3 : 3), z: 8 });
   });
 
-  if (imgRef) {
-    const src = ctx.asset(imgRef);
-    const shape = hero.shape || 'cutout';
-    const w = W * (hero.w ?? (d ? 0.56 : 0.96));
-    const cx = W * (hero.x ?? (d ? 0.72 : 0.5));
-    const cy = hero.y !== undefined ? H * hero.y : d ? zoneBottom - zoneH * 0.24 : heroTop + zoneH * 0.5;
-    const rot = hero.rotate ? ` rotate(${hero.rotate}deg)` : '';
-    if (shape === 'card') {
-      // A photo that is not a cutout: cropped to a fixed aspect (4:5), rounded, white-bordered, lifted — and kept
-      // above the proof row.
-      const h = w * (hero.aspect ?? 1.25);
-      const y = Math.min(cy - h / 2, zoneBottom - h - H * 0.02);
-      html += `<img class="hero-img" src="${esc(src)}" style="${style({ position: 'absolute', left: cx - w / 2, top: Math.max(heroTop, y), width: w, height: h, objectFit: 'cover', display: 'block', transform: rot.trim() || undefined, borderRadius: u * 4.5, border: `${round(Math.max(3, u * 1.1))}px solid #fff`, boxShadow: `0 ${round(u * 2.4)}px ${round(u * 6)}px rgba(0,0,0,.28)`, zIndex: d ? 7 : 3 })}">`;
-    } else {
-      // A cutout of any shape fits a box (contain), so tall people and wide cars both land well.
-      const h = zoneH * (hero.h ?? (d ? 0.5 : 0.92));
-      html += `<img class="hero-img" src="${esc(src)}" style="${style({ position: 'absolute', left: cx - w / 2, top: cy - h / 2, width: w, height: h, objectFit: 'contain', objectPosition: hero.anchor || 'center', display: 'block', transform: rot.trim() || undefined, filter: `drop-shadow(0 ${round(u * 2.2)}px ${round(u * 3.6)}px rgba(0,0,0,${theme.dark ? 0.5 : 0.24}))`, zIndex: d ? 7 : 3 })}">`;
-    }
-  }
+  if (imgRef && !behind) html += heroImage(ctx, { src: ctx.asset(imgRef), hero, d, heroTop, zoneBottom, zoneH });
+
+  // Stickers: small facts floating around the hero (a streak chip, "+330 ml", a big emoji prop), like a poster's props.
+  const SPOTS = { tl: [0.06, 0.06], tr: [0.7, 0.1], ml: [0.03, 0.4], mr: [0.72, 0.44], bl: [0.05, 0.7], br: [0.68, 0.74] };
+  (shot.stickers || []).slice(0, 4).forEach((st, i) => {
+    const [fx, fy] = SPOTS[st.pos || ['tr', 'ml', 'br', 'tl'][i]] || SPOTS.tr;
+    const x = st.x !== undefined ? st.x * W : fx * W, y = st.y !== undefined ? st.y * H : heroTop + fy * zoneH;
+    html += ctx.at(x, y, sticker(ctx, st), { rotate: st.rotate ?? (i % 2 ? 5 : -5), z: 8 });
+  });
 
   if (proof.length) {
     const n = proof.length;
@@ -124,6 +119,43 @@ export function render(ctx) {
     html += `<div class="proof" style="${style({ position: 'absolute', left: 0, top: footTop, width: W, height: footH, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: u * (n > 2 ? 3 : 6), zIndex: 9, color: theme.text })}">${items}</div>`;
   }
   return html;
+}
+
+/** The cutout (or photo card) hero: in front of the device's lower corner, alone in the zone, or big behind it. */
+function heroImage(ctx, { src, hero, d, heroTop, zoneBottom, zoneH, back = false }) {
+  const { W, H, u, theme } = ctx;
+  const shape = hero.shape || 'cutout';
+  const w = W * (hero.w ?? (back ? 1.05 : d ? 0.56 : 0.96));
+  const cx = W * (hero.x ?? (back ? 0.5 : d ? 0.72 : 0.5));
+  const cy = hero.y !== undefined ? H * hero.y : back ? heroTop + zoneH * 0.34 : d ? zoneBottom - zoneH * 0.24 : heroTop + zoneH * 0.5;
+  const rot = hero.rotate ? ` rotate(${hero.rotate}deg)` : '';
+  const z = back ? 1 : d ? 7 : 3;
+  if (shape === 'card') {
+    // A photo that is not a cutout: cropped to a fixed aspect (4:5), rounded, white-bordered, lifted — and kept
+    // above the proof row.
+    const h = w * (hero.aspect ?? 1.25);
+    const y = Math.min(cy - h / 2, zoneBottom - h - H * 0.02);
+    return `<img class="hero-img" src="${esc(src)}" style="${style({ position: 'absolute', left: cx - w / 2, top: Math.max(heroTop, y), width: w, height: h, objectFit: 'cover', display: 'block', transform: rot.trim() || undefined, borderRadius: u * 4.5, border: `${round(Math.max(3, u * 1.1))}px solid #fff`, boxShadow: `0 ${round(u * 2.4)}px ${round(u * 6)}px rgba(0,0,0,.28)`, zIndex: z })}">`;
+  }
+  // A cutout of any shape fits a box (contain), so tall people and wide cars both land well.
+  const h = zoneH * (hero.h ?? (back ? 0.85 : d ? 0.5 : 0.92));
+  return `<img class="hero-img" src="${esc(src)}" style="${style({ position: 'absolute', left: cx - w / 2, top: cy - h / 2, width: w, height: h, objectFit: 'contain', objectPosition: hero.anchor || 'center', display: 'block', transform: rot.trim() || undefined, filter: `drop-shadow(0 ${round(u * 2.2)}px ${round(u * 3.6)}px rgba(0,0,0,${theme.dark ? 0.5 : 0.24}))`, zIndex: z })}">`;
+}
+
+/** One floating sticker. */
+function sticker(ctx, st) {
+  const { u, theme, L } = ctx;
+  const k = st.size ?? 1;
+  const text = L(st.text);
+  if (st.style === 'emoji' || !text) {
+    const s = u * 15 * k;
+    return `<div style="${style({ fontSize: s, lineHeight: 1, filter: `drop-shadow(0 ${round(u * 1.4)}px ${round(u * 2.4)}px rgba(0,0,0,.25))` })}">${esc(st.icon || '✨')}</div>`;
+  }
+  const fs = u * 4.2 * k;
+  const look = st.style === 'accent' ? { background: theme.accent, color: theme.accentText || '#fff' }
+    : st.style === 'dark' ? { background: '#16151A', color: '#fff' }
+    : { background: '#fff', color: '#16151A' };
+  return `<div style="${style({ display: 'inline-flex', alignItems: 'center', gap: fs * 0.4, whiteSpace: 'nowrap', fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: fs, lineHeight: 1, letterSpacing: '-0.01em', padding: `${round(fs * 0.62)}px ${round(fs * 0.9)}px`, borderRadius: fs * 2, boxShadow: `0 ${round(u * 1.4)}px ${round(u * 3.6)}px rgba(0,0,0,.2)`, ...look })}">${st.icon ? `<span style="font-size:${round(fs * 1.15)}px">${esc(st.icon)}</span>` : ''}<span>${markup(text)}</span></div>`;
 }
 
 /** Rating first, then awards; at most three (two read better on a phone). */

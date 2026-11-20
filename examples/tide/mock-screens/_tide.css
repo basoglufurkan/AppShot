@@ -1,0 +1,6 @@
+:root { --bg: #EEF5FC; --fg: #0B2545; --muted: #6E819A; --card: #FFFFFF; --line: rgba(11,37,69,.08); --tab: rgba(238,245,252,.94); --accent: #1E7BF0; --aqua: #22C3E6; --deep: #0B4FB3; }
+.card { box-shadow: 0 1px 2px rgba(11,37,69,.04), 0 8px 22px rgba(11,37,69,.06); }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 999px; font-size: 13px; font-weight: 700; }
+.toggle { width: 52px; height: 32px; border-radius: 16px; background: #34C759; position: relative; flex: none; }
+.toggle::after { content: ''; position: absolute; right: 3px; top: 3px; width: 26px; height: 26px; border-radius: 50%; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.2); }
+.lbl { font-size: 13px; font-weight: 800; letter-spacing: .06em; color: var(--muted); margin: 20px 4px 10px; }

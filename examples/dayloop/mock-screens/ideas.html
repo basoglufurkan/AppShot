@@ -1,0 +1,17 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="../../_kit/phone.css"><link rel="stylesheet" href="_dayloop.css">
+<body style="position:relative">
+<div class="status"></div>
+<div class="px" style="margin-top:12px">
+  <div class="h1">Ideas</div>
+  <div class="muted" style="font-size:15px;margin-top:4px">Small habits that add up</div>
+  <div class="row" style="gap:8px;margin-top:14px">
+    <script>document.write(['Popular','Morning','Health','Mind','Sleep'].map((t,i)=>`<span class="chip" style="font-size:14px;padding:8px 14px;${i===0?'background:#16151A;color:#fff':'background:#fff;box-shadow:inset 0 0 0 1.5px #E4E0E8'}">${t}</span>`).join(''))</script>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px">
+    <script>document.write([['📚','Read 10 pages','#7C5CFF','Daily'],['🚶','Walk 8,000 steps','#22B573','Daily'],['🧘','Meditate','#2BB3F3','10 min'],['💧','Drink 2 L water','#3B7BF6','Daily'],['📵','No phone in bed','#F5A524','Weekdays'],['🤸','Stretch','#FF5A3C','5 min'],['✍️','Journal','#EC4899','3× a week'],['🙏','Gratitude','#14B8A6','Evenings']].map(([e,n,c,m])=>`<div class="card" style="padding:16px;background:color-mix(in srgb, ${c} 10%, #fff)"><div class="tile" style="background:#fff">${e}</div><div style="font-weight:800;font-size:16px;margin-top:12px;letter-spacing:-.2px">${n}</div><div class="row" style="justify-content:space-between;margin-top:6px"><span class="muted" style="font-size:13px;font-weight:600">${m}</span><span style="width:26px;height:26px;border-radius:50%;background:${c};color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800">+</span></div></div>`).join(''))</script>
+  </div>
+</div>
+<div class="tabbar"><div class="tab"><i style="border-radius:50%"></i>Today</div><div class="tab"><i></i>Stats</div><div class="tab on"><i style="border-radius:4px"></i>Ideas</div><div class="tab"><i style="border-radius:50%"></i>Settings</div></div>
+<div class="home-ind"></div>
+<script src="../../_kit/statusbar.js"></script>
+</body>

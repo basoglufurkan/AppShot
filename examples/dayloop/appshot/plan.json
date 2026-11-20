@@ -1,0 +1,233 @@
+{
+  "$schema": "appshot/plan@1",
+  "app": {
+    "name": "Dayloop",
+    "icon": "raw/icon.png",
+    "subtitle": {
+      "en-US": "Habit Tracker & Daily Streaks"
+    }
+  },
+  "niche": "habit-tracker",
+  "theme": "clean-light",
+  "themeOverrides": {
+    "accent": "#E23E1F",
+    "bg": {
+      "type": "linear",
+      "angle": 180,
+      "colors": [
+        "#FFF3EC",
+        "#FFE1D3"
+      ]
+    },
+    "fontDisplay": {
+      "family": "Nunito",
+      "google": "Nunito:wght@600;700;800;900"
+    },
+    "headlineWeight": 900,
+    "tracking": "-0.03em"
+  },
+  "brand": {
+    "primary": "#FF5A3C",
+    "secondary": "#7C5CFF"
+  },
+  "panorama": false,
+  "sizes": [
+    "iphone-6.9",
+    "android-phone"
+  ],
+  "locales": [
+    "en-US"
+  ],
+  "defaultLocale": "en-US",
+  "keywords": {
+    "en-US": [
+      "habit tracker",
+      "daily habits",
+      "habit streak",
+      "build habits",
+      "routine",
+      "reminders"
+    ]
+  },
+  "storeOverrides": {
+    "android": {
+      "theme": {
+        "device": {
+          "frame": "flat"
+        }
+      }
+    }
+  },
+  "shots": [
+    {
+      "id": "hook",
+      "layout": "billboard",
+      "screen": "raw/today.png",
+      "theme": {
+        "highlight": "sticker",
+        "stickerColor": "#16151A",
+        "accent": "#FFC233",
+        "accentText": "#16151A",
+        "bg": {
+          "type": "radial",
+          "at": "70% 55%",
+          "colors": [
+            "#4A2468",
+            "#2A1442",
+            "#150A24"
+          ]
+        },
+        "text": "#FFFFFF",
+        "subtext": "rgba(255,255,255,.85)"
+      },
+      "headline": {
+        "en-US": "Never break **the chain**"
+      },
+      "subhead": {
+        "en-US": "daily habits, one tap each"
+      },
+      "pop": {
+        "rect": [
+          0.035,
+          0.143,
+          0.93,
+          0.146
+        ]
+      },
+      "alternatives": {
+        "en-US": [
+          "Build habits that **stick**",
+          "Small habits, **big wins**"
+        ]
+      },
+      "hero": {
+        "image": "raw/hero-flame.png",
+        "layer": "back",
+        "x": 0.84,
+        "y": 0.55,
+        "w": 0.78,
+        "h": 0.72,
+        "rotate": 6
+      },
+      "stickers": [
+        {
+          "icon": "📚",
+          "text": "Read 10 pages ✓",
+          "style": "card",
+          "pos": "ml",
+          "rotate": -6
+        },
+        {
+          "icon": "🎉",
+          "style": "emoji",
+          "x": 0.78,
+          "y": 0.62,
+          "size": 1.1
+        }
+      ],
+      "options": {
+        "deviceScale": 0.66,
+        "deviceX": 0.41
+      },
+      "note": "Hero flame: AI image generated in Figma (gpt-image-2.5-flare, file \"Appshot hero objects\"), white background removed locally."
+    },
+    {
+      "id": "streak",
+      "layout": "big-number",
+      "screen": "raw/streak.png",
+      "stat": {
+        "value": "32",
+        "source": "demo data: current streak on the habit screen"
+      },
+      "headline": {
+        "en-US": "days in a row **you read**"
+      }
+    },
+    {
+      "id": "consistency",
+      "layout": "floating-cards",
+      "screen": "raw/stats.png",
+      "headline": {
+        "en-US": "See your **consistency** grow"
+      },
+      "cards": [
+        {
+          "icon": "📈",
+          "value": "87%",
+          "title": "November so far",
+          "pos": "tr"
+        },
+        {
+          "icon": "🏆",
+          "value": "41 days",
+          "title": "Best streak",
+          "pos": "ml"
+        }
+      ]
+    },
+    {
+      "id": "create",
+      "layout": "ui-pieces",
+      "screen": "raw/new-habit.png",
+      "headline": {
+        "en-US": "Set up a habit in **seconds**"
+      },
+      "pieces": [
+        {
+          "rect": [
+            0.035,
+            0.226,
+            0.93,
+            0.156
+          ],
+          "y": 0.38
+        },
+        {
+          "rect": [
+            0.035,
+            0.6,
+            0.93,
+            0.085
+          ],
+          "y": 0.62,
+          "w": 0.78
+        }
+      ]
+    },
+    {
+      "id": "nudges",
+      "layout": "notification-stack",
+      "screen": "raw/today.png",
+      "headline": {
+        "en-US": "Reminders at the **right time**"
+      },
+      "notifications": [
+        {
+          "title": "Read 10 pages 📚",
+          "body": "Tap to keep your 32-day streak",
+          "time": "21:30"
+        },
+        {
+          "title": "Journal ✍️",
+          "body": "Two minutes before bed?",
+          "time": "now"
+        }
+      ]
+    },
+    {
+      "id": "flex",
+      "layout": "feature-list",
+      "screen": "raw/ideas.png",
+      "headline": {
+        "en-US": "Goals that fit **real life**"
+      },
+      "bullets": {
+        "en-US": [
+          "Daily, weekdays or 3× a week",
+          "Streak freezes for busy days",
+          "Ideas to start in one tap"
+        ]
+      }
+    }
+  ]
+}

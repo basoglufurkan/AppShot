@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "root": "/Users/basoglu/Desktop/AppShot/examples/penny",
+  "root": "examples/penny",
   "scannedAt": "2026-11-20T08:38:51.863Z",
   "app": {
     "displayName": "Penny",

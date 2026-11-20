@@ -1,6 +1,6 @@
 // Minimal zero-dependency PNG codec.
 // Decodes 8/16-bit grayscale, RGB, palette, gray+alpha and RGBA (non-interlaced)
-// into an RGBA8 buffer, and encodes RGB8 (no alpha — what both stores want).
+// into an RGBA8 buffer, and encodes RGB8 (no alpha — what both stores want) or RGBA8 (cutouts, hero art).
 
 import zlib from 'node:zlib';
 import fs from 'node:fs';
@@ -176,7 +176,15 @@ export function flattenToRgb(img, bg = [255, 255, 255]) {
 
 /** Encode RGB8 pixels as PNG with per-row adaptive filtering. */
 export function encodeRgbPng({ width, height, rgb }, { level = 6 } = {}) {
-  const bpp = 3;
+  return encode(rgb, width, height, 3, 2, level);
+}
+
+/** Encode RGBA8 pixels (decodePng's shape) as PNG — for transparent cutouts, never for store images. */
+export function encodeRgbaPng({ width, height, data }, { level = 6 } = {}) {
+  return encode(data, width, height, 4, 6, level);
+}
+
+function encode(rgb, width, height, bpp, colorType, level) {
   const stride = width * bpp;
   const out = Buffer.alloc((stride + 1) * height);
   const cand = [0, 1, 2, 3, 4].map(() => Buffer.alloc(stride));
@@ -213,7 +221,7 @@ export function encodeRgbPng({ width, height, rgb }, { level = 6 } = {}) {
   const ihdr = Buffer.alloc(13);
   ihdr.writeUInt32BE(width, 0);
   ihdr.writeUInt32BE(height, 4);
-  ihdr[8] = 8; ihdr[9] = 2; ihdr[10] = 0; ihdr[11] = 0; ihdr[12] = 0;
+  ihdr[8] = 8; ihdr[9] = colorType; ihdr[10] = 0; ihdr[11] = 0; ihdr[12] = 0;
   return Buffer.concat([
     SIG,
     chunk('IHDR', ihdr),
