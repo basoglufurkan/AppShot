@@ -22,7 +22,7 @@ const SIZES = readJson(path.join(ENGINE_DIR, 'sizes.json'));
 const LOCALES = readJson(path.join(ENGINE_DIR, 'locales.json')).locales;
 
 const DEFAULT_STORY = [
-  { title: 'Hook', layout: 'hero-device' }, { title: 'Core value', layout: 'floating-cards' }, { title: 'Key feature', layout: 'zoom-callout' },
+  { title: 'Hook', layout: 'billboard' }, { title: 'Core value', layout: 'floating-cards' }, { title: 'Key feature', layout: 'zoom-callout' },
   { title: 'Second feature', layout: 'tilted-device' }, { title: 'Differentiator', layout: 'duo-devices' }, { title: 'Habit / reminder', layout: 'notification-stack' },
   { title: 'Everything else', layout: 'feature-list' }, { title: 'Close', layout: 'text-hero' },
 ];

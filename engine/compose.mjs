@@ -100,6 +100,7 @@ export function themeBase(t) {
 export function highlightContrast(t) {
   const mode = t.highlight || 'color';
   if (mode === 'pill') return contrast(t.accentText || '#fff', t.accent);
+  if (mode === 'sticker') return contrast(t.accent, t.stickerColor || '#FFFFFF');
   if (mode === 'none' || mode === 'outline' || mode === 'underline' || mode === 'marker') return contrast(t.text, themeBase(t));
   return contrast(t.accent, themeBase(t));
 }
@@ -234,8 +235,8 @@ function buildCtx({ plan, shot, index, total, W, H, size, locale, theme, workspa
     return { ...d, x, y, w: d.width, h: d.height, html: ctx.at(x, y, d.html, { w: d.width, h: d.height, rotate, tilt, z, className: 'dv-wrap' }) };
   };
 
-  /** Headline / subhead / eyebrow block that auto-fits its box. */
-  ctx.text = ({ x, y, w, h, align = 'center', valign = 'top', max = 10, min = 5.4, lines = 3, subRatio = 0.42, gap = 2, color, subColor, headline = ctx.headline, subhead = ctx.subhead, eyebrow = ctx.eyebrow, maxW } = {}) => {
+  /** Headline / subhead / eyebrow block that auto-fits its box. subClass "kick" sets the subhead in display type. */
+  ctx.text = ({ x, y, w, h, align = 'center', valign = 'top', max = 10, min = 5.4, lines = 3, subRatio = 0.42, gap = 2, color, subColor, headline = ctx.headline, subhead = ctx.subhead, eyebrow = ctx.eyebrow, maxW, subClass = '' } = {}) => {
     const a = ctx.rtl && align === 'left' ? 'right' : align;
     const jc = { top: 'flex-start', center: 'center', bottom: 'flex-end' }[valign];
     const ai = { left: 'flex-start', center: 'center', right: 'flex-end' }[a];
@@ -244,7 +245,7 @@ function buildCtx({ plan, shot, index, total, W, H, size, locale, theme, workspa
       position: 'absolute', left: x, top: y, width: w, height: h, display: 'flex', flexDirection: 'column', justifyContent: jc, alignItems: ai, textAlign: a, zIndex: 5,
     })}"><div class="tb-in" style="${style({ maxWidth: maxW, display: 'flex', flexDirection: 'column', alignItems: ai })}">${eyebrowHtml}`
       + (headline ? `<h1 class="hd" style="${style({ color: color || theme.text })}">${markup(headline)}</h1>` : '')
-      + (subhead ? `<p class="sh" style="${style({ color: subColor || theme.subtext, marginTop: round(u * gap) })}">${markup(subhead)}</p>` : '')
+      + (subhead ? `<p class="sh${subClass ? ` ${subClass}` : ''}" style="${style({ color: subColor || theme.subtext, marginTop: round(u * gap) })}">${markup(subhead)}</p>` : '')
       + `</div></div>`;
   };
 
@@ -364,6 +365,7 @@ export async function compose({ plan, workspace, sizeId, locale, assetUrl = file
   const typeCss = (th, sel) => `${sel}{--font-display:${stackFor(th.fontDisplay)};--font-text:${stackFor(th.fontText)};--accent:${th.accent};--text:${th.text}}
 ${sel} .hd{font-weight:${th.headlineWeight ?? 800};letter-spacing:${th.tracking ?? '-0.025em'};line-height:${th.leading ?? 1.06};${th.case === 'upper' ? 'text-transform:uppercase;' : 'text-transform:none;'}}
 ${sel} .sh{font-weight:${th.subheadWeight ?? 500}}
+${sel} .sh.kick{font-family:var(--font-display);font-weight:${th.headlineWeight ?? 800};letter-spacing:${th.tracking ?? '-0.025em'};line-height:1.08;${th.case === 'upper' ? 'text-transform:uppercase;' : ''}}
 ${sel} .hd em{font-style:${th.emStyle || 'italic'}}
 ${highlightCss(th).replace(/^\.hl/, `${sel} .hl`)}`;
   const slotCss = themes.map((th, k) => typeCss(th, `.slot[data-index="${k}"]`)).join('\n');
@@ -405,12 +407,25 @@ async function decorHtml(list, ctx) {
 function highlightCss(t) {
   const a = t.accent, at = t.accentText;
   // Every mode starts from a reset so a slot's mode never inherits another theme's pill/underline.
-  const R = 'background:none;padding:0;margin:0;border-radius:0;text-decoration:none;-webkit-text-stroke:0;-webkit-background-clip:border-box;background-clip:border-box;color:inherit;';
+  const R = 'background:none;padding:0;margin:0;border-radius:0;text-decoration:none;-webkit-text-stroke:0;-webkit-background-clip:border-box;background-clip:border-box;color:inherit;text-shadow:none;';
   return highlightRule(t, a, at).replace('.hl{', `.hl{${R}`);
+}
+
+/** Die-cut outline: two rings of hard text-shadows (the inner ring closes the gaps of the outer one). */
+function stickerRing(color, r = 0.075) {
+  const out = [];
+  for (const [rad, n] of [[r, 24], [r * 0.55, 12]]) {
+    for (let i = 0; i < n; i++) {
+      const a = (i / n) * Math.PI * 2;
+      out.push(`${(Math.cos(a) * rad).toFixed(3)}em ${(Math.sin(a) * rad).toFixed(3)}em 0 ${color}`);
+    }
+  }
+  return out.join(',');
 }
 
 function highlightRule(t, a, at) {
   switch (t.highlight || 'color') {
+    case 'sticker': return `.hl{color:${a};text-shadow:${stickerRing(t.stickerColor || '#FFFFFF')},0 .1em .16em rgba(0,0,0,.18)}`;
     case 'pill': return `.hl{background:${a};color:${at};padding:0 .16em;margin:0 -.04em;border-radius:.18em;-webkit-box-decoration-break:clone;box-decoration-break:clone}`;
     case 'marker': return `.hl{background:linear-gradient(180deg,transparent 58%,${rgba(a, 0.85)} 58%,${rgba(a, 0.85)} 92%,transparent 92%);padding:0 .05em}`;
     case 'underline': return `.hl{text-decoration:underline;text-decoration-color:${a};text-decoration-thickness:.09em;text-underline-offset:.12em}`;

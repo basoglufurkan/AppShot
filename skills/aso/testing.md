@@ -88,7 +88,7 @@ or `hero-bignumber`.
 | Axis | Example A vs B | Best venue |
 |---|---|---|
 | Message angle | outcome vs feature, privacy vs speed | PPO / Play default experiment |
-| Hero layout | `hero-device` vs `big-number` vs `full-bleed` | PPO / Play experiment |
+| Hero layout | `billboard` vs `hero-device` (does stopping the scroll beat a plain hero?) vs `big-number` vs `full-bleed` | PPO / Play experiment |
 | Theme / colour | brand colour vs high-contrast alternative | PPO / Play experiment |
 | Order | differentiator in frame 2 vs frame 4 | PPO (reorder-only needs no review) |
 | Caption keyword | "budget planner" vs "expense tracker" in frame 1 | CPP with keywords / Play CSL by search term |

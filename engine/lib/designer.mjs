@@ -19,6 +19,7 @@ import { prior } from './learning.mjs';
 
 /** Opening families: the first shot carries the hook, and is what search results show first. */
 export const OPENINGS = {
+  billboard: { layout: 'billboard', label: 'a billboard: the promise as the biggest type, the key UI lifted out, real proof' },
   device: { layout: 'hero-device', label: 'one big device, caption on top' },
   tilted: { layout: 'tilted-device', label: 'a tilted device, more energy' },
   top: { layout: 'device-top', label: 'device from the top, caption below' },
@@ -91,9 +92,15 @@ export function rankOpenings({ plan, niche, market, reference, seed, learning, n
     if (o.field && !o.field(first) && !shots.some((s) => o.field(s))) continue;
     const why = [];
     let s = 0;
-    const i = nicheLayouts.indexOf(o.layout);
-    if (i >= 0) { s += 1 - i * 0.12; why.push(`the niche ranks ${o.layout} #${i + 1}`); } else s += 0.1;
+    let i = nicheLayouts.indexOf(o.layout);
+    // A billboard is a treatment of the hero screen, not another story: where the niche says nothing about it, it
+    // inherits the niche's rank for the classic hero device (so photo niches that open full-bleed keep doing so).
+    const proxy = i < 0 && id === 'billboard';
+    if (proxy) i = nicheLayouts.indexOf('hero-device');
+    if (i >= 0) { s += 1 - i * 0.12; why.push(proxy ? `the niche ranks the hero screen #${i + 1}` : `the niche ranks ${o.layout} #${i + 1}`); } else s += 0.1;
     if (id === 'device') s += 0.15; // the safe default keeps a small edge
+    // Shot 1 has one job — stop the scroll — and a set whose first frame looks like the rest does not.
+    if (id === 'billboard') { s += 0.4; why.push('stops the scroll: the promise is the biggest type in the set, unlike the shots that show the app'); }
     if (market?.summary) {
       const m = market.summary;
       if (id === 'bleed' && m.fullBleedShare > 0.5) { s -= 0.3; why.push('against: most competitors open full-bleed'); }
@@ -104,7 +111,7 @@ export function rankOpenings({ plan, niche, market, reference, seed, learning, n
       if (reference.fullBleedShare > 0.5 && id === 'bleed') { s += 0.9; why.push('the reference is full-bleed'); }
       if (reference.multiDevice > 0.4 && id === 'duo') { s += 0.7; why.push('the reference shows several devices'); }
       if (reference.captionAt === 'bottom' && id === 'top') { s += 0.6; why.push('the reference puts the caption below'); }
-      if (reference.captionAt === 'top' && ['device', 'tilted', 'duo'].includes(id)) { s += 0.3; why.push('the reference puts the caption on top'); }
+      if (reference.captionAt === 'top' && ['device', 'tilted', 'duo', 'billboard'].includes(id)) { s += 0.3; why.push('the reference puts the caption on top'); }
       if (reference.captionAt === 'none' && id === 'bleed') s += 0.3;
     }
     const pr = prior(learning, nicheId, 'opening', o.layout);

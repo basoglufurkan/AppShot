@@ -2,7 +2,7 @@
 import path from 'node:path';
 import { SKILLS_DIR, readText, parseFrontmatter } from './util.mjs';
 
-const LAYOUTS = ['hero-device', 'device-top', 'tilted-device', 'duo-devices', 'trio-fan', 'zoom-callout', 'floating-cards', 'feature-list',
+const LAYOUTS = ['billboard', 'hero-device', 'device-top', 'tilted-device', 'duo-devices', 'trio-fan', 'zoom-callout', 'floating-cards', 'feature-list',
   'social-proof', 'big-number', 'before-after', 'full-bleed', 'text-hero', 'review-quote', 'split-diagonal', 'bridge', 'screen-grid', 'ui-pieces',
   'notification-stack', 'chat-bubbles', 'comparison'];
 

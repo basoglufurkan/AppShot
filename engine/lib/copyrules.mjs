@@ -109,6 +109,9 @@ export function lintPlan(plan, { locale, store = 'ios', size, profile = {}, layo
     const h = L(s.headline, locale, fb);
     const sub = L(s.subhead, locale, fb);
     const opts = { locale, store, appName, index, hasSubscriptions };
+    const meta = layoutsMeta[s.layout || 'hero-device'];
+    // Layouts that drop their proof row on a store (billboard on Google Play) are fine there without skipOn.
+    const dropsProof = !!meta?.dropsProofOn?.includes(store);
     issues.push(...lintCaption(h, { ...opts, kind: 'headline' }).issues.map((i) => ({ ...i, field: 'headline' })));
     if (sub) issues.push(...lintCaption(sub, { ...opts, kind: 'subhead' }).issues.map((i) => ({ ...i, field: 'subhead' })));
     for (const [field, v] of [['cards', s.cards], ['bullets', s.bullets], ['notifications', s.notifications], ['messages', s.messages], ['chips', s.chips]]) {
@@ -118,13 +121,26 @@ export function lintPlan(plan, { locale, store = 'ios', size, profile = {}, layo
       if (RX.price.test(blob)) issues.push({ level: 'error', code: 'price', field, msg: `Price shown in ${field}.` });
     }
     if (s.rating || s.awards?.length || s.quotes?.length || s.stat) {
-      if (store === 'android' && (s.rating || s.awards?.length || s.quotes?.length)) issues.push({ level: 'error', code: 'play-social-proof', msg: 'Ratings, awards and testimonials are not allowed in Play images — add "skipOn": ["android"] to this shot.' });
+      if (store === 'android' && !dropsProof && (s.rating || s.awards?.length || s.quotes?.length)) issues.push({ level: 'error', code: 'play-social-proof', msg: 'Ratings, awards and testimonials are not allowed in Play images — add "skipOn": ["android"] to this shot.' });
+      if (dropsProof && (s.rating || s.awards?.length)) issues.push({ level: 'info', code: 'proof-dropped', msg: `The proof row is not drawn on ${store === 'android' ? 'Google Play' : store} (store rules); the device takes its room.` });
       const src = s.rating?.source || s.stat?.source || s.awards?.every?.((a) => a.source) || s.quotes?.every?.((q) => q.source);
       if (!src) issues.push({ level: 'error', code: 'unsourced-claim', msg: 'Rating/award/quote/stat without a "source" field — only real, verifiable claims (record where it comes from).' });
+      // The proof text itself ("#1 car identifier", "{users} users") is drawn in the image too.
+      for (const t of [s.rating?.value, s.rating?.label, ...(s.awards || []).flatMap((a) => [a.title, a.sub])].map((v) => L(v, locale, fb)).filter(Boolean)) {
+        if (RX.placeholder.test(t)) issues.push({ level: 'error', code: 'placeholder', field: 'proof', msg: `Unfilled placeholder in the proof ("${t}") — a real value or nothing.` });
+        else if (RX.ranking.test(t) && !(store === 'android' && dropsProof)) issues.push({ level: 'warn', code: 'ranking', field: 'proof', msg: `"${t}" is a ranking claim — keep it only when its source is third-party (a chart, an award page).` });
+      }
     }
     if (locale !== fb && h && h === L(s.headline, fb, fb) && typeof s.headline === 'object' && !s.headline[locale]) issues.push({ level: 'warn', code: 'untranslated', msg: `No ${locale} headline — falls back to ${fb}.` });
-    const meta = layoutsMeta[s.layout || 'hero-device'];
-    if (index === 0 && meta && !meta.hook) issues.push({ level: 'info', code: 'weak-hook-layout', msg: `"${s.layout}" is rarely the best opener — consider hero-device, floating-cards, full-bleed or text-hero.` });
+    if (index === 0 && meta && !meta.hook) issues.push({ level: 'info', code: 'weak-hook-layout', msg: `"${s.layout}" is rarely the best opener — consider billboard, hero-device, floating-cards or full-bleed.` });
+    if (index > 0 && meta?.firstOnly) issues.push({ level: 'warn', code: 'first-only', msg: `"${s.layout}" is the shot-1 treatment (the scroll-stopper); from shot 2 on, show the app — hero-device, zoom-callout, floating-cards, ui-pieces…` });
+    if ((s.layout || 'hero-device') === 'billboard') {
+      const hw = words(h).length, kw = words(sub).length;
+      if (hw > 5 && !LOCALES[locale]?.cjk) issues.push({ level: 'warn', code: 'billboard-long', field: 'headline', msg: `${hw} words — a billboard promise reads in one look at 2–4 words; move the rest into the kicker (subhead).` });
+      if (kw > 6 && !LOCALES[locale]?.cjk) issues.push({ level: 'warn', code: 'billboard-kicker', field: 'subhead', msg: `On a billboard the subhead is the kicker, set in display type: 2–5 words that finish the promise ("& websites", "in seconds"), not a sentence (${kw} words).` });
+      if (!s.screen && !s.screens && !s.hero?.image) issues.push({ level: 'error', code: 'billboard-empty', msg: 'A billboard needs a hero: a screen (with "pop" for the money moment) and/or "hero.image".' });
+      else if (!s.screen && !s.screens) issues.push({ level: 'info', code: 'billboard-no-ui', msg: 'No app UI in this frame: Apple 2.3.3 wants the app in use — make sure shots 2–3 show the real screens.' });
+    }
     return { index, id: s.id || String(index + 1), headline: h, issues };
   });
   const set = [];

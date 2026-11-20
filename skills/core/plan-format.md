@@ -51,6 +51,7 @@ or an object keyed by locale (`{"en-US": "…", "tr": "…"}`); lookup falls bac
 
 | Layout | Fields |
 | --- | --- |
+| billboard | shot 1 only · `subhead` = the kicker (2–5 words, display type) · `pop: { rect, w?, y?, x?, rotate?, shape? }` (the money moment lifted out of the device) · `hero: { image, x?, y?, w?, h?, shape: cutout|card, aspect?, rotate?, anchor? }` (a picture you own) · `cards` (≤ 2) · `rating`, `awards: [{ title, sub, source, style?: "seal" }]` (proof row, iOS only — no `skipOn` needed) · `options.glow` |
 | floating-cards | `cards: [{ icon, value, title, trend?, pos: tl|tr|ml|mr|bl|br, w?, rotate? }]` |
 | feature-list | `bullets: {locale: [..]}` (≤ 4) |
 | zoom-callout | `zoom: { rect: [x,y,w,h] (fractions of the screenshot), side, shape: rounded|circle, zoom: 1.6, dim }` |

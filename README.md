@@ -375,9 +375,9 @@ and test the alternatives in the stores.
   node scripts/palette.mjs --apply              # writes plan.brand; then use "theme": "brand"
   node scripts/palette.mjs raw/home.png         # colours from a screenshot instead
   ```
-- **Layout of a shot.** Set `"layout"` on the shot (`hero-device`, `tilted-device`, `duo-devices`, `zoom-callout`,
-  `floating-cards`, `big-number`, `full-bleed`…). Layout options go in `"options"`; `layouts.mjs info <id>` lists
-  them.
+- **Layout of a shot.** Set `"layout"` on the shot (`billboard` for shot 1, `hero-device`, `tilted-device`,
+  `duo-devices`, `zoom-callout`, `floating-cards`, `big-number`, `full-bleed`…). Layout options go in `"options"`;
+  `layouts.mjs info <id>` lists them.
 - **One continuous background across the set.** Set `"panorama": true` and use `bridge` shots to carry a device
   across two screenshots.
 
@@ -835,7 +835,7 @@ The Pulse score should stay at 95 or more, every layout and scene should render,
 | Brief | Positioning, the searcher, the objection to beat, ranked benefits, real proof, keywords. |
 | Capture | iOS Simulator (clean 9:41 status bar, deep links, dark mode), Android emulator (demo mode), web / PWA, Maestro flows, or your own PNGs. |
 | Copy | Three candidates per shot, picked with rewrite drills. Every caption is linted against Apple 2.3.x and Google Play policy: prices, "#1" / "best", competitor brands, health claims, other platforms, placeholders, URLs, ©, length. |
-| Design | 24 themes, 21 screenshot layouts, CSS-drawn iPhone / iPad / Android frames, panorama backgrounds, floating cards, magnifiers, notification stacks, chat bubbles. |
+| Design | 24 themes, 22 screenshot layouts (a billboard opener built to stop the scroll, then layouts that show the app), CSS-drawn iPhone / iPad / Android frames, panorama backgrounds, floating cards, magnifiers, notification stacks, chat bubbles. |
 | Direction | A design director picks this app's own look instead of the category default: it weighs the niche, the brand colour, the app's UI, a scan of the top competing apps (stand out in search) and any reference the user shares (images, a video or an App Store link), then offers three directions to compare. |
 | Review | Contact sheets, an App Store search-result mock (light and dark), and a 0–100 score that measures real pixel contrast. |
 | Find the best | Hook / theme / layout variants: render them all, score them, rank them. They are ready as Product Page Optimization treatments and Play store listing experiments. |
@@ -1097,11 +1097,15 @@ node scripts/themes.mjs board --shot 1 --themes midnight,aurora,clean-light   # 
 node scripts/palette.mjs appshot/raw/icon.png --apply                          # brand colours from the icon → plan.brand
 ```
 
-### Screenshot layouts (21, `engine/templates/*.mjs`)
+### Screenshot layouts (22, `engine/templates/*.mjs`)
+
+Shot 1 has one job: stop the scroll and say the value in one look. So it is built unlike the rest (`billboard`), and
+from shot 2 on the layouts show much more of the actual app.
 
 | Layout | What it is |
 | --- | --- |
-| hero-device | headline band on top, one large device rising from the bottom edge (classic opener) |
+| billboard | shot 1 only: a giant 2–4 word promise with a kicker, the screen's money moment lifted out of the device (or a cutout image), real proof at the foot (iOS only, dropped on Play by itself) |
+| hero-device | headline band on top, one large device rising from the bottom edge (the classic opener when a billboard doesn't fit) |
 | device-top | device enters from the top edge, caption at the bottom; a rhythm-breaker |
 | tilted-device | caption on top, device rotated in 2D or 3D perspective |
 | duo-devices | back device offset left, front device offset right; a two-step story |
@@ -1230,7 +1234,7 @@ weigh 1.6× the rest.
 | Legibility | 25 | headline size at search-thumbnail scale, fit, three-line headlines in shots 1–3, text shrunk below 82 % |
 | Contrast | 15 | p10/p90 luminance inside the headline box of the rendered PNG, plus highlight contrast |
 | Composition | 15 | placeholders, caption over device, broken images, text-only frames in shots 2–3 |
-| Story | 10 | layout variety, hook layout first, at least 5 shots, keywords in shots 1–3, back-to-back layouts, a concrete number early |
+| Story | 10 | layout variety, hook layout first, shot 1's promise the biggest type in the set, at least 5 shots, keywords in shots 1–3, back-to-back layouts, a concrete number early |
 
 Verdicts: **≥ 85 ship**, 70–84 iterate, < 70 rework. Each result lists the top fixes, sorted by the points they
 would recover.
@@ -1796,9 +1800,10 @@ and keywords. Captions are left empty on purpose so the agent writes them.
   "keywords": { "en-US": ["home workouts", "ai coach"] },
   "storeOverrides": { "android": { "theme": { "device": { "frame": "flat" } } } },
   "shots": [
-    { "id": "hook", "layout": "hero-device", "screen": "raw/today.png",
-      "headline": { "en-US": "Home workouts that **adapt to you**" },
-      "subhead": { "en-US": "A fresh 25-minute plan every morning." },
+    { "id": "hook", "layout": "billboard", "screen": "raw/today.png",
+      "headline": { "en-US": "Home workouts that **adapt**" },
+      "subhead": { "en-US": "25 minutes. Zero equipment." },
+      "pop": { "rect": [0.043, 0.409, 0.914, 0.155] },
       "alternatives": { "en-US": ["Get fit at home in **25 minutes**"] } },
     { "id": "form", "layout": "zoom-callout", "screen": "raw/workout.png", "zoom": { "rect": [0.045, 0.57, 0.91, 0.105] },
       "headline": { "en-US": "Perfect form, **every rep**" } }

@@ -31,7 +31,8 @@ node $A/scripts/render.mjs && node $A/scripts/check.mjs && node $A/scripts/expor
 ## Rules
 
 1. Real UI and real claims only — no invented ratings, awards, reviews or numbers.
-2. Shots 1–3 carry the three strongest benefits; captions 2–6 words, one `**highlight**`.
+2. Shots 1–3 carry the three strongest benefits; captions 2–6 words, one `**highlight**`. Shot 1 stops the scroll:
+   a `billboard` (2–4 word promise as the biggest type, the money moment lifted out, real proof); shots 2+ show the app.
 3. Read `skills/locales/<id>.md` before writing any non-English caption; transcreate.
 4. `copy-check.mjs` and `check.mjs` must pass; Google Play images carry no social proof, prices, "free" or CTAs.
 5. Look at the rendered PNGs before declaring done.

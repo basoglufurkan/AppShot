@@ -55,15 +55,15 @@
   "shots": [
     {
       "id": "hook",
-      "layout": "hero-device",
+      "layout": "billboard",
       "screen": "raw/home.png",
       "headline": {
         "en-US": "See where your **money goes**",
         "tr": "Paran **nereye** gidiyor, gör"
       },
       "subhead": {
-        "en-US": "Budget, bills and spending in one calm view",
-        "tr": "Bütçe, faturalar ve harcamalar tek ekranda"
+        "en-US": "in one calm view",
+        "tr": "Hepsi tek ekranda"
       },
       "alternatives": {
         "en-US": [
@@ -71,6 +71,14 @@
         ],
         "tr": [
           "Bütçen artık **net**"
+        ]
+      },
+      "pop": {
+        "rect": [
+          0.046,
+          0.209,
+          0.908,
+          0.219
         ]
       }
     },

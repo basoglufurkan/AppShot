@@ -5,7 +5,7 @@
     "store": "android",
     "total": 100,
     "parts": {
-      "copy": 34.9,
+      "copy": 35,
       "legibility": 25,
       "contrast": 15,
       "composition": 15,
@@ -15,14 +15,14 @@
       {
         "n": 1,
         "id": "hook",
-        "layout": "hero-device",
-        "headline": "Home workouts that adapt to you",
-        "copy": 34,
+        "layout": "billboard",
+        "headline": "Home workouts that adapt",
+        "copy": 35,
         "legible": 25,
         "contrast": 15,
-        "measuredContrast": 14.5,
+        "measuredContrast": 19.8,
         "composition": 15,
-        "total": 89,
+        "total": 90,
         "weight": 1.6
       },
       {
@@ -123,7 +123,7 @@
       {
         "n": 1,
         "id": "hook",
-        "layout": "hero-device",
+        "layout": "billboard",
         "headline": "Sana uyan ev antrenmanları",
         "copy": 35,
         "legible": 25,
@@ -221,7 +221,7 @@
     "store": "ios",
     "total": 99,
     "parts": {
-      "copy": 34.9,
+      "copy": 35,
       "legibility": 24.3,
       "contrast": 15,
       "composition": 15,
@@ -231,14 +231,14 @@
       {
         "n": 1,
         "id": "hook",
-        "layout": "hero-device",
-        "headline": "Home workouts that adapt to you",
-        "copy": 34,
+        "layout": "billboard",
+        "headline": "Home workouts that adapt",
+        "copy": 35,
         "legible": 25,
         "contrast": 15,
         "measuredContrast": 19.8,
         "composition": 15,
-        "total": 89,
+        "total": 90,
         "weight": 1.6
       },
       {
@@ -339,7 +339,7 @@
       {
         "n": 1,
         "id": "hook",
-        "layout": "hero-device",
+        "layout": "billboard",
         "headline": "Sana uyan ev antrenmanları",
         "copy": 35,
         "legible": 25,
@@ -437,7 +437,7 @@
     "store": "ios",
     "total": 99,
     "parts": {
-      "copy": 34.9,
+      "copy": 35,
       "legibility": 24.3,
       "contrast": 15,
       "composition": 15,
@@ -447,14 +447,14 @@
       {
         "n": 1,
         "id": "hook",
-        "layout": "hero-device",
-        "headline": "Home workouts that adapt to you",
-        "copy": 34,
+        "layout": "billboard",
+        "headline": "Home workouts that adapt",
+        "copy": 35,
         "legible": 25,
         "contrast": 15,
         "measuredContrast": 19.8,
         "composition": 15,
-        "total": 89,
+        "total": 90,
         "weight": 1.6
       },
       {
@@ -555,7 +555,7 @@
       {
         "n": 1,
         "id": "hook",
-        "layout": "hero-device",
+        "layout": "billboard",
         "headline": "Sana uyan ev antrenmanları",
         "copy": 35,
         "legible": 25,

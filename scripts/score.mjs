@@ -73,7 +73,8 @@ export async function scoreSet({ plan, report, profile = {}, locale, size, image
       if (inU < 5.8) legible -= 15; else if (inU < 7.5) legible -= 8; else if (inU < 8.7) legible -= 3;
       if (!t.ok) { legible -= 10; fix(10, `#${n}: headline does not fit (${t.lines} lines at ${t.fontSize}px) — cut words.`); }
       if (t.lines > 3) legible -= 5;
-      else if (t.lines === 3 && k < 3) { legible -= 3; fix(3, `#${n}: headline wraps to 3 lines — 2 lines read faster in search results.`); }
+      // Three short lines of poster-size type (a billboard's word-per-line promise) still read in one look.
+      else if (t.lines === 3 && k < 3 && inU < 12) { legible -= 3; fix(3, `#${n}: headline wraps to 3 lines — 2 lines read faster in search results.`); }
       if (t.ok && t.fontSize < t.max * 0.82) { legible -= 2; fix(2, `#${n}: headline was shrunk to ${Math.round((t.fontSize / t.max) * 100)}% to fit — shorter copy renders bigger.`); }
       if (inU < 7.5 && k < 3) fix(8, `#${n}: headline renders small (≈${ptAtThumb.toFixed(1)} pt in a search thumbnail) — shorten it so it renders bigger.`);
     } else if (s.layout !== 'full-bleed') legible -= 10;
@@ -121,6 +122,14 @@ export async function scoreSet({ plan, report, profile = {}, locale, size, image
   const variety = new Set(layoutsUsed).size / Math.max(1, layoutsUsed.length);
   if (variety < 0.4) { story -= 4; fix(5, 'Most shots share one layout — vary rhythm (zoom-callout, floating-cards, device-top…).'); }
   if (!layoutsMeta[layoutsUsed[0]]?.hook) { story -= 3; fix(4, `Shot 1 uses "${layoutsUsed[0]}" — open with a hook layout.`); }
+  // Shot 1 has one job — stop the scroll — so it must not read like a sibling of the shots that show the app:
+  // its promise is the biggest type in the set. (A full-bleed opener stops the scroll with its pixels instead.)
+  const sizes = job.slots.map((sl) => sl.text?.[0]?.fontSize || 0);
+  const others = sizes.slice(1).filter(Boolean).sort((a, b) => a - b);
+  if (sizes[0] && others.length && layoutsUsed[0] !== 'full-bleed') {
+    const ratio = sizes[0] / others[Math.floor(others.length / 2)];
+    if (ratio < 1.12) { story -= 2; fix(3, `Shot 1 reads like the rest: its headline is ${Math.round(ratio * 100)} % the size of the others. Its one job is to stop the scroll — make the promise the biggest type in the set ("layout": "billboard": 2–4 words, a short kicker, the key UI popping out).`); }
+  }
   if (visible.length < 5) { story -= 3; fix(3, 'Fewer than 5 shots — add shots that answer objections.'); }
   for (let i = 1; i < layoutsUsed.length; i++) if (layoutsUsed[i] === layoutsUsed[i - 1]) { story -= 2; fix(2, `Shots ${i} and ${i + 1} use the same layout back to back — break the rhythm.`); break; }
   const first3Text = visible.slice(0, 3).map((s) => `${plain(L(s.headline, locale, fb))} ${plain(L(s.subhead, locale, fb))} ${JSON.stringify(s.cards || s.stat || '')}`).join(' ');

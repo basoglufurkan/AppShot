@@ -7,7 +7,7 @@ page. Order by persuasion, not by app navigation.
 
 | Role | Job | Typical layouts |
 | --- | --- | --- |
-| Hook (1) | The outcome the searcher wants, with the hero screen | hero-device, floating-cards, full-bleed, chat-bubbles, text-hero |
+| Hook (1) | Stop the scroll: the outcome the searcher wants as the biggest type in the set, one hero (the money moment lifted out of the hero screen), real proof | billboard; full-bleed for visual products; hero-device, floating-cards, chat-bubbles when a billboard doesn't fit |
 | Core value (2) | The main way the app delivers it | zoom-callout, tilted-device, duo-devices, before-after |
 | Proof of depth (3) | Second strongest benefit; ends the search-result triptych on a high | floating-cards, big-number, ui-pieces |
 | Differentiator | What competitors don't do | duo-devices, comparison, zoom-callout |
@@ -19,6 +19,10 @@ page. Order by persuasion, not by app navigation.
 
 ## Rules
 
+0. **Shot 1 sells, shots 2+ show.** The first frame has one job — stop the scroll and say the value in one look — so
+   it must not read like a sibling of the rest: poster-size promise, one hero, proof if real (`billboard`). From shot 2
+   on, show much more of the actual app, with one caption size and position, so the opener stands out against a
+   calm, consistent family.
 1. **Shots 1–3 must each stand alone** and together cover the top three benefits. No logos-only or text-only frame in
    2–3; text-hero is fine as shot 1 only if the brand is the product (rare) — usually it is the closer.
 2. **One idea per shot.** If you need "and", split it.
@@ -38,7 +42,7 @@ page. Order by persuasion, not by app navigation.
 
 | # | Benefit | Screen | Layout |
 | --- | --- | --- | --- |
-| 1 | A plan that adapts, 25 min, no equipment | Today | hero-device |
+| 1 | A plan that adapts, 25 min, no equipment | Today, the plan card lifted out (`pop`) | billboard |
 | 2 | Form feedback (objection: "will I do it right?") | Workout player, form tip zoomed | zoom-callout |
 | 3 | Visible progress | Progress + stat cards | floating-cards |
 | 4 | Breadth: 400+ workouts | Plans | tilted-device |

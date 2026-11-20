@@ -57,24 +57,33 @@
   "shots": [
     {
       "id": "hook",
-      "layout": "hero-device",
+      "layout": "billboard",
       "screen": "raw/today.png",
       "headline": {
-        "en-US": "Home workouts that **adapt to you**",
+        "en-US": "Home workouts that **adapt**",
         "tr": "Sana **uyan** ev antrenmanları"
       },
       "subhead": {
-        "en-US": "A fresh 25-minute plan every morning. No equipment.",
-        "tr": "Her sabah 25 dakikalık yeni bir plan. Ekipman gerekmez."
+        "en-US": "25 minutes. Zero equipment.",
+        "tr": "Günde 25 dakika, ekipmansız"
       },
       "alternatives": {
         "en-US": [
+          "Home workouts that **adapt to you**",
           "Get fit at home in **25 minutes**",
           "Your **personal trainer**, built in"
         ],
         "tr": [
           "Evde **25 dakikada** forma gir",
           "Cebindeki **kişisel antrenör**"
+        ]
+      },
+      "pop": {
+        "rect": [
+          0.043,
+          0.409,
+          0.914,
+          0.155
         ]
       }
     },

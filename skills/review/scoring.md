@@ -6,10 +6,10 @@ pixels. Shots 1–3 weigh 1.6× the rest.
 | Part | Max | Measures |
 | --- | --- | --- |
 | Copy | 35 | lint errors (−12) / warnings (−4) from `engine/lib/copyrules.mjs`; 2–6 words; benefit signal (verb start, "you/sen", a number, Turkish verb ending); highlight present and on a content word; subhead length |
-| Legibility | 25 | headline size at App Store search-thumbnail scale (≈120 pt wide): < 7 pt bad, ≥ 10.5 pt good; fit; 3-line headlines in shots 1–3; text shrunk below 82 % of its max |
+| Legibility | 25 | headline size at App Store search-thumbnail scale (≈120 pt wide): < 7 pt bad, ≥ 10.5 pt good; fit; 3-line headlines in shots 1–3 (unless set at poster size, ≥ 12 u); text shrunk below 82 % of its max |
 | Contrast | 15 | p10/p90 luminance inside the headline box of the rendered PNG: < 2.2:1 bad, ≥ 4.5:1 full |
 | Composition | 15 | placeholders (−12), caption over device, broken images, text-only frames in shots 2–3 |
-| Story | 10 | layout variety, hook layout first, ≥ 5 shots, set-level lint, keywords in shots 1–3, back-to-back layouts, a concrete number in shots 1–3 |
+| Story | 10 | layout variety, hook layout first, shot 1's promise the biggest type (≥ 1.12× the median of the others, except a full-bleed opener), ≥ 5 shots, set-level lint, keywords in shots 1–3, back-to-back layouts, a concrete number in shots 1–3 |
 
 Verdicts: ≥ 85 ship · 70–84 iterate · < 70 rework. `Top fixes` are sorted by points recovered.
 

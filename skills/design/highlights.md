@@ -3,7 +3,7 @@
 `**word**` in a caption becomes `<span class="hl">` and is styled by the theme's `highlight` mode. It tells the eye
 where to land in under a second, so it is the most valuable two words of styling in the set.
 
-## The seven modes (engine/compose.mjs → highlightCss)
+## The eight modes (engine/compose.mjs → highlightCss)
 
 | Mode | What it draws | Themes that use it | Needs |
 |---|---|---|---|
@@ -13,11 +13,13 @@ where to land in under a second, so it is the most valuable two words of styling
 | `underline` | accent underline, `.09em` thick, offset `.12em` | mono | nothing; the text keeps its colour |
 | `marker` | highlighter band (85% accent, from 58% to 92% of the line) behind the word | none (opt-in) | text colour must contrast with the band |
 | `outline` | hollow letters: transparent fill, `.035em` stroke in the text colour | none (opt-in) | very large type only |
+| `sticker` | die-cut sticker: accent letters inside a thick `.075em` ring (`stickerColor`, white by default) and a soft drop shadow | none (opt-in) | accent ≥ 3:1 against the ring; a mid-tone or tinted background so the ring shows |
 | `none` | nothing | none (opt-in) | hierarchy from size or position |
 
 Switch the mode for the whole set with `"themeOverrides": { "highlight": "pill" }`, or for one store with
 `"storeOverrides": { "android": { "theme": { "highlight": "pill" } } }`. The highlight CSS is scoped per slot,
-so a per-shot `"theme": { "highlight": "pill" }` also works, but one mode per set is the rule (see below).
+so a per-shot `"theme": { "highlight": "pill" }` also works, but one mode per set is the rule (see below) — the one
+exception is a `sticker` promise on a billboard shot 1, which is meant to look unlike the rest.
 `plan.mjs validate` warns when a theme's highlight contrast is below 3:1.
 
 ## Choosing a mode
@@ -36,6 +38,10 @@ so a per-shot `"theme": { "highlight": "pill" }` also works, but one mode per se
 - **`marker`** is hand-made: notes, study, journaling, kids. Use it on light backgrounds with a mid-saturation accent
   (yellow, coral, mint): `{"highlight": "marker", "accent": "#FFD84D"}` on `clean-light`, `editorial` or `cream`.
   **Don't** use it on dark themes with light accents, because white text over a lime or cyan band is unreadable.
+- **`sticker`** is playful and social: saving, sharing, creators, shopping. It belongs on a billboard promise at
+  poster size, on a tinted background (on pure white the ring disappears and only the accent remains). Set it on
+  shot 1 alone with `"theme": { "highlight": "sticker" }` — the one case where one shot may differ, because shot 1
+  is meant to look unlike the rest.
 - **`outline`** is display type for a closer. The stroke is about 0.4 px at thumbnail size, so the word vanishes in
   search. Use it only in `text-hero` (13 u) from shot 4 onward, never in shots 1–3.
 - **`none`** lets size carry the hierarchy (`mono`-like typographic sets). Keep the `**` markup anyway: it's harmless,

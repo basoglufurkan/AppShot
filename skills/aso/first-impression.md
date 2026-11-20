@@ -36,6 +36,22 @@ Pass criteria. Show a stranger the strip for 2 seconds and hide it. They can say
 (a) what the app does, (b) one reason it's better, and (c) the app's name or colour.
 If they can't, simplify: fewer words, one focal UI element, more contrast.
 
+## Frame 1 has one job: stop the scroll
+
+Frames 2–3 explain; frame 1 has to earn the look first. In a results list of near-identical sets, the first frame
+that is not a screenshot-with-a-caption is the one the thumb stops on. What the best-converting sets have in common:
+
+| Element | What it does | Appshot |
+|---|---|---|
+| **The promise is the biggest type in the set** | 2–4 words that state the value (verb + object, outcome, "never + pain"), often two-tone, read before anything else | `billboard`: 15 u vs 10 u for shots 2+; the scorer checks the ratio |
+| **A kicker finishes it** | "& websites", "in seconds", "worth keeping" — a smaller display line, not a sentence | the billboard's subhead |
+| **One hero, larger than life** | the app's money moment lifted out of the device and breaking its frame, or the real-world thing the app is about (the car, the coach, the dish), often bleeding off an edge | `pop.rect`, `hero.image` |
+| **Proof at the foot** | a laurel or a seal with a real number: rating, users, "#1" with third-party proof, press | `rating`, `awards`, `"style": "seal"` (App Store only; dropped on Play by itself) |
+| **Shots 2+ look like one calm family** | same caption size and place, the device and a lifted UI detail, so the opener stands out | `zoom-callout`, `floating-cards`, `ui-pieces`… |
+
+What it is not: a logo, a welcome screen, a wall of features, or text with no product in it (2.3.3). Without real
+proof, leave the row out — an honest billboard is a promise and a hero.
+
 ## Thumbnail legibility (must read at about 25% scale)
 
 The search strip shows each portrait shot about 110–120 pt wide on a 6.1–6.3″ iPhone. That is
@@ -73,7 +89,9 @@ For Play phone frames (1080 px wide), scale by 0.82: headline 85–105 px. Googl
 
 | Situation | Strategy | Layout |
 |---|---|---|
-| Clear category, crowded search | Outcome headline with the keyword, and the core screen in a filled, successful state | `hero-device`, `device-top` |
+| Most apps | A poster: the outcome in 2–4 words with the keyword, a kicker, the core screen with its money moment lifted out, real proof on iOS | `billboard` |
+| A real-world object is the subject (identifiers, food, fashion, coaches) | The object itself as a cutout hero, the result card beside it | `billboard` with `hero.image` (+ a screen) |
+| Clear category, crowded search, promise needs 5–6 words | Outcome headline with the keyword, and the core screen in a filled, successful state | `hero-device`, `device-top` |
 | The app's value is one number (savings, streak, speed) | A real number from the app or data. Never invented. `{placeholder}` until verified. | `big-number` |
 | Visual product (photo, design, maps) | Full-bleed result, minimal chrome | `full-bleed`, `before-after` |
 | Several distinct jobs | Show two or three UI pieces that add up to one promise | `floating-cards`, `ui-pieces` |
@@ -114,7 +132,8 @@ Avoid in frame 1:
 
 ## Checklist for frames 1–3
 
-- [ ] Frame 1 headline contains the primary keyword and an outcome. 2–6 words. 100 px or more on a 1320 px canvas.
+- [ ] Frame 1 headline contains the primary keyword and an outcome. 2–6 words (2–4 on a billboard). 100 px or more on a 1320 px canvas — 150–200 px on a billboard.
+- [ ] Frame 1 looks unlike frames 2–3 at a glance: the biggest type in the set, one hero, proof only if real.
 - [ ] One idea per frame. Each frame stands alone if cropped at its edges.
 - [ ] Real UI in a successful, filled state. No onboarding, login, paywall or empty screens.
 - [ ] The 25% downscale passes: headline legible, contrast 4.5:1 or better, UI focal point identifiable.

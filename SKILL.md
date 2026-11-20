@@ -1,6 +1,6 @@
 ---
 name: appshot
-description: Create App Store and Google Play screenshots for the app in the current project. Scans the code (Expo/React Native, Flutter, SwiftUI/UIKit, Android/Compose, web), detects the niche, writes ASO-optimised captions in any language (native Turkish included), designs the set (24 themes, 22 layouts, device frames, panorama), renders store-exact PNGs with headless Chrome, makes App Store header and search-results creative assets (animated key art, images and looping videos) and app preview videos (from simulator recordings, with the screenshot captions), scores variants and exports fastlane-ready folders. Use whenever the user wants store screenshots, listing images, ASO screenshots, a Play feature graphic, a header / search results asset, an app preview or promo video, or wants to refresh, localise, critique, A/B test or match a reference look — also in Turkish ("App Store ekran görüntüsü", "mağaza görselleri", "tanıtım videosu").
+description: Create App Store and Google Play screenshots for the app in the current project. Scans the code (Expo/React Native, Flutter, SwiftUI/UIKit, Android/Compose, web), detects the niche, writes ASO-optimised captions in any language (native Turkish included), designs the set (24 themes, 23 layouts — a scroll-stopping billboard opener, then layouts that show the app — device frames, panorama), renders store-exact PNGs with headless Chrome, makes App Store header and search-results creative assets (animated key art, images and looping videos) and app preview videos (from simulator recordings, with the screenshot captions), scores variants and exports fastlane-ready folders. Use whenever the user wants store screenshots, listing images, ASO screenshots, a Play feature graphic, a header / search results asset, an app preview or promo video, or wants to refresh, localise, critique, A/B test or match a reference look — also in Turkish ("App Store ekran görüntüsü", "mağaza görselleri", "tanıtım videosu").
 ---
 
 # Appshot
@@ -20,7 +20,9 @@ Every command below is `node $SKILL_DIR/scripts/<name>.mjs …`, run from the **
 1. **Truth only.** Show real UI and real features. Never invent ratings, awards, user counts, reviews, press or
    results. Unknown numbers stay `{placeholders}` until the user gives a real value (with a `source`); the checker
    blocks unfilled placeholders and unsourced claims.
-2. **Shots 1–3 decide.** They are what search results show. Shot 1 sells the outcome, not a feature list.
+2. **Shots 1–3 decide; shot 1 stops the scroll.** They are what search results show. Shot 1 has one job — stop the
+   thumb and say the value in one look — so it looks unlike the rest: a `billboard` (the promise as the biggest type
+   in the set, the money moment lifted out of the device, real proof). From shot 2 on, show much more of the app.
 3. **Captions are 2–6 words, benefit-first, one `**highlight**`.** Every caption traces back to a line in `brief.md`.
 4. **Look before you ship.** Always open `review/contact-*.png` and `review/search-*.png` with the Read tool and
    critique them (`skills/review/critique.md`). A score is not a substitute for looking.
@@ -105,9 +107,9 @@ nothing a top-grossing app would not ship. Typical: 2–4 iterations.
   "keywords": { "en-US": ["home workouts", "ai coach"], "tr": ["ev antrenmanı"] },
   "storeOverrides": { "android": { "theme": { "device": { "frame": "flat" } } } },
   "shots": [
-    { "id": "hook", "layout": "hero-device", "screen": "raw/today.png",
-      "headline": { "en-US": "Home workouts that **adapt to you**", "tr": "Sana **uyan** ev antrenmanları" },
-      "subhead": { "en-US": "A fresh 25-minute plan every morning." },
+    { "id": "hook", "layout": "billboard", "screen": "raw/today.png", "pop": { "rect": [0.043, 0.409, 0.914, 0.155] },
+      "headline": { "en-US": "Home workouts that **adapt**", "tr": "Sana **uyan** ev antrenmanları" },
+      "subhead": { "en-US": "25 minutes. Zero equipment.", "tr": "Günde 25 dakika, ekipmansız" },
       "alternatives": { "en-US": ["Get fit at home in **25 minutes**"] } },
     { "id": "form", "layout": "zoom-callout", "screen": "raw/workout.png", "zoom": { "rect": [0.045, 0.57, 0.91, 0.105] },
       "headline": { "en-US": "Perfect form, **every rep**" } }

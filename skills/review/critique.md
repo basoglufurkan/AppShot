@@ -11,6 +11,10 @@ Squint. You are a stranger scrolling search results in one second.
 - Does the set pop against the white **and** black store UI, and against the grey competitor placeholders?
 - Does it look like one family with the icon (colour, mood)?
 - Is the first headline readable at this size? If you have to zoom, it is too long.
+- **Does frame 1 stop the scroll?** Its one job is attention, so it must look unlike frames 2–3 at a glance: the
+  biggest type in the set, one hero (the money moment lifted out of the device, or the real thing the app is about),
+  proof only if real. If you could swap shots 1 and 2 and nobody would notice, shot 1 is not doing its job →
+  `"layout": "billboard"`, 2–4 words, a kicker, `pop` on the money moment.
 
 ## 2 · Each shot (contact sheet)
 
@@ -33,7 +37,9 @@ Squint. You are a stranger scrolling search results in one second.
 - Story: hook → value → depth → differentiator → objection → habit → close. Is any shot redundant? Cut it.
 - Rhythm: layouts vary; tilt not more than every other shot; text-led and device-led frames alternate.
 - Repetition: the same word in three headlines; the same screen three times with no new angle.
-- Consistency: one theme family, same device finish, same type scale, highlights in the same style.
+- Consistency: one theme family, same device finish, same type scale from shot 2 on (shot 1's promise is deliberately
+  bigger), highlights in the same style.
+- Contrast of roles: shot 1 sells, shots 2+ show. A billboard after shot 1, or a shot 2+ with no app UI, breaks it.
 - Locale: line breaks look natural, no orphan single word, highlight on the right word in that language,
   Turkish characters correct (İ, ı, ş, ğ, ç, ö, ü), RTL mirrored where it matters.
 - Store: Android set has no ratings/awards/testimonials/"free"/prices; iOS set never says Android/Google Play.

@@ -32,6 +32,7 @@ const SAMPLE = {
   notifications: [{ title: 'Time for today’s session', body: 'You are 2 days from a new record', time: 'now' }, { title: 'Weekly recap is ready', body: 'See what changed', time: '9:41' }],
   messages: [{ from: 'user', text: 'Plan my week around 3 workouts' }, { from: 'ai', text: 'Done — Mon, Wed, Fri at 7:30. Want reminders?' }],
   zoom: { rect: [0.05, 0.14, 0.9, 0.18] },
+  pop: { rect: [0.05, 0.14, 0.9, 0.18] },
   stat: { value: '3×', label: 'faster', source: 'sample' },
   rating: { value: '4.8', label: 'sample rating', source: 'sample' },
   quotes: [{ text: 'Finally an app I actually open every day.', author: 'sample review', rating: 5, source: 'sample' }],

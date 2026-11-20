@@ -27,7 +27,7 @@ luxe, brutal, glass, forest, calm, playful, ember, volt, finance-pro, cream, ros
 mono, brand
 
 LAYOUT REGISTRY (engine/templates/*.mjs)
-hero-device, device-top, tilted-device, duo-devices, trio-fan, zoom-callout,
+billboard (shot 1 only), hero-device, device-top, tilted-device, duo-devices, trio-fan, zoom-callout,
 floating-cards, feature-list, social-proof, big-number, before-after, full-bleed,
 text-hero, review-quote, split-diagonal, bridge, screen-grid, ui-pieces,
 notification-stack, chat-bubbles, comparison

@@ -68,7 +68,10 @@ What moves a theme: niche rank; light/dark like the app's UI; accent close to th
 of competitors use costs, a tone few use earns, an accent hue the market owns costs); the reference (tone, background
 kind, accent family); a small per-app seed. Openings: niche rank; what the plan can render (screens, `stat.value`,
 `cards`); the market (a full-bleed or one-device market makes the other choice distinct); the reference (full-bleed,
-several devices, caption side).
+several devices, caption side). The **billboard** opening (shot 1 as a scroll-stopper: the promise as the biggest
+type, the money moment lifted out, real proof) inherits the niche's rank for the hero screen and gets a bonus for
+stopping the scroll, so it is direction A for most niches, while niches that open full-bleed or typographic (photo,
+video, games, recipes, travel, therapy) keep their opener. B then tests the classic device opener against it.
 
 ## 4. Pick with numbers and eyes
 

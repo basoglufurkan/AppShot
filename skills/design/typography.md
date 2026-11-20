@@ -41,6 +41,7 @@ Short iPad headlines render at `max` anyway, so accept the small deduction there
 
 | Layout(s) | max | min | lines | Box (phone) |
 |---|---|---|---|---|
+| `billboard` (shot 1) | `textSize` (15; tablet 12.5) | 8.4 | 3 | y 5.5%–31.5% of H, centred; the subhead is the kicker at 0.44× in the display face |
 | Most layouts (topText band) | `options.textSize` (10) | 5.4 | 3 | y 5.8%–28.3% of H, pad 7.5% of W |
 | `feature-list` | 9 | 5.4 | 3 | shorter band (17% of H), left aligned |
 | `full-bleed` | `textSize` (10.5) | 5.4 | 3 | 24% of H, top or bottom (`scrim`) |
@@ -54,8 +55,14 @@ Read the outcome in `review/draft-report.json` → `slots[i].text[0]` = `{fontSi
 - `fontSize` = `max` and `lines` ≤ 2 is ideal.
 - `fontSize` < 0.82 × `max` costs 2 points. It means the copy is too long, so rewrite it.
 - `fontSize` ≈ `min` is a failure even when `ok` is true, because the headline is about 6 pt in search.
-- `lines` = 3 in shots 1–3 costs 3 points.
+- `lines` = 3 in shots 1–3 costs 3 points, unless the type is poster size (≥ 12 u): three short lines of a billboard
+  promise still read in one look.
 - Raise `options.textSize` (11–12) only for very short headlines ("Sleep **deeper**") that look lost at 10.
+
+**Scale contrast between shot 1 and the rest.** Shot 1's job is to stop the scroll, so its promise is the biggest
+type in the set: a billboard renders it at about 1.4–1.5× the 10 u captions of shots 2+, which all share one size.
+The scorer deducts story points when shot 1's headline is under 1.12× the median of the others (a full-bleed
+opener is exempt: its pixels do the stopping).
 
 ## Line breaks
 

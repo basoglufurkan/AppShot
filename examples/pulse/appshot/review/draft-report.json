@@ -1,8 +1,8 @@
 {
   "plan": "examples/pulse/appshot/plan.json",
-  "renderedAt": "2026-11-16T13:40:00.547Z",
+  "renderedAt": "2026-11-20T08:09:26.158Z",
   "scale": 0.4,
-  "ms": 5898,
+  "ms": 6375,
   "outDir": "examples/pulse/appshot/drafts",
   "jobs": [
     {
@@ -29,30 +29,30 @@
         {
           "index": 0,
           "shot": "hook",
-          "layout": "hero-device",
+          "layout": "billboard",
           "missingScreens": 0,
           "text": [
             {
-              "fontSize": 89,
-              "max": 88.61,
-              "min": 47.85,
+              "fontSize": 115,
+              "max": 115.19,
+              "min": 74.43,
               "lines": 2,
               "ok": true,
               "rect": {
                 "x": 81,
-                "y": 182,
+                "y": 203,
                 "w": 918,
-                "h": 292
+                "h": 304
               },
-              "headline": "Home workouts that adapt to you"
+              "headline": "Home workouts that adapt"
             }
           ],
           "devices": [
             {
-              "x": 108,
-              "y": 586,
-              "w": 864,
-              "h": 1877
+              "x": 140,
+              "y": 651,
+              "w": 799,
+              "h": 1736
             }
           ],
           "textOverDevice": 0,
@@ -276,30 +276,30 @@
         {
           "index": 0,
           "shot": "hook",
-          "layout": "hero-device",
+          "layout": "billboard",
           "missingScreens": 0,
           "text": [
             {
-              "fontSize": 89,
-              "max": 88.61,
-              "min": 47.85,
+              "fontSize": 115,
+              "max": 115.19,
+              "min": 74.43,
               "lines": 2,
               "ok": true,
               "rect": {
                 "x": 81,
-                "y": 182,
+                "y": 203,
                 "w": 918,
-                "h": 292
+                "h": 304
               },
               "headline": "Sana uyan ev antrenmanları"
             }
           ],
           "devices": [
             {
-              "x": 108,
-              "y": 586,
-              "w": 864,
-              "h": 1877
+              "x": 140,
+              "y": 651,
+              "w": 799,
+              "h": 1736
             }
           ],
           "textOverDevice": 0,
@@ -523,30 +523,30 @@
         {
           "index": 0,
           "shot": "hook",
-          "layout": "hero-device",
+          "layout": "billboard",
           "missingScreens": 0,
           "text": [
             {
-              "fontSize": 121,
-              "max": 120.6,
-              "min": 65.12,
-              "lines": 2,
+              "fontSize": 174,
+              "max": 180.9,
+              "min": 101.3,
+              "lines": 3,
               "ok": true,
               "rect": {
                 "x": 90,
-                "y": 249,
+                "y": 171,
                 "w": 1025,
-                "h": 397
+                "h": 629
               },
-              "headline": "Home workouts that adapt to you"
+              "headline": "Home workouts that adapt"
             }
           ],
           "devices": [
             {
-              "x": 155,
-              "y": 834,
-              "w": 895,
-              "h": 1945
+              "x": 189,
+              "y": 921,
+              "w": 828,
+              "h": 1799
             }
           ],
           "textOverDevice": 0,
@@ -770,30 +770,30 @@
         {
           "index": 0,
           "shot": "hook",
-          "layout": "hero-device",
+          "layout": "billboard",
           "missingScreens": 0,
           "text": [
             {
-              "fontSize": 121,
-              "max": 120.6,
-              "min": 65.12,
+              "fontSize": 154,
+              "max": 180.9,
+              "min": 101.3,
               "lines": 2,
               "ok": true,
               "rect": {
                 "x": 90,
-                "y": 249,
+                "y": 282,
                 "w": 1025,
-                "h": 397
+                "h": 406
               },
               "headline": "Sana uyan ev antrenmanları"
             }
           ],
           "devices": [
             {
-              "x": 155,
-              "y": 834,
-              "w": 895,
-              "h": 1945
+              "x": 189,
+              "y": 921,
+              "w": 828,
+              "h": 1799
             }
           ],
           "textOverDevice": 0,
@@ -1017,30 +1017,30 @@
         {
           "index": 0,
           "shot": "hook",
-          "layout": "hero-device",
+          "layout": "billboard",
           "missingScreens": 0,
           "text": [
             {
-              "fontSize": 132,
-              "max": 132,
-              "min": 71.28,
-              "lines": 2,
+              "fontSize": 190,
+              "max": 198,
+              "min": 110.88,
+              "lines": 3,
               "ok": true,
               "rect": {
                 "x": 99,
-                "y": 272,
+                "y": 186,
                 "w": 1122,
-                "h": 435
+                "h": 688
               },
-              "headline": "Home workouts that adapt to you"
+              "headline": "Home workouts that adapt"
             }
           ],
           "devices": [
             {
-              "x": 170,
-              "y": 913,
-              "w": 980,
-              "h": 2129
+              "x": 207,
+              "y": 1007,
+              "w": 906,
+              "h": 1970
             }
           ],
           "textOverDevice": 0,
@@ -1264,30 +1264,30 @@
         {
           "index": 0,
           "shot": "hook",
-          "layout": "hero-device",
+          "layout": "billboard",
           "missingScreens": 0,
           "text": [
             {
-              "fontSize": 132,
-              "max": 132,
-              "min": 71.28,
+              "fontSize": 168,
+              "max": 198,
+              "min": 110.88,
               "lines": 2,
               "ok": true,
               "rect": {
                 "x": 99,
-                "y": 272,
+                "y": 309,
                 "w": 1122,
-                "h": 435
+                "h": 444
               },
               "headline": "Sana uyan ev antrenmanları"
             }
           ],
           "devices": [
             {
-              "x": 170,
-              "y": 913,
-              "w": 980,
-              "h": 2129
+              "x": 207,
+              "y": 1007,
+              "w": 906,
+              "h": 1970
             }
           ],
           "textOverDevice": 0,

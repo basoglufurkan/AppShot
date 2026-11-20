@@ -109,6 +109,12 @@ export async function validatePlan(plan, { workspace } = {}) {
     const prev = plan.shots[i - 1];
     if (plan.panorama && prev?.layout === 'bridge' && !['bridge', 'full-bleed'].includes(s.layout || 'hero-device'))
       W(`${tag}: follows a bridge — the bridged device covers its left ~40 %. Chain another bridge, use full-bleed, or move the bridge so it is not followed by a device shot.`);
+    if (s.pop && !(Array.isArray(s.pop.rect) && s.pop.rect.length === 4 && s.pop.rect.every((v) => v >= 0 && v <= 1))) E(`${tag}: pop.rect must be [x, y, w, h] fractions of the screen.`);
+    if (s.hero?.image) {
+      for (const x of typeof s.hero.image === 'object' ? Object.values(s.hero.image) : [s.hero.image]) {
+        if (x && workspace && !/^(https?:|data:)/.test(x) && !found(x)) W(`${tag}: hero.image not found: ${x}`);
+      }
+    }
     if (s.theme && typeof s.theme === 'string' && !themes[s.theme]) E(`${tag}: unknown theme "${s.theme}".`);
     if (s.options?.frame && !frames[s.options.frame]) E(`${tag}: unknown frame "${s.options.frame}". Known: ${Object.keys(frames).join(', ')}`);
     for (const loc of plan.locales || []) {

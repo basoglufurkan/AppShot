@@ -11,6 +11,12 @@ Shot 1 is the most valuable piece of copy in the listing. Shots 2–3 decide whe
 
 ## The job of shot 1
 
+Shot 1 has one job: **stop the scroll and say the value in one look.** It is the only frame whose job is attention;
+from shot 2 on, the set shows much more of the actual app. So shot 1 must not read like a sibling of shot 2: its
+promise is the biggest type in the set, it has one hero (the app's money moment lifted out of the device, or the
+real-world thing the app is about), and it carries real proof when there is some. That is the `billboard` layout
+(`skills/design/layouts.md`).
+
 In about two seconds, at thumbnail size, the viewer must answer three questions without effort:
 
 1. **Is this what I searched for?** Category confirmation, with a word the searcher would use.
@@ -18,12 +24,34 @@ In about two seconds, at thumbnail size, the viewer must answer three questions 
 3. **Does it look good and trustworthy?** This is the design's job, but a sloppy caption can ruin it.
 
 Rules:
-- **One idea.** 2–5 words, the largest type in the set. No subhead carrying meaning, because subheads are unreadable in search thumbnails (see `length.md`).
+- **One idea.** 2–4 words (5 at most), the largest type in the set. No subhead carrying meaning, because subheads are unreadable in search thumbnails (see `length.md`). On a billboard the subhead becomes the **kicker** (below).
 - **The category or outcome word appears** in the headline (budget/money/spending for a budget app), in its natural form.
 - **The screen is the "aha" screen:** the most valuable real state of the app, with realistic data. Never onboarding, login, splash, settings or an empty state (Apple guideline 2.3.3 also requires showing the app in use).
 - **Don't spend shot 1 on the app name or logo.** The name is printed beside the icon. Exception: a brand famous enough that the name *is* the promise.
 - **No puns or idioms in shot 1.** It has to survive 20+ locales; transcreate per locale.
 - **Proof leads only when exceptional and verified** (see `proof.md`), and only on the App Store. Google Play images can't carry ratings, counts or awards, so the Play hook is always a benefit.
+
+## The billboard: promise + kicker
+
+The billboard sets the headline at poster size (up to 15 u, about 1.5× the other captions) and the subhead right under
+it in the same display face at 0.44× — a **kicker** that finishes the sentence. Read together they are one line of
+copy; the promise alone still works when the kicker is too small to read.
+
+| Pattern | Promise (headline) | Kicker (subhead) |
+|---|---|---|
+| Verb + any + thing, then speed or scope | Name **any plant** | from one photo |
+| Verb + thing, then the second object | Split **every bill** | & shared rent |
+| Outcome, then the hard facts | Home workouts that **adapt** | 25 minutes. Zero equipment. |
+| Never + pain, then how | Never miss **a dose** | gentle, on-time reminders |
+| Meet your + role, then the quality | Meet your **study coach** | for every subject |
+| Where + outcome, then the frame | See where your **money goes** | in one calm view |
+
+- **The kicker is 2–5 words**, never a second idea and never a sentence: a number, a scope ("& websites"), a speed
+  ("in seconds") or a qualifier ("every morning"). One emoji may stand in for a word as an inline icon (`in ⚡ seconds`).
+- **The promise keeps the keyword** (first-impression rule); the kicker may carry a second one.
+- **Transcreate the pair, not the words**: in Turkish the verb lands at the end ("Paran **nereye** gidiyor, gör" +
+  "Hepsi tek ekranda"), so the kicker often becomes the scope rather than the continuation.
+- `copy-check` warns when a billboard promise runs past 5 words or the kicker past 6.
 
 ## Hook types, ranked
 
@@ -50,7 +78,9 @@ Adjust the ranking when:
 - **Shot 2 = core value:** the main job done on the most-used screen. **Shot 3 = the strongest differentiator**, or the second biggest reason to install.
 - **Each panel must stand alone** (it may be the only one fully visible) and still read as a sequence: left to right, or right to left in RTL locales.
 - **Don't restate shot 1's promise** in new words. Each shot answers a different question (see `sequence.md`).
-- **Keep caption size, position and style identical across 1–3** so the trio reads as one unit. A panoramic bridge from 1 to 2 invites the swipe.
+- **Keep caption size, position and style identical from shot 2 on**, so the app-showing shots read as one unit. Shot 1
+  is the deliberate exception: same font, colours and highlight style, but the promise at poster size. A panoramic
+  bridge from 1 to 2 invites the swipe.
 - **Lineup test:** place your trio next to the top three competitors for the primary keyword. If your captions could be swapped onto their screenshots, rewrite.
 
 ## 30+ example hooks

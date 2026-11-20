@@ -1,8 +1,12 @@
 # Layout catalogue
 
-There are 22 layouts in `engine/templates/`. ★ means `meta.hook: true`: the scorer rewards a hook layout in
+There are 23 layouts in `engine/templates/`. ★ means `meta.hook: true`: the scorer rewards a hook layout in
 position 1 and lints others there. Positions follow `skills/core/story.md`. Run `layouts.mjs info <id>` for the live
 meta, and `layouts.mjs board --shot N` to see every layout dressed with your shot.
+
+**Shot 1 is not like the others.** Its one job is to stop the scroll and say the value in one look, so it should
+look unlike the shots after it: the biggest type in the set, one hero, real proof. That is `billboard`, the default
+opener the design director picks. From shot 2 on, the layouts below show much more of the actual app.
 
 **Fields every layout accepts:** `id`, `layout`, `screen` / `screens`, `headline`, `subhead`, `eyebrow`,
 `alternatives`, `theme` (id or patch), `background`, `decor`, `skipOn`, `storeOverrides`, and `options.frame`,
@@ -14,12 +18,44 @@ meta, and `layouts.mjs board --shot N` to see every layout dressed with your sho
 
 ---
 
+### billboard ★ (shot 1 only)
+The scroll-stopper. A giant 2–4 word promise (15 u, about 1.5× every other caption) with a **kicker** under it (the
+subhead, set in the display face at 0.44×), one hero, and real proof at the foot. Anatomy, top to bottom:
+1. **Promise + kicker** — "Home workouts that **adapt**" / "25 minutes. Zero equipment." (`skills/copy/hooks.md`).
+2. **Hero** — the device, with the screen's **money moment lifted out of it** (`pop.rect`: the plan card, the result,
+   the chart — 0.86 W wide, so it breaks past the frame on both sides). Or/and `hero.image`: a cutout of the real
+   thing the app is about (the car it identifies, the coach, the dish) that you own the rights to, `shape: "card"`
+   for an ordinary photo. A soft accent glow sits behind (`options.glow: false` removes it).
+3. **Proof** — `rating` and/or `awards` (laurels; `"style": "seal"` draws a scalloped badge). The device dissolves
+   above the row. **iOS only, automatically:** on Google Play the row is not drawn and the device grows, so the shot
+   needs no `skipOn` — keep it, it is still the Play opener.
+- **Needs:** a screen, or `hero.image` (no UI at all is a 2.3.3 risk — then shots 2–3 must show the real screens).
+  **Options:** `textSize` (15; tablet 12.5), `deviceScale` (0.74, or 0.64 above a proof row), `align`, `glow`.
+  **Fields:** `pop: { rect, w?, y?, x?, rotate?, shape? }`, `hero: { image, x?, y?, w?, h?, shape?, aspect?,
+  rotate?, anchor? }`, `cards[]` (≤ 2, `pos` like floating-cards), `rating`, `awards[]`.
+- **Good:** shot 1 in almost every niche — utilities, productivity, finance, health, social, shopping, AI. A screen
+  with one obvious money moment. Apps with a real rating, user count or press (iOS).
+- **Bad:** promises over 5 words (they shrink and wrap to 3–4 lines), a kicker that is a sentence, proof you can't
+  source, two pops, and any position but 1 (`copy-check` warns: shots 2+ show the app). For photo, video and camera
+  apps a `full-bleed` of the result can stop the scroll better — the director picks that when the niche says so.
+- **Positions:** 1 only.
+```json
+{ "id": "hook", "layout": "billboard", "screen": "raw/today.png",
+  "headline": { "en-US": "Home workouts that **adapt**" }, "subhead": { "en-US": "25 minutes. Zero equipment." },
+  "pop": { "rect": [0.043, 0.409, 0.914, 0.155] },
+  "rating": { "value": "4.8", "label": "12K ratings", "source": "App Store Connect, 2026-11-01" } }
+```
+Find `pop.rect` the way you find `zoom.rect`: open the capture, read the money moment's box as fractions of its width
+and height. Keep it short (h ≤ 0.22) so the lifted card stays one idea.
+
 ### hero-device ★
-Headline band on top, one large device rising from the bottom edge. This is the workhorse and the safest opener.
+Headline band on top, one large device rising from the bottom edge. The workhorse: the safest opener when a
+billboard doesn't fit (a promise that needs 6 words, no money moment on any screen), and the calm reset later on.
 - **Needs:** 1 screen. **Options:** `deviceScale` (0.8 / tablet 0.74), `bleed: false` (fit the whole device), `rotate`, `textSize`.
-- **Good:** shot 1 in almost every niche, and any shot where the screen itself is the proof.
-- **Bad:** dense dashboards (use `zoom-callout`), benefits in the bottom third of the capture (use `device-top`).
-- **Positions:** 1 (best), 4–6 as a calm reset.
+- **Good:** any shot where the screen itself is the proof, and shot 1 when a billboard doesn't fit.
+- **Bad:** dense dashboards (use `zoom-callout`), benefits in the bottom third of the capture (use `device-top`). As
+  shot 1 it reads like a sibling of shot 2 — the scorer deducts unless its promise is the biggest type in the set.
+- **Positions:** 1 (when not a billboard), 4–6 as a calm reset.
 ```json
 { "id": "hook", "layout": "hero-device", "screen": "raw/today.png", "headline": "Home workouts that **adapt to you**" }
 ```

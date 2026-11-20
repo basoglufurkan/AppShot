@@ -1,8 +1,8 @@
 {
   "plan": "examples/penny/appshot/plan.json",
-  "renderedAt": "2026-11-16T13:40:08.077Z",
+  "renderedAt": "2026-11-20T08:09:32.219Z",
   "scale": 0.4,
-  "ms": 5965,
+  "ms": 5070,
   "outDir": "examples/penny/appshot/drafts",
   "jobs": [
     {
@@ -28,30 +28,30 @@
         {
           "index": 0,
           "shot": "hook",
-          "layout": "hero-device",
+          "layout": "billboard",
           "missingScreens": 0,
           "text": [
             {
-              "fontSize": 89,
-              "max": 88.61,
-              "min": 47.85,
+              "fontSize": 115,
+              "max": 115.19,
+              "min": 74.43,
               "lines": 2,
               "ok": true,
               "rect": {
                 "x": 81,
-                "y": 202,
+                "y": 199,
                 "w": 918,
-                "h": 250
+                "h": 313
               },
               "headline": "See where your money goes"
             }
           ],
           "devices": [
             {
-              "x": 108,
-              "y": 586,
-              "w": 864,
-              "h": 1877
+              "x": 140,
+              "y": 651,
+              "w": 799,
+              "h": 1736
             }
           ],
           "textOverDevice": 0,
@@ -242,30 +242,30 @@
         {
           "index": 0,
           "shot": "hook",
-          "layout": "hero-device",
+          "layout": "billboard",
           "missingScreens": 0,
           "text": [
             {
-              "fontSize": 89,
-              "max": 88.61,
-              "min": 47.85,
+              "fontSize": 115,
+              "max": 115.19,
+              "min": 74.43,
               "lines": 2,
               "ok": true,
               "rect": {
                 "x": 81,
-                "y": 202,
+                "y": 199,
                 "w": 918,
-                "h": 250
+                "h": 313
               },
               "headline": "Paran nereye gidiyor, gör"
             }
           ],
           "devices": [
             {
-              "x": 108,
-              "y": 586,
-              "w": 864,
-              "h": 1877
+              "x": 140,
+              "y": 651,
+              "w": 799,
+              "h": 1736
             }
           ],
           "textOverDevice": 0,
@@ -456,30 +456,30 @@
         {
           "index": 0,
           "shot": "hook",
-          "layout": "hero-device",
+          "layout": "billboard",
           "missingScreens": 0,
           "text": [
             {
-              "fontSize": 121,
-              "max": 120.6,
-              "min": 65.12,
-              "lines": 2,
+              "fontSize": 181,
+              "max": 180.9,
+              "min": 101.3,
+              "lines": 3,
               "ok": true,
               "rect": {
                 "x": 90,
-                "y": 277,
+                "y": 147,
                 "w": 1025,
-                "h": 341
+                "h": 676
               },
               "headline": "See where your money goes"
             }
           ],
           "devices": [
             {
-              "x": 155,
-              "y": 834,
-              "w": 895,
-              "h": 1945
+              "x": 189,
+              "y": 921,
+              "w": 828,
+              "h": 1799
             }
           ],
           "textOverDevice": 0,
@@ -670,30 +670,30 @@
         {
           "index": 0,
           "shot": "hook",
-          "layout": "hero-device",
+          "layout": "billboard",
           "missingScreens": 0,
           "text": [
             {
-              "fontSize": 121,
-              "max": 120.6,
-              "min": 65.12,
-              "lines": 2,
+              "fontSize": 181,
+              "max": 180.9,
+              "min": 101.3,
+              "lines": 3,
               "ok": true,
               "rect": {
                 "x": 90,
-                "y": 277,
+                "y": 147,
                 "w": 1025,
-                "h": 341
+                "h": 676
               },
               "headline": "Paran nereye gidiyor, gör"
             }
           ],
           "devices": [
             {
-              "x": 155,
-              "y": 834,
-              "w": 895,
-              "h": 1945
+              "x": 189,
+              "y": 921,
+              "w": 828,
+              "h": 1799
             }
           ],
           "textOverDevice": 0,
@@ -884,30 +884,30 @@
         {
           "index": 0,
           "shot": "hook",
-          "layout": "hero-device",
+          "layout": "billboard",
           "missingScreens": 0,
           "text": [
             {
-              "fontSize": 132,
-              "max": 132,
-              "min": 71.28,
-              "lines": 2,
+              "fontSize": 198,
+              "max": 198,
+              "min": 110.88,
+              "lines": 3,
               "ok": true,
               "rect": {
                 "x": 99,
-                "y": 302,
+                "y": 161,
                 "w": 1122,
-                "h": 373
+                "h": 740
               },
               "headline": "See where your money goes"
             }
           ],
           "devices": [
             {
-              "x": 170,
-              "y": 913,
-              "w": 980,
-              "h": 2129
+              "x": 207,
+              "y": 1007,
+              "w": 906,
+              "h": 1970
             }
           ],
           "textOverDevice": 0,
@@ -1098,30 +1098,30 @@
         {
           "index": 0,
           "shot": "hook",
-          "layout": "hero-device",
+          "layout": "billboard",
           "missingScreens": 0,
           "text": [
             {
-              "fontSize": 132,
-              "max": 132,
-              "min": 71.28,
-              "lines": 2,
+              "fontSize": 198,
+              "max": 198,
+              "min": 110.88,
+              "lines": 3,
               "ok": true,
               "rect": {
                 "x": 99,
-                "y": 302,
+                "y": 161,
                 "w": 1122,
-                "h": 373
+                "h": 740
               },
               "headline": "Paran nereye gidiyor, gör"
             }
           ],
           "devices": [
             {
-              "x": 170,
-              "y": 913,
-              "w": 980,
-              "h": 2129
+              "x": 207,
+              "y": 1007,
+              "w": 906,
+              "h": 1970
             }
           ],
           "textOverDevice": 0,
