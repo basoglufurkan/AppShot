@@ -157,7 +157,7 @@ same steps for you.
    the audience, the main benefit, real numbers you can prove.
 3. The agent captures the screens (simulator, emulator, web) or asks for your PNGs.
 4. It writes the captions for every language, renders drafts and shows you the contact sheets in `appshot/review/`.
-5. Ask for changes in plain words: *"make shot 2 about streaks"*, *"use a lighter theme"*, *"shorter Turkish
+5. Ask for changes in plain words: *"make shot 2 about streaks"*, *"use a lighter theme"*, *"shorter German
    captions"*.
 6. When you are happy, it renders the final set, the creative assets and the previews, runs the store check and
    exports `appshot/export/`.
@@ -193,7 +193,7 @@ node scripts/scan.mjs /path/to/app
 node scripts/niche.mjs --explain
 node scripts/brief.mjs
 node scripts/keywords.mjs seed
-node scripts/plan.mjs init --locales en-US,tr --sizes iphone-6.9,android-phone
+node scripts/plan.mjs init --locales en-US,de-DE --sizes iphone-6.9,android-phone
 node scripts/plan.mjs validate
 node scripts/copy-check.mjs
 node scripts/render.mjs --draft
@@ -275,7 +275,7 @@ Captions live in `appshot/plan.json`, one object per shot, keyed by locale:
 3. Lint the copy against Apple and Google Play rules:
    ```bash
    node scripts/copy-check.mjs                              # every caption
-   node scripts/copy-check.mjs --locale tr --strict         # one language, warnings count as errors
+   node scripts/copy-check.mjs --locale de-DE --strict      # one language, warnings count as errors
    node scripts/copy-check.mjs --text "Track **every** workout" --locale en-US
    ```
 4. Check that the captions say your keywords:
@@ -324,7 +324,7 @@ Only the style is taken. Logos, mascots, illustrations, wording and anything tha
    about you is sent) and measures each app's first three screenshots:
    ```bash
    node scripts/market.mjs scan                                   # terms from plan.keywords
-   node scripts/market.mjs scan --terms "focus timer,pomodoro" --country tr
+   node scripts/market.mjs scan --terms "focus timer,pomodoro" --country de
    ```
 2. Open `appshot/review/market.png`: every competitor's first three shots, plus a summary such as "75 % of the market
    is light — a dark set stands out in search".
@@ -435,27 +435,28 @@ iPad sizes down, so `iphone-6.9` and `ipad-13` are usually enough. Final PNGs la
 
 ### Add a language
 
-*"Add Turkish and German."*
+*"Add German and French."*
 
 1. Add the locales to the plan:
    ```bash
-   node scripts/localize.mjs add tr,de-DE
+   node scripts/localize.mjs add de-DE,fr-FR
    ```
 2. Write a translation sheet with the English source and a length budget for every string:
    ```bash
-   node scripts/localize.mjs sheet tr
+   node scripts/localize.mjs sheet de-DE
    ```
-3. Fill `appshot/i18n/tr.json`. Transcreate rather than translate: read `skills/locales/tr.md` first for tone,
+3. Fill `appshot/i18n/de-DE.json`. Transcreate rather than translate: read `skills/locales/de-DE.md` first for tone,
    grammar and local store habits.
 4. Merge it back and see what is still missing:
    ```bash
-   node scripts/localize.mjs apply appshot/i18n/tr.json
+   node scripts/localize.mjs apply appshot/i18n/de-DE.json
    node scripts/localize.mjs status
    ```
-5. If the app's UI is translated, capture localized screens into `appshot/raw/tr/`.
-6. Lint and render: `node scripts/copy-check.mjs --locale tr` and `node scripts/render.mjs --draft --locales tr`.
+5. If the app's UI is translated, capture localized screens into `appshot/raw/de-DE/`.
+6. Lint and render: `node scripts/copy-check.mjs --locale de-DE` and `node scripts/render.mjs --draft --locales de-DE`.
+   Repeat steps 2–6 for `fr-FR`.
 
-23 locales are built in (`engine/locales.json`), right-to-left Arabic and Hebrew included.
+22 locales are built in (`engine/locales.json`), right-to-left Arabic and Hebrew included.
 
 ### Make the App Store header and search results assets
 
@@ -623,11 +624,11 @@ URLs, categories and the copyright go in `appshot/metadata/_shared.md`.
    - keyword-field words already in the name or subtitle (wasted bytes), duplicates and generic words;
    - prices, rankings or "free" in the name or subtitle, and other companies' trademarks;
    - a paid tier the description never mentions (Apple 2.3.2), or a subscription without a Terms of Use link (3.1.2);
-   - Spanish without ¿ ¡, Latin American words in a Spain listing, and Turkish typed without its letters.
+   - Spanish without ¿ ¡, and Latin American words in a Spain listing.
 4. Let Appshot pack the keyword field when it is too long or wasteful:
    ```bash
-   node scripts/metadata.mjs keywords --locale tr            # suggestion
-   node scripts/metadata.mjs keywords --locale tr --write    # save it
+   node scripts/metadata.mjs keywords --locale de-DE         # suggestion
+   node scripts/metadata.mjs keywords --locale de-DE --write # save it
    ```
 5. `node scripts/metadata.mjs show` lists every language with its lengths. `export.mjs` writes the text to
    `export/fastlane/metadata/`, and `check.mjs` blocks on metadata errors. Upload it with:
@@ -1004,7 +1005,7 @@ node scripts/niche.mjs --set sleep-tracker
 - medical or unverifiable claims, URLs, ©, unfilled `{placeholders}`;
 - ratings, awards and testimonials without a `source`, and social proof on Google Play;
 - calls to action on Play, duplicate headlines, repeated words, shot counts outside store limits;
-- untranslated captions, and Turkish written without its diacritics.
+- untranslated captions.
 
 ```bash
 node scripts/copy-check.mjs [--locale de-DE] [--store ios|android] [--strict]
@@ -1189,7 +1190,7 @@ All store specs live only in `engine/sizes.json` and `engine/locales.json`.
 Default sizes are `iphone-6.9` and `iphone-6.3`. Google Play images keep the long side at most twice the short side,
 and captions under 20 % of the image.
 
-**Locales (23):** English (US), English (UK), Turkish, German, French, Spanish (Spain), Spanish (Mexico), Portuguese
+**Locales (22):** English (US), English (UK), German, French, Spanish (Spain), Spanish (Mexico), Portuguese
 (Brazil), Italian, Dutch, Japanese, Korean, Simplified Chinese, Traditional Chinese, Arabic (RTL), Hebrew (RTL),
 Russian, Polish, Swedish, Indonesian, Hindi, Vietnamese, Thai.
 
@@ -1567,7 +1568,7 @@ found three things:
    - The last scene blurs behind the app icon, name and subtitle.
    - The subtitle is shown only in the viewer's language. A locale without one restates its hook caption instead, so
      an English line never closes a Hindi preview.
-   - If the scan found subscriptions or in-app purchases, a localised disclosure is added, in 23 languages.
+   - If the scan found subscriptions or in-app purchases, a localised disclosure is added, in 22 languages.
    - `end: "disclosure"` keeps only the disclosure; `end: "none"` drops the end frame.
 8. **Touches and spotlight.**
    - Taps saved next to a clip become touch hotspots, the graphic Apple allows. A dot appears just before the press,
@@ -1604,7 +1605,7 @@ rejected exactly that framing, so use it only for promo videos.
 
 - The status bar is set to 9:41 with full bars, like the screenshots.
 - `--url` opens a deep link first.
-- `--locale tr` writes to `raw/tr/clips/`.
+- `--locale de-DE` writes to `raw/de-DE/clips/`.
 - Without `--seconds`, recording stops when you press Enter.
 
 Use the app while it records: you, a Maestro flow or the agent through the iOS Simulator tool. Keep it to one clear
@@ -1895,8 +1896,8 @@ Two finished demo projects double as regression fixtures:
 
 | Example | Stack | Set | Creative assets |
 | --- | --- | --- | --- |
-| `examples/pulse/` | Expo / React Native | dark fitness (theme `volt`), 7 shots, English + Turkish | director picks `heartbeat` key art for the header, phrase + devices for search |
-| `examples/penny/` | Flutter | light finance (theme `mint`), 6 shots, English + Turkish | director picks `growth` key art, calm motion, 14 s loops |
+| `examples/pulse/` | Expo / React Native | dark fitness (theme `volt`), 7 shots, English | director picks `heartbeat` key art for the header, phrase + devices for search |
+| `examples/penny/` | Flutter | light finance (theme `mint`), 6 shots, English | director picks `growth` key art, calm motion, 14 s loops |
 
 Each has an `appshot/` workspace with `profile.json`, `brief.md`, `plan.json`, captures in `raw/`, and boards in
 `review/`. The boards include contact sheets, search previews, theme and layout boards, creative boards and the scene
@@ -1918,7 +1919,7 @@ skills/           knowledge the agent reads during a job
                   testing, metadata, localisation, seasonal refresh
   design/         taste, layouts, themes, typography, colour, devices, composition, panorama, highlights, motion,
                   tablet, accessibility, anti-patterns
-  locales/        23 locale playbooks
+  locales/        22 locale playbooks
   review/         critique rubric, pre-ship checklist, how scoring works
 engine/           renderer
   compose.mjs     plan → HTML strip (themes, layouts, frames, text fitting, motion timeline)

@@ -35,7 +35,7 @@ There are 24 themes in `engine/themes/*.json`. `themes.mjs list [--mood calm]` p
 | `sunset` | warm, social | Bricolage Grotesque 800 | color | iphone · black · float | coral → peach | ✗ / ✓ |
 | `volt` | sport, sharp | Inter 900 | pill (lime) | iphone · black · soft | pure black + grid | ✓ / ✓ |
 
-Cyr / VI is the display face's Cyrillic and Vietnamese coverage. Every theme covers Turkish. Workarounds for ✗ are in
+Cyr / VI is the display face's Cyrillic and Vietnamese coverage. Workarounds for ✗ are in
 `typography.md`.
 
 ## Notes per theme
@@ -70,11 +70,11 @@ Latin-only face. Highlight 3.6:1 (fine at headline size). `_em_` works here.
 **editorial**: paper `#F4EFE6`, Instrument Serif 400 (condensed, with a real italic), rust accent `#C2410C`,
 leading 0.98, grain 0.09. *Best for:* reading, writing, news, culture, premium lifestyle, journaling. *Try:*
 `highlight: "underline"`, or the `outline` frame (`deviceColor: "#141414"`, `shadow: "none"`) for a magazine look.
-The condensed face fits long Turkish and German words well.
+The condensed face fits long German words well.
 
 **ember**: a black-red radial with an orange glow, Anton in uppercase (`case: "upper"`), accent `#FF6A2B`, glow
 shadow. *Best for:* intense training, combat sports, running, motivation. *Watch:* never type caps (the theme
-uppercases with correct Turkish İ). No Cyrillic.
+uppercases locale-correctly). No Cyrillic.
 
 **finance-pro**: navy gradient, emerald accent and `positive` `#34D399`, a faint grid plus an emerald glow, Manrope
 800, glass cards. *Best for:* banking, budgeting, investing, invoicing, business. *Pairs with:* `floating-cards`,

@@ -61,28 +61,6 @@ This niche spans pregnancy and newborn care. Lead with the app's primary phase. 
 - Content reviewed by **experts**
 - Less to remember, **more** to enjoy
 
-### Türkçe
-
-- Bebeğini **hafta hafta** takip et
-- Bu hafta bir **{fruit}** kadar
-- Her **gelişim** adımını kutla
-- Hamileliğini **gün gün** takip et
-- **Kasılmaları** tek dokunuşla ölç
-- Tekmeleri say, **yakınlığı** hisset
-- Hastane çantası **hazır**
-- **Mükemmel** ismi bul
-- Emzirmeyi **tek elle** kaydet
-- Uyku, mama, bez **düzende**
-- Her gelişmeyi **eşinle** paylaş
-- Gece 3 soruların için **sakin** cevaplar
-- **Karnının** büyüme hikâyesi
-- Bebeğinin **ilkleri** unutulmasın
-- Bebeğinin **uyku** düzenini gör
-- **Uzmanlarca** incelenmiş içerik
-- Daha az yük, **daha çok** keyif
-
-Use the "reviewed by experts" lines only when a named, qualified reviewer process really exists.
-
 ## Supporting elements
 
 - Size card: fruit or 3D illustration with "{lengthCm} cm · {weightG} g", using averages from a cited source.
@@ -102,11 +80,11 @@ Use the "reviewed by experts" lines only when a named, qualified reviewer proces
 
 ## Keyword clusters
 
-- **Pregnancy** — EN: pregnancy tracker, pregnancy app, pregnancy week by week — TR: hamilelik takibi, gebelik haftası hesaplama, hafta hafta hamilelik, hamilelik uygulaması
-- **Due date** — EN: due date calculator, pregnancy calculator — TR: doğum tarihi hesaplama, gebelik hesaplama
-- **Tools** — EN: contraction timer, kick counter, hospital bag checklist — TR: kasılma sayacı, tekme sayacı, hastane çantası listesi
-- **Baby tracking** — EN: baby tracker, breastfeeding tracker, newborn feeding log, baby sleep tracker — TR: bebek takip, emzirme takibi, bebek beslenme takibi, bebek uyku takibi
-- **Names** — EN: baby names, baby name generator — TR: bebek isimleri, kız bebek isimleri, erkek bebek isimleri
+- **Pregnancy** — EN: pregnancy tracker, pregnancy app, pregnancy week by week
+- **Due date** — EN: due date calculator, pregnancy calculator
+- **Tools** — EN: contraction timer, kick counter, hospital bag checklist
+- **Baby tracking** — EN: baby tracker, breastfeeding tracker, newborn feeding log, baby sleep tracker
+- **Names** — EN: baby names, baby name generator
 
 ## Avoid
 

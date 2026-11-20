@@ -29,7 +29,7 @@ appshot/export/
   README.md                                                       exact upload commands
 ```
 
-Locale codes are mapped per store (`tr` → `tr` on App Store, `tr-TR` on Play) from `engine/locales.json`.
+Locale codes are mapped per store (`ja` → `ja` on App Store, `ja-JP` on Play) from `engine/locales.json`.
 
 ## Metadata to hand over
 

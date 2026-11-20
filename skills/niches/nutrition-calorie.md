@@ -61,26 +61,6 @@ shots: 8
 - Your weight trend, **clear**
 - Healthy eating, **without** the math
 
-### Türkçe
-
-- Ne yediğini **tam olarak** bil
-- Fotoğrafını çek, **kaydedilsin**
-- **Barkodu** okut, bitti
-- Her gün **protein** hedefini tuttur
-- Kalori takibi artık **kolay**
-- Günlük **hedefin** hesaplandı
-- Yerli markalar dahil **{foods}+** besin
-- **Makrolarını** tek bakışta gör
-- Öğününü **saniyede** kaydet
-- Sevdiğini ye, **takibini** yap
-- **Gelişimini** gözünle gör
-- Her lokma **hesapta**
-- Ne yediğini **söyle**, yeter
-- Akıllı öğünler, **istikrarlı** ilerleme
-- Keto mu? **Net karbonhidratı** izle
-- Kilo değişimini **net** gör
-- Hesap yapmadan **sağlıklı** beslen
-
 ## Supporting elements
 
 - Calories-left ring: "{kcalLeft} kcal left", with Eaten {kcalEaten} and Burned {kcalBurned}.
@@ -90,7 +70,7 @@ shots: 8
 - Meal timeline cards: Breakfast, Lunch, Dinner, Snacks, each with kcal.
 - Weight trend line with a dashed goal line, plus a streak chip "{streak} days logged".
 - Comparison row: Type it in vs Snap it vs Scan it, with steps or seconds (measured only).
-- For TR screenshots, localize demo meals (menemen, mercimek çorbası, simit, ayran).
+- Localize demo meals for each storefront.
 
 ## Visual direction
 
@@ -101,11 +81,11 @@ shots: 8
 
 ## Keyword clusters
 
-- **Calories** — EN: calorie counter, calorie tracker, count calories, calorie app — TR: kalori sayacı, kalori hesaplama, kalori takibi, kalori uygulaması
-- **Macros and protein** — EN: macro tracker, protein tracker, macro counter — TR: makro takibi, protein takibi, makro hesaplama
-- **Logging** — EN: food diary, food log, meal tracker, barcode calorie scanner — TR: yemek günlüğü, besin günlüğü, barkodla kalori bulma
-- **AI scan** — EN: ai calorie counter, food photo calorie counter, snap food calories — TR: fotoğraftan kalori hesaplama, yapay zeka kalori sayacı
-- **Diet and weight** — EN: weight loss app, diet tracker, keto tracker, low carb diet app — TR: kilo verme uygulaması, diyet takibi, keto diyet takibi, düşük karbonhidrat
+- **Calories** — EN: calorie counter, calorie tracker, count calories, calorie app
+- **Macros and protein** — EN: macro tracker, protein tracker, macro counter
+- **Logging** — EN: food diary, food log, meal tracker, barcode calorie scanner
+- **AI scan** — EN: ai calorie counter, food photo calorie counter, snap food calories
+- **Diet and weight** — EN: weight loss app, diet tracker, keto tracker, low carb diet app
 
 ## Avoid
 

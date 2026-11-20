@@ -15,12 +15,12 @@ Decide from data in this order. Don't localize "because it's big".
    low conversion signal a market that wants the app but can't read the page.
 2. **Market value.** Third-party market-intelligence reports (Sensor Tower, AppMagic, data.ai and
    others) consistently rank the US, Japan, China, South Korea, Germany, the UK, France, Canada and
-   Australia among the top consumer-spend markets. India, Brazil, Indonesia, the US, Mexico and
-   Türkiye rank among the top download-volume markets. Treat these as directional; check the current
+   Australia among the top consumer-spend markets. India, Brazil, Indonesia, the US and Mexico
+   rank among the top download-volume markets. Treat these as directional; check the current
    year's reports before quoting numbers.
 3. **Competition.** For the primary keyword translated by a native speaker, count how many top-10
    apps have localized screenshots. Markets where few competitors localize captions are cheap wins.
-   This is common in Turkish, Polish, Vietnamese, Thai, Indonesian, Dutch and the Nordic languages.
+   This is common in Polish, Vietnamese, Thai, Indonesian, Dutch and the Nordic languages.
 4. **Reuse.** One localization can cover several storefronts. Spanish (Mexico) serves Latin America
    and is an extra language in the US. Portuguese (Brazil) serves Brazil. French serves France,
    Belgium, Switzerland and many African storefronts. Arabic serves the MENA storefronts.
@@ -28,13 +28,13 @@ Decide from data in this order. Don't localize "because it's big".
 **Default waves for a consumer app** (adjust with data):
 - **Wave 0:** English (U.S.) plus English (U.K.).
 - **Wave 1:** Japanese, German, French, Spanish (Mexico), Portuguese (Brazil), Korean.
-- **Wave 2:** Turkish, Italian, Spanish (Spain), Indonesian, Dutch, Polish, Arabic, Chinese
+- **Wave 2:** Italian, Spanish (Spain), Indonesian, Dutch, Polish, Arabic, Chinese
   (Traditional), Vietnamese, Thai.
 - **Chinese (Simplified)** only if you will distribute in China mainland. That needs extra compliance
   information in App Store Connect.
 
 **Why English (U.K.) belongs in wave 0 on Apple.** English (U.K.) is the *default* metadata language
-in a long list of non-English storefronts, including Türkiye, Saudi Arabia, the UAE, India, Indonesia,
+in a long list of non-English storefronts, including Saudi Arabia, the UAE, India, Indonesia,
 Poland, Norway, Israel, Thailand and Vietnam
 ([App Store localizations](https://developer.apple.com/help/app-store-connect/reference/app-information/app-store-localizations)).
 A deliberate en-GB listing (British spelling, its own keyword field) reaches users in all of them.
@@ -53,7 +53,6 @@ From [Localize app information](https://developer.apple.com/help/app-store-conne
 - Storefront examples from Apple's table:
   - **USA:** English (US) plus Arabic, Chinese (S/T), French, Korean, Portuguese (BR), Russian,
     Spanish (MX) and Vietnamese.
-  - **Türkiye:** English (U.K.) plus Turkish.
   - **Canada:** English (Canada) plus French (Canada).
   - **Switzerland:** German plus English (U.K.), French and Italian.
   - **India:** English (U.K.) plus 11 Indic languages.
@@ -80,7 +79,7 @@ locale's visible metadata with another language's keywords breaks 2.3 accuracy a
   add translations ([CSL](https://support.google.com/googleplay/android-developer/answer/9867158)).
 - Localized graphics remove that language from *default* graphics experiments. Test it with a
   localized experiment instead (`testing.md`).
-- Use precise codes: `tr-TR`, `es-419` (Latin America), `es-ES`, `pt-BR`, `en-GB`, `zh-TW`.
+- Use precise codes: `de-DE`, `es-419` (Latin America), `es-ES`, `pt-BR`, `en-GB`, `zh-TW`.
 
 ## Localization vs transcreation
 
@@ -120,7 +119,7 @@ supports more RTL languages.
 
 ## Other script and length notes
 
-- German, Finnish, Dutch and Turkish run 20–35% longer. Allow 3-line headlines or shorter wording, and
+- German, Finnish and Dutch run 20–35% longer. Allow 3-line headlines or shorter wording, and
   never go below the legibility floor. Use soft hyphenation only for German compounds.
 - CJK: fewer characters but wider glyphs. Use about 8–12 characters per line, and kinsoku-safe line
   breaks (no line starting with 。、）). No faux italics or bold. Use fonts that cover the full set

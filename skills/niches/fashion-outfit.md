@@ -60,26 +60,6 @@ shots: 7
 - Know your **cost per wear**
 - **{outfits}** outfits from {items} pieces
 
-### Türkçe
-
-- "Giyecek bir şeyim yok" **bitti**
-- Gardırobun **cebinde**
-- **Kendi** kıyafetlerinden kombinler
-- Fotoğrafını çek, **saniyede** ekle
-- Dolabını **tanıyan** bir stilist
-- **Havaya** uygun kombin
-- Haftanın **kombinlerini** planla
-- Her seyahate **akıllı** bavul
-- **Sonsuz** kombin olasılığı
-- Unuttuğun parçaları **yeniden** keşfet
-- **Kapsül** gardırobunu oluştur
-- **Üzerinde** nasıl durduğunu gör
-- Az al, **çok** giy
-- **Tarzını** keşfet
-- Her ortama **kombin** fikri
-- Giyim başına **maliyetini** bil
-- **{items}** parçadan {outfits} kombin
-
 ## Supporting elements
 
 - Outfit card: top, bottom, shoes and bag cutouts in a flat-lay, with "Today · {temp}°".
@@ -99,11 +79,11 @@ shots: 7
 
 ## Keyword clusters
 
-- **Closet** — EN: digital closet, wardrobe app, closet organizer, virtual closet — TR: dijital gardırop, gardırop uygulaması, dolap düzenleme, sanal gardırop
-- **Outfits** — EN: outfit planner, outfit ideas, what to wear today, outfit maker — TR: kombin önerileri, kombin uygulaması, bugün ne giysem, kombin yapma
-- **AI stylist** — EN: ai stylist, personal stylist app, style advice — TR: yapay zeka stilist, kişisel stilist, stil önerisi
-- **Try-on** — EN: virtual try on, try on clothes app — TR: sanal kıyafet deneme, kıyafet deneme uygulaması
-- **Capsule and travel** — EN: capsule wardrobe, packing list app, travel outfit planner — TR: kapsül gardırop, bavul listesi, seyahat kombinleri
+- **Closet** — EN: digital closet, wardrobe app, closet organizer, virtual closet
+- **Outfits** — EN: outfit planner, outfit ideas, what to wear today, outfit maker
+- **AI stylist** — EN: ai stylist, personal stylist app, style advice
+- **Try-on** — EN: virtual try on, try on clothes app
+- **Capsule and travel** — EN: capsule wardrobe, packing list app, travel outfit planner
 
 ## Avoid
 

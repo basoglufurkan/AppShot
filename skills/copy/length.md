@@ -30,7 +30,7 @@ For other canvas sizes (iPad, Android phones and tablets), apply the same percen
 | Family | Locales | Chars per headline line | Headline total | Notes |
 |---|---|---|---|---|
 | Latin (baseline) | en-US, en-GB | 12–18 | ≤ 28 | the source; leave slack for expansion |
-| Latin, expanding | de-DE, fr-FR, es-ES, es-MX, pt-BR, it, nl-NL, sv, pl, tr, id | 12–18; no single word > 14 | ≤ 32 | cut words, don't shrink below the minimum font size |
+| Latin, expanding | de-DE, fr-FR, es-ES, es-MX, pt-BR, it, nl-NL, sv, pl, id | 12–18; no single word > 14 | ≤ 32 | cut words, don't shrink below the minimum font size |
 | Latin + stacked diacritics | vi | 12–18 | ≤ 32 | line-height ≥ 1.25; no all caps |
 | Cyrillic | ru | 11–16 | ≤ 30 | wider glyphs; long adjectives |
 | Chinese / Japanese | zh-Hans, zh-Hant, ja | 6–10 | ≤ 14 (zh), ≤ 16 (ja) | full-width glyphs; break at phrase boundaries |
@@ -40,18 +40,16 @@ For other canvas sizes (iPad, Android phones and tablets), apply the same percen
 | Devanagari | hi | 10–16 | ≤ 28 | line-height ≥ 1.4; matras need room |
 | Thai | th | 10–16 | ≤ 28 | word segmentation; line-height ≥ 1.5 |
 
-**Typical expansion vs English** (characters): de +25–35%, es/pt/pl +20–30%, fr/it +15–25%, ru +15–30%, tr/id +10–25%, nl +10–25%, vi +10–30%, sv +5–20%, hi +10–30% (width), ar ±20%, th 0–20%, he −20% to +10% (varies), ko −20–40%, ja/zh −40–50% (but glyphs are double-width). The reasons and the native shortening tricks are in each locale file's "Length" section.
+**Typical expansion vs English** (characters): de +25–35%, es/pt/pl +20–30%, fr/it +15–25%, ru +15–30%, id +10–25%, nl +10–25%, vi +10–30%, sv +5–20%, hi +10–30% (width), ar ±20%, th 0–20%, he −20% to +10% (varies), ko −20–40%, ja/zh −40–50% (but glyphs are double-width). The reasons and the native shortening tricks are in each locale file's "Length" section.
 
 ## Line breaks
 
 - **Break by meaning.** Each line should be a phrase that reads on its own: "Know where every / **dollar** goes", not "Know where / every dollar goes".
-- **Put the punch at the end.** In English and Romance languages the payoff usually closes the line. In Turkish (verb-final) it is the object or the final verb. In Japanese it is the noun ending. In German it is often a nominal phrase that closes.
+- **Put the punch at the end.** In English and Romance languages the payoff usually closes the line. In Japanese it is the noun ending. In German it is often a nominal phrase that closes.
 - **Balance:** line 2 should be at least ~60% of line 1, *or* deliberately short for punch (one strong word). Never a lone 2–3 letter orphan.
 - **Never split:**
   - number + unit ("5 min"), currency + amount
-  - a proper noun + its suffix ("Instagram'da")
   - French NBSP punctuation (" ?", " !")
-  - Turkish *mı/mi* particles from their word
   - compounds (de, nl, sv)
   - Vietnamese two-syllable words, Thai words, CJK words
   - a highlighted phrase
@@ -62,7 +60,7 @@ For other canvas sizes (iPad, Android phones and tablets), apply the same percen
 
 Use one when:
 - **The headline is an outcome and the "how" makes it believable.** H "Wake up **rested**" · S "A smart alarm wakes you in light sleep".
-- **A qualifier is required for honesty:** "on supported devices", "with Apple Watch", "App Store rating in Türkiye". Trial and price terms are never a subhead; they belong on the paywall.
+- **A qualifier is required for honesty:** "on supported devices", "with Apple Watch", "App Store rating in Germany". Trial and price terms are never a subhead; they belong on the paywall.
 - **A differentiator needs one concrete line.** H "Your data stays **yours**" · S "Stored on your iPhone, no account needed".
 
 Skip it when:

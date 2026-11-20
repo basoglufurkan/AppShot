@@ -190,7 +190,7 @@ export function findWorkspace(args = {}) {
 }
 
 export const slug = (s) => String(s).toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '')
-  .replace(/ı/g, 'i').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 export const pad2 = (n) => String(n).padStart(2, '0');
 

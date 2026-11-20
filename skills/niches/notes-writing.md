@@ -59,25 +59,6 @@ shots: 6
 - Sketch, type, **annotate**
 - **{wordCount}** words written this week
 
-### Türkçe
-
-- Fikirlerin **özenle** saklansın
-- Dikkatin **dağılmadan** yaz
-- Aklına geleni **kaybolmadan** yakala
-- Her notu **anında** bul
-- Düşüncelerini **birbirine bağla**
-- El yazın artık **aranabilir**
-- Toplantı notların **özetlensin**
-- Konuş, **not olsun**
-- İkinci **beynin** burada
-- Tüm cihazlarında **senkron**
-- Sadece **kelimelere** odaklan
-- Notların **sana özel**
-- Karmaşadan **netliğe**
-- Markdown ile **zahmetsiz** yaz
-- Çiz, yaz, **işaretle**
-- Ders notların hep **düzenli**
-
 ## Supporting elements
 
 - **AI summary card**: "Summary · 4 key points · 3 action items" from a fictional meeting.
@@ -100,11 +81,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Note taking** — EN: "notes app", "note taking app", "notepad", "simple notes" — TR: "not alma uygulaması", "not defteri", "notlar"
-- **Handwriting & tablet** — EN: "handwriting notes", "notes for ipad", "pdf annotation", "digital notebook" — TR: "el yazısı not", "ipad not alma", "pdf üzerine not alma", "dijital defter"
-- **Writing** — EN: "writing app", "markdown editor", "distraction free writing", "novel writing" — TR: "yazı yazma uygulaması", "markdown editör", "roman yazma"
-- **AI & voice** — EN: "ai notes", "meeting notes", "voice to text notes", "transcribe audio" — TR: "sesli not", "toplantı notu", "sesten yazıya çevirme"
-- **Knowledge management** — EN: "second brain", "knowledge base", "personal wiki" — TR: "kişisel bilgi yönetimi", "bilgi bankası"
+- **Note taking** — EN: "notes app", "note taking app", "notepad", "simple notes"
+- **Handwriting & tablet** — EN: "handwriting notes", "notes for ipad", "pdf annotation", "digital notebook"
+- **Writing** — EN: "writing app", "markdown editor", "distraction free writing", "novel writing"
+- **AI & voice** — EN: "ai notes", "meeting notes", "voice to text notes", "transcribe audio"
+- **Knowledge management** — EN: "second brain", "knowledge base", "personal wiki"
 
 ## Avoid
 

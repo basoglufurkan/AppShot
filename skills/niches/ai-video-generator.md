@@ -59,26 +59,6 @@ shots: 7
 - Make memories **move** again
 - Imagine it, then **watch** it
 
-### Türkçe
-
-- Yaz, **hareket** etsin
-- Her fotoğrafı **videoya** çevir
-- Fikirlerin artık **sinematik**
-- Eski fotoğraflara **can** ver
-- Trend efektler **tek dokunuşta**
-- Evcil dostunu **dans** ettir
-- Kamera yok, **ekip** yok
-- Yazıdan **videoya** hızla
-- **{templates}+** viral şablon
-- Kamerayı **kelimelerle** yönet
-- Anime, 3D ya da **gerçekçi**
-- Paylaşmaya **hazır** dikey videolar
-- Her selfie'yi **canlandır**
-- Kaydırmayı **durduran** videolar
-- Senaryonu **görüntüye** dök
-- Anıların yeniden **canlansın**
-- Hayal et, **izle**
-
 ## Supporting elements
 
 - Prompt card: "{realPrompt}" typed with a blinking cursor and an arrow into the output frame.
@@ -100,10 +80,10 @@ shots: 7
 
 ## Keyword clusters
 
-- **Core** — EN: ai video generator, text to video, make video with ai, ai video maker — TR: yapay zeka video oluşturma, yazıdan video, yapay zeka ile video yapma
-- **Photo animation** — EN: photo to video, animate photo, talking photo, old photo animation — TR: fotoğrafı videoya çevirme, fotoğraf canlandırma, konuşan fotoğraf
-- **Trends and effects** — EN: ai video effects, ai dance video, ai hug video — TR: yapay zeka video efektleri, dans eden fotoğraf, yapay zeka sarılma videosu
-- **Creators** — EN: faceless video maker, ai shorts generator, ai reels maker — TR: yüzsüz video, kısa video oluşturucu, yapay zeka ile reels yapma
+- **Core** — EN: ai video generator, text to video, make video with ai, ai video maker
+- **Photo animation** — EN: photo to video, animate photo, talking photo, old photo animation
+- **Trends and effects** — EN: ai video effects, ai dance video, ai hug video
+- **Creators** — EN: faceless video maker, ai shorts generator, ai reels maker
 
 ## Avoid
 

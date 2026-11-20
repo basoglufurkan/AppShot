@@ -3,7 +3,7 @@ id: business-invoice
 name: Business & Invoicing
 appStoreCategory: Business
 playCategory: Business
-keywords: [invoice, invoices, invoicing, invoice maker, estimate, quote, proforma, client, clients, billing, receipt, line item, due date, overdue, unpaid, paid invoice, payment reminder, pay online, card payments, vat, tax rate, kdv, e-fatura, e-arsiv, bookkeeping, accounting, ledger, expense report, mileage, profit and loss, billable hours, freelancer, small business, contractor, quickbooks, on muhasebe, cari hesap]
+keywords: [invoice, invoices, invoicing, invoice maker, estimate, quote, proforma, client, clients, billing, receipt, line item, due date, overdue, unpaid, paid invoice, payment reminder, pay online, card payments, vat, tax rate, bookkeeping, accounting, ledger, expense report, mileage, profit and loss, billable hours, freelancer, small business, contractor, quickbooks]
 themes: [finance-pro, clean-light, soft-gray, brand]
 layouts: [hero-device, ui-pieces, notification-stack, big-number, before-after, floating-cards, screen-grid, feature-list]
 shots: 6
@@ -16,7 +16,6 @@ shots: 6
 - A freelancer or tradesperson (plumber, photographer, designer, cleaner) who finishes a job and wants to invoice on the spot, from the phone.
 - A small business owner chasing late payments and tired of awkward "just following up" messages.
 - Someone still making invoices in Word or Excel who wants to look professional instantly.
-- In Turkey: shop owners and freelancers who need e-Fatura / e-Arşiv / e-SMM and simple "ön muhasebe" and cari takip.
 - After installing they want to feel: professional, organised, and paid on time — with less admin.
 
 ## What wins the install
@@ -24,7 +23,7 @@ shots: 6
 1. **Get paid, not chase** — online payment links and automatic reminders sell the money outcome.
 2. **Professional in a minute** — a beautiful branded invoice created on a phone is the proof shot.
 3. **Know who owes you** — outstanding/overdue at a glance turns anxiety into a to-do.
-4. **Taxes handled** — VAT/KDV calculated, compliant formats, e-invoice where supported.
+4. **Taxes handled** — VAT calculated, compliant formats, e-invoice where supported.
 5. **Estimates → invoices** — one tap to convert removes double work.
 6. **Tax time ready** — expenses, receipts and reports in one place.
 
@@ -59,25 +58,6 @@ shots: 6
 - Invoice from the **job site**
 - **{invoiceCount}** invoices sent, zero spreadsheets
 
-### Türkçe
-
-- Faturanı **her yerden** kes
-- Ödemelerini **zamanında** al
-- Anında **profesyonel** görün
-- Kimin **borcu** var, gör
-- Gönder, **tahsil et**
-- Hatırlatmalar senin yerine **takip etsin**
-- Teklifler tek dokunuşla **faturaya**
-- Müşterin **kartla** ödesin
-- Logon, **markan**
-- KDV **otomatik** hesaplansın
-- Her **gideri** kayda geçir
-- Vergi dönemi artık **dert değil**
-- Daha az evrak, daha çok **iş**
-- **e-Fatura** ve e-Arşiv cebinde
-- Cari hesapların **tek ekranda**
-- Ön muhasebe artık **çok kolay**
-
 ## Supporting elements
 
 - **Invoice card** with a fictional business, clean line items and a "PAID" stamp.
@@ -86,30 +66,30 @@ shots: 6
 - **Template thumbnails**: the same invoice in 3–4 styles.
 - **Payment chips**: Card · Bank transfer · Link — only supported methods.
 - **Comparison**: "Word template + email" vs "Branded invoice + pay button".
-- **Compliance badge** (only if true): "GİB-authorised e-invoice integration via {integrator}".
+- **Compliance badge** (only if true): "Authorised e-invoice integration via {integrator}".
 
 ## Visual direction
 
 - Clean and professional: white/soft-gray backgrounds, one confident brand accent, green reserved for "paid".
 - The invoice document is the hero — show it big, crisp and legible; device behind or beside it.
 - Modern sans (Inter, Manrope) with tabular figures; avoid accounting-software density.
-- Leaders (FreshBooks, Zoho Invoice, Invoice Simple, Wave, Paraşüt in TR) show one task per shot and a real-looking small business.
+- Leaders (FreshBooks, Zoho Invoice, Invoice Simple, Wave) show one task per shot and a real-looking small business.
 - Tradesperson apps can use on-site photography (van, tools) with the phone; agency/freelancer apps stay minimal.
-- Keep currency, date and tax formats local (₺ and KDV for TR; VAT for UK/EU; sales tax for US).
+- Keep currency, date and tax formats local (VAT for UK/EU; sales tax for US).
 
 ## Keyword clusters
 
-- **Invoicing** — EN: "invoice maker", "invoice app", "invoice generator", "create invoice" — TR: "fatura oluşturma", "fatura kesme uygulaması", "fatura programı"
-- **Estimates** — EN: "estimate maker", "quote app", "proforma invoice" — TR: "teklif hazırlama", "proforma fatura", "fiyat teklifi"
-- **Receipts & expenses** — EN: "receipt maker", "business expense tracker", "mileage tracker" — TR: "makbuz", "gider takibi", "masraf takibi"
-- **Accounting** — EN: "small business accounting", "bookkeeping app", "accounting for freelancers" — TR: "ön muhasebe programı", "cari hesap takibi", "muhasebe uygulaması"
-- **E-invoicing (TR)** — EN: "e-invoice" — TR: "e-fatura", "e-arşiv fatura", "e-smm serbest meslek makbuzu"
+- **Invoicing** — EN: "invoice maker", "invoice app", "invoice generator", "create invoice"
+- **Estimates** — EN: "estimate maker", "quote app", "proforma invoice"
+- **Receipts & expenses** — EN: "receipt maker", "business expense tracker", "mileage tracker"
+- **Accounting** — EN: "small business accounting", "bookkeeping app", "accounting for freelancers"
+- **E-invoicing** — EN: "e-invoice"
 
 ## Avoid
 
-- Compliance claims you can't back: "GİB onaylı", "fully tax compliant", "HMRC recognised", "MTD ready" — only if officially true; e-Fatura in Turkey requires a GİB-authorised integrator.
+- Compliance claims you can't back: "fully tax compliant", "HMRC recognised", "MTD ready" — only if officially true.
 - Speed-to-payment statistics ("get paid 2× faster") without your own substantiated data (Apple 2.3.1).
 - Real client names, tax IDs, addresses or bank details in sample invoices.
-- Payment-processor logos (Stripe, PayPal, iyzico) outside their brand rules; no app pricing or processing fees in screenshots (2.3.7).
+- Payment-processor logos (Stripe, PayPal) outside their brand rules; no app pricing or processing fees in screenshots (2.3.7).
 - Naming QuickBooks or competitors in captions (2.3.7).
 - Conversion mistakes: tiny invoice text, desktop-style tables, accounting jargon on shot 1 ("double-entry ledger"), a settings screen as the hook.

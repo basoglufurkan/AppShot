@@ -17,14 +17,6 @@
       "expansion": 1.0,
       "maxHeadline": 34
     },
-    "tr": {
-      "name": "Türkçe",
-      "appStore": "tr",
-      "play": "tr-TR",
-      "dir": "ltr",
-      "expansion": 1.25,
-      "maxHeadline": 36
-    },
     "de-DE": {
       "name": "Deutsch",
       "appStore": "de-DE",

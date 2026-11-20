@@ -216,7 +216,7 @@ One device whose screen is split by a slider: `screens[0]` (before) on the left,
   points: open with a `full-bleed` of the "after" image instead. 3–5 for other apps.
 ```json
 { "layout": "before-after", "screens": ["raw/raw-photo.png", "raw/enhanced.png"], "headline": "Blurry to **sharp** in one tap",
-  "labels": { "en-US": { "before": "Before", "after": "After" }, "tr": { "before": "Önce", "after": "Sonra" } } }
+  "labels": { "en-US": { "before": "Before", "after": "After" }, "de-DE": { "before": "Vorher", "after": "Nachher" } } }
 ```
 
 ### split-diagonal
@@ -247,7 +247,7 @@ Device with 1–3 iOS-style notification banners over its upper half.
 ### feature-list
 A left-aligned headline (9 u), up to 4 checklist bullets, and a device below (fixed at 0.74 W; `deviceScale` is
 ignored despite the meta).
-- **Needs:** 1 screen and `bullets[]` (a localised array: `{ "en-US": [...], "tr": [...] }`).
+- **Needs:** 1 screen and `bullets[]` (a localised array: `{ "en-US": [...], "de-DE": [...] }`).
 - **Good:** later shots, bundling minor features, Pro perks, integrations (use per-store wording via
   `storeOverrides`, e.g. Apple Health vs Health Connect).
 - **Bad:** before shot 4, more than 4 bullets (extras are dropped), and bullets over about 5 words.

@@ -16,7 +16,7 @@ shots: 7
 - End of the month, staring at the balance: "Where did my money go?" — slightly anxious, wanting clarity rather than a lecture.
 - A goal with a date: a house deposit, a wedding, a trip, an emergency fund.
 - A couple merging finances or a family trying to stop arguing about spending.
-- In high-inflation markets like Turkey: tracking every lira because prices move monthly ("harcama takibi" is a real habit).
+- In high-inflation markets: tracking every purchase because prices move monthly.
 - After installing they want to feel: in control, calm, and free to spend on what matters without guilt.
 
 ## What wins the install
@@ -61,26 +61,6 @@ shots: 7
 - End the month **in the green**
 - **{saved}** saved toward your goal
 
-### Türkçe
-
-- Paran **nereye** gidiyor, gör
-- **Kalan** bütçeni bil
-- Harcamanı **2 dokunuşta** ekle
-- Gereksiz harcamaya **son ver**
-- Birikim **hedefine** ulaş
-- Hiçbir **faturayı** kaçırma
-- Unuttuğun **abonelikleri** bul
-- Paran artık **net**
-- **Suçluluk duymadan** harca
-- Her **maaş gününü** planla
-- Bütçeni **birlikte** yönet
-- Tüm hesapların **tek ekranda**
-- Nakit ve **kartlarını** takip et
-- Verilerin **sende** kalsın
-- Ayı **artıda** kapat
-- Enflasyona karşı **kontrol sende**
-- Hedefin için **{saved}** biriktirdin
-
 ## Supporting elements
 
 - **Category donut card**: "Food {percent}% · Transport {percent}%".
@@ -95,18 +75,18 @@ shots: 7
 
 - Calm and trustworthy: greens, teals and navy (finance-pro, mint); red reserved strictly for over-budget states.
 - Big tabular numerals for amounts (Inter, SF Pro Rounded for a friendlier feel); charts crisp, flat and few per shot.
-- Sample data must look real but fictional; amounts and currency symbols match the locale (₺ for TR, $ / € elsewhere).
+- Sample data must look real but fictional; amounts and currency symbols match the locale.
 - Leaders: Copilot and Monarch go sleek and dark-premium, YNAB friendly and educational, Spendee colourful; pick one tone and hold it.
 - Lift key UI pieces (keypad, category chip, goal ring) out of the device so they're readable at thumbnail size.
 - Avoid stress imagery (empty wallets, red arrows); show calm control.
 
 ## Keyword clusters
 
-- **Budget planning** — EN: "budget app", "budget planner", "monthly budget", "zero based budget" — TR: "bütçe uygulaması", "aylık bütçe planlama", "bütçe takibi"
-- **Expense tracking** — EN: "expense tracker", "spending tracker", "money manager", "daily expenses" — TR: "harcama takibi", "gider takip", "para yönetimi", "günlük harcamalar"
-- **Saving** — EN: "savings goal", "save money app", "money saving challenge" — TR: "para biriktirme", "birikim uygulaması", "kumbara"
-- **Bills & subscriptions** — EN: "bill reminder", "subscription tracker", "bill organizer" — TR: "fatura hatırlatıcı", "abonelik takibi", "fatura takip"
-- **Shared money** — EN: "couples budget", "family budget", "split expenses" — TR: "aile bütçesi", "ortak bütçe", "masraf paylaşımı"
+- **Budget planning** — EN: "budget app", "budget planner", "monthly budget", "zero based budget"
+- **Expense tracking** — EN: "expense tracker", "spending tracker", "money manager", "daily expenses"
+- **Saving** — EN: "savings goal", "save money app", "money saving challenge"
+- **Bills & subscriptions** — EN: "bill reminder", "subscription tracker", "bill organizer"
+- **Shared money** — EN: "couples budget", "family budget", "split expenses"
 
 ## Avoid
 

@@ -7,7 +7,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs, findWorkspace, readJson, writeJson, loadMarkdownDir, SKILLS_DIR, exists, die, log } from '../engine/lib/util.mjs';
 
-const fold = (s) => String(s || '').toLocaleLowerCase('en').normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/ı/g, 'i');
+const fold = (s) => String(s || '').toLocaleLowerCase('en').normalize('NFKD').replace(/[̀-ͯ]/g, '');
 const split = (s) => String(s || '').replace(/([a-z])([A-Z])/g, '$1 $2').replace(/[_\-/.]/g, ' ');
 
 export function corpus(profile) {

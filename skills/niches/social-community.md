@@ -58,26 +58,6 @@ shots: 6
 - Never miss a **reply**
 - **{members}** members and growing
 
-### Türkçe
-
-- **Kendi insanlarını** bul
-- **{interest}** tutkunlarının buluşma noktası
-- Katılmaya **değer** sohbetler
-- Seni **anlayanlarla** paylaş
-- Gürültü yok, sadece **topluluğun**
-- Sana **uyan** gruplara katıl
-- **Gerçek hayatta** buluşun
-- Akışın, **senin** kuralların
-- Paylaş. Yanıtla. **Ait ol.**
-- **Saygılı** bir topluluk
-- {interest} dünyasında **gündem**
-- Takipçilerin **arkadaşın** olsun
-- Kendi **topluluğunu** kur
-- Gerçek sohbet, **nazik** insanlar
-- Kimler **geliyor**, gör
-- Hiçbir **yanıtı** kaçırma
-- **{members}** üye ve büyüyoruz
-
 ## Supporting elements
 
 - Post card: avatar, name, a short on-topic post, image and reaction row with plausible demo counts.
@@ -97,11 +77,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Community** — EN: online community, find friends, meet new people, community app — TR: topluluk uygulaması, yeni arkadaş bulma, yeni insanlarla tanışma
-- **Interests** — EN: {interest} community, forum app, discussion app — TR: {interest} topluluğu, forum uygulaması, tartışma platformu
-- **Groups and events** — EN: local groups, events near me, meetup app — TR: yakındaki etkinlikler, grup etkinlikleri, buluşma uygulaması
-- **Social** — EN: social media app, share photos with friends, private social network — TR: sosyal medya uygulaması, arkadaşlarla paylaşım, özel sosyal ağ
-- **Chat** — EN: group chat app, voice chat rooms — TR: grup sohbeti, sesli sohbet odaları
+- **Community** — EN: online community, find friends, meet new people, community app
+- **Interests** — EN: {interest} community, forum app, discussion app
+- **Groups and events** — EN: local groups, events near me, meetup app
+- **Social** — EN: social media app, share photos with friends, private social network
+- **Chat** — EN: group chat app, voice chat rooms
 
 ## Avoid
 

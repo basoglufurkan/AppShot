@@ -17,7 +17,7 @@ shots: 7
 - A busy parent who wants a week of family meals planned and a shopping list done.
 - The meal-prepper saving money and time with Sunday batch cooking.
 - The home cook collecting recipes from Instagram, TikTok and blogs and wanting them clean and in one place.
-- In Turkey: "akşama ne pişirsem?" is a daily search. After installing they want to feel: decided, capable in the kitchen, less food wasted.
+- "What should I cook tonight?" is a daily search. After installing they want to feel: decided, capable in the kitchen, less food wasted.
 
 ## What wins the install
 
@@ -59,25 +59,6 @@ shots: 7
 - No more "what's for **dinner**?"
 - Ready in **{minutes} minutes**
 
-### Türkçe
-
-- Akşam yemeği **belli**
-- **Evdekilerle** pişir
-- Haftalık menün **hazır**
-- **Tutan** tarifler
-- Tarifleri **her yerden** kaydet
-- Adım adım, **eller serbest**
-- Alışveriş listen **kendiliğinden** oluşsun
-- Haftalık hazırlık artık **kolay**
-- Keşfedecek **{recipes}** tarif
-- Yoğun akşamlar için **pratik** tarifler
-- Sağlıklı ye, **israf etme**
-- Aile tariflerin **tek yerde**
-- **Gönül rahatlığıyla** pasta yap
-- Vegan mı? **Bol seçenek.**
-- "Akşama ne pişirsem?" **derdine son**
-- **{minutes} dakikada** sofrada
-
 ## Supporting elements
 
 - **Ingredient chips**: Tomatoes · Eggs · Rice → "{count} recipes you can make".
@@ -93,17 +74,17 @@ shots: 7
 - Appetising, natural-light photography (warm, top-down or 45°, real textures) on cream/editorial backgrounds; ember or sunset accents for warmth, forest for healthy/plant-based.
 - Food-magazine typography: a characterful serif for headlines, a clean sans for UI and quantities.
 - Full-bleed hero dishes; device frames smaller and overlapping the photo.
-- Leaders: Mob and Kitchen Stories (editorial, bold photography), Tasty (bright, video-led), Paprika (utility), Nefis Yemek Tarifleri (TR community).
-- Localise dishes per storefront (mercimek çorbası and karnıyarık for TR, tacos and lasagna for US).
+- Leaders: Mob and Kitchen Stories (editorial, bold photography), Tasty (bright, video-led), Paprika (utility).
+- Localise dishes per storefront (e.g. tacos and lasagna for US).
 - Keep step text huge in cook-mode shots — readability is the selling point.
 
 ## Keyword clusters
 
-- **Recipes** — EN: "recipes", "easy recipes", "dinner ideas", "quick dinner recipes" — TR: "yemek tarifleri", "pratik tarifler", "akşam yemeği tarifleri", "kolay yemek tarifleri"
-- **Planning** — EN: "meal planner", "weekly meal plan", "meal prep app" — TR: "haftalık yemek menüsü", "yemek planlayıcı", "haftalık menü"
-- **Ingredient-based** — EN: "cook with ingredients i have", "fridge recipes", "leftover recipes" — TR: "evdeki malzemelerle yemek", "dolaptaki malzemeyle tarif"
-- **Collections** — EN: "recipe keeper", "save recipes", "recipe organizer" — TR: "tarif defteri", "tarif kaydetme"
-- **Styles & devices** — EN: "air fryer recipes", "vegan recipes", "baking recipes", "slow cooker" — TR: "airfryer tarifleri", "vegan tarifler", "tatlı tarifleri", "kek tarifleri"
+- **Recipes** — EN: "recipes", "easy recipes", "dinner ideas", "quick dinner recipes"
+- **Planning** — EN: "meal planner", "weekly meal plan", "meal prep app"
+- **Ingredient-based** — EN: "cook with ingredients i have", "fridge recipes", "leftover recipes"
+- **Collections** — EN: "recipe keeper", "save recipes", "recipe organizer"
+- **Styles & devices** — EN: "air fryer recipes", "vegan recipes", "baking recipes", "slow cooker"
 
 ## Avoid
 

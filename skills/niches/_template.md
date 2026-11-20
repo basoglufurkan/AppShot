@@ -58,11 +58,6 @@ Ranked angles that convert in this niche, each with a one-line reason.
 - Build **muscle** at home
 - …(15+ lines, 2–6 words each)
 
-### Türkçe
-
-- Evde **kas** yap
-- …(15+ lines, written natively, not translated word for word)
-
 ## Supporting elements
 
 Cards, stats, notifications, chat bubbles, comparison rows that fit this niche,
@@ -74,7 +69,7 @@ Palette, typography, device treatment, imagery and what the top apps in this nic
 
 ## Keyword clusters
 
-3–5 clusters of real search phrases (EN), each with Turkish equivalents.
+3–5 clusters of real search phrases (EN).
 
 ## Avoid
 

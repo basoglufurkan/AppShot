@@ -60,26 +60,6 @@ shots: 7
 - Mornings that **feel** different
 - Know your **rhythm**
 
-### Türkçe
-
-- **Dinlenmiş** uyan
-- Gecelerin artık **anlaşılır**
-- En **hafif** uyku anında uyan
-- Her **uyku evresini** gör
-- Gece neler oluyor, **dinle**
-- **Rahatlatan** seslerle uykuya dal
-- Sabah **uyku puanın** hazır
-- Bozulmayan bir **uyku düzeni** kur
-- Uyku **borcunu** kapat
-- Horluyor musun? **Öğren**
-- **Kendi** gecelerinden içgörüler
-- Nazik alarm, **güzel** sabahlar
-- **{sounds}+** rahatlatıcı ses
-- Bu gece **akıllıca** uyu
-- Saat takmadan **uykunu** izle
-- Sabahların artık **farklı**
-- **Ritmini** keşfet
-
 ## Supporting elements
 
 - Sleep score ring "{score}", with "Time asleep {hours}h {minutes}m" and bedtime/wake time.
@@ -99,11 +79,11 @@ shots: 7
 
 ## Keyword clusters
 
-- **Tracking** — EN: sleep tracker, sleep cycle tracker, sleep monitor, sleep analysis — TR: uyku takibi, uyku döngüsü, uyku analizi, uyku takip uygulaması
-- **Alarm** — EN: smart alarm, sleep cycle alarm, gentle wake up alarm — TR: akıllı alarm, uyku döngüsü alarmı, nazik alarm
-- **Snoring** — EN: snore tracker, snoring recorder, sleep talk recorder — TR: horlama kaydı, horlama takibi, uykuda konuşma kaydı
-- **Sounds** — EN: sleep sounds, white noise, rain sounds for sleeping — TR: uyku sesleri, beyaz gürültü, yağmur sesi
-- **Trouble sleeping** — EN: insomnia help, fall asleep fast, sleep better — TR: uykusuzluk, hızlı uykuya dalma, daha iyi uyku
+- **Tracking** — EN: sleep tracker, sleep cycle tracker, sleep monitor, sleep analysis
+- **Alarm** — EN: smart alarm, sleep cycle alarm, gentle wake up alarm
+- **Snoring** — EN: snore tracker, snoring recorder, sleep talk recorder
+- **Sounds** — EN: sleep sounds, white noise, rain sounds for sleeping
+- **Trouble sleeping** — EN: insomnia help, fall asleep fast, sleep better
 
 ## Avoid
 

@@ -7,7 +7,7 @@
 
 - Platform: flutter (flutter) → stores: ios, android
 - Bundle / package: — / app.penny.budget · version 1.8.2 · category Finance
-- Locales in the app: en, tr
+- Locales in the app: en
 - Brand colours: #12B76A / #6172F3 (UI is mostly light)
 - Icon: assets/icon.png
 - Existing store text: none in the repo
@@ -61,8 +61,7 @@
 
 ## Keywords — TODO (skills/aso/keywords.md)
 
-Seeds from the niche (en): —
-Seeds from the niche (tr): budget app, budget planner, monthly budget, zero based budget, bütçe uygulaması, aylık bütçe planlama, bütçe takibi, expense tracker, spending tracker, money manager, daily expenses, harcama takibi
+Seeds from the niche (en): budget app, budget planner, monthly budget, zero based budget, expense tracker, spending tracker, money manager, daily expenses
 
 - Primary (put in shots 1–3 captions naturally): TODO
 - Secondary: TODO
@@ -79,6 +78,6 @@ Tone inferred from the UI strings: TODO (playful / premium / clinical / friendly
 
 ## Open questions for the user (max 3, ask once)
 
-1. Languages / markets to ship first? (default: en, tr)
+1. Languages / markets to ship first? (default: en)
 2. Any real rating, award or numbers we may show?
 3. Anything that must NOT be shown (beta features, private data, competitors)?

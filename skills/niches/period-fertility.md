@@ -60,26 +60,6 @@ shots: 7
 - Feel more **in sync**
 - Pill reminders, **on time**
 
-### Türkçe
-
-- **Döngünü** tanı
-- **Sürprizlere** son
-- Bir sonraki reglin **önceden** belli
-- **Doğurgan** günlerini gör
-- Her **evreyi** anla
-- Belirtileri **saniyede** kaydet
-- Bedenin artık **anlaşılır**
-- Bebek mi planlıyorsun? **Hazırlığa** başla
-- Seni **önemseyen** hatırlatmalar
-- PMS'i **gelmeden** fark et
-- Ruh halinin **arkasındaki** döngü
-- Verilerin, **senin** kontrolünde
-- Hayatının **her** dönemi için
-- **Düzensiz** döngüler için de
-- Perimenopoz dönemini **yakından** tanı
-- Bedeninle **uyum** içinde hisset
-- Hap hatırlatıcın **tam zamanında**
-
 ## Supporting elements
 
 - Cycle ring: "Day {cycleDay}", phase label, "Period in {days} days", with predicted days dotted and logged days filled.
@@ -99,11 +79,11 @@ shots: 7
 
 ## Keyword clusters
 
-- **Period** — EN: period tracker, period calendar, menstrual tracker, period app — TR: regl takvimi, adet takvimi, regl takip, adet takip uygulaması
-- **Ovulation and TTC** — EN: ovulation tracker, fertility app, ovulation calculator, get pregnant — TR: yumurtlama takvimi, doğurgan günler hesaplama, yumurtlama hesaplama, hamile kalma
-- **Symptoms** — EN: pms tracker, cycle symptoms, period symptoms — TR: pms takibi, regl belirtileri, adet belirtileri
-- **Pill** — EN: birth control reminder, pill reminder — TR: doğum kontrol hapı hatırlatıcı, hap hatırlatma
-- **Menopause** — EN: perimenopause tracker, menopause app, menopause symptoms — TR: menopoz takibi, perimenopoz belirtileri, menopoz uygulaması
+- **Period** — EN: period tracker, period calendar, menstrual tracker, period app
+- **Ovulation and TTC** — EN: ovulation tracker, fertility app, ovulation calculator, get pregnant
+- **Symptoms** — EN: pms tracker, cycle symptoms, period symptoms
+- **Pill** — EN: birth control reminder, pill reminder
+- **Menopause** — EN: perimenopause tracker, menopause app, menopause symptoms
 
 ## Avoid
 

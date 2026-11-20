@@ -59,26 +59,6 @@ shots: 6
 - Turn urges into **wins**
 - Get your time, and **money**, back
 
-### Türkçe
-
-- Bıraktığın her gün **değerli**
-- **Serinin** büyüdüğünü izle
-- **Biriktirdiğin** parayı gör
-- Krizleri **o an** atlat
-- Sağlık kazanımlarını **gün gün** gör
-- Kendi **yönteminle** bırak
-- Bir kaçamak **emeğini** silmez
-- Her **dönüm noktasını** kutla
-- **Zor anlar** için destek
-- **Tetikleyicilerini** tanı
-- **{days}** gün ve devam
-- Bu yolda **yalnız** değilsin
-- Dumansız hayat **bugün** başlar
-- **Nedenlerin** hep gözünün önünde
-- Alkolsüz hayata **buradan** başla
-- İsteği **zafere** çevir
-- Zamanını ve **paranı** geri al
-
 ## Supporting elements
 
 - Big live counter: "{days}d {hours}h {minutes}m" with "Quit on {quitDate}".
@@ -98,11 +78,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Smoking** — EN: quit smoking app, stop smoking, smoke free, quit smoking tracker — TR: sigara bırakma, sigarayı bırak, sigarasız gün sayacı, sigara bırakma uygulaması
-- **Vaping** — EN: quit vaping, nicotine tracker, vape free — TR: elektronik sigara bırakma, nikotin bırakma, vape bırakma
-- **Alcohol** — EN: sobriety counter, quit drinking, sober app, alcohol free days — TR: alkolü bırakma, ayıklık sayacı, alkolsüz gün sayacı
-- **Cravings** — EN: craving help, urge tracker, how to stop cravings — TR: sigara krizi, istekle başa çıkma, krizi atlatma
-- **Other habits** — EN: quit gambling, quit sugar, habit quit counter — TR: kumarı bırakma, şekeri bırakma, bırakma sayacı
+- **Smoking** — EN: quit smoking app, stop smoking, smoke free, quit smoking tracker
+- **Vaping** — EN: quit vaping, nicotine tracker, vape free
+- **Alcohol** — EN: sobriety counter, quit drinking, sober app, alcohol free days
+- **Cravings** — EN: craving help, urge tracker, how to stop cravings
+- **Other habits** — EN: quit gambling, quit sugar, habit quit counter
 
 ## Avoid
 

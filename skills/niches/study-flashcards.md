@@ -3,7 +3,7 @@ id: study-flashcards
 name: Study & Flashcards
 appStoreCategory: Education
 playCategory: Education
-keywords: [flashcard, flashcards, deck, decks, spaced repetition, srs, active recall, cloze, due cards, review session, card front, card back, memorize, mastery, study set, learn mode, quiz mode, test yourself, exam prep, revision, leitner, mnemonic, anki, quizlet, mcat, usmle, nclex, bar exam, sat, gre, yks, kpss, ales, ai flashcards, pdf to flashcards, notes to quiz]
+keywords: [flashcard, flashcards, deck, decks, spaced repetition, srs, active recall, cloze, due cards, review session, card front, card back, memorize, mastery, study set, learn mode, quiz mode, test yourself, exam prep, revision, leitner, mnemonic, anki, quizlet, mcat, usmle, nclex, bar exam, sat, gre, ai flashcards, pdf to flashcards, notes to quiz]
 themes: [midnight, clean-light, aurora, mint]
 layouts: [before-after, hero-device, big-number, zoom-callout, trio-fan, floating-cards, feature-list, social-proof]
 shots: 7
@@ -13,7 +13,7 @@ shots: 7
 
 ## The searcher
 
-- A student with a date circled: finals, MCAT/USMLE/NCLEX, bar exam, or in Turkey YKS, KPSS, ALES. Anxious, behind, looking for the most efficient hour possible.
+- A student with a date circled: finals, MCAT/USMLE/NCLEX, bar exam. Anxious, behind, looking for the most efficient hour possible.
 - Drowning in material: lecture slides, PDFs, textbook chapters — and no time to hand-write hundreds of cards.
 - Burned by rereading: knows highlighting "feels" productive but nothing sticks on exam day.
 - Lifelong learners and hobbyists (trivia, medicine, coding, languages) who want a personal memory system.
@@ -60,26 +60,6 @@ shots: 7
 - Your cards on **every device**
 - Keep your study **streak**
 
-### Türkçe
-
-- Notlarını **kartlara** dönüştür
-- Sınav günü **hatırla**
-- Daha az çalış, daha çok **hatırla**
-- **Unutmadan** hemen önce tekrar et
-- Sadece **sırası gelen** kartları çalış
-- PDF'ten **teste** tek adımda
-- Tek dokunuşla **deste** oluştur
-- Neyi **bildiğini** bil
-- **{exam}** için hazır ol
-- Ezber değil, **kalıcı** öğrenme
-- Her yerde kendini **test et**
-- Bugün **{due} kart**, hızlıca bitir
-- Formüller, görseller, **sesler**
-- Her sınava hazır **desteler**
-- Kartların **tüm cihazlarında**
-- Çalışma **serini** koru
-- YKS'ye **akıllıca** hazırlan
-
 ## Supporting elements
 
 - **Flip card**: front question, back answer, slight 3D tilt, floating outside the frame.
@@ -102,15 +82,15 @@ shots: 7
 
 ## Keyword clusters
 
-- **Flashcard makers** — EN: "flashcards", "flashcard maker", "ai flashcards", "flashcards from pdf" — TR: "bilgi kartı", "flash kart uygulaması", "yapay zeka ile kart oluşturma"
-- **Memory & study method** — EN: "spaced repetition", "memorize faster", "study app" — TR: "aralıklı tekrar", "ezber uygulaması", "ders çalışma uygulaması"
-- **Exam prep** — EN: "mcat prep", "nclex practice", "sat practice", "usmle step 1" — TR: "yks hazırlık", "kpss soru bankası", "ales hazırlık"
-- **Quiz from material** — EN: "pdf to quiz", "quiz maker", "test maker" — TR: "pdf'ten soru oluşturma", "test hazırlama", "soru oluşturucu"
+- **Flashcard makers** — EN: "flashcards", "flashcard maker", "ai flashcards", "flashcards from pdf"
+- **Memory & study method** — EN: "spaced repetition", "memorize faster", "study app"
+- **Exam prep** — EN: "mcat prep", "nclex practice", "sat practice", "usmle step 1"
+- **Quiz from material** — EN: "pdf to quiz", "quiz maker", "test maker"
 
 ## Avoid
 
 - Score or pass guarantees ("Pass the MCAT", "+20 points") — Apple 2.3.1 and consumer law; use "prepare", "practise", "review".
-- Implying official status: MCAT, USMLE, SAT, YKS, KPSS are trademarks/official exams; "for {exam} prep" is fine, "official" is not. Don't reproduce real ÖSYM or licensed exam questions — they are copyrighted.
+- Implying official status: MCAT, USMLE, SAT are trademarks/official exams; "for {exam} prep" is fine, "official" is not. Don't reproduce real official or licensed exam questions — they are copyrighted.
 - Naming Anki or Quizlet in captions ("Anki alternative") — Apple 2.3.7 forbids other app names in metadata.
 - Copyrighted textbook pages, figures or a professor's slides in screenshots.
 - AI-generated cards with visible errors — students zoom in.

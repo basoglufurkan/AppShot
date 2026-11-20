@@ -59,26 +59,6 @@ shots: 6
 - Small walks, **big** change
 - Today: **{steps}** steps
 
-### Türkçe
-
-- Her **adım** sayılır
-- Günlük **hedefini** tuttur
-- Adımların **otomatik** sayılsın
-- Sen yürü, **biz** sayalım
-- Her **hedefi** kutla
-- Yürüyerek **formda** kal
-- Haftanı **adımlarla** gör
-- Seni **hareketli** tutan seriler
-- Her **başarıya** bir rozet
-- Adımların **ana ekranda**
-- **Pil** dostu takip
-- Her seviyeye **yürüyüş** planı
-- **Arkadaşlarınla** yarış
-- Mesafe, kalori, **süre**
-- **Merdiven** meydan okuması
-- Kısa yürüyüşler, **büyük** değişim
-- Bugün **{steps}** adım
-
 ## Supporting elements
 
 - Giant ring or arc: "{steps}" with "Goal {goal}" and percent complete.
@@ -98,11 +78,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Core** — EN: step counter, pedometer, step tracker, pedometer app — TR: adım sayar, pedometre, adım sayacı, adım sayma uygulaması
-- **Walking** — EN: walking app, walking tracker, walking for weight loss — TR: yürüyüş uygulaması, yürüyüş takibi, yürüyerek kilo verme
-- **Goals** — EN: 10000 steps a day, daily step goal — TR: günde 10000 adım, günlük adım hedefi
-- **Calories** — EN: calories burned walking, steps to calories — TR: yürüyüşte yakılan kalori, adım kalori hesaplama
-- **Challenges** — EN: step challenge, walking challenge with friends — TR: adım yarışması, arkadaşlarla yürüyüş yarışı
+- **Core** — EN: step counter, pedometer, step tracker, pedometer app
+- **Walking** — EN: walking app, walking tracker, walking for weight loss
+- **Goals** — EN: 10000 steps a day, daily step goal
+- **Calories** — EN: calories burned walking, steps to calories
+- **Challenges** — EN: step challenge, walking challenge with friends
 
 ## Avoid
 

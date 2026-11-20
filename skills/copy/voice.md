@@ -8,7 +8,7 @@ Score what you find during the scan; don't guess from the category alone.
 
 | Signal | Where to look | What it suggests |
 |---|---|---|
-| UI strings | `Localizable.strings` / `.xcstrings`, `values/strings.xml`, `*.arb`, `en.json` / `tr.json`, i18n folders | Read 30–50 strings: tone, pronouns, contractions |
+| UI strings | `Localizable.strings` / `.xcstrings`, `values/strings.xml`, `*.arb`, `en.json` / `de.json`, i18n folders | Read 30–50 strings: tone, pronouns, contractions |
 | Exclamation and emoji density | the same files | Many "!" or emoji → playful/friendly; none → premium/clinical |
 | CTA labels | buttons in onboarding and paywall | "Let's go!" → playful/friendly · "Continue" → neutral · "Begin" → premium · "Proceed" / "Submit" → clinical/enterprise |
 | Errors and empty states | error strings, empty-state views | Jokes ("Oops, the hamster fell asleep") → playful · plain instructions → clinical |
@@ -50,7 +50,7 @@ Every voice is a position on five dials (1 = low, 5 = high). Use the dials to br
   - slang that dates in a season
   - more than one "!" in the set
   - emoji unless the UI uses them (never inside the highlight)
-- **Examples:** "Vocab that **sticks**" / "Kelimeler **akılda** kalsın" · "Meal prep, minus the **mess**" / "Hazırlık tamam, **dağınıklık** yok" · "Your plants say **thanks**" / "Bitkilerin sana **teşekkür** ediyor"
+- **Examples:** "Vocab that **sticks**" · "Meal prep, minus the **mess**" · "Your plants say **thanks**"
 
 ### Premium
 - **Feels like:** a calm expert with nothing to prove. Restraint is the signal.
@@ -65,7 +65,7 @@ Every voice is a position on five dials (1 = low, 5 = high). Use the dials to br
   - "!", emoji, hype adjectives
   - badges crowding the frame
   - three features in one caption
-- **Examples:** "Money, **quietly** handled." / "Paran, **sessizce** yönetilir." · "Every detail, **considered**." / "Her ayrıntı **düşünüldü**." · "Just **focus**." / "Sadece **odak**."
+- **Examples:** "Money, **quietly** handled." · "Every detail, **considered**." · "Just **focus**."
 
 ### Clinical
 - **Feels like:** a trustworthy professional (health, finance, security, B2B).
@@ -74,13 +74,12 @@ Every voice is a position on five dials (1 = low, 5 = high). Use the dials to br
 - **Do:**
   - be exact (units, standards, data flows)
   - show real data screens
-  - name certifications only when held (HIPAA, ISO 27001, KVKK compliance, SOC 2)
+  - name certifications only when held (HIPAA, ISO 27001, GDPR compliance, SOC 2)
 - **Don't:**
   - jokes, emoji or fear-mongering
   - "diagnose/cure/treat" language for non-medical apps
   - "doctor-approved" without a named, real basis (see `proof.md`)
-- **Examples:** "Blood pressure, **tracked** daily" / "Tansiyonunuz her gün **kayıt** altında" · "Share reports with your **doctor**" / "Raporlarınızı **doktorunuzla** paylaşın" · "Encrypted **end to end**" / "Uçtan uca **şifreli**"
-- **Turkish note:** clinical apps usually take *siz*, as in the examples above.
+- **Examples:** "Blood pressure, **tracked** daily" · "Share reports with your **doctor**" · "Encrypted **end to end**"
 
 ### Friendly
 - **Feels like:** a helpful neighbour: warm, encouraging, never patronising.
@@ -95,7 +94,7 @@ Every voice is a position on five dials (1 = low, 5 = high). Use the dials to br
   - baby talk
   - "Don't worry, it's easy!" (patronising)
   - promising feelings the product can't deliver
-- **Examples:** "Small steps, **real** progress" / "Küçük adımlar, **gerçek** ilerleme" · "Dinner, **together**, without the stress" / "Akşam yemeği **birlikte**, stres olmadan" · "We remind, you **relax**" / "Biz hatırlatırız, sen **rahat** ol"
+- **Examples:** "Small steps, **real** progress" · "Dinner, **together**, without the stress" · "We remind, you **relax**"
 
 ### Bold
 - **Feels like:** a coach or challenger brand: momentum and confidence.
@@ -110,7 +109,7 @@ Every voice is a position on five dials (1 = low, 5 = high). Use the dials to br
   - shaming the reader
   - ALL CAPS sentences
   - unsubstantiated "#1"
-- **Examples:** "**Stronger** every week" / "Her hafta daha **güçlü**" · "Stop guessing. **Start** lifting." / "Tahmini bırak, **kaldırmaya** başla" · "Your pace, only **faster**" / "Senin tempon, daha **hızlı**"
+- **Examples:** "**Stronger** every week" · "Stop guessing. **Start** lifting." · "Your pace, only **faster**"
 
 ## When voice and niche collide
 
@@ -126,13 +125,13 @@ Every voice is a position on five dials (1 = low, 5 = high). Use the dials to br
 
 The voice survives translation through **register choices**, not word-for-word tone. Use this map, and check each locale file's "Voice and register" section for the details.
 
-| Voice | tr | de-DE | fr-FR | es-ES / es-MX | ja | ko | ru | zh |
-|---|---|---|---|---|---|---|---|---|
-| Playful | sen, colloquial OK | du, light | tu if UI uses it, else nominal | tú | casual + onomatopoeia | 해요체, 반말 only if UI | ты if UI | 你, slang sparingly |
-| Friendly | sen | du | vous or nominal | tú | です/ます subheads | 해요체 | вы or nominal | 你 |
-| Bold | sen, imperative | du, imperative | vous or nominal | tú | plain, short | noun endings | вы, imperative | 你, short |
-| Premium | sen (siz for luxury/finance) | du (Sie for private banking) | vous | tú (usted for private banking) | taigen-dome | noun endings | вы | 您 or none |
-| Clinical | siz | Sie | vous | usted where the UI uses it | です/ます | 합니다체 or 해요체 | вы | 您 |
+| Voice | de-DE | fr-FR | es-ES / es-MX | ja | ko | ru | zh |
+|---|---|---|---|---|---|---|---|
+| Playful | du, light | tu if UI uses it, else nominal | tú | casual + onomatopoeia | 해요체, 반말 only if UI | ты if UI | 你, slang sparingly |
+| Friendly | du | vous or nominal | tú | です/ます subheads | 해요체 | вы or nominal | 你 |
+| Bold | du, imperative | vous or nominal | tú | plain, short | noun endings | вы, imperative | 你, short |
+| Premium | du (Sie for private banking) | vous | tú (usted for private banking) | taigen-dome | noun endings | вы | 您 or none |
+| Clinical | Sie | vous | usted where the UI uses it | です/ます | 합니다체 or 해요체 | вы | 您 |
 
 Humour also changes shape across locales:
 - **DE, NL, SV:** dry.
@@ -153,7 +152,7 @@ voice:
   dials: {formality: 2, energy: 3, humour: 2, technicality: 1, warmth: 5}
   say: ["small steps", "together", "on your schedule"]
   avoid: ["crush", "ultimate", "!"]
-  tr: sen
+  de-DE: du
 ```
 
 Check every final caption against the `say`/`avoid` lists and the dials. A caption that would need a different voice to sound right belongs to a different shot, or to no shot at all.

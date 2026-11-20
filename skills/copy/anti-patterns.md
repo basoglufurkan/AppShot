@@ -7,7 +7,6 @@ Thirty-three mistakes that sink screenshot captions, each with the reason it fai
 ### 1. Feature-speak
 Naming the mechanism instead of what the user gets.
 - ✗ "Advanced expense categorisation" → ✓ "See where every **dollar** goes"
-- ✗ "Gelişmiş harcama kategorileri" → ✓ "Paranın nereye **gittiğini** gör"
 
 ### 2. Internal jargon and code names
 Users have never heard of your sync engine.
@@ -17,7 +16,6 @@ Users have never heard of your sync engine.
 ### 3. Vague superlatives
 "Best", "ultimate" and "amazing" carry no information and invite legal scrutiny.
 - ✗ "The best budgeting app ever" → ✓ "A budget you'll actually **keep**"
-- ✗ "En iyi bütçe uygulaması" → ✓ "Sonunda **tutturduğun** bir bütçe"
 
 ### 4. Generic stock benefits
 They could sit on any app in any category.
@@ -45,12 +43,10 @@ The claim must be visible on the device below it.
 ### 10. Hedging
 "Can", "may" and "helps you" water the promise down. Replace it with a true, concrete mechanism.
 - ✗ "Can help you possibly sleep better" → ✓ "Drift off to **calm** sounds"
-- ✗ "Kolayca düzenleyebilirsin" → ✓ "Tek dokunuşla **düzenle**"
 
 ### 11. Weak verbs
 Manage, handle, use, get, do.
 - ✗ "Manage your tasks" → ✓ "Finish what **matters**"
-- ✗ "Görevlerini yönet" → ✓ "Önemli işleri **bitir**"
 
 ## Truth and policy
 
@@ -63,7 +59,7 @@ Scaring people about health or money reads as manipulative and triggers review f
 
 ### 14. Fake urgency and CTAs
 "Download now" sits next to the Get button anyway, and Play discourages CTAs in screenshots.
-- ✗ "Download now!" / "Hemen indir!" → ✓ the benefit itself: "Bu akşam **ilk** bütçen hazır"
+- ✗ "Download now!" → ✓ the benefit itself: "A clear budget by **Sunday**"
 
 ### 15. Competitor and platform references
 These are trademark and policy problems (Apple 2.3.10, Play metadata policy).
@@ -82,13 +78,12 @@ They die in 20 locales and confuse non-native English readers too.
 - ✗ "Lettuce help you eat better" → ✓ "Eat **better**, skip the guesswork"
 
 ### 19. Literal idiom translation
-- ✗ EN "A piece of cake" → TR "Bir parça kek" → ✓ "Çocuk **oyuncağı**", or simply "Çok **kolay**"
 - ✗ EN "Hit the ground running" → DE "Den Boden laufend treffen" → ✓ "Sofort **loslegen**"
 
 ### 20. Inconsistent person or voice
-Mixing you/we/users, or sen/siz, across shots.
+Mixing you/we/users, or du/Sie, across shots.
 - ✗ "Track your runs" / "We plan your meals" / "Users can share" → ✓ second person throughout
-- ✗ "Planını yap" / "Hedeflerinizi belirleyin" → ✓ "Planını yap" / "Hedefini **belirle**"
+- ✗ "Plane deine Woche" / "Legen Sie Ihr Ziel fest" → ✓ "Plane deine Woche" / "Leg dein **Ziel** fest"
 
 ### 21. Exclusionary assumptions
 - ✗ "For busy moms" (an app for all parents) → ✓ "For busy **parents**"
@@ -104,7 +99,7 @@ Sentences don't read at thumbnail size (limits are in `length.md`).
 - ✗ "Easily track all of your daily expenses and income in one simple place" → ✓ "Every expense, one **place**"
 
 ### 24. ALL CAPS
-It's harder to read, it shouts, and it breaks Turkish İ/ı, German ß, and stacked Vietnamese or Thai marks.
+It's harder to read, it shouts, and it breaks German ß and stacked Vietnamese or Thai marks.
 - ✗ "TRACK YOUR WORKOUTS" → ✓ "Track every **workout**"
 
 ### 25. Over-highlighting
@@ -114,7 +109,7 @@ More than two accent words means no accent.
 ### 26. Highlighting the wrong word
 Pronouns, articles, the brand, or half a word.
 - ✗ "Track **your** expenses" → ✓ "Track **every** expense"
-- ✗ "Her **kuruş**unu takip et" (the suffix falls outside the highlight) → ✓ "Her **kuruşunu** takip et". In agglutinative languages, highlight the whole word including suffixes.
+- In agglutinative languages, highlight the whole word including suffixes; never leave a suffix outside the highlight.
 
 ### 27. Brand name in every headline
 The name already sits beside the icon.
@@ -145,10 +140,10 @@ Orphans, split units, a highlight broken across lines.
 Before rendering, flag any caption that:
 - has more than 6 words in the headline or 12 in the subhead
 - has more than 2 `**…**` pairs, or unbalanced markers
-- contains an ALL-CAPS word longer than 3 letters (except real acronyms such as PDF or YKS)
+- contains an ALL-CAPS word longer than 3 letters (except real acronyms such as PDF or SAT)
 - contains more than one "!" across the set, or any emoji not used in the app UI
 - contains an unfilled `{placeholder}` at export time
 - contains a word from the overused lists in `power-words.md`
 - repeats a content word used in another headline of the same set and locale (compare roots, not inflected forms)
 - mentions Android, Google Play or iPhone on the other store's listing, a competitor brand, or a four-digit year
-- contains "Download", "İndir", "Install" or "Get it now"
+- contains "Download", "Install" or "Get it now"

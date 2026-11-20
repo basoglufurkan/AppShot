@@ -20,12 +20,12 @@ export const LOCALES = readJson(path.join(ENGINE_DIR, 'locales.json')).locales;
 
 /** Field keys in file order, with their labels (first = the one written; others are accepted on read). */
 export const FIELDS = [
-  ['name', ['Name', 'App name', 'Title', 'Ad', 'Uygulama adı', 'Nombre', 'Nome', 'Nom']],
-  ['subtitle', ['Subtitle', 'Alt başlık', 'Subtítulo', 'Untertitel', 'Sous-titre']],
-  ['promo', ['Promotional text', 'Promo text', 'Tanıtım metni', 'Texto promocional', 'Werbetext', 'Texte promotionnel']],
-  ['keywords', ['Keywords', 'Keyword field', 'Anahtar kelimeler', 'Palabras clave', 'Palavras-chave', 'Schlüsselwörter', 'Mots-clés']],
-  ['description', ['Description', 'Açıklama', 'Descripción', 'Descrição', 'Beschreibung']],
-  ['whatsNew', ["What's New", 'What’s New', 'Release notes', 'Yenilikler', 'Novedades', 'Novidades', 'Neuerungen', 'Nouveautés']],
+  ['name', ['Name', 'App name', 'Title', 'Nombre', 'Nome', 'Nom']],
+  ['subtitle', ['Subtitle', 'Subtítulo', 'Untertitel', 'Sous-titre']],
+  ['promo', ['Promotional text', 'Promo text', 'Texto promocional', 'Werbetext', 'Texte promotionnel']],
+  ['keywords', ['Keywords', 'Keyword field', 'Palabras clave', 'Palavras-chave', 'Schlüsselwörter', 'Mots-clés']],
+  ['description', ['Description', 'Descripción', 'Descrição', 'Beschreibung']],
+  ['whatsNew', ["What's New", 'What’s New', 'Release notes', 'Novedades', 'Novidades', 'Neuerungen', 'Nouveautés']],
   ['playTitle', ['Play title']],
   ['playShort', ['Play short description', 'Short description']],
   ['playFull', ['Play full description', 'Full description']],
@@ -60,10 +60,10 @@ export function parseFields(text, map = FIELD_OF) {
 }
 export const parseShared = (text) => parseFields(text, SHARED_OF);
 
-/** Language heading ("English (U.S.)", "Türkçe (Turkish)", "Español (España)") → locale id. */
+/** Language heading ("English (U.S.)", "Deutsch (German)", "Español (España)") → locale id. */
 const ENGLISH_NAMES = {
   'english (u.s.)': 'en-US', 'english (us)': 'en-US', 'english': 'en-US', 'english (u.k.)': 'en-GB', 'english (uk)': 'en-GB',
-  turkish: 'tr', german: 'de-DE', french: 'fr-FR', 'spanish (spain)': 'es-ES', spanish: 'es-ES', 'spanish (mexico)': 'es-MX',
+  german: 'de-DE', french: 'fr-FR', 'spanish (spain)': 'es-ES', spanish: 'es-ES', 'spanish (mexico)': 'es-MX',
   'portuguese (brazil)': 'pt-BR', italian: 'it', dutch: 'nl-NL', japanese: 'ja', korean: 'ko', 'chinese (simplified)': 'zh-Hans',
   'chinese (traditional)': 'zh-Hant', arabic: 'ar-SA', hebrew: 'he', russian: 'ru', polish: 'pl', swedish: 'sv', indonesian: 'id',
   hindi: 'hi', vietnamese: 'vi', thai: 'th',
@@ -79,7 +79,7 @@ export function localeFromHeading(h) {
   return ENGLISH_NAMES[outer] || Object.entries(LOCALES).find(([, l]) => l.name.toLowerCase().replace(/\s*\(.*\)/, '') === outer)?.[0] || null;
 }
 
-/** Split a multi-locale document ("## English (U.S.)" … "## Türkçe (Turkish)") into { locale: fields } + shared. */
+/** Split a multi-locale document ("## English (U.S.)" … "## Deutsch (German)") into { locale: fields } + shared. */
 export function parseDocument(text) {
   const locales = {};
   const parts = String(text).split(/^## /m);
@@ -140,8 +140,8 @@ export function toMarkdown(locale, f, { appName = 'App', intro = '' } = {}) {
 /** Words of a text for keyword hygiene (lower-cased, stemmed). */
 const wordsOf = (s, locale) => (s || '').toLocaleLowerCase(locale).split(/[^\p{L}\p{N}]+/u).filter(Boolean).map((w) => stem(w, locale));
 
-const GENERIC = /^(app|apps|iphone|ipad|ios|free|application|uygulama|uygulaması|aplicación|aplicativo|anwendung|appli)$/i;
-const SUB_WORDS = /\b(subscri\w*|premium|pro|plus|in-app purchase\w*|auto-?renew\w*|abonelik\w*|ücretli|suscrip\w*|assinatura\w*|abonnement\w*|abo\b|abonnier\w*|langganan|abbonament\w*|подписк\w*|サブスク\w*|定期購読|구독|订阅|訂閱|اشتراك|מנוי|सदस्यता|subskrypc\w*|prenumeration\w*|đăng ký|สมัครสมาชิก)/iu;
+const GENERIC = /^(app|apps|iphone|ipad|ios|free|application|aplicación|aplicativo|anwendung|appli)$/i;
+const SUB_WORDS = /\b(subscri\w*|premium|pro|plus|in-app purchase\w*|auto-?renew\w*|suscrip\w*|assinatura\w*|abonnement\w*|abo\b|abonnier\w*|langganan|abbonament\w*|подписк\w*|サブスク\w*|定期購読|구독|订阅|訂閱|اشتراك|מנוי|सदस्यता|subskrypc\w*|prenumeration\w*|đăng ký|สมัครสมาชิก)/iu;
 const LATAM_IN_ES = /\b(celular|computadora|carro|manejar|platicar|jugo|lentes|departamento|ustedes)\b/i;
 
 /**
@@ -160,7 +160,7 @@ export function checkLocale(f, { locale, profile = {}, plan = {}, shared = {}, p
     if (RX.placeholder.test(v) || /\b(TODO|TBD|XXX)\b|lorem ipsum/.test(v)) add('error', k, 'placeholder', 'unfilled placeholder / TODO');
     const lim = limitOf(k);
     if (!lim) continue;
-    if (k === 'keywords') { if (bytes(v) > lim.bytes) add('error', k, 'too-long', `${bytes(v)} bytes (max ${lim.bytes}; letters like ç, é, ü take 2)`); }
+    if (k === 'keywords') { if (bytes(v) > lim.bytes) add('error', k, 'too-long', `${bytes(v)} bytes (max ${lim.bytes}; letters like é, ü, ñ take 2)`); }
     else if (chars(v) > lim) add('error', k, 'too-long', `${chars(v)} characters (max ${lim})`);
   }
   if (!f.name) add('error', 'name', 'missing', 'no app name');
@@ -175,7 +175,7 @@ export function checkLocale(f, { locale, profile = {}, plan = {}, shared = {}, p
     if (RX.ranking.test(v)) add(k.startsWith('play') ? 'error' : 'warn', k, 'ranking', `"${v.match(RX.ranking)[0]}" — ranking or superlative (Apple 2.3.7, Play metadata policy)`);
     if (RX.emoji.test(v)) add(k.startsWith('play') ? 'error' : 'warn', k, 'emoji', 'emoji (Play forbids them in title and short description)');
     RX.emoji.lastIndex = 0;
-    if (/\b(free|ücretsiz|gratis|gratuit|kostenlos|grátis|無料|免费|무료)\b/i.test(v)) add('warn', k, 'free', '"free" in the name or subtitle reads as a price claim (and is misleading with a paywall)');
+    if (/\b(free|gratis|gratuit|kostenlos|grátis|無料|免费|무료)\b/i.test(v)) add('warn', k, 'free', '"free" in the name or subtitle reads as a price claim (and is misleading with a paywall)');
     if (k.startsWith('play') && RX.cta.test(v)) add('error', k, 'cta', 'install call to action (Play metadata policy)');
     const caps = v.replace(/[^\p{L}]/gu, '');
     if (caps.length > 6 && caps === caps.toLocaleUpperCase(locale) && caps !== caps.toLocaleLowerCase(locale)) add('warn', k, 'caps', 'ALL CAPS');
@@ -210,7 +210,7 @@ export function checkLocale(f, { locale, profile = {}, plan = {}, shared = {}, p
   if (f.description) {
     const d = f.description;
     if (RX.otherPlatformIos.test(d)) add('error', 'description', 'other-platform', `mentions "${d.match(RX.otherPlatformIos)[0]}" in App Store text (Apple 2.3.10)`);
-    const hard = d.match(/(#\s?1\b|\bno\.?\s?1\b|number one|\bbest (app|apps|[\w-]+ app)\b|\btop[- ]rated\b|award[- ]winning|editors'? choice|\ben iyi (uygulama|\w+ uygulaması)|1 numara|ödüllü)/i);
+    const hard = d.match(/(#\s?1\b|\bno\.?\s?1\b|number one|\bbest (app|apps|[\w-]+ app)\b|\btop[- ]rated\b|award[- ]winning|editors'? choice)/i);
     if (hard) add('warn', 'description', 'ranking', `"${hard[0]}" — a ranking or award claim needs third-party proof (Apple 2.3.7)`);
     else if (RX.ranking.test(d)) { const m = d.match(RX.ranking); const at = d.indexOf(m[0]); add('info', 'description', 'superlative', `"…${d.slice(Math.max(0, at - 20), at + m[0].length + 20).replace(/\s+/g, ' ')}…" — fine if it describes a feature, not a claim about the app`); }
     if (RX.medical.test(d)) add('warn', 'description', 'medical', 'medical or treatment claim (Apple 1.4.1)');
@@ -220,7 +220,7 @@ export function checkLocale(f, { locale, profile = {}, plan = {}, shared = {}, p
     const all = `${f.description || ''}\n${f.promo || ''}`;
     const named = paidName && all.toLowerCase().includes(paidName.toLowerCase());
     if (f.description && !named && !SUB_WORDS.test(all)) add('error', 'description', 'paid-disclosure', `the app sells ${profile.monetization.subscriptions ? 'subscriptions' : 'in-app purchases'}${paidName ? ` (${paidName})` : ''} but the description never says what needs paying for (Apple 2.3.2)`);
-    if (profile.monetization.subscriptions && !f.termsUrl && !shared.termsUrl && !/(terms of use|eula|terms of service|kullanım koşulları|términos de uso|termos de uso|nutzungsbedingungen|conditions d'utilisation|apple\.com\/legal\/internet-services\/itunes\/dev\/stdeula)/i.test(f.description || ''))
+    if (profile.monetization.subscriptions && !f.termsUrl && !shared.termsUrl && !/(terms of use|eula|terms of service|términos de uso|termos de uso|nutzungsbedingungen|conditions d'utilisation|apple\.com\/legal\/internet-services\/itunes\/dev\/stdeula)/i.test(f.description || ''))
       add('warn', 'description', 'terms', 'auto-renewable subscription: add a Terms of Use (EULA) link to the description, or set the EULA in App Store Connect and note it as **Terms of Use** in metadata/_shared.md (Apple 3.1.2)');
   }
   if (!shared.privacyUrl && !f.privacyUrl) add('info', 'privacyUrl', 'missing', 'no Privacy Policy URL in metadata/_shared.md (App Store Connect requires one)');
@@ -232,10 +232,6 @@ export function checkLocale(f, { locale, profile = {}, plan = {}, shared = {}, p
       if (/!/.test(v) && !/¡/.test(v)) add('warn', k, 'es-exclaim', 'Spanish exclamations open with ¡');
     }
     if (locale === 'es-ES') for (const [k] of FIELDS) { const m = (f[k] || '').match(LATAM_IN_ES); if (m) add('warn', k, 'es-latam', `"${m[0]}" is Latin American Spanish — the Spain listing reads it as foreign (skills/locales/es-ES.md)`); }
-  }
-  if (locale === 'tr') for (const k of ['name', 'subtitle', 'keywords', 'promo']) {
-    const v = f[k] || '';
-    if (v.length > 12 && !/[çğıöşüÇĞİÖŞÜ]/.test(v) && /\b(icin|gun|cok|ogren|sayac|ozel|guc|ucretsiz|kisisel|duzen|basla|calis|yildiz|gorev|aliskanlik|zamanlayici)\w*/i.test(v)) add('warn', k, 'tr-ascii', 'Turkish typed without ç ğ ı ö ş ü');
   }
   // Play full description: keyword stuffing (Play metadata policy).
   if (f.playFull || (android && f.description)) {

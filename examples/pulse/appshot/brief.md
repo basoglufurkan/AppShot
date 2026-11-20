@@ -7,7 +7,7 @@
 
 - Platform: expo (react-native) → stores: ios, android
 - Bundle / package: app.pulse.workouts / app.pulse.workouts · version 2.3.0 · category Health & Fitness
-- Locales in the app: en, tr
+- Locales in the app: en
 - Brand colours: #C6F432 / #8B7CFF (UI is mostly dark)
 - Icon: assets/icon.png
 - Existing store text: none in the repo
@@ -74,12 +74,12 @@
 
 ## Keywords
 
-- Primary (shots 1–3): EN home workouts, workout plan, ai coach · TR ev antrenmanı, antrenman, yapay zekâ koçu
-- Secondary: no equipment, strength, streak · ekipman, güç
+- Primary (shots 1–3): EN home workouts, workout plan, ai coach
+- Secondary: no equipment, strength, streak
 
 ## Voice
 
-Friendly-bold: short imperatives, "you"/"sen", one emoji at most in notifications, no hype words.
+Friendly-bold: short imperatives, "you", one emoji at most in notifications, no hype words.
 
 ## Visual direction
 
@@ -88,4 +88,4 @@ Friendly-bold: short imperatives, "you"/"sen", one emoji at most in notification
 
 ## Open questions (asked once — demo defaults used)
 
-1. Languages: English + Turkish.  2. Real proof: none.  3. Hide: nothing.
+1. Languages: English.  2. Real proof: none.  3. Hide: nothing.

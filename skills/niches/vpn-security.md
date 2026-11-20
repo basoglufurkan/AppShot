@@ -16,7 +16,7 @@ shots: 6
 - A traveller on airport, hotel or café Wi-Fi who suddenly wonders who can see their traffic.
 - A privacy-conscious user tired of being tracked by ads and data brokers.
 - A remote worker who needs a stable, encrypted connection on any network.
-- Users in markets where VPNs are mainstream (Turkey included) choosing between dozens of near-identical apps — they pick on trust and simplicity.
+- Users in markets where VPNs are mainstream choosing between dozens of near-identical apps — they pick on trust and simplicity.
 - After installing they want to feel: protected with one tap, without having to understand protocols.
 
 ## What wins the install
@@ -59,25 +59,6 @@ shots: 6
 - Privacy that **just works**
 - Stable on **any** network
 
-### Türkçe
-
-- Her ağda **gizli** kal
-- Tek dokunuş, **korumadasın**
-- Halka açık **Wi-Fi**'da güvende ol
-- İnternet gezintin **sana özel**
-- **{countries}** ülkede sunucu
-- **Konumunu** sen seç
-- **WireGuard** ile hızlı bağlantı
-- İzleyiciler? **Engellendi.**
-- Kayıt yok, **bağımsız denetimli**
-- Kill switch ile **kesintisiz** koruma
-- Seyahatte **için rahat** olsun
-- **Tüm cihazlarını** koru
-- Şifreleme **hep açık**
-- **IP adresini** gizle
-- Zahmetsiz **gizlilik**
-- Her ağda **istikrarlı** bağlantı
-
 ## Supporting elements
 
 - **Connection pill**: "Connected · {city} · {protocol}".
@@ -99,18 +80,18 @@ shots: 6
 
 ## Keyword clusters
 
-- **Core VPN** — EN: "vpn", "fast vpn", "vpn proxy", "secure vpn", "vpn for iphone" — TR: "vpn", "hızlı vpn", "güvenli vpn", "vpn uygulaması"
-- **IP & location** — EN: "hide ip", "change location", "ip changer", "virtual location" — TR: "ip gizleme", "konum değiştirme", "ip değiştirici"
-- **Wi-Fi safety** — EN: "wifi security", "public wifi protection", "secure wifi" — TR: "wifi güvenliği", "güvenli internet", "halka açık wifi"
-- **Blocking & privacy** — EN: "ad blocker", "tracker blocker", "private browsing" — TR: "reklam engelleyici", "izleyici engelleme", "gizli gezinti"
-- **Security suite** — EN: "dark web monitoring", "data breach alert", "online privacy" — TR: "veri sızıntısı kontrolü", "çevrimiçi gizlilik"
+- **Core VPN** — EN: "vpn", "fast vpn", "vpn proxy", "secure vpn", "vpn for iphone"
+- **IP & location** — EN: "hide ip", "change location", "ip changer", "virtual location"
+- **Wi-Fi safety** — EN: "wifi security", "public wifi protection", "secure wifi"
+- **Blocking & privacy** — EN: "ad blocker", "tracker blocker", "private browsing"
+- **Security suite** — EN: "dark web monitoring", "data breach alert", "online privacy"
 
 ## Avoid
 
 - Scare tactics: "Your phone is not protected!", fake virus or hack warnings, red countdowns, mock system alerts — Apple 2.3.1 and Google Play's deceptive-behaviour and misrepresentation rules.
 - Apple 5.4: VPN apps must use the NEVPNManager API, be published by an organisation account, disclose data collection, and may not sell or share user data; Apple pulls VPN apps from storefronts where they're illegal.
 - Google Play VpnService policy: VPN must be the app's core function; no undisclosed data collection, ad manipulation or traffic redirection for monetisation.
-- Streaming-unblock or censorship-circumvention claims ("Watch US Netflix", "Open blocked sites") — trademark, ToS and local-law risk (including in Turkey).
+- Streaming-unblock or censorship-circumvention claims ("Watch US Netflix", "Open blocked sites") — trademark, ToS and local-law risk.
 - Overclaims: "100% anonymous", "military-grade", "unhackable", fake server counts, "10× faster".
 - "Antivirus" or "virus scan" on iOS — iOS apps can't scan other apps; Apple rejects it.
 - "Free VPN" when it's a trial; no prices (2.3.7).

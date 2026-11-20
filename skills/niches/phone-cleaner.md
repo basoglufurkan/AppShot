@@ -59,25 +59,6 @@ shots: 6
 - Blurry shots, **spotted**
 - **{gb} GB** freed on our test phone
 
-### Türkçe
-
-- **Depolama alanını** geri kazan
-- **Güvenle** yer aç
-- Kopya fotoğraflar **bulundu**
-- **En iyi** kareyi sakla
-- Kaydır, **temizle**
-- Videoları küçült, **anılar kalsın**
-- Binlerce fotoğraf **dakikalar** içinde düzenli
-- "Depolama dolu" **uyarısına** veda et
-- Silmeden önce **gözden geçir**
-- Tekrarlanan **kişileri** birleştir
-- Eski ekran görüntüleri, **tek seferde**
-- Galerin artık **düzenli**
-- Yeni anılara **yer aç**
-- Her şey **cihazında** taranır
-- Bulanık fotoğrafları **yakala**
-- Telefonuna **bahar temizliği**
-
 ## Supporting elements
 
 - **Storage ring**: "{used} of {total} GB used" with a reclaimable slice highlighted.
@@ -99,11 +80,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Cleaning** — EN: "phone cleaner", "storage cleaner", "clean up storage", "cleaner app" — TR: "telefon temizleme", "depolama temizleme", "hafıza temizleme"
-- **Photos** — EN: "duplicate photo remover", "similar photos cleaner", "delete duplicate photos" — TR: "kopya fotoğraf silme", "benzer fotoğraf temizleyici", "fotoğraf temizleme"
-- **Compression** — EN: "video compressor", "compress photos", "reduce video size" — TR: "video sıkıştırma", "fotoğraf küçültme", "video boyutu küçültme"
-- **Contacts** — EN: "contacts cleaner", "merge contacts", "duplicate contacts" — TR: "rehber temizleme", "kişileri birleştirme"
-- **Storage full** — EN: "free up space", "iphone storage full", "more storage" — TR: "yer açma", "iphone depolama dolu", "depolama alanı açma"
+- **Cleaning** — EN: "phone cleaner", "storage cleaner", "clean up storage", "cleaner app"
+- **Photos** — EN: "duplicate photo remover", "similar photos cleaner", "delete duplicate photos"
+- **Compression** — EN: "video compressor", "compress photos", "reduce video size"
+- **Contacts** — EN: "contacts cleaner", "merge contacts", "duplicate contacts"
+- **Storage full** — EN: "free up space", "iphone storage full", "more storage"
 
 ## Avoid
 

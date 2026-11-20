@@ -59,26 +59,6 @@ shots: 7
 - Log lifts from your **wrist**
 - **{users}** lifters train here
 
-### Türkçe
-
-- Salona **planla** gir
-- Sana **özel** antrenman planı
-- Her hafta **daha güçlü**
-- Setlerini **saniyede** kaydet
-- Yeni bir **rekor** kır
-- Ağırlıkları **tahmin** etmeye son
-- Daha uzun değil, **akıllı** çalış
-- Her kas **haritada**
-- Her tekrarda **doğru** form
-- Progressive overload, **otomatik**
-- **{exercises}+** videolu egzersiz
-- Dinlenme sayacın **hazır**
-- Her **gelişimini** gör
-- Push, pull, legs: **planlandı**
-- Acemilikten **özgüvene**
-- Antrenmanın **bileğinde**
-- **{users}** sporcu burada çalışıyor
-
 ## Supporting elements
 
 - PR notification: "New PR · {exercise} {weight} × {reps}".
@@ -98,11 +78,11 @@ shots: 7
 
 ## Keyword clusters
 
-- **Plans** — EN: workout planner, gym workout plan, workout routine, strength training program — TR: antrenman programı, spor salonu programı, fitness programı, ağırlık antrenmanı
-- **Logging** — EN: workout tracker, gym log, lifting tracker, workout log — TR: antrenman takibi, spor günlüğü, ağırlık takip uygulaması
-- **Muscle** — EN: muscle building, bodybuilding app, hypertrophy program — TR: kas yapma, vücut geliştirme, kas kütlesi artırma
-- **Coach** — EN: ai personal trainer, fitness coach app — TR: yapay zeka kişisel antrenör, fitness koçu, online pt
-- **Splits** — EN: push pull legs, full body workout, upper lower split — TR: push pull legs programı, full body antrenman, bölgesel antrenman programı
+- **Plans** — EN: workout planner, gym workout plan, workout routine, strength training program
+- **Logging** — EN: workout tracker, gym log, lifting tracker, workout log
+- **Muscle** — EN: muscle building, bodybuilding app, hypertrophy program
+- **Coach** — EN: ai personal trainer, fitness coach app
+- **Splits** — EN: push pull legs, full body workout, upper lower split
 
 ## Avoid
 

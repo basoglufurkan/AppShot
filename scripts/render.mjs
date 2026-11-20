@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Render the plan to PNGs.
-//   node scripts/render.mjs [--plan appshot/plan.json] [--sizes iphone-6.9,ipad-13] [--locales en-US,tr]
+//   node scripts/render.mjs [--plan appshot/plan.json] [--sizes iphone-6.9,ipad-13] [--locales en-US,de-DE]
 //                          [--draft] [--scale 0.4] [--only 1,3] [--variant b]
 // --draft renders at 40% into appshot/drafts (fast, for review). Without it: store-size PNGs in appshot/out.
 

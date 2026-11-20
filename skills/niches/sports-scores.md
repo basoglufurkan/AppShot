@@ -3,7 +3,7 @@ id: sports-scores
 name: Sports Scores & Live Results
 appStoreCategory: Sports
 playCategory: Sports
-keywords: [live scores, live score, scores, match, matches, fixture, fixtures, standings, league table, kickoff, full time, half time, goal, goal alert, lineup, lineups, player ratings, match stats, xg, possession, play-by-play, live commentary, highlights, favorite team, follow team, football, soccer, basketball, tennis, cricket, formula 1, premier league, champions league, super lig, nba, transfer news, fantasy]
+keywords: [live scores, live score, scores, match, matches, fixture, fixtures, standings, league table, kickoff, full time, half time, goal, goal alert, lineup, lineups, player ratings, match stats, xg, possession, play-by-play, live commentary, highlights, favorite team, follow team, football, soccer, basketball, tennis, cricket, formula 1, premier league, champions league, nba, transfer news, fantasy]
 themes: [volt, midnight, neon, brand, ember]
 layouts: [notification-stack, hero-device, zoom-callout, floating-cards, device-top, screen-grid, ui-pieces, feature-list]
 shots: 6
@@ -16,7 +16,7 @@ shots: 6
 - The fan who can't watch live — at work, in class, travelling — and needs to know the second a goal goes in.
 - The stats lover and fantasy player who wants lineups, ratings and xG before anyone else.
 - Multi-league followers juggling football, basketball, tennis and F1.
-- Diaspora fans following their home team across time zones; in Turkey, Süper Lig and derby-day intensity drive huge spikes.
+- Diaspora fans following their home team across time zones; derby-day intensity drives huge spikes.
 - After installing they want to feel: never miss a moment, always the first in the group chat to know.
 
 ## What wins the install
@@ -59,25 +59,6 @@ shots: 6
 - Fixtures in your **calendar**
 - **{leagues}** leagues, one app
 
-### Türkçe
-
-- Hiçbir **golü** kaçırma
-- **Canlı** skorlar, anında
-- Takımın hep **ön planda**
-- **Önemli** tüm istatistikler
-- Maçtan önce **ilk 11**
-- Skor **kilit ekranında**
-- **Tüm liglerde** takipte ol
-- Herkesten **önce** öğren
-- Maç günü **cebinde**
-- Puan durumu **her an güncel**
-- **Canlı** oyuncu puanları
-- Transfer haberleri **ilk elden**
-- Maçın nabzı **dakika dakika**
-- Bildirimler sadece **senin takımların** için
-- Fikstür **takviminde**
-- **{leagues}** lig, tek uygulama
-
 ## Supporting elements
 
 - **Goal notification**: "GOAL! {teamA} {scoreA}–{scoreB} {teamB} ({minute}')".
@@ -93,23 +74,23 @@ shots: 6
 - High energy: dark backgrounds (midnight) with volt or neon accents, or the app's brand colour; condensed bold type (Oswald, Bebas Neue, Barlow Condensed) for scores.
 - Big tabular numerals for scores and minutes — they must read in the thumbnail.
 - Team identity through colours and plain team names; club crests, league logos and player photos only with licences.
-- Leaders (FotMob, SofaScore, OneFootball, theScore, Mackolik in TR) lead with alerts and live match centres, keep tables cropped and readable.
+- Leaders (FotMob, SofaScore, OneFootball, theScore) lead with alerts and live match centres, keep tables cropped and readable.
 - Blurred stadium photography (licensed) adds atmosphere behind the device.
 - Pick a demo match and keep it consistent across shots (same teams, same minute progression).
 
 ## Keyword clusters
 
-- **Live scores** — EN: "live scores", "football scores", "soccer live scores", "live score app" — TR: "canlı skor", "canlı maç sonuçları", "futbol skorları", "maç sonuçları"
-- **Competitions** — EN: "premier league", "champions league scores", "nba scores", "la liga" — TR: "süper lig", "şampiyonlar ligi", "nba skorları"
-- **Tables & fixtures** — EN: "fixtures", "standings", "league table" — TR: "fikstür", "puan durumu", "maç programı"
-- **Alerts** — EN: "goal alerts", "match notifications", "score widget" — TR: "gol bildirimi", "maç bildirimi", "canlı skor widget"
-- **Stats** — EN: "lineups", "player stats", "player ratings", "xg stats" — TR: "ilk 11", "oyuncu istatistikleri", "maç istatistikleri"
+- **Live scores** — EN: "live scores", "football scores", "soccer live scores", "live score app"
+- **Competitions** — EN: "premier league", "champions league scores", "nba scores", "la liga"
+- **Tables & fixtures** — EN: "fixtures", "standings", "league table"
+- **Alerts** — EN: "goal alerts", "match notifications", "score widget"
+- **Stats** — EN: "lineups", "player stats", "player ratings", "xg stats"
 
 ## Avoid
 
-- Club crests, league logos, competition trophies and player photos without licences — leagues and federations (Premier League, UEFA, TFF) enforce aggressively (Apple 5.2.1, Google Play IP policy).
+- Club crests, league logos, competition trophies and player photos without licences — leagues and federations (Premier League, UEFA) enforce aggressively (Apple 5.2.1, Google Play IP policy).
 - "Official app" wording or implied affiliation with a club or league.
-- Gambling adjacency: odds, betting tips, "sure wins", bookmaker logos — Apple 5.3 and Google Play's real-money gambling policy; in Turkey illegal betting promotion is a criminal matter (Law 7258).
+- Gambling adjacency: odds, betting tips, "sure wins", bookmaker logos — Apple 5.3 and Google Play's real-money gambling policy.
 - "Watch live free" or streaming claims you don't hold rights to — piracy.
 - Real, dated results that make the listing look stale; fabricated news or quotes.
 - Prices or "free" when alerts are premium (2.3.7).

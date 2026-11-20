@@ -61,29 +61,9 @@ shots: 8
 - No editing skills **needed**
 - See your photos **reimagined**
 
-### Türkçe
-
-- Bulanıktan **nete** tek dokunuşla
-- İstemediğin her şeyi **sil**
-- Eski fotoğraflara **yeni** hayat
-- Her fotoğrafı **anında** düzelt
-- Arka planı saniyede **değiştir**
-- Selfie'ni **sanata** dönüştür
-- Yüzleri saniyede **netleştir**
-- Eski anılara **renk** ver
-- Fotoğrafını **kadrajın** ötesine taşı
-- Stüdyo kalitesinde **ürün** fotoğrafı
-- Kadraja girenleri **anında** sil
-- Tek dokunuşla **HD** kalite
-- Tek dokunuş, **profesyonel** sonuç
-- **{styles}+** yapay zeka stili
-- Ne istediğini **yaz**, o düzenlesin
-- Uzmanlık **gerekmez**
-- Fotoğraflarına **yepyeni** bir bakış
-
 ## Supporting elements
 
-- Before/after slider handle with "Before / After" ("Önce / Sonra") labels on the divider.
+- Before/after slider handle with "Before / After" labels on the divider.
 - Brush stroke overlay with a "Tap to erase" tooltip on the object.
 - Processing chip: "Enhancing… {seconds}s" with a shimmer bar.
 - Resolution badge: "{inputRes} → {outputRes}", using the app's real output size.
@@ -101,11 +81,11 @@ shots: 8
 
 ## Keyword clusters
 
-- **Enhance** — EN: photo enhancer, unblur photo, ai photo enhancer, hd photo, upscale image — TR: fotoğraf netleştirme, bulanık fotoğraf düzeltme, fotoğraf kalitesini artırma, hd fotoğraf
-- **Erase** — EN: remove object from photo, magic eraser, remove people from photo — TR: fotoğraftan nesne silme, fotoğraftan kişi silme, sihirli silgi
-- **Background** — EN: background remover, change background, white background for products — TR: arka plan silme, arka plan değiştirme, beyaz arka plan
-- **Restore** — EN: restore old photos, colorize black and white photo — TR: eski fotoğraf onarma, siyah beyaz fotoğrafı renklendirme
-- **Generative** — EN: ai photo generator, ai art from photo, ai filter — TR: yapay zeka fotoğraf, yapay zeka filtre, fotoğraftan çizim
+- **Enhance** — EN: photo enhancer, unblur photo, ai photo enhancer, hd photo, upscale image
+- **Erase** — EN: remove object from photo, magic eraser, remove people from photo
+- **Background** — EN: background remover, change background, white background for products
+- **Restore** — EN: restore old photos, colorize black and white photo
+- **Generative** — EN: ai photo generator, ai art from photo, ai filter
 
 ## Avoid
 

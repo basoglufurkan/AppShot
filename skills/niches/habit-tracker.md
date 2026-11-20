@@ -60,26 +60,6 @@ shots: 7
 - Set up a habit in **seconds**
 - Your week, **checked off**
 
-### Türkçe
-
-- **Kalıcı** alışkanlıklar edin
-- Her gün **küçük** zaferler
-- Zinciri **kırma**
-- Rutinin, **göz önünde**
-- Tek dokunuş. **Tamam.**
-- **{streak}** gün ve devam
-- **İstikrarının** büyümesini izle
-- **Doğru** anda hatırlatıcı
-- Ana ekrandan **takip et**
-- Esnek hedefler, **gerçek** hayat
-- Sabah rutinin **hazır**
-- Kötü alışkanlıkları **nazikçe** bırak
-- **Görebildiğin** ilerleme
-- **Rengarenk** alışkanlıklar
-- Olmak istediğin **kişi** ol
-- Saniyede **yeni** alışkanlık
-- Haftan **tamamlandı**
-
 ## Supporting elements
 
 - Habit rows with check animation states and a flame chip "{streak}".
@@ -99,11 +79,11 @@ shots: 7
 
 ## Keyword clusters
 
-- **Core** — EN: habit tracker, daily habits, routine tracker, habit app — TR: alışkanlık takibi, alışkanlık takip uygulaması, günlük rutin, alışkanlık uygulaması
-- **Streaks** — EN: streak tracker, habit streak, don't break the chain — TR: seri takibi, gün sayacı, zinciri kırma
-- **Goals** — EN: goal tracker, self improvement app, daily goals — TR: hedef takibi, kişisel gelişim uygulaması, günlük hedefler
-- **Routine** — EN: morning routine, daily planner, routine planner — TR: sabah rutini, günlük planlayıcı, rutin planlama
-- **Quitting** — EN: break bad habits, quit habit tracker — TR: kötü alışkanlık bırakma, alışkanlık bırakma
+- **Core** — EN: habit tracker, daily habits, routine tracker, habit app
+- **Streaks** — EN: streak tracker, habit streak, don't break the chain
+- **Goals** — EN: goal tracker, self improvement app, daily goals
+- **Routine** — EN: morning routine, daily planner, routine planner
+- **Quitting** — EN: break bad habits, quit habit tracker
 
 ## Avoid
 

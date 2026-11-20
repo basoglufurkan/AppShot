@@ -59,25 +59,6 @@ shots: 6
 - Beat your **high score**
 - Classic **sudoku**, beautifully
 
-### Türkçe
-
-- **Rahatlatan** bulmacalar, sıfır stres
-- Zihnini her gün **çalıştır**
-- Birleştir, **büyüt**, keşfet
-- Sadece bir bölüm **daha**…
-- **İnternetsiz** oyna, her yerde
-- Süre yok, **sadece eğlence**
-- Ustalaşacağın **{levels}** bölüm
-- Tahtayı **temizle**
-- Tüm **kelimeleri** bul
-- **Rahatla**, kafanı dağıt
-- Hayalindeki **adayı** kur
-- Her gün **yeni** görevler
-- Öğrenmesi kolay, **bırakması zor**
-- Kombo üstüne **kombo**
-- **Rekorunu** kır
-- Klasik **sudoku**, yepyeni tarz
-
 ## Supporting elements
 
 - **Combo burst**: "x{combo}" or "Perfect!" exactly as the game shows it.
@@ -99,11 +80,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Puzzle** — EN: "puzzle games", "block puzzle", "match 3 games", "tile match" — TR: "bulmaca oyunu", "blok bulmaca", "üçlü eşleştirme", "eşleştirme oyunu"
-- **Word** — EN: "word games", "crossword", "word search", "word connect" — TR: "kelime oyunu", "kare bulmaca", "kelime bulma", "kelime türetme"
-- **Merge & idle** — EN: "merge games", "idle games", "tycoon games" — TR: "birleştirme oyunu", "idle oyun", "tycoon oyunları"
-- **Offline** — EN: "offline games", "no wifi games", "games without internet" — TR: "internetsiz oyunlar", "çevrimdışı oyun"
-- **Classics & brain** — EN: "brain games", "sudoku", "solitaire", "mahjong" — TR: "zeka oyunları", "sudoku", "solitaire", "okey" (only if it's an okey game)
+- **Puzzle** — EN: "puzzle games", "block puzzle", "match 3 games", "tile match"
+- **Word** — EN: "word games", "crossword", "word search", "word connect"
+- **Merge & idle** — EN: "merge games", "idle games", "tycoon games"
+- **Offline** — EN: "offline games", "no wifi games", "games without internet"
+- **Classics & brain** — EN: "brain games", "sudoku", "solitaire", "mahjong"
 
 ## Avoid
 

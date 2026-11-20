@@ -59,25 +59,6 @@ shots: 6
 - Remember just **one** password
 - **{weak}** weak passwords? Fixed.
 
-### Türkçe
-
-- Bir daha **şifre** yazma
-- Tek dokunuş, **giriş yapıldı**
-- Tüm şifrelerin **tek kasada**
-- Güçlü şifreler, **otomatik**
-- Sızıntılardan **anında** haberin olsun
-- Zayıf şifreleri **hemen** düzelt
-- **Passkey** desteği hazır
-- 2FA kodları **içinde**
-- Anahtar sadece **sende**
-- Ailenle **güvenle** paylaş
-- **Dakikalar** içinde geçiş yap
-- Kilidi **bir bakışla** aç
-- Kartların ve notların **şifreli**
-- Dijital hayatın **güvende**
-- Sadece **tek şifre** hatırla
-- **{weak}** zayıf şifre mi? Düzeltildi.
-
 ## Supporting elements
 
 - **Autofill pill**: "Fill with {appName} · {username}" over a generic sign-in page.
@@ -99,11 +80,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Password managers** — EN: "password manager", "password keeper", "password vault", "password app" — TR: "şifre yöneticisi", "şifre saklama", "şifre kasası"
-- **Generators** — EN: "password generator", "strong password generator" — TR: "şifre oluşturucu", "güçlü şifre oluşturma"
-- **2FA** — EN: "authenticator app", "2fa", "two factor authentication", "otp" — TR: "doğrulama uygulaması", "iki adımlı doğrulama", "tek kullanımlık şifre"
-- **Passkeys** — EN: "passkeys", "passwordless login" — TR: "geçiş anahtarı", "passkey", "şifresiz giriş"
-- **Breach checks** — EN: "data breach check", "leaked password check" — TR: "şifrem çalındı mı", "veri sızıntısı kontrolü"
+- **Password managers** — EN: "password manager", "password keeper", "password vault", "password app"
+- **Generators** — EN: "password generator", "strong password generator"
+- **2FA** — EN: "authenticator app", "2fa", "two factor authentication", "otp"
+- **Passkeys** — EN: "passkeys", "passwordless login"
+- **Breach checks** — EN: "data breach check", "leaked password check"
 
 ## Avoid
 

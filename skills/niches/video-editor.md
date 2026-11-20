@@ -62,26 +62,6 @@ For template-led apps, replace shot 3 with a screen-grid of templates and move t
 - Clean exports, **no** watermark
 - Raw clips, **ready to post**
 
-### Türkçe
-
-- Profesyonel gibi **kurgula**
-- Tek dokunuşla **altyazı**
-- Kes, kırp, **bitti**
-- Akıcı **hız** geçişleri
-- Her kesmeyi **ritme** oturt
-- Tek kurgu, **tüm** formatlar
-- **4K** kalitede dışa aktar
-- Göz alan **geçişler**
-- Her yerde **yeşil ekran**
-- Katmanlar, keyframe, **tam** kontrol
-- Vlog'un artık **sinematik**
-- Saniyede **müzik** ekle
-- Anında kurgu için **şablonlar**
-- **Kısa videolar** için tasarlandı
-- Seslendirme doğrudan **zaman çizelgesinde**
-- **Filigransız**, temiz dışa aktarım
-- Ham çekimden **paylaşıma**
-
 ## Supporting elements
 
 - Timeline strip cutout: clip thumbnails, audio waveform, keyframe diamonds and a playhead.
@@ -101,11 +81,11 @@ For template-led apps, replace shot 3 with a screen-grid of templates and move t
 
 ## Keyword clusters
 
-- **Core** — EN: video editor, video editing app, edit video, video maker — TR: video düzenleme, video düzenleme uygulaması, video kurgu, video yapma
-- **Short-form** — EN: reels editor, short video editor, shorts maker — TR: reels düzenleme, kısa video düzenleme, reels yapma
-- **Captions** — EN: auto captions, add subtitles to video, caption generator — TR: otomatik altyazı, videoya altyazı ekleme
-- **Tools** — EN: trim video, merge videos, add music to video, slow motion video — TR: video kırpma, video birleştirme, videoya müzik ekleme, ağır çekim
-- **Quality** — EN: 4k video editor, video editor without watermark — TR: 4k video düzenleme, filigransız video düzenleyici
+- **Core** — EN: video editor, video editing app, edit video, video maker
+- **Short-form** — EN: reels editor, short video editor, shorts maker
+- **Captions** — EN: auto captions, add subtitles to video, caption generator
+- **Tools** — EN: trim video, merge videos, add music to video, slow motion video
+- **Quality** — EN: 4k video editor, video editor without watermark
 
 ## Avoid
 

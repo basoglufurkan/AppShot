@@ -62,26 +62,6 @@ If the app is voice-first, swap 1 and 3: open with the voice screen and a live t
 - One app, **every** question
 - Explain it like I'm **five**
 
-### Türkçe
-
-- **Her şeyi** sor, anında öğren
-- Her an yanında bir **asistan**
-- Saniyeler içinde **daha iyi** yaz
-- Sadece **konuş**, o yanıtlasın
-- Fotoğrafını çek, **cevabı** al
-- Ödevini adım adım **anla**
-- Kusursuz e-postalar, **sıfır** stres
-- Tatil planın **tek** sohbette
-- Her belgeyi anında **özetle**
-- **{languages}** dilde anında yanıt
-- Fikirden **taslağa** hızla geç
-- Tam **senin** gibi yazsın
-- Tıkandın mı? **Fikir** hazır
-- Sohbetlerin **sana** özel
-- **{users}** kişinin asistanı
-- Tek uygulama, **tüm** soruların
-- Bana **basitçe** anlat
-
 ## Supporting elements
 
 - Chat pair: a user bubble "{realPrompt}" and an assistant bubble with a streaming cursor. Use a real prompt the app actually answers well.
@@ -103,11 +83,11 @@ If the app is voice-first, swap 1 and 3: open with the voice screen and a live t
 
 ## Keyword clusters
 
-- **Core chat** — EN: ai chat, chatbot, ai assistant, ask ai, chat with ai — TR: yapay zeka sohbet, yapay zeka asistanı, sohbet botu, yapay zekaya sor
-- **Writing** — EN: ai writer, email writer, essay writer, grammar fixer, paraphrasing tool — TR: yapay zeka ile yazı yazma, e-posta yazma, kompozisyon yazdırma, metin düzeltme
-- **Study** — EN: homework helper, math solver, ai tutor, study helper — TR: ödev yardımcısı, matematik çözücü, soru çözme uygulaması, ders asistanı
-- **Voice and vision** — EN: voice assistant, talk to ai, photo question solver, scan and solve — TR: sesli asistan, yapay zeka ile konuş, fotoğrafla soru çöz
-- **Translate** — EN: ai translator, translate and chat — TR: yapay zeka çeviri, anında çeviri
+- **Core chat** — EN: ai chat, chatbot, ai assistant, ask ai, chat with ai
+- **Writing** — EN: ai writer, email writer, essay writer, grammar fixer, paraphrasing tool
+- **Study** — EN: homework helper, math solver, ai tutor, study helper
+- **Voice and vision** — EN: voice assistant, talk to ai, photo question solver, scan and solve
+- **Translate** — EN: ai translator, translate and chat
 
 ## Avoid
 

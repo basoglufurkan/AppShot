@@ -113,6 +113,6 @@ When two goals conflict, the higher one wins.
 | `first-impression.md` | Designing frames 1–3, the thumbnail test, orientation, video |
 | `conversion.md` | Writing captions and choosing proof, contrast and differentiation |
 | `testing.md` | Producing variants and mapping them to PPO, CPP, Play experiments or CSLs |
-| `metadata.md` | Writing the title, subtitle, descriptions and promo text in line with the shots (EN/TR) |
+| `metadata.md` | Writing the title, subtitle, descriptions and promo text in line with the shots |
 | `localization.md` | Choosing markets, adapting copy, RTL, fallbacks |
 | `seasonal.md` | Refresh timing, and what needs a new app version |

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // App Store app previews — the 15–30 s video that plays first, before the screenshots (and in search results).
-//   node scripts/preview.mjs [--sizes preview-iphone,preview-ipad] [--locales en-US,tr] [--style store|framed]
+//   node scripts/preview.mjs [--sizes preview-iphone,preview-ipad] [--locales en-US,de-DE] [--style store|framed]
 //        [--orientation landscape] [--music track.m4a] [--camera auto|none] [--no-blur] [--draft] [--explain]
 //   node scripts/preview.mjs --promo [--sizes promo-vertical,promo-landscape,promo-square]   (social / YouTube / Play promo)
 //   node scripts/preview.mjs --variant b|c  (b: action first, c: payoff first — Product Page Optimization treatments → out/preview/<locale>/variants/<v>/)

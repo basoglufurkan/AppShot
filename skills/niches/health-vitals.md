@@ -59,26 +59,6 @@ shots: 6
 - Track for **family** too
 - Export to **PDF** in a tap
 
-### Türkçe
-
-- **Değerlerini** net gör
-- Her ölçüm **tek yerde**
-- **Eğilimlerini** fark et
-- Ölçümünü **saniyede** kaydet
-- Doktora hazır **raporlar**
-- Tansiyonun **düzenli** kayıtta
-- Şeker takibi artık **kolay**
-- **Haftalık** ortalamanı bil
-- Ölçüm için **hatırlatıcı**
-- **{healthPlatform}** ile senkron
-- Seni **etkileyenleri** etiketle
-- Sağlık geçmişin **yanında**
-- **Doktorunla** paylaş
-- Tüm değerlerin **tek** uygulamada
-- Net grafikler, **rahat** kontroller
-- **Ailen** için de takip et
-- Tek dokunuşla **PDF** rapor
-
 ## Supporting elements
 
 - Reading card: "{systolic}/{diastolic} mmHg · {pulse} bpm", with time and tags.
@@ -98,11 +78,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Blood pressure** — EN: blood pressure tracker, blood pressure log, bp monitor app, blood pressure diary — TR: tansiyon takibi, tansiyon ölçüm kaydı, tansiyon günlüğü, tansiyon takip uygulaması
-- **Glucose** — EN: blood sugar tracker, glucose log, diabetes log — TR: şeker takibi, kan şekeri ölçüm kaydı, diyabet günlüğü
-- **Heart** — EN: heart rate monitor, hrv tracker, resting heart rate — TR: nabız ölçer, kalp atış hızı takibi, dinlenik nabız
-- **General** — EN: health tracker, vital signs log, bmi calculator — TR: sağlık takibi, vücut kitle indeksi hesaplama, sağlık günlüğü
-- **Reports** — EN: health report for doctor, blood pressure report pdf — TR: doktor için sağlık raporu, tansiyon raporu
+- **Blood pressure** — EN: blood pressure tracker, blood pressure log, bp monitor app, blood pressure diary
+- **Glucose** — EN: blood sugar tracker, glucose log, diabetes log
+- **Heart** — EN: heart rate monitor, hrv tracker, resting heart rate
+- **General** — EN: health tracker, vital signs log, bmi calculator
+- **Reports** — EN: health report for doctor, blood pressure report pdf
 
 ## Avoid
 

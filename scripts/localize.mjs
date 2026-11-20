@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 // Locale workflow: captions live in plan.json as { "<locale>": "text" } objects.
 //   node scripts/localize.mjs status                       what is missing per locale
-//   node scripts/localize.mjs add tr,de-DE                 add locales to the plan (empty strings to fill)
-//   node scripts/localize.mjs sheet tr                     write appshot/i18n/tr.json: every string with its English source + length budget
-//   node scripts/localize.mjs apply appshot/i18n/tr.json  merge a filled sheet back into plan.json
+//   node scripts/localize.mjs add de-DE,fr-FR              add locales to the plan (empty strings to fill)
+//   node scripts/localize.mjs sheet de-DE                  write appshot/i18n/de-DE.json: every string with its English source + length budget
+//   node scripts/localize.mjs apply appshot/i18n/de-DE.json  merge a filled sheet back into plan.json
 // Transcreate, do not translate: read skills/locales/<locale>.md first.
 
 import path from 'node:path';
@@ -53,7 +53,7 @@ if (cmd === 'status') {
 
 if (cmd === 'add') {
   const add = list(args._[1]);
-  if (!add.length) die('Which locales? e.g. node scripts/localize.mjs add tr,de-DE');
+  if (!add.length) die('Which locales? e.g. node scripts/localize.mjs add de-DE,fr-FR');
   plan.locales = [...new Set([...(plan.locales || [src]), ...add])];
   for (const s of strings(plan)) {
     // Only text that is already per-locale gets new slots; shared plain values ("+18%", "8:00") stay shared.

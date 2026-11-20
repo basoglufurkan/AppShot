@@ -60,26 +60,6 @@ shots: 8
 - From snapshot to **stunning**
 - Save your look as a **preset**
 
-### Türkçe
-
-- Her fotoğraf **profesyonel** görünsün
-- Tek dokunuş, **imza** tarzın
-- Cebinde **profesyonel** araçlar
-- **RAW** fotoğrafı telefonda düzenle
-- Eğriler, HSL, **maskeler** burada
-- Işığı **tam kıvamında** ayarla
-- Cildi düzelt, **doğallığı** koru
-- Her ufku **dümdüz** et
-- Feed'in **uyumlu** görünsün
-- Başlangıç için **{presets}+** preset
-- Sadece **seçtiğin** alanı düzenle
-- Kaybolan **gölgeleri** geri getir
-- Her adımı **geri al**
-- Tam çözünürlükte **dışa aktar**
-- Renkler **doğal** şekilde canlansın
-- Sıradan kareden **muhteşeme**
-- Tarzını **preset** olarak kaydet
-
 ## Supporting elements
 
 - Slider stack card: Exposure +0.4, Contrast +12, Grain 20, the real values used for that edit.
@@ -100,11 +80,11 @@ shots: 8
 
 ## Keyword clusters
 
-- **Core** — EN: photo editor, picture editor, edit photos, photo editing app — TR: fotoğraf düzenleme, fotoğraf düzenleme uygulaması, resim düzenleme
-- **Presets and filters** — EN: photo presets, aesthetic filters, photo filters, preset app — TR: fotoğraf preset, estetik filtreler, fotoğraf filtreleri
-- **Pro tools** — EN: raw photo editor, curves editor, selective editing, color grading — TR: raw düzenleme, renk düzenleme, renk derecelendirme, ışık ayarı
-- **Retouch** — EN: blemish remover, face retouch, skin smoothing — TR: sivilce silme, yüz rötuş, cilt pürüzsüzleştirme
-- **Fix** — EN: crop and straighten photo, perspective correction — TR: fotoğraf kırpma, fotoğraf düzeltme, perspektif düzeltme
+- **Core** — EN: photo editor, picture editor, edit photos, photo editing app
+- **Presets and filters** — EN: photo presets, aesthetic filters, photo filters, preset app
+- **Pro tools** — EN: raw photo editor, curves editor, selective editing, color grading
+- **Retouch** — EN: blemish remover, face retouch, skin smoothing
+- **Fix** — EN: crop and straighten photo, perspective correction
 
 ## Avoid
 

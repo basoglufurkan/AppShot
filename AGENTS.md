@@ -39,4 +39,4 @@ node $A/scripts/render.mjs && node $A/scripts/check.mjs && node $A/scripts/expor
 6. Never edit the user's app source; write only in `appshot/`.
 
 Knowledge: `skills/core` (method), `skills/niches` (69 playbooks), `skills/copy`, `skills/aso`, `skills/design`,
-`skills/locales` (23 locales), `skills/review`. Examples of finished jobs: `examples/pulse/appshot/` (Expo) and `examples/penny/appshot/` (Flutter).
+`skills/locales` (22 locales), `skills/review`. Examples of finished jobs: `examples/pulse/appshot/` (Expo) and `examples/penny/appshot/` (Flutter).

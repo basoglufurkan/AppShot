@@ -59,25 +59,6 @@ shots: 6
 - Find parking **near you**
 - Faster route found: **{minutes} min** saved
 
-### Türkçe
-
-- **Trafiğe** takılma
-- Yerine **zamanında** var
-- **Tahmin etmeden** şarj et
-- Boş **şarj istasyonunu** hemen bul
-- Şarj molalı **rotan** hazır
-- Park et, **saniyeler** içinde öde
-- Park süreni **her yerden** uzat
-- Park cezalarına **veda et**
-- Hız sınırı hep **gözünün önünde**
-- **Şerit** rehberiyle rahat sür
-- **İnternetsiz** haritalar
-- Doğrudan **araç ekranında**
-- Soket tipine göre **filtrele**
-- **Menzilini** bil, rahat sür
-- **Yakındaki** otoparkı bul
-- Daha hızlı rota: **{minutes} dk** kazanç
-
 ## Supporting elements
 
 - **ETA card**: "{eta} min · {distance} · arrive {time}".
@@ -99,11 +80,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Navigation** — EN: "gps navigation", "maps", "traffic app", "turn by turn navigation" — TR: "navigasyon", "yol tarifi", "trafik durumu", "sesli navigasyon"
-- **EV charging** — EN: "ev charging", "charging stations near me", "ev route planner", "electric car charging" — TR: "şarj istasyonu", "elektrikli araç şarj", "yakındaki şarj istasyonları"
-- **Parking** — EN: "parking app", "pay for parking", "find parking", "parking meter app" — TR: "otopark bul", "otopark ödeme", "park yeri bulma"
-- **Safety** — EN: "speed camera alerts", "speed limit app" — TR: "radar uyarısı", "hız sınırı uyarısı"
-- **Specialised** — EN: "offline maps", "truck gps", "motorcycle navigation" — TR: "çevrimdışı harita", "tır navigasyon", "motosiklet navigasyon"
+- **Navigation** — EN: "gps navigation", "maps", "traffic app", "turn by turn navigation"
+- **EV charging** — EN: "ev charging", "charging stations near me", "ev route planner", "electric car charging"
+- **Parking** — EN: "parking app", "pay for parking", "find parking", "parking meter app"
+- **Safety** — EN: "speed camera alerts", "speed limit app"
+- **Specialised** — EN: "offline maps", "truck gps", "motorcycle navigation"
 
 ## Avoid
 

@@ -59,26 +59,6 @@ shots: 6
 - Your timer on the **Lock Screen**
 - Grow with every **session**
 
-### Türkçe
-
-- **Odağını** geri kazan
-- Tek dokunuşla **derin çalışma**
-- **Sonsuz kaydırmaya** dur de
-- Telefonu **bırak**, işine dön
-- **Odaklı** seanslarla çalış
-- Saatlerin **nereye** gidiyor, gör
-- Odaklanmayı **alışkanlık** yap
-- Bu hafta **{hours} saat** odaklandın
-- Arkadaşlarınla **birlikte** çalış
-- **Akışta** kalmanı sağlayan sesler
-- Seni **yenileyen** molalar
-- Daha az ekran, daha çok **iş**
-- **Dikkat dağıtmayan** alanın
-- **Ertelemeyi** yen
-- Sayacın **kilit ekranında**
-- Her seansla **büyü**
-- Ders çalışırken **telefona** yenilme
-
 ## Supporting elements
 
 - **Timer ring**: "25:00 · Deep work" with the session label.
@@ -100,11 +80,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Timers** — EN: "pomodoro timer", "focus timer", "study timer", "productivity timer" — TR: "pomodoro sayacı", "odaklanma sayacı", "ders çalışma sayacı"
-- **Blocking** — EN: "app blocker", "block social media", "website blocker", "screen time control" — TR: "uygulama engelleyici", "sosyal medya engelleme", "ekran süresi azaltma"
-- **Focus & concentration** — EN: "focus app", "concentration app", "deep work" — TR: "odaklanma uygulaması", "konsantrasyon", "dikkat toplama"
-- **Social study** — EN: "study with me", "study together", "focus with friends" — TR: "birlikte ders çalış", "arkadaşlarla ders çalışma"
-- **Phone habits** — EN: "phone addiction", "stop doomscrolling", "digital detox" — TR: "telefon bağımlılığı", "dijital detoks"
+- **Timers** — EN: "pomodoro timer", "focus timer", "study timer", "productivity timer"
+- **Blocking** — EN: "app blocker", "block social media", "website blocker", "screen time control"
+- **Focus & concentration** — EN: "focus app", "concentration app", "deep work"
+- **Social study** — EN: "study with me", "study together", "focus with friends"
+- **Phone habits** — EN: "phone addiction", "stop doomscrolling", "digital detox"
 
 ## Avoid
 

@@ -60,26 +60,6 @@ shots: 7
 - New to this? **Perfect.**
 - Short workouts, **lasting** habit
 
-### Türkçe
-
-- Evde, ekipmansız **fit** kal
-- Günde sadece **{minutes}** dakika
-- Oturma odan artık **spor salonu**
-- Bugün **başla**, her seviyeye uygun
-- İzle, **uygula**, bu kadar
-- Eklem dostu, **düşük tempolu** antrenman
-- **Sana** özel plan
-- Gün gün **güçlen**
-- **{challengeLength} günlük** meydan okumaya katıl
-- Evden çıkmadan **terle**
-- Gününe **uyan** antrenmanlar
-- Sırada ne var? **Hep** hazır
-- Salon yok, **bahane** yok
-- Yanmayı **hisset**
-- Serini **büyüt**
-- Yeni mi başlıyorsun? **Tam** sana göre
-- Kısa antrenman, **kalıcı** alışkanlık
-
 ## Supporting elements
 
 - Countdown ring "00:{seconds}" with the exercise name and "Next: {exercise}".
@@ -99,11 +79,11 @@ shots: 7
 
 ## Keyword clusters
 
-- **Core** — EN: home workout, workout at home, no equipment workout, bodyweight workout — TR: evde spor, evde egzersiz, ekipmansız antrenman, evde fitness
-- **Weight-loss intent** — EN: weight loss workout, fat burning workout, lose weight at home — TR: kilo verme egzersizleri, yağ yakma antrenmanı, evde zayıflama
-- **Short sessions** — EN: 7 minute workout, quick workout, 10 minute workout — TR: 7 dakika antrenman, kısa egzersiz, 10 dakikalık egzersiz
-- **Trends and low impact** — EN: wall pilates, chair workout, low impact workout, walking workout at home — TR: duvar pilatesi, sandalye egzersizleri, düşük tempolu egzersiz, evde yürüyüş egzersizi
-- **Challenges** — EN: 30 day fitness challenge, abs challenge, 28 day challenge — TR: 30 günlük fitness programı, karın kası programı, 28 günlük meydan okuma
+- **Core** — EN: home workout, workout at home, no equipment workout, bodyweight workout
+- **Weight-loss intent** — EN: weight loss workout, fat burning workout, lose weight at home
+- **Short sessions** — EN: 7 minute workout, quick workout, 10 minute workout
+- **Trends and low impact** — EN: wall pilates, chair workout, low impact workout, walking workout at home
+- **Challenges** — EN: 30 day fitness challenge, abs challenge, 28 day challenge
 
 ## Avoid
 

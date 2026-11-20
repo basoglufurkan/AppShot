@@ -60,25 +60,6 @@ shots: 7
 - Your library, **everywhere**
 - The next chapter, **right now**
 
-### Türkçe
-
-- Sıradaki **favori** kitabın
-- Sonunda **daha çok** oku
-- Yolda kitap **dinle**
-- Kitaplar seni **bulsun**
-- Sayfadan **sese** tek dokunuşla geç
-- Cebinde **{titles}** kitap
-- **Göz yormadan** oku
-- Her ruh haline bir **hikâye**
-- Okuma **hedefine** ulaş
-- **15 dakikada** ana fikirler
-- **Kaldığın yerden** devam et
-- Bir **hikâyeyle** uykuya dal
-- İndir, **internetsiz** dinle
-- Önemli yerlerin **altını çiz**
-- Kütüphanen **her yerde**
-- Sıradaki bölüm **hemen şimdi**
-
 ## Supporting elements
 
 - **Cover stack/fan**: 3–5 real, licensed covers in one genre so the shot has a mood.
@@ -100,11 +81,11 @@ shots: 7
 
 ## Keyword clusters
 
-- **Audiobooks** — EN: "audiobooks", "audiobook app", "listen to books" — TR: "sesli kitap", "sesli kitap dinle", "sesli kitap uygulaması"
-- **E-reading** — EN: "ebook reader", "epub reader", "book reading app" — TR: "e-kitap okuma", "epub okuyucu", "kitap okuma uygulaması"
-- **Summaries** — EN: "book summaries", "15 minute book summary", "nonfiction summaries" — TR: "kitap özetleri", "kitap özeti dinle"
-- **Tracking & habit** — EN: "reading tracker", "reading goal", "book tracker" — TR: "okuma takibi", "kitap takip uygulaması", "okuma hedefi"
-- **Genres** — EN: "romance novels", "fantasy books", "thriller audiobooks" — TR: "roman oku", "aşk romanları", "polisiye kitaplar"
+- **Audiobooks** — EN: "audiobooks", "audiobook app", "listen to books"
+- **E-reading** — EN: "ebook reader", "epub reader", "book reading app"
+- **Summaries** — EN: "book summaries", "15 minute book summary", "nonfiction summaries"
+- **Tracking & habit** — EN: "reading tracker", "reading goal", "book tracker"
+- **Genres** — EN: "romance novels", "fantasy books", "thriller audiobooks"
 
 ## Avoid
 

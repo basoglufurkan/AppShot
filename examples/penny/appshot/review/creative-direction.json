@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-11-05T06:38:14.987Z",
+  "createdAt": "2026-11-20T08:36:58.139Z",
   "scene": "growth",
   "ranking": [
     {
@@ -59,8 +59,7 @@
       "raw/budgets.png"
     ],
     "headline": {
-      "en-US": "See where your **money goes**",
-      "tr": "Paran **nereye** gidiyor, gör"
+      "en-US": "See where your **money goes**"
     },
     "header": {
       "layout": "creative-scene",
@@ -95,8 +94,7 @@
       "raw/budgets.png"
     ],
     "headline": {
-      "en-US": "See where your **money goes**",
-      "tr": "Paran **nereye** gidiyor, gör"
+      "en-US": "See where your **money goes**"
     },
     "header": {
       "layout": "creative-scene",

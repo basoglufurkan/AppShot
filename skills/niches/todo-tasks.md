@@ -59,25 +59,6 @@ shots: 6
 - Prioritize **without stress**
 - **{completed}** tasks done this week
 
-### Türkçe
-
-- **Zihnini** boşalt
-- Günün artık **düzenli**
-- Görevleri **saniyeler** içinde ekle
-- Yaz, **gerisini** bize bırak
-- Hiçbir şeyi **unutma**
-- Bugün **önemli olana** odaklan
-- Her gün küçük **zaferler**
-- Kaostan **listeye**
-- Hatırlatıcılar **tam zamanında**
-- Haftanı **dakikalar** içinde planla
-- Listeleri paylaş, **işi bölüş**
-- Görevlerin **ana ekranında**
-- **Tikle**, rahatla
-- Büyük projeler, **küçük adımlar**
-- **Stressiz** önceliklendir
-- Bu hafta **{completed}** görev tamam
-
 ## Supporting elements
 
 - **Quick-add bubble**: "Call mom tomorrow 6pm #family" with parsed chips highlighted.
@@ -99,11 +80,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **To-do lists** — EN: "to do list", "todo app", "task manager", "to do list app" — TR: "yapılacaklar listesi", "görev yöneticisi", "yapılacak işler"
-- **Reminders** — EN: "reminder app", "reminders with alarm", "daily reminders" — TR: "hatırlatıcı", "hatırlatma uygulaması", "alarmlı hatırlatıcı"
-- **Checklists & daily tasks** — EN: "checklist", "daily task list", "routine checklist" — TR: "kontrol listesi", "günlük görev listesi"
-- **Projects & teams** — EN: "project management", "team tasks", "kanban board" — TR: "proje yönetimi", "ekip görev takibi", "kanban"
-- **Methods** — EN: "gtd app", "eisenhower matrix", "productivity app" — TR: "verimlilik uygulaması", "eisenhower matrisi", "zaman yönetimi"
+- **To-do lists** — EN: "to do list", "todo app", "task manager", "to do list app"
+- **Reminders** — EN: "reminder app", "reminders with alarm", "daily reminders"
+- **Checklists & daily tasks** — EN: "checklist", "daily task list", "routine checklist"
+- **Projects & teams** — EN: "project management", "team tasks", "kanban board"
+- **Methods** — EN: "gtd app", "eisenhower matrix", "productivity app"
 
 ## Avoid
 

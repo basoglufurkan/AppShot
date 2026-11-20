@@ -86,14 +86,14 @@ title, subtitle or frames 1–3. They are cheaper to rank for and give your capt
 
 **Limit is in bytes.** App Store Connect counts "up to 100 bytes"
 ([platform version info](https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information))
-and needs "each greater than two characters". Turkish ç, ğ, ı, ö, ş, ü each take 2 bytes in UTF-8,
+and needs "each greater than two characters". Accented Latin letters such as é, ü and ß each take 2 bytes in UTF-8,
 as do most non-ASCII scripts (CJK takes 3). Count bytes, not characters.
 
 **Extra locale slots.** Apple documents that a localization's keywords are searchable "in all countries or
 regions where the App Store supports" that language
 ([Localize](https://developer.apple.com/help/app-store-connect/manage-app-information/localize-app-information)).
 For example, the US storefront also supports Spanish (Mexico), Chinese, French, Korean and others, and
-Türkiye supports English (U.K.) plus Turkish. Details are in `localization.md`.
+Switzerland supports German plus English (U.K.), French and Italian. Details are in `localization.md`.
 
 **Combinations.** Third-party practitioners report that Apple combines words across name, subtitle and
 keyword field into phrases. So single words in the keyword field ("tracker,budget,bills") can build

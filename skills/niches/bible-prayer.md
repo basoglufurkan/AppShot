@@ -59,31 +59,12 @@ shots: 6
 - Read **offline**, anywhere
 - **{translations}** translations, one app
 
-### Türkçe
-
-- Güne bir **ayetle** başla
-- Her sabah yeni bir **ayet**
-- **Huzurla** dua et
-- Bir yılda **Kutsal Kitap**'ı oku
-- Kutsal sözleri her yerde **dinle**
-- Zor zamanlarda **teselli** bul
-- Sessiz anların, **rehberli**
-- İmanını her gün **güçlendir**
-- Her an için bir **dua**
-- Okuduğunu **anla**
-- Dualarını **sevdiklerinle** paylaş
-- **Rozaryo** duası, adım adım
-- İncil'i **sesli** dinle
-- Her güne bir **Mezmur**
-- Tanrı'nın **Sözü** her gün yanında
-- İnternetsiz **oku**, her yerde
-
 ## Supporting elements
 
 - **Verse card**: verse text + exact reference (e.g. "Psalm 23:1") in the translation the app actually licenses.
 - **Plan progress**: "Day {day} of {total} · {planName}".
 - **Notifications**: "Verse of the day is ready", "Time for evening prayer", "{name} prayed for your request".
-- **Streak**: "{days} days in the Word" / "{days} gün üst üste".
+- **Streak**: "{days} days in the Word".
 - **Community bubble**: a short, respectful prayer request with "Praying" count {count}.
 
 ## Visual direction
@@ -96,9 +77,9 @@ shots: 6
 
 ## Keyword clusters
 
-- **Bible reading** — EN: "bible app", "holy bible", "kjv bible", "audio bible", "bible study" — TR: "kutsal kitap", "incil", "sesli incil"
-- **Daily devotion** — EN: "daily devotional", "verse of the day", "bible reading plan" — TR: "günün ayeti", "günlük dua", "okuma planı"
-- **Prayer** — EN: "prayer app", "catholic prayers", "rosary", "prayer journal" — TR: "dua uygulaması", "dualar", "rozaryo"
+- **Bible reading** — EN: "bible app", "holy bible", "kjv bible", "audio bible", "bible study"
+- **Daily devotion** — EN: "daily devotional", "verse of the day", "bible reading plan"
+- **Prayer** — EN: "prayer app", "catholic prayers", "rosary", "prayer journal"
 
 ## Avoid
 

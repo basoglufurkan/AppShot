@@ -58,26 +58,6 @@ shots: 6
 - Tips for every **hour**
 - Track weight **alongside** fasts
 
-### Türkçe
-
-- Aralıklı oruç artık **kolay**
-- Sadece **sayacı** başlat
-- Kalori sayma, **saati** takip et
-- Kendi **oruç** ritmini bul
-- Planını seç: **16:8** ve fazlası
-- Ne zaman **yiyeceğini** bil
-- Orucunu **evre evre** gör
-- **Bozulmayan** bir seri kur
-- Seni **yolunda** tutan hatırlatmalar
-- Oruç **geçmişin** tek bakışta
-- **Yavaş** başla, ilerle
-- Tek sayaç, **sıfır** tahmin
-- **Kendi** saatinde ye
-- **{fasts}** oruç tamamlandı
-- Yeme düzeninde **kontrol** sende
-- Her saat için **ipuçları**
-- Kilonu da **birlikte** takip et
-
 ## Supporting elements
 
 - Big progress ring with start time, goal end time and "{hours}h fasted".
@@ -96,11 +76,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Core** — EN: intermittent fasting, fasting tracker, fasting app, intermittent fasting app — TR: aralıklı oruç, aralıklı oruç takibi, aralıklı açlık uygulaması, aralıklı oruç uygulaması
-- **Timer and plans** — EN: 16:8 fasting, fasting timer, omad diet, 18 6 fasting — TR: 16:8 diyeti, oruç sayacı, günde tek öğün, 18 6 aralıklı oruç
-- **Weight** — EN: fasting for weight loss, intermittent fasting weight loss — TR: aralıklı oruçla kilo verme, aralıklı oruç zayıflama
-- **Audience** — EN: intermittent fasting for women, fasting for beginners — TR: kadınlar için aralıklı oruç, yeni başlayanlar için aralıklı oruç
-- **Stages** — EN: fasting stages, ketosis tracker, autophagy timer — TR: oruç evreleri, ketozis takibi, otofaji
+- **Core** — EN: intermittent fasting, fasting tracker, fasting app, intermittent fasting app
+- **Timer and plans** — EN: 16:8 fasting, fasting timer, omad diet, 18 6 fasting
+- **Weight** — EN: fasting for weight loss, intermittent fasting weight loss
+- **Audience** — EN: intermittent fasting for women, fasting for beginners
+- **Stages** — EN: fasting stages, ketosis tracker, autophagy timer
 
 ## Avoid
 
@@ -108,6 +88,6 @@ shots: 6
 - Promoting extended or water fasts for weight loss without medical caveats. The app should flag that fasting isn't suitable during pregnancy, for minors, or with an eating-disorder history.
 - Stage markers stated as precise physiological facts ("fat burning starts at exactly 12h"). Present them as approximate and educational.
 - Before/after bodies, tape measures and rapid-loss promises (Apple 2.3.1).
-- In Turkish, "oruç" carries religious meaning. Keep the framing secular wellness unless the app has a dedicated religious-fasting feature, and never imply religious authority.
+- Fasting also carries religious meaning for many users. Keep the framing secular wellness unless the app has a dedicated religious-fasting feature, and never imply religious authority.
 - Prices, trials, "#1 fasting app" or fabricated "{users} fasters" counts.
 - Conversion killers: a tiny timer, dense science charts in shots 1–3, and a missing plan-picker shot (beginners need to see where to start).

@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-11-16T13:40:17.719Z",
+  "createdAt": "2026-11-20T08:36:48.983Z",
   "scene": "heartbeat",
   "ranking": [
     {
@@ -33,10 +33,10 @@
       ]
     },
     {
-      "id": "route",
-      "score": 1.8,
+      "id": "book",
+      "score": 0.9,
       "why": [
-        "words: ev, tracking"
+        "words: read"
       ]
     }
   ],
@@ -61,8 +61,7 @@
       "raw/plans.png"
     ],
     "headline": {
-      "en-US": "Home workouts that **adapt to you**",
-      "tr": "Sana **uyan** ev antrenmanları"
+      "en-US": "Home workouts that **adapt**"
     },
     "header": {
       "layout": "creative-scene",
@@ -99,8 +98,7 @@
       "raw/plans.png"
     ],
     "headline": {
-      "en-US": "Your **pocket** trainer",
-      "tr": "Cebindeki **antrenör**"
+      "en-US": "Your **pocket** trainer"
     },
     "header": {
       "layout": "creative-scene",

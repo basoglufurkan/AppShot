@@ -60,26 +60,6 @@ This niche covers location sharing, parental controls and family organizing. Lea
 - Your family's data stays **private**
 - Freedom for them, **calm** for you
 
-### Türkçe
-
-- Güvenle **vardığını** bil
-- Her gün **iç huzuru**
-- Varış bildirimleri **otomatik**
-- Ailen **tek haritada**
-- Sağlıklı **ekran süresi** alışkanlığı
-- Uyku saati gelince **ekran** kapansın
-- Yardım **tek dokunuş** uzağında
-- **Birlikte** dakikalar içinde kurun
-- Çocuğa uygun olmayanı **filtrele**
-- Daha az endişe, **daha çok** özgürlük
-- Okul ve ev için **güvenli** bölgeler
-- Şarjı mı bitiyor? **Haberin** olsun
-- Kuralları **birlikte** belirleyin
-- Ailenin planları **tek yerde**
-- Ev işleri ve ödüller **eğlenceli**
-- Aile verilerin **gizli** kalır
-- Onlara özgürlük, sana **huzur**
-
 ## Supporting elements
 
 - Map with illustrated avatar pins and place labels ("Home", "School", "Practice"), plus a safe-zone circle.
@@ -99,11 +79,11 @@ This niche covers location sharing, parental controls and family organizing. Lea
 
 ## Keyword clusters
 
-- **Locator** — EN: family locator, find my kids, location sharing app, family tracker — TR: aile konum takibi, çocuk konum bulma, konum paylaşma, aile takip uygulaması
-- **Parental control** — EN: parental control app, screen time control, kids app blocker — TR: ebeveyn kontrolü, ekran süresi sınırlama, çocuk telefon kontrolü
-- **Safety** — EN: sos app, emergency alert app, safe driving app — TR: acil durum butonu, sos uygulaması, güvenli sürüş
-- **Organizer** — EN: family organizer, chore chart app, family calendar — TR: aile ajandası, ev işi çizelgesi, aile takvimi
-- **Content filter** — EN: kids safe browser, content filter for kids — TR: çocuklar için güvenli internet, içerik filtresi
+- **Locator** — EN: family locator, find my kids, location sharing app, family tracker
+- **Parental control** — EN: parental control app, screen time control, kids app blocker
+- **Safety** — EN: sos app, emergency alert app, safe driving app
+- **Organizer** — EN: family organizer, chore chart app, family calendar
+- **Content filter** — EN: kids safe browser, content filter for kids
 
 ## Avoid
 

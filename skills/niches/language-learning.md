@@ -3,7 +3,7 @@ id: language-learning
 name: Language Learning
 appStoreCategory: Education
 playCategory: Education
-keywords: [language learning, learn a language, target language, native speaker, fluency, fluent, speaking practice, conversation practice, pronunciation, accent, speaking partner, role-play, lesson, streak, xp, grammar, conjugation, vocabulary, listening, cefr, a1, b2, ielts, toefl, yds, hiragana, kanji, pinyin, spanish, german, french, japanese, korean, placement test, immersion]
+keywords: [language learning, learn a language, target language, native speaker, fluency, fluent, speaking practice, conversation practice, pronunciation, accent, speaking partner, role-play, lesson, streak, xp, grammar, conjugation, vocabulary, listening, cefr, a1, b2, ielts, toefl, hiragana, kanji, pinyin, spanish, german, french, japanese, korean, placement test, immersion]
 themes: [playful, sky, volt, clean-light]
 layouts: [chat-bubbles, hero-device, zoom-callout, device-top, big-number, floating-cards, feature-list, social-proof]
 shots: 7
@@ -15,7 +15,7 @@ shots: 7
 
 - Has a deadline with a face on it: a trip in a few weeks, a job interview, a move abroad, a partner's family they want to talk to. They want to *speak*, not collect points.
 - The burned-out restarter: kept a long streak in another app and still freezes when a waiter asks a question. Skeptical of gamification, hungry for real conversation.
-- The exam taker (IELTS, TOEFL, YDS/YÖKDİL in Turkey) with a target score and a date — wants structure and measurable progress.
+- The exam taker (IELTS, TOEFL) with a target score and a date — wants structure and measurable progress.
 - The commuter who will give it 5–10 minutes a day if it never feels like homework.
 - After installing they want to feel: "I said something real in {language} today."
 
@@ -62,26 +62,6 @@ shots: 7
 - Stop memorizing. **Start talking.**
 - Order coffee in **French**
 
-### Türkçe
-
-- **{language}** konuşmaya başla
-- Günde **{minutes} dakika** yeter
-- Yapay zekâ **hocanla** konuş
-- Hatalarını **anında** düzelt
-- **Aksanını** geliştir
-- Daha **doğal** konuş
-- Gerçekten **kullanacağın** kelimeler
-- Kendi **seviyenden** başla
-- Sıfırdan **sohbete**
-- Tatile **hazır** ol
-- **IELTS**'e güvenle hazırlan
-- Grameri sonunda **kavra**
-- **Gerçek** sohbetlerle pratik yap
-- Yolda bile **öğren**
-- **Serini** koru
-- Ezberleme, **konuş**
-- İngilizceyi **konuşarak** öğren
-
 ## Supporting elements
 
 - **AI tutor chat**: tutor bubble in the target language ("¿Qué te gustaría pedir?"), the user's reply, and a small green correction chip under it ("Better: Quisiera un café"). Keep it short, correct and checked by a native speaker.
@@ -104,17 +84,17 @@ shots: 7
 
 ## Keyword clusters
 
-- **Learn a specific language** — EN: "learn english", "learn spanish", "learn german for beginners", "learn japanese" — TR: "ingilizce öğren", "almanca öğrenme", "ispanyolca dersleri", "japonca öğren"
-- **Speaking & AI tutor** — EN: "english speaking practice", "ai language tutor", "conversation practice app" — TR: "ingilizce konuşma pratiği", "yapay zeka ile ingilizce", "konuşarak ingilizce öğren"
-- **Vocabulary & grammar** — EN: "english vocabulary", "grammar practice", "word of the day" — TR: "ingilizce kelime ezberleme", "ingilizce gramer", "günün kelimesi"
-- **Exams** — EN: "ielts preparation", "toefl practice", "cefr level test" — TR: "yds hazırlık", "yökdil hazırlık", "ielts hazırlık"
-- **Travel phrases** — EN: "travel phrases", "phrasebook", "basic english for travel" — TR: "seyahat ingilizcesi", "pratik ingilizce cümleler"
+- **Learn a specific language** — EN: "learn english", "learn spanish", "learn german for beginners", "learn japanese"
+- **Speaking & AI tutor** — EN: "english speaking practice", "ai language tutor", "conversation practice app"
+- **Vocabulary & grammar** — EN: "english vocabulary", "grammar practice", "word of the day"
+- **Exams** — EN: "ielts preparation", "toefl practice", "cefr level test"
+- **Travel phrases** — EN: "travel phrases", "phrasebook", "basic english for travel"
 
 ## Avoid
 
-- Outcome guarantees — "Fluent in 30 days", "Guaranteed IELTS 7", "Pass YDS": unsubstantiated performance claims break Apple 2.3.1 (accurate metadata) and consumer-protection rules. Say "prepare for", "practise for".
+- Outcome guarantees — "Fluent in 30 days", "Guaranteed IELTS 7": unsubstantiated performance claims break Apple 2.3.1 (accurate metadata) and consumer-protection rules. Say "prepare for", "practise for".
 - Competitor names in captions or comparison rows ("Better than Duolingo") — Apple 2.3.7 bars other apps' names in metadata, and it's a trademark risk on Google Play too.
-- Exam trademarks implying endorsement: IELTS, TOEFL, YDS belong to their owners; write "for IELTS prep", never "official".
+- Exam trademarks implying endorsement: IELTS, TOEFL belong to their owners; write "for IELTS prep", never "official".
 - Fake learner counts, "#1 language app", or awards the app hasn't received.
 - Prices, "free trial" banners or paywall screens inside screenshots (2.3.7).
 - Wrong or unnatural target-language content — native speakers read your screenshots and say so in reviews.

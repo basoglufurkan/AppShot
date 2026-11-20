@@ -3,7 +3,7 @@ id: food-delivery
 name: Food Delivery
 appStoreCategory: Food & Drink
 playCategory: Food & Drink
-keywords: [food delivery, delivery, order food, order online, restaurant, restaurants, restaurants near me, menu, menu item, add to cart, basket, checkout, courier, rider, driver, courier tracking, order tracking, order status, delivery time, eta, takeaway, pickup, order ahead, cuisine, pizza, burger, sushi, kebab, reorder, promo code, loyalty, quick commerce, dark kitchen, yemeksepeti, getir, uber eats, doordash]
+keywords: [food delivery, delivery, order food, order online, restaurant, restaurants, restaurants near me, menu, menu item, add to cart, basket, checkout, courier, rider, driver, courier tracking, order tracking, order status, delivery time, eta, takeaway, pickup, order ahead, cuisine, pizza, burger, sushi, kebab, reorder, promo code, loyalty, quick commerce, dark kitchen, uber eats, doordash]
 themes: [ember, sunset, brand, playful, clean-light]
 layouts: [full-bleed, screen-grid, zoom-callout, hero-device, notification-stack, ui-pieces, floating-cards, feature-list]
 shots: 6
@@ -16,7 +16,7 @@ shots: 6
 - Hungry *now* — decides in seconds, driven by appetite and convenience, not features.
 - The office worker ordering lunch at the desk; the family solving tonight's dinner; the late-night craver.
 - A loyal customer of a specific restaurant or chain installing its own ordering app (single-brand apps live here too).
-- In Turkey: a market dominated by big platforms — challengers win on speed, local favourites or a specific cuisine.
+- In markets dominated by big platforms, challengers win on speed, local favourites or a specific cuisine.
 - After installing they want to feel: hot food is coming, they know exactly when, and it was effortless.
 
 ## What wins the install
@@ -59,25 +59,6 @@ shots: 6
 - Order ahead, **eat sooner**
 - Arriving in **{eta} min**
 
-### Türkçe
-
-- Canın ne çektiyse **kapında**
-- **Sıcacık** yemekler kapına gelsin
-- Siparişini **canlı** takip et
-- Her **mutfak**, hemen yanında
-- **Tek dokunuşla** yeniden sipariş
-- Öğle yemeği **dert değil**
-- En sevdiğin **mekânlar** burada
-- Her lokmayı **kendine göre** ayarla
-- Siparişin **ne zaman** gelecek, bil
-- Gece **acıktın** mı? Hallettik.
-- Tüm **aileye** akşam yemeği
-- Gel al, **sıra bekleme**
-- **Sana özel** fırsatlar
-- **Mahallendeki** lezzetler
-- Önceden sipariş ver, **erken** ye
-- Siparişin **{eta} dk** içinde kapında
-
 ## Supporting elements
 
 - **Courier on map** with an ETA chip "{eta} min" and the courier's first name.
@@ -93,17 +74,17 @@ shots: 6
 - Appetite colours: reds, oranges and warm yellows (ember, sunset) or the brand's own colour; high-saturation food photography, top-down or 45° with visible steam and texture.
 - Full-bleed food behind or around the device; the UI should look clean and fast against rich photography.
 - Bold, rounded or condensed type; short captions that sound like cravings.
-- Leaders (DoorDash, Uber Eats, Deliveroo, Getir, Yemeksepeti) make the food the hero in shot 1 and the tracking map the hero in shot 3–4.
+- Leaders (DoorDash, Uber Eats, Deliveroo) make the food the hero in shot 1 and the tracking map the hero in shot 3–4.
 - Photograph dishes that partner restaurants actually serve; consistent lighting across all shots.
 - Avoid dark, muddy food shots and busy tablecloth backgrounds.
 
 ## Keyword clusters
 
-- **Ordering** — EN: "food delivery", "order food online", "food near me", "restaurant delivery" — TR: "yemek siparişi", "online yemek siparişi", "yakınımdaki restoranlar", "yemek sipariş uygulaması"
-- **Cuisine** — EN: "pizza delivery", "burger near me", "sushi delivery", "chinese food delivery" — TR: "pizza siparişi", "hamburger siparişi", "döner siparişi", "lahmacun siparişi"
-- **Pickup** — EN: "takeaway", "pickup order", "order ahead" — TR: "gel al", "paket servis", "önceden sipariş"
-- **Late night** — EN: "late night food delivery", "24 hour delivery" — TR: "gece açık restoranlar", "gece yemek siparişi"
-- **Deals** — EN: "food deals", "delivery coupons" — TR: "yemek kampanyaları", "indirim kodu"
+- **Ordering** — EN: "food delivery", "order food online", "food near me", "restaurant delivery"
+- **Cuisine** — EN: "pizza delivery", "burger near me", "sushi delivery", "chinese food delivery"
+- **Pickup** — EN: "takeaway", "pickup order", "order ahead"
+- **Late night** — EN: "late night food delivery", "24 hour delivery"
+- **Deals** — EN: "food deals", "delivery coupons"
 
 ## Avoid
 
@@ -111,6 +92,6 @@ shots: 6
 - Delivery-time guarantees ("in 10 minutes") unless always true in the shown market.
 - Chain logos and branded packaging (McDonald's, Burger King, Starbucks) without a partnership (Apple 5.2.1).
 - Stock or AI-generated food that doesn't match what partners actually serve.
-- Alcohol: online sale of alcoholic drinks is banned in Turkey (Law 4250 as amended by Law 6487), and elsewhere it requires age gating and the right age rating — keep it out of TR screenshots.
+- Alcohol: online sale of alcoholic drinks is banned in some markets, and elsewhere it requires age gating and the right age rating — keep it out of screenshots for those storefronts.
 - Fake ratings or "#1 delivery app".
 - Conversion mistakes: an address/login screen as shot 1, grids of tiny restaurant logos, captions longer than the craving lasts.

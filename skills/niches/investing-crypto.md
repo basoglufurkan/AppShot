@@ -3,7 +3,7 @@ id: investing-crypto
 name: Investing & Crypto
 appStoreCategory: Finance
 playCategory: Finance
-keywords: [portfolio, portfolio tracker, stock, stocks, shares, etf, etfs, brokerage, crypto, cryptocurrency, bitcoin, ethereum, altcoin, token, crypto wallet, seed phrase, staking, defi, exchange, trading, watchlist, market cap, candlestick, ticker, price alert, limit order, stop loss, dividend, dividends, asset allocation, unrealized gain, robo advisor, mutual fund, bist, borsa, gold price, forex]
+keywords: [portfolio, portfolio tracker, stock, stocks, shares, etf, etfs, brokerage, crypto, cryptocurrency, bitcoin, ethereum, altcoin, token, crypto wallet, seed phrase, staking, defi, exchange, trading, watchlist, market cap, candlestick, ticker, price alert, limit order, stop loss, dividend, dividends, asset allocation, unrealized gain, robo advisor, mutual fund, gold price, forex]
 themes: [finance-pro, midnight, neon, mono]
 layouts: [hero-device, zoom-callout, notification-stack, floating-cards, big-number, ui-pieces, feature-list, duo-devices]
 shots: 6
@@ -17,7 +17,7 @@ shots: 6
 - The active trader who wants speed, pro charts, indicators and alerts that fire on time.
 - The crypto holder with coins on three exchanges and two wallets who just wants one honest portfolio number (trackers).
 - The dividend/long-term investor who wants to see income and allocation, not noise.
-- In Turkey: savers protecting purchasing power across gold, FX, funds and BIST shares. After installing, everyone wants to feel: informed, in control, not gambling.
+- Savers protecting purchasing power across gold, FX and funds. After installing, everyone wants to feel: informed, in control, not gambling.
 
 ## What wins the install
 
@@ -59,26 +59,6 @@ shots: 6
 - Your portfolio, **in focus**
 - Track **{assetCount}+** assets in one place
 
-### Türkçe
-
-- Tüm **yatırımların** tek ekranda
-- Her varlığı **canlı** takip et
-- **Profesyonel** grafikler cebinde
-- Hiçbir **hareketi** kaçırma
-- **Saniyeler** içinde fiyat alarmı kur
-- Hisse, fon ve **kripto** bir arada
-- Gerçek **getirini** gör
-- Takip listen artık **daha akıllı**
-- Yatırımdan önce **öğren**
-- **Biyometrik** güvenlikle koru
-- Cüzdanlarını ve **borsaları** bağla
-- **Temettü** takvimin hazır
-- Piyasalar **an be an**
-- Altın, döviz ve **BIST** tek uygulamada
-- Portföyünü **netleştir**
-- Kararlarını **verilerle** ver
-- **{assetCount}+** varlığı tek yerden izle
-
 ## Supporting elements
 
 - **Portfolio total**: "{portfolioValue}" with a modest sample change — never a dramatic gain.
@@ -100,18 +80,17 @@ shots: 6
 
 ## Keyword clusters
 
-- **Stock investing** — EN: "stock market app", "invest in stocks", "stock trading app", "buy stocks" — TR: "borsa uygulaması", "hisse senedi al sat", "borsa takip"
-- **Crypto** — EN: "crypto wallet", "buy bitcoin", "crypto exchange", "crypto app" — TR: "kripto para", "bitcoin al", "kripto borsası", "kripto cüzdan"
-- **Tracking** — EN: "portfolio tracker", "crypto portfolio tracker", "investment tracker" — TR: "portföy takip", "yatırım takip uygulaması"
-- **Alerts & data** — EN: "stock alerts", "price alerts", "stock charts", "market news" — TR: "fiyat alarmı", "hisse alarmı", "canlı borsa"
-- **Savings assets** — EN: "gold price", "currency rates", "mutual funds" — TR: "altın fiyatları", "döviz kurları", "yatırım fonları"
+- **Stock investing** — EN: "stock market app", "invest in stocks", "stock trading app", "buy stocks"
+- **Crypto** — EN: "crypto wallet", "buy bitcoin", "crypto exchange", "crypto app"
+- **Tracking** — EN: "portfolio tracker", "crypto portfolio tracker", "investment tracker"
+- **Alerts & data** — EN: "stock alerts", "price alerts", "stock charts", "market news"
+- **Savings assets** — EN: "gold price", "currency rates", "mutual funds"
 
 ## Avoid
 
 - Apple 3.1.5: crypto wallets must come from developers enrolled as an organisation; exchanges only in licensed jurisdictions and offered by the exchange itself; no on-device mining; no crypto rewards for downloading apps or other tasks.
 - Google Play Financial Services policy: crypto exchanges and wallets must meet each country's licensing requirements; binary options are banned outright.
-- Turkey: crypto-asset service providers must be licensed by SPK (Capital Markets Law amendments, Law 7518, 2024); stock/fund promotions follow SPK advertising rules.
-- Return promises or hype: "guaranteed returns", "double your money", "risk-free", "to the moon", past performance as a promise — violates financial-promotion rules (SEC/FINRA, UK FCA crypto promotion rules, SPK) and Apple 2.3.1.
+- Return promises or hype: "guaranteed returns", "double your money", "risk-free", "to the moon", past performance as a promise — violates financial-promotion rules (SEC/FINRA, UK FCA crypto promotion rules) and Apple 2.3.1.
 - Advice framing: "Buy now", "Top 5 stocks to buy" — reads as personalised investment advice.
 - "Zero fees" / "commission-free" unless always true and fully disclosed; no prices or fees in screenshots (2.3.7).
 - Real people's portfolios or giant sample gains (+340%).

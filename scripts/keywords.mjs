@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Keyword helper for the screenshot set and the store metadata around it.
 //   node scripts/keywords.mjs seed                      candidates from profile + niche (review, then put the best in plan.keywords)
-//   node scripts/keywords.mjs field [--locale tr] [--title "Pulse: Home Workouts"] [--subtitle "..."]
+//   node scripts/keywords.mjs field [--locale de-DE] [--title "Pulse: Home Workouts"] [--subtitle "..."]
 //                                                       build the App Store keyword field (100 BYTES, comma-separated)
 //   node scripts/keywords.mjs coverage [--locale en-US] which plan keywords the captions actually say (shots 1–3 matter most)
 
@@ -21,13 +21,12 @@ const bytes = (s) => Buffer.byteLength(s, 'utf8');
 const norm = (w, loc) => {
   w = w.toLocaleLowerCase(loc).trim();
   if (loc.startsWith('en')) w = w.replace(/(ies)$/, 'y').replace(/([^s])s$/, '$1');
-  if (loc === 'tr') w = w.replace(/(lar|ler|ları|leri)$/, '');
   return w;
 };
 
 if (cmd === 'seed') {
   const niche = profile.niche?.chosen;
-  const nk = niche ? nicheKeywords(niche) : { en: [], tr: [] };
+  const nk = niche ? nicheKeywords(niche) : { en: [] };
   const feats = (profile.features || []).filter((f) => f.confidence !== 'low').map((f) => f.label.toLowerCase());
   const screens = (profile.screens?.marketing || []).slice(0, 10).map((s) => s.name.replace(/([a-z])([A-Z])/g, '$1 $2').toLowerCase());
   const store = [profile.store?.title, profile.store?.subtitle, profile.store?.keywords].filter(Boolean).join(',').toLowerCase().split(/[,|:–-]/).map((s) => s.trim()).filter((s) => s.length > 2);
@@ -35,11 +34,10 @@ if (cmd === 'seed') {
   writeJson(path.join(ws, 'review', 'keyword-seed.json'), seed);
   console.log(`\nNiche: ${niche || '—'}`);
   console.log(`  niche phrases (en): ${nk.en.slice(0, 30).join(', ') || '—'}`);
-  console.log(`  niche phrases (tr): ${nk.tr.slice(0, 20).join(', ') || '—'}`);
   console.log(`  features: ${feats.join(', ') || '—'}`);
   console.log(`  screens: ${screens.join(', ') || '—'}`);
   console.log(`  existing store text: ${seed.fromExistingStoreText.join(', ') || '—'}`);
-  log.info('Pick 5–8 per locale by intent + relevance (skills/aso/keywords.md) and save them as plan.keywords = { "en-US": [...], "tr": [...] }');
+  log.info('Pick 5–8 per locale by intent + relevance (skills/aso/keywords.md) and save them as plan.keywords = { "en-US": [...], "de-DE": [...] }');
   process.exit(0);
 }
 

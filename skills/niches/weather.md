@@ -59,25 +59,6 @@ shots: 6
 - Forecasts made **beautiful**
 - Rain in **{minutes} minutes**? You'll know.
 
-### Türkçe
-
-- Çıkmadan **önce** bil
-- **Dakika dakika** yağmur uyarısı
-- Fırtınayı **gelmeden** gör
-- Gökyüzü **saat saat**
-- Haftanı **havaya göre** planla
-- **Önemli** uyarılar, tam zamanında
-- Hava durumu **bir bakışta**
-- Rahat nefes al: **hava kalitesi**
-- Alerji günleri için **polen** tahmini
-- Koşu için **ideal** gün mü?
-- Canlı **radar**, göz alıcı
-- Yağmura **hazırlıksız** yakalanma
-- UV, rüzgâr ve **dahası**
-- Sevdiğin **tüm şehirler**
-- Hava durumu hiç bu kadar **güzel** olmamıştı
-- Şemsiyeni **ne zaman** alacağını bil
-
 ## Supporting elements
 
 - **Big temperature numeral**: "{temp}°" with condition and high/low.
@@ -94,20 +75,20 @@ shots: 6
 - Huge, thin numerals for temperature; glass cards for metrics; generous spacing.
 - Radar maps full and dark with vivid precipitation colours; keep map attribution visible.
 - Leaders: Apple Weather (gradient realism), CARROT (bold personality), Windy (data-rich), AccuWeather/The Weather Channel (alert-led). Personality or polish — pick one.
-- Units and formats match the storefront (°C/km/h for TR and most of Europe; °F/mph for US).
+- Units and formats match the storefront (°C/km/h for most of Europe; °F/mph for US).
 - Avoid dramatic disaster photography; let the UI show severity.
 
 ## Keyword clusters
 
-- **Forecast** — EN: "weather", "weather forecast", "local weather", "hourly weather" — TR: "hava durumu", "hava durumu tahmini", "saatlik hava durumu", "yarın hava nasıl"
-- **Radar & storms** — EN: "weather radar", "rain radar", "storm tracker", "lightning tracker" — TR: "yağmur radarı", "hava radarı", "fırtına takibi", "yıldırım haritası"
-- **Widgets** — EN: "weather widget", "lock screen weather" — TR: "hava durumu widget", "kilit ekranı hava durumu"
-- **Health & air** — EN: "air quality", "pollen count", "uv index" — TR: "hava kalitesi", "polen", "uv indeksi"
-- **Alerts** — EN: "severe weather alerts", "hurricane tracker", "rain alert" — TR: "meteoroloji uyarı", "kuvvetli yağış uyarısı", "yağmur uyarısı"
+- **Forecast** — EN: "weather", "weather forecast", "local weather", "hourly weather"
+- **Radar & storms** — EN: "weather radar", "rain radar", "storm tracker", "lightning tracker"
+- **Widgets** — EN: "weather widget", "lock screen weather"
+- **Health & air** — EN: "air quality", "pollen count", "uv index"
+- **Alerts** — EN: "severe weather alerts", "hurricane tracker", "rain alert"
 
 ## Avoid
 
-- Implying official warnings or using agency logos (NOAA/NWS, Met Office, MGM — Meteoroloji Genel Müdürlüğü) unless data is licensed and attribution is shown (Apple 5.2.1); data providers like Apple WeatherKit require attribution.
+- Implying official warnings or using agency logos (NOAA/NWS, Met Office) unless data is licensed and attribution is shown (Apple 5.2.1); data providers like Apple WeatherKit require attribution.
 - "Most accurate weather app" or "#1" without independent proof (Apple 2.3.1).
 - Real disaster photos or tragic events as marketing — insensitive, and Apple's objectionable-content rules (1.1) reject apps that capitalise on tragedies.
 - Location-permission prompts or onboarding as shot 1.

@@ -1,7 +1,7 @@
 {
-  "createdAt": "2026-11-05T06:35:49.767Z",
+  "createdAt": "2026-11-20T08:36:48.984Z",
   "draft": false,
-  "video": true,
+  "video": false,
   "fps": 30,
   "duration": 12,
   "codec": "h264",
@@ -14,15 +14,6 @@
       "layout": "creative-scene",
       "scene": "heartbeat",
       "issues": [],
-      "video": {
-        "file": "examples/pulse/appshot/out/creative/en-US/header.mp4",
-        "width": 3840,
-        "height": 1646,
-        "fps": 30,
-        "codec": "h264",
-        "duration": 12,
-        "bytes": 8595115
-      },
       "safe": {
         "x": 0.2,
         "y": 0.08,
@@ -35,7 +26,8 @@
           "x": 0.176,
           "y": 0,
           "w": 0.648,
-          "h": 1
+          "h": 1,
+          "preview": true
         }
       ]
     },
@@ -47,22 +39,22 @@
       "layout": "creative-split",
       "scene": "heartbeat",
       "issues": [],
-      "video": {
-        "file": "examples/pulse/appshot/out/creative/en-US/search.mp4",
-        "width": 3840,
-        "height": 2560,
-        "fps": 30,
-        "codec": "h264",
-        "duration": 12,
-        "bytes": 14487732
-      },
       "safe": {
-        "x": 0.05,
-        "y": 0.06,
-        "w": 0.9,
-        "h": 0.88
+        "x": 0.04,
+        "y": 0.04,
+        "w": 0.92,
+        "h": 0.53
       },
-      "crops": []
+      "crops": [
+        {
+          "label": "iPhone search (top ≈61%)",
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.61,
+          "preview": true
+        }
+      ]
     },
     {
       "asset": "universal",
@@ -76,7 +68,7 @@
         "x": 0.19,
         "y": 0.14,
         "w": 0.62,
-        "h": 0.72
+        "h": 0.43
       },
       "crops": [
         {
@@ -99,102 +91,13 @@
           "y": 0.119,
           "w": 0.647,
           "h": 0.762
-        }
-      ]
-    },
-    {
-      "asset": "header",
-      "locale": "tr",
-      "size": "3840×1646",
-      "image": "examples/pulse/appshot/out/creative/tr/header.png",
-      "layout": "creative-scene",
-      "scene": "heartbeat",
-      "issues": [],
-      "video": {
-        "file": "examples/pulse/appshot/out/creative/tr/header.mp4",
-        "width": 3840,
-        "height": 1646,
-        "fps": 30,
-        "codec": "h264",
-        "duration": 12,
-        "bytes": 8595115
-      },
-      "safe": {
-        "x": 0.2,
-        "y": 0.08,
-        "w": 0.6,
-        "h": 0.8
-      },
-      "crops": [
-        {
-          "label": "iPhone (≈1.51:1 centre crop)",
-          "x": 0.176,
-          "y": 0,
-          "w": 0.648,
-          "h": 1
-        }
-      ]
-    },
-    {
-      "asset": "search",
-      "locale": "tr",
-      "size": "3840×2560",
-      "image": "examples/pulse/appshot/out/creative/tr/search.png",
-      "layout": "creative-split",
-      "scene": "heartbeat",
-      "issues": [],
-      "video": {
-        "file": "examples/pulse/appshot/out/creative/tr/search.mp4",
-        "width": 3840,
-        "height": 2560,
-        "fps": 30,
-        "codec": "h264",
-        "duration": 12,
-        "bytes": 14454133
-      },
-      "safe": {
-        "x": 0.05,
-        "y": 0.06,
-        "w": 0.9,
-        "h": 0.88
-      },
-      "crops": []
-    },
-    {
-      "asset": "universal",
-      "locale": "tr",
-      "size": "5244×2950",
-      "image": "examples/pulse/appshot/out/creative/tr/universal.png",
-      "layout": "creative-stage",
-      "scene": "heartbeat",
-      "issues": [],
-      "safe": {
-        "x": 0.19,
-        "y": 0.14,
-        "w": 0.62,
-        "h": 0.72
-      },
-      "crops": [
-        {
-          "label": "21:9 header",
-          "x": 0,
-          "y": 0.119,
-          "w": 1,
-          "h": 0.762
         },
         {
-          "label": "3:2 search",
+          "label": "iPhone search",
           "x": 0.078,
           "y": 0,
           "w": 0.844,
-          "h": 1
-        },
-        {
-          "label": "iPhone header",
-          "x": 0.176,
-          "y": 0.119,
-          "w": 0.647,
-          "h": 0.762
+          "h": 0.61
         }
       ]
     }

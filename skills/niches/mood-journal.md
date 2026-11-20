@@ -59,26 +59,6 @@ shots: 6
 - **{streak}** days of check-ins
 - Your private **space**
 
-### Türkçe
-
-- Ruh halini neyin **şekillendirdiğini** gör
-- Nasıl hissettiğini **saniyede** kaydet
-- Duyguların, **renk renk**
-- **Kalıplarını** keşfet
-- Boş sayfa **korkusu** olmadan yaz
-- Seni **açan** sorular
-- Koca bir yıl, **piksel piksel**
-- Yaz, **hafifle**
-- Sadece **senin** açabildiğin günlük
-- Güzel günler **unutulmasın**
-- Her gün biraz **şükran**
-- Seni **iyi hissettireni** bul
-- Çaba değil, **duygu** takibi
-- Yoğun günler için **sesli** notlar
-- Düşün, **büyü**
-- **{streak}** gündür buradasın
-- Sana ait **özel** alan
-
 ## Supporting elements
 
 - Mood picker row: five faces or colors with labels (Awful → Great).
@@ -98,11 +78,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Mood** — EN: mood tracker, mood diary, emotion tracker, mood app — TR: ruh hali takibi, duygu günlüğü, mood takip, ruh hali uygulaması
-- **Journal** — EN: journal app, daily journal, diary with lock, private diary — TR: günlük uygulaması, şifreli günlük, dijital günlük, kilitli günlük
-- **Prompts** — EN: journal prompts, guided journal, self reflection app — TR: günlük yazma soruları, rehberli günlük, öz farkındalık
-- **Gratitude** — EN: gratitude journal, five minute journal — TR: şükran günlüğü, minnet günlüğü
-- **Pixels** — EN: year in pixels, mood calendar — TR: yıllık ruh hali takvimi, ruh hali takvimi
+- **Mood** — EN: mood tracker, mood diary, emotion tracker, mood app
+- **Journal** — EN: journal app, daily journal, diary with lock, private diary
+- **Prompts** — EN: journal prompts, guided journal, self reflection app
+- **Gratitude** — EN: gratitude journal, five minute journal
+- **Pixels** — EN: year in pixels, mood calendar
 
 ## Avoid
 

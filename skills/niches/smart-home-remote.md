@@ -59,25 +59,6 @@ shots: 6
 - No batteries **needed**
 - Movie night in **one scene**
 
-### Türkçe
-
-- Telefonun artık **kumanda**
-- Kumandayı mı kaybettin? **Sorun değil.**
-- **Saniyeler** içinde bağlan
-- Televizyonda **kolayca** yaz
-- Kaydırarak **gezin**
-- Fotoğraflarını **TV'ye** yansıt
-- Tüm cihazların **tek uygulamada**
-- Işıkları **tek dokunuşla** kapat
-- Akşamlarını **otomatiğe** bağla
-- Evini **her yerden** yönet
-- **{brands}** ile uyumlu
-- **Sesle** arama yap
-- Eve gelmeden **klimayı** aç
-- Evin **kilit ekranında**
-- Pile **gerek yok**
-- Tek dokunuşla **film gecesi**
-
 ## Supporting elements
 
 - **Remote UI pieces**: D-pad, touchpad with a swipe trail, volume rocker, app-launch shortcuts.
@@ -99,11 +80,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **TV remote** — EN: "tv remote", "universal remote", "remote control for tv", "smart tv remote" — TR: "tv kumandası", "akıllı tv kumandası", "evrensel kumanda"
-- **Brand-specific** (descriptive, supported brands only) — EN: "remote for samsung tv", "lg tv remote", "roku remote", "fire tv remote" — TR: "samsung tv kumanda", "lg tv kumanda"
-- **Casting** — EN: "screen mirroring", "cast to tv", "mirror iphone to tv" — TR: "ekran yansıtma", "telefonu tv'ye bağlama", "ekranı tv'ye yansıtma"
-- **Air conditioner** — EN: "ac remote", "air conditioner remote" — TR: "klima kumandası", "klima uzaktan kumanda"
-- **Smart home** — EN: "smart home", "home automation", "smart home app", "matter" — TR: "akıllı ev", "ev otomasyonu", "akıllı ev uygulaması"
+- **TV remote** — EN: "tv remote", "universal remote", "remote control for tv", "smart tv remote"
+- **Brand-specific** (descriptive, supported brands only) — EN: "remote for samsung tv", "lg tv remote", "roku remote", "fire tv remote"
+- **Casting** — EN: "screen mirroring", "cast to tv", "mirror iphone to tv"
+- **Air conditioner** — EN: "ac remote", "air conditioner remote"
+- **Smart home** — EN: "smart home", "home automation", "smart home app", "matter"
 
 ## Avoid
 

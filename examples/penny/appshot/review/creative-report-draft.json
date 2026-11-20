@@ -1,7 +1,7 @@
 {
-  "createdAt": "2026-11-05T06:33:23.832Z",
+  "createdAt": "2026-11-20T08:36:53.730Z",
   "draft": true,
-  "video": true,
+  "video": false,
   "fps": 30,
   "duration": 14,
   "codec": "h264",
@@ -14,15 +14,6 @@
       "layout": "creative-scene",
       "scene": "growth",
       "issues": [],
-      "video": {
-        "file": "examples/penny/appshot/drafts/creative/en-US/header.mp4",
-        "width": 960,
-        "height": 412,
-        "fps": 15,
-        "codec": "h264",
-        "duration": 14,
-        "bytes": 1183565
-      },
       "safe": {
         "x": 0.2,
         "y": 0.08,
@@ -35,7 +26,8 @@
           "x": 0.176,
           "y": 0,
           "w": 0.648,
-          "h": 1
+          "h": 1,
+          "preview": true
         }
       ]
     },
@@ -47,22 +39,22 @@
       "layout": "creative-split",
       "scene": "growth",
       "issues": [],
-      "video": {
-        "file": "examples/penny/appshot/drafts/creative/en-US/search.mp4",
-        "width": 960,
-        "height": 640,
-        "fps": 15,
-        "codec": "h264",
-        "duration": 14,
-        "bytes": 2693659
-      },
       "safe": {
-        "x": 0.05,
-        "y": 0.06,
-        "w": 0.9,
-        "h": 0.88
+        "x": 0.04,
+        "y": 0.04,
+        "w": 0.92,
+        "h": 0.53
       },
-      "crops": []
+      "crops": [
+        {
+          "label": "iPhone search (top ≈61%)",
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.61,
+          "preview": true
+        }
+      ]
     },
     {
       "asset": "universal",
@@ -76,7 +68,7 @@
         "x": 0.19,
         "y": 0.14,
         "w": 0.62,
-        "h": 0.72
+        "h": 0.43
       },
       "crops": [
         {
@@ -99,6 +91,13 @@
           "y": 0.119,
           "w": 0.647,
           "h": 0.762
+        },
+        {
+          "label": "iPhone search",
+          "x": 0.078,
+          "y": 0,
+          "w": 0.844,
+          "h": 0.61
         }
       ]
     }

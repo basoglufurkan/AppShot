@@ -59,26 +59,6 @@ shots: 6
 - Your history, **at a glance**
 - Your health data stays **yours**
 
-### Türkçe
-
-- İlaçların **zamanında**
-- **Gözden kaçmayan** hatırlatıcılar
-- Aldın mı? **Tek dokunuş**
-- İlacın **bitmeden** haberin olsun
-- Ailenin ilaçlarını **uzaktan** takip et
-- Her doz **kayıt altında**
-- Tüm ilaçların **tek yerde**
-- Büyük, net, **kolay** okunur
-- Raporunu **doktorunla** paylaş
-- Sabah, öğle, akşam **tamam**
-- **Vitaminlerin** de burada
-- Bakım verenlere **iç huzuru**
-- Saniyede **ilaç** ekle
-- Nasıl **hissettiğini** de kaydet
-- Karışık programlar artık **basit**
-- Geçmişin **tek bakışta**
-- Sağlık verilerin **sende** kalır
-
 ## Supporting elements
 
 - Notification: "Time for {medName} {dose}" with Taken / Snooze / Skip action buttons.
@@ -99,11 +79,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Reminder** — EN: pill reminder, medication reminder, medicine alarm, pill alarm — TR: ilaç hatırlatıcı, ilaç saati, ilaç alarmı, ilaç hatırlatma uygulaması
-- **Tracker** — EN: medication tracker, pill tracker, medication log — TR: ilaç takibi, ilaç takip uygulaması, ilaç günlüğü
-- **Caregiver** — EN: caregiver app, medication reminder for elderly, family medication tracker — TR: yaşlı ilaç takibi, aile ilaç takibi, bakım veren uygulaması
-- **Refills** — EN: prescription refill reminder, pill count — TR: reçete hatırlatma, ilaç bitiş hatırlatma
-- **Supplements** — EN: vitamin reminder, supplement tracker — TR: vitamin hatırlatıcı, takviye takibi
+- **Reminder** — EN: pill reminder, medication reminder, medicine alarm, pill alarm
+- **Tracker** — EN: medication tracker, pill tracker, medication log
+- **Caregiver** — EN: caregiver app, medication reminder for elderly, family medication tracker
+- **Refills** — EN: prescription refill reminder, pill count
+- **Supplements** — EN: vitamin reminder, supplement tracker
 
 ## Avoid
 

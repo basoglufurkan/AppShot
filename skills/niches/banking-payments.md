@@ -3,7 +3,7 @@ id: banking-payments
 name: Banking & Payments
 appStoreCategory: Finance
 playCategory: Finance
-keywords: [banking, mobile banking, bank account, open account, account balance, iban, routing number, swift, transfer, send money, money transfer, remittance, wire transfer, instant transfer, payment, payments, pay, debit card, virtual card, card controls, freeze card, contactless, apple pay, google pay, qr payment, peer to peer, request money, split bill, top up, e-money, neobank, kyc, exchange rate, multi-currency, cashback, havale, eft]
+keywords: [banking, mobile banking, bank account, open account, account balance, iban, routing number, swift, transfer, send money, money transfer, remittance, wire transfer, instant transfer, payment, payments, pay, debit card, virtual card, card controls, freeze card, contactless, apple pay, google pay, qr payment, peer to peer, request money, split bill, top up, e-money, neobank, kyc, exchange rate, multi-currency, cashback]
 themes: [finance-pro, clean-light, midnight, brand]
 layouts: [tilted-device, hero-device, ui-pieces, notification-stack, zoom-callout, floating-cards, feature-list, comparison]
 shots: 6
@@ -59,26 +59,6 @@ shots: 6
 - Get paid from **anywhere**
 - Your money, **always visible**
 
-### Türkçe
-
-- **Saniyeler** içinde para gönder
-- Bankan artık **cebinde**
-- Kartını **anında** dondur
-- Her ödemeden **anında** haberin olsun
-- Ücreti göndermeden **önce** gör
-- **Dakikalar** içinde hesap aç
-- **Temassız** öde, geç
-- Yurt dışında **yerel gibi** harca
-- Hesabı böl, **hesap yapma**
-- **Sanal kartın** hemen hazır
-- Tüm dövizler **tek hesapta**
-- Arkadaşından **linkle** para iste
-- Şubeye **gitmeden** bankacılık
-- Kontrol **sende**, sıra yok
-- **7/24** anında transfer
-- **QR** ile saniyede öde
-- Paran her an **gözünün önünde**
-
 ## Supporting elements
 
 - **Card mock**: glossy 3D card, masked number "•••• {last4}", tilted in front of the device.
@@ -94,21 +74,21 @@ shots: 6
 - One bold brand colour plus lots of white; the card is the hero object (glossy, 3D, sometimes metal for premium tiers — luxe).
 - Big tabular numerals for balances; generous spacing; payment flows shown as clean, separate UI pieces.
 - Trust palette (navy, teal, deep green) for traditional banks; vivid coral, purple or volt for neobanks and wallets.
-- Leaders (Revolut, Monzo, N26, Wise, Papara, Enpara) keep every shot to one action and one number.
+- Leaders (Revolut, Monzo, N26, Wise) keep every shot to one action and one number.
 - Dark mode works for premium/metal tiers; light mode reads more trustworthy for mainstream banking.
 - No generic stock photos of people holding phones; show the product.
 
 ## Keyword clusters
 
-- **Mobile banking** — EN: "mobile banking", "online bank account", "open bank account online", "digital bank" — TR: "mobil bankacılık", "online hesap aç", "dijital banka"
-- **Transfers** — EN: "send money", "money transfer", "international money transfer", "send money abroad" — TR: "para gönder", "yurt dışına para transferi", "havale eft", "fast transfer"
-- **Cards** — EN: "virtual card", "prepaid card", "debit card app", "card controls" — TR: "sanal kart", "ön ödemeli kart", "banka kartı"
-- **Social payments** — EN: "split bill", "request money", "pay friends" — TR: "hesap bölüşme", "arkadaşa para gönder", "para iste"
-- **Travel & FX** — EN: "currency exchange", "travel card", "multi currency account" — TR: "döviz bozdurma", "döviz hesabı", "yurt dışı kart"
+- **Mobile banking** — EN: "mobile banking", "online bank account", "open bank account online", "digital bank"
+- **Transfers** — EN: "send money", "money transfer", "international money transfer", "send money abroad"
+- **Cards** — EN: "virtual card", "prepaid card", "debit card app", "card controls"
+- **Social payments** — EN: "split bill", "request money", "pay friends"
+- **Travel & FX** — EN: "currency exchange", "travel card", "multi currency account"
 
 ## Avoid
 
-- Calling a non-bank a "bank": in the US, UK, EU and Turkey the word is restricted to licensed banks; fintechs write "Banking services provided by {partnerBank}". Deposit-insurance claims (FDIC, FSCS, TMSF) only exactly as they apply.
+- Calling a non-bank a "bank": in the US, UK and EU the word is restricted to licensed banks; fintechs write "Banking services provided by {partnerBank}". Deposit-insurance claims (FDIC, FSCS) only exactly as they apply.
 - Google Play Financial Services policy: declare financial features; personal loans need APR and term disclosures, and loans requiring full repayment in 60 days or less are banned.
 - Fees, rates or "free transfers" in screenshots — they change and can mislead (Apple 2.3.1, 2.3.7).
 - Apple Pay / Google Pay / Visa / Mastercard marks outside their brand guidelines; no implied endorsement (Apple 5.2.1).

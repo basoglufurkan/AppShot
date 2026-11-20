@@ -34,8 +34,8 @@ Use these names so the agent and the owner fill them the same way: `{rating}` `{
 There are deliberately no price or trial placeholders. Prices, currency symbols and trial terms never go in screenshots; they belong on the paywall (Apple 2.3.7; `copy-check` errors on prices).
 
 - **Never render an unfilled placeholder.** At export, every proof caption either has verified values or is replaced by its fallback. `copy-check` errors on any `{…}` left in a caption, and on any rating, award, quote or stat in the plan without a `source` field.
-- **Round down to a meaningful threshold:** 12,480 becomes 12K+ / 12 bin+ / 1万人以上 / 1,2 Mio.+ (written per locale format; see the locale files).
-- **Ratings:** use the value the store displays for that storefront, never higher. Don't put an App Store rating on Play, or a US rating on the Turkish listing.
+- **Round down to a meaningful threshold:** 12,480 becomes 12K+ / 1万人以上 / 1,2 Mio.+ (written per locale format; see the locale files).
+- **Ratings:** use the value the store displays for that storefront, never higher. Don't put an App Store rating on Play, or a US rating on the German listing.
 - **Match the noun to the metric.** Downloads ≠ users ≠ active users ≠ accounts. "{downloads}+ downloads" is not "{downloads}+ users".
 
 ## Wording by proof type
@@ -43,7 +43,6 @@ There are deliberately no price or trial placeholders. Prices, currency symbols 
 ### Ratings
 - **Show a rating only if** it is ≥ 4.5 *and* the count is substantial (hundreds or more) in the storefront being localised. "5.0 from 14 ratings" reads as fake.
 - Good EN: "Rated **{rating}** by {ratings_count} people" · "**{rating}★** on the App Store"
-- Good TR: "{ratings_count} değerlendirmede **{rating}★**" · "App Store'da **{rating}** puan"
 - Don't:
   - stars with no number
   - laurel wreaths that imply an award
@@ -52,13 +51,11 @@ There are deliberately no price or trial placeholders. Prices, currency symbols 
 
 ### Users and downloads
 - Good EN: "Join **{users}** home cooks" · "**{downloads}+** downloads"
-- Good TR: "**{users}** ev aşçısı kullanıyor" · "**{downloads}+** indirme"
 - Don't: "Millions of users" without data, "fastest-growing", "everyone's favourite".
 
 ### Awards and featuring
 - **Use the exact name, giver, level and year.** Winner ≠ finalist ≠ nominee, and "App of the Day" ≠ "Featured".
 - Good EN: "**{award}** {award_year}" (e.g. "Apple Design Award Finalist 2025") · "Featured as **App of the Day**" · "**Editors' Choice** on Google Play" (only while it holds)
-- Good TR: "**{award}**, {award_year}" · "App Store'da **Günün Uygulaması**"
 - **Artwork:** only official badge artwork, used under the award body's guidelines. Never recreate badges, and never use the Apple or Google Play logos as decoration.
 
 ### Press
@@ -74,7 +71,6 @@ There are deliberately no price or trial placeholders. Prices, currency symbols 
 
 ### Product facts
 - Good EN: "**{recipes}** recipes, all under 30 min" (verify the duration field) · "Works **offline**" · "No account **needed**" · "**{languages}** languages"
-- Good TR: "**{recipes}** tarif, hepsi 30 dakikanın altında" · "**İnternetsiz** çalışır" · "**Üyelik** gerekmez" · "**{languages}** dil desteği"
 - **Specificity is itself proof:** "Encrypted on your device" persuades where "Secure" doesn't.
 
 ## Store rules
@@ -104,7 +100,6 @@ The full rule text with sources is in `skills/aso/apple-rules.md` and `skills/as
 - **EU:** the Unfair Commercial Practices Directive, as amended by the Omnibus Directive. Fake reviews are banned, and you must disclose whether and how displayed reviews are verified.
 - **UK:** the DMCC Act 2024 bans fake reviews; the ASA/CAP Code governs claims.
 - **Superlative claims by market:**
-  - **TR:** Reklam Kurulu requires documented proof for superlatives and comparisons.
   - **DE:** UWG.
   - **JP:** 景品表示法 No.1 claims.
   - **KR:** KFTC.
@@ -121,8 +116,6 @@ Example pair, written together:
 ```
 shot 6 · en   proof:    "Rated **{rating}** in {ratings_count} reviews"
               fallback: "No ads. No **data** selling."   (verified: no ad SDK, privacy policy)
-shot 6 · tr   proof:    "{ratings_count} değerlendirmede **{rating}★**"
-              fallback: "Reklam yok, **veri** satışı yok"
 ```
 
 ## Freshness

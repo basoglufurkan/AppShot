@@ -51,8 +51,8 @@ export function translations(root, locale) {
         const base = fs.existsSync(enFile) ? enFile : f.replace(`/${m[1]}.lproj/`, '/Base.lproj/');
         if (!fs.existsSync(base)) continue;
         const read = (p) => new Map([...fs.readFileSync(p, 'utf8').matchAll(/^"((?:[^"\\]|\\.)+)"\s*=\s*"((?:[^"\\]|\\.)*)";/gm)].map((x) => [unesc(x[1]), unesc(x[2])]));
-        const en = read(base), tr = read(f);
-        for (const [k, v] of tr) if (en.get(k) && v !== en.get(k)) pairs.set(en.get(k), v);
+        const en = read(base), xl = read(f);
+        for (const [k, v] of xl) if (en.get(k) && v !== en.get(k)) pairs.set(en.get(k), v);
       } else if (f.endsWith('strings.xml')) {
         const m = f.match(/\/values-([\w+-]+)\/strings\.xml$/);
         if (!m) continue;
@@ -61,15 +61,15 @@ export function translations(root, locale) {
         const base = f.replace(`/values-${m[1]}/`, '/values/');
         if (!fs.existsSync(base)) continue;
         const read = (p) => new Map([...fs.readFileSync(p, 'utf8').matchAll(/<string name="([^"]+)"[^>]*>([\s\S]*?)<\/string>/g)].map((x) => [x[1], unesc(x[2].trim())]));
-        const en = read(base), tr = read(f);
-        for (const [k, v] of tr) if (en.get(k) && v !== en.get(k)) pairs.set(en.get(k), v);
+        const en = read(base), xl = read(f);
+        for (const [k, v] of xl) if (en.get(k) && v !== en.get(k)) pairs.set(en.get(k), v);
       } else if (f.endsWith('.arb')) {
         const m = f.match(/_([a-zA-Z]{2,3}(?:[_-][A-Za-z]{2,4})?)\.arb$/);
         if (!m || !want.includes(m[1].replace('_', '-')) && !want.includes(m[1])) continue;
         const base = f.replace(/_[^_/]+\.arb$/, '_en.arb');
         if (!fs.existsSync(base)) continue;
-        const en = JSON.parse(fs.readFileSync(base, 'utf8')), tr = JSON.parse(fs.readFileSync(f, 'utf8'));
-        for (const [k, v] of Object.entries(tr)) if (!k.startsWith('@') && typeof v === 'string' && en[k] && v !== en[k]) pairs.set(en[k], v);
+        const en = JSON.parse(fs.readFileSync(base, 'utf8')), xl = JSON.parse(fs.readFileSync(f, 'utf8'));
+        for (const [k, v] of Object.entries(xl)) if (!k.startsWith('@') && typeof v === 'string' && en[k] && v !== en[k]) pairs.set(en[k], v);
       }
     } catch {}
   }

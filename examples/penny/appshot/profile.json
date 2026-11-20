@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "root": "examples/penny",
-  "scannedAt": "2026-11-16T13:40:01.568Z",
+  "root": "/Users/basoglu/Desktop/AppShot/examples/penny",
+  "scannedAt": "2026-11-20T08:38:51.863Z",
   "app": {
     "displayName": "Penny",
     "category": "Finance",
@@ -21,8 +21,7 @@
     "description": "Budget planner and expense tracker. See where your money goes, set monthly budgets and never miss a bill.",
     "version": "1.8.2",
     "locales": [
-      "en",
-      "tr"
+      "en"
     ],
     "name": "Penny"
   },
@@ -39,7 +38,7 @@
     "evidence": [
       "pubspec.yaml"
     ],
-    "fileCount": 16
+    "fileCount": 15
   },
   "store": {
     "locales": [],
@@ -199,8 +198,7 @@
   },
   "strings": {
     "locales": [
-      "en",
-      "tr"
+      "en"
     ],
     "count": 16,
     "samples": [
@@ -528,5 +526,5 @@
     ],
     "chosen": "budget-expense"
   },
-  "scanMs": 146
+  "scanMs": 114
 }

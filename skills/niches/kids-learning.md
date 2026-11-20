@@ -59,25 +59,6 @@ shots: 7
 - A profile for **every** child
 - Calm stories at **bedtime**
 
-### Türkçe
-
-- Oynarken **okumayı** öğrensin
-- Gönül rahatlığıyla **ekran süresi**
-- Minik eller için **güvenli**
-- Harflerden ilk **kelimelere**
-- Saymak artık çok **eğlenceli**
-- Dokun, çiz, **öğren**
-- **{ageRange}** yaş için tasarlandı
-- Her **gelişimini** gör
-- Kendi **hızında** öğrensin
-- İnternetsiz **oynasın**, her yerde
-- Küçük adımlar, büyük **beceriler**
-- Harf seslerini **kolayca** öğrensin
-- Matematiği **sevsin**
-- Okula **hazır** başlasın
-- Her çocuğa **ayrı** profil
-- Uyku öncesi **sakin** masallar
-
 ## Supporting elements
 
 - **Trust badges** (only the true ones): "No ads", "No in-app chat", "Parental gate", "Works offline", "Teacher Approved" (Google Play, only if awarded).
@@ -99,11 +80,11 @@ shots: 7
 
 ## Keyword clusters
 
-- **Letters & reading** — EN: "abc games for kids", "learn alphabet", "phonics for kids", "learn to read" — TR: "çocuklar için harf öğrenme", "alfabe oyunu", "okuma yazma öğrenme"
-- **Age-based** — EN: "toddler games", "preschool learning games", "games for 3 year olds" — TR: "3 yaş oyunları", "okul öncesi eğitici oyunlar", "bebek oyunları"
-- **Math & logic** — EN: "math for kids", "counting games", "kindergarten math" — TR: "çocuklar için matematik", "sayı öğrenme oyunu", "çocuk zeka oyunları"
-- **Stories & songs** — EN: "bedtime stories for kids", "nursery rhymes" — TR: "çocuk masalları", "sesli masal", "çocuk şarkıları"
-- **Languages** — EN: "english for kids" — TR: "çocuklar için ingilizce", "çocuk ingilizce oyunu"
+- **Letters & reading** — EN: "abc games for kids", "learn alphabet", "phonics for kids", "learn to read"
+- **Age-based** — EN: "toddler games", "preschool learning games", "games for 3 year olds"
+- **Math & logic** — EN: "math for kids", "counting games", "kindergarten math"
+- **Stories & songs** — EN: "bedtime stories for kids", "nursery rhymes"
+- **Languages** — EN: "english for kids"
 
 ## Avoid
 

@@ -41,7 +41,7 @@ Squint. You are a stranger scrolling search results in one second.
   bigger), highlights in the same style.
 - Contrast of roles: shot 1 sells, shots 2+ show. A billboard after shot 1, or a shot 2+ with no app UI, breaks it.
 - Locale: line breaks look natural, no orphan single word, highlight on the right word in that language,
-  Turkish characters correct (İ, ı, ş, ğ, ç, ö, ü), RTL mirrored where it matters.
+  special characters and diacritics correct, RTL mirrored where it matters.
 - Store: Android set has no ratings/awards/testimonials/"free"/prices; iOS set never says Android/Google Play.
 
 ## 4 · Verdict

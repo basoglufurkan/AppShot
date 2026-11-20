@@ -3,7 +3,7 @@ id: homework-solver
 name: Homework Solver
 appStoreCategory: Education
 playCategory: Education
-keywords: [homework, homework help, homework helper, math solver, step by step, step-by-step solution, scan problem, snap and solve, camera solver, question scanner, equation, algebra, geometry, calculus, trigonometry, derivative, integral, quadratic, fraction, word problem, graphing, show steps, explanation, check my answer, practice problems, chemistry, physics, biology, essay helper, worksheet, textbook, lgs, math tutor]
+keywords: [homework, homework help, homework helper, math solver, step by step, step-by-step solution, scan problem, snap and solve, camera solver, question scanner, equation, algebra, geometry, calculus, trigonometry, derivative, integral, quadratic, fraction, word problem, graphing, show steps, explanation, check my answer, practice problems, chemistry, physics, biology, essay helper, worksheet, textbook, math tutor]
 themes: [clean-light, sky, volt, midnight]
 layouts: [before-after, zoom-callout, chat-bubbles, screen-grid, hero-device, floating-cards, feature-list]
 shots: 6
@@ -16,7 +16,6 @@ shots: 6
 - A student stuck on problem 14 at 10 pm with nobody to ask — frustrated, tired, close to giving up.
 - A parent trying to help with math they last saw twenty years ago and not wanting to look lost in front of their child.
 - A university student facing calculus, physics or chemistry problem sets and wanting to see *how*, not just *what*.
-- In Turkey: LGS and YKS candidates who need instant "soru çözümü" for practice-book questions.
 - After installing they want to feel: "I get it now — I could solve the next one myself."
 
 ## What wins the install
@@ -59,26 +58,6 @@ shots: 6
 - Help your kid with **math**
 - Finish homework with **confidence**
 
-### Türkçe
-
-- Fotoğrafını çek, **çözülsün**
-- Her **adımı** gör
-- Takıldın mı? **Hemen** çöz
-- Kopyalama, **anla**
-- Matematiği **kolayca** anla
-- **"Neden?"** diye istediğin an sor
-- Tüm dersler **tek kamerada**
-- Fotoğraftan **cevaba**
-- Ödevlerinde 7/24 **yanında**
-- Önce cevabını **kontrol et**
-- Grafikler artık **anlaşılır**
-- El yazısı mı? **Sorun değil.**
-- Kavrayana kadar **pratik yap**
-- Türev ve integral **basitleşti**
-- Çocuğunun ödevine **destek ol**
-- LGS sorularını **adım adım** çöz
-- Ödevini **güvenle** bitir
-
 ## Supporting elements
 
 - **Scan frame**: corner brackets over a handwritten equation on lined paper.
@@ -100,18 +79,17 @@ shots: 6
 
 ## Keyword clusters
 
-- **Math camera solvers** — EN: "math solver", "math scanner", "solve math problems with camera", "photo math" — TR: "matematik soru çözücü", "fotoğraftan soru çözme", "soru çözme uygulaması"
-- **Homework help** — EN: "homework help", "homework helper ai", "ai tutor for homework" — TR: "ödev yardımcısı", "ödev yapma uygulaması", "yapay zeka ödev"
-- **Advanced math** — EN: "calculus solver", "algebra calculator", "geometry solver", "equation solver" — TR: "türev integral çözücü", "denklem çözücü", "geometri soru çözümü"
-- **Sciences** — EN: "physics solver", "chemistry homework help" — TR: "fizik soru çözümü", "kimya soru çözme"
-- **Turkish exams** — EN: (n/a) — TR: "lgs soru çözümü", "yks soru çözme", "tyt matematik çözüm"
+- **Math camera solvers** — EN: "math solver", "math scanner", "solve math problems with camera", "photo math"
+- **Homework help** — EN: "homework help", "homework helper ai", "ai tutor for homework"
+- **Advanced math** — EN: "calculus solver", "algebra calculator", "geometry solver", "equation solver"
+- **Sciences** — EN: "physics solver", "chemistry homework help"
 
 ## Avoid
 
 - Cheating framing: "Never do homework again", "Copy the answers", "Get through the exam" — reviewers, parents and schools react badly, and it invites low ratings. Lead with understanding.
 - Wrong solutions in screenshots — double-check every step; one visible mistake destroys trust.
 - "100% accurate" or "solves any problem" — unsubstantiated claims (Apple 2.3.1).
-- Copyrighted problems: textbook pages, publisher worksheets, real ÖSYM/MEB exam questions (ÖSYM asserts copyright on its questions). Write your own problems.
+- Copyrighted problems: textbook pages, publisher worksheets, real official exam questions (exam boards often assert copyright on their questions). Write your own problems.
 - Exam-cheating context: no "use it during the test" or smartwatch-in-exam imagery.
 - If the app has AI chat, keep its age rating and content filters consistent with what the screenshots promise to under-18s.
 - Conversion mistakes: a typed equation instead of the camera, a subject list as shot 1, tiny formulas, more than one problem per shot.

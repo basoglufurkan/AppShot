@@ -11,7 +11,7 @@ see in `review/contact-*.png`, `review/search-*.png` or the render report, and t
 2. **Three lines in shots 1–3.** This scores −3 and is slower to read. **Fix:** shorter copy and a deliberate `\n`.
 3. **The subhead carries the point.** It renders at 0.42× the headline (about 5 pt in search). **Fix:** move the
    benefit into the headline, and use `"subhead": ""` (or none) on shots 1–3.
-4. **ALL CAPS typed in the source.** Breaks Turkish İ/ı and German ß, and lint warns. **Fix:** write sentence case and
+4. **ALL CAPS typed in the source.** Breaks German ß, and lint warns. **Fix:** write sentence case and
    let `case: "upper"` (ember) or `themeOverrides.case` do it.
 5. **Faux italics.** `_word_` on a sans theme gives a synthetic slant. **Fix:** remove it, or use `editorial` or
    `cream`, or `"themeOverrides": { "emStyle": "normal" }`.
@@ -103,4 +103,4 @@ see in `review/contact-*.png`, `review/search-*.png` or the render report, and t
     https or absolute `file://` URL, plus an `overlay`.
 42. **Before/after with no chips.** `labels: { "before": "…", "after": "…" }` written without locale keys is read
     as a localised string, and no chips appear. **Fix:** key the labels by locale:
-    `"labels": { "en-US": { "before": "Before", "after": "After" }, "tr": { "before": "Önce", "after": "Sonra" } }`.
+    `"labels": { "en-US": { "before": "Before", "after": "After" }, "de-DE": { "before": "Vorher", "after": "Nachher" } }`.

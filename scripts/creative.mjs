@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // App Store creative assets (iOS 27+): product page header and search results — images and looping videos.
-//   node scripts/creative.mjs [--assets header,search,universal] [--locales en-US,tr] [--video]
+//   node scripts/creative.mjs [--assets header,search,universal] [--locales en-US,de-DE] [--video]
 //        [--fps 30] [--duration 12] [--codec h264|hevc|prores] [--layout creative-stage] [--scene pond] [--draft]
 //        [--explain]  print what the director decided and why, render nothing
 //        [--manual]   ignore the director: only plan.creative and the old defaults

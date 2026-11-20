@@ -18,8 +18,8 @@ One iPhone capture serves both iPhone canvases; the engine keeps the frame's asp
 - **State**: hide onboarding tooltips and permission sheets; finish loading spinners; pick the best moment
   (a chart with a rising trend, a completed task, a filled cart).
 - **Appearance**: match the theme — dark UI for dark themes looks native; light UI on light themes. Capture both if unsure.
-- **Language**: capture the UI in every locale you ship (`raw/tr/today.png`, referenced as `raw/{locale}/today.png`).
-  Falling back to English UI inside a Turkish caption set is acceptable for a first release, not ideal.
+- **Language**: capture the UI in every locale you ship (`raw/de-DE/today.png`, referenced as `raw/{locale}/today.png`).
+  Falling back to English UI inside a German caption set is acceptable for a first release, not ideal.
 - **Status bar**: 9:41, full battery, full signal (`capture/statusbar.mjs on` or automatic in the capture scripts).
 
 ## iOS Simulator
@@ -88,7 +88,7 @@ Demo mode gives a clean status bar (09:41, full battery, Wi-Fi). Without deep li
 ## Repeatable capture with Maestro
 
 `node $SKILL_DIR/scripts/capture/maestro.mjs > appshot/capture.yaml` writes a flow with one step per missing screen.
-Replace the TODO taps once; rerun for every locale (`maestro test --env LANG=tr …`) and every release.
+Replace the TODO taps once; rerun for every locale (`maestro test --env LANG=de-DE …`) and every release.
 
 ## Web apps, PWAs and HTML prototypes
 
@@ -116,7 +116,7 @@ The app preview video (`skills/aso/app-previews.md`) is best made of real footag
 named like its capture, while you (or the user, or a Maestro flow) use the app:
 
 ```bash
-node $SKILL_DIR/scripts/preview.mjs record --name focus --seconds 8 [--url myapp://focus] [--locale tr]
+node $SKILL_DIR/scripts/preview.mjs record --name focus --seconds 8 [--url myapp://focus] [--locale de-DE]
 node $SKILL_DIR/scripts/preview.mjs record --android --name focus --seconds 8
 ```
 

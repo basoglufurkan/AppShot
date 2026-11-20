@@ -49,8 +49,8 @@ copy; the promise alone still works when the kicker is too small to read.
 - **The kicker is 2–5 words**, never a second idea and never a sentence: a number, a scope ("& websites"), a speed
   ("in seconds") or a qualifier ("every morning"). One emoji may stand in for a word as an inline icon (`in ⚡ seconds`).
 - **The promise keeps the keyword** (first-impression rule); the kicker may carry a second one.
-- **Transcreate the pair, not the words**: in Turkish the verb lands at the end ("Paran **nereye** gidiyor, gör" +
-  "Hepsi tek ekranda"), so the kicker often becomes the scope rather than the continuation.
+- **Transcreate the pair, not the words**: in languages where the verb lands at the end, the kicker often becomes the
+  scope rather than the continuation.
 - `copy-check` warns when a billboard promise runs past 5 words or the kicker past 6.
 
 ## Hook types, ranked
@@ -85,40 +85,40 @@ Adjust the ranking when:
 
 ## 30+ example hooks
 
-| # | Niche | Hook (EN) | Hook (TR) | Type |
-|---|---|---|---|---|
-| 1 | Budgeting | A budget that **builds itself** | Kendi kendini kuran **bütçe** | Category + twist |
-| 2 | Bill reminders | No more **late fees** | Gecikme **faizine** son | Pain |
-| 3 | Bill splitting | Split the bill, keep the **friends** | Hesabı böl, **dostluk** bozulmasın | Outcome |
-| 4 | Portfolio tracker | Every investment, one **screen** | Tüm yatırımların **tek ekranda** | Consolidation |
-| 5 | Sleep | Fall asleep **faster** tonight | Bu gece **kolayca** uykuya dal | Outcome |
-| 6 | Sleep (shift work) | Sleep for **night-shift** workers | **Gece vardiyası** sonrası deliksiz uyku | Identity |
-| 7 | Meditation | Calm, one **breath** at a time | Her **nefeste** biraz daha sakin | Outcome |
-| 8 | Home workouts | Strong at home, **no gym** | Salona gitmeden **güçlen** | X without Y |
-| 9 | Running | Run your first **5 km** | İlk **5 km'ni** koş | Outcome |
-| 10 | Calorie counter | Snap your plate, see the **calories** | Tabağını çek, **kalorisini** gör | Demo |
-| 11 | Cycle tracking | Know your cycle, plan your **month** | Döngünü tanı, ayını **planla** | Outcome |
-| 12 | Language learning | English you can **speak** | **Konuşabildiğin** İngilizce | Outcome |
-| 13 | Exam prep | The SAT, one **day** at a time | **YKS'ye** her gün bir adım | Local anchor |
-| 14 | Kids learning | Screen time that **teaches** | **Öğreten** ekran süresi | Contrast |
-| 15 | Notes | Never lose an **idea** again | Hiçbir **fikrini** kaybetme | Pain |
-| 16 | To-do | Your to-dos, **finally** done | Yapılacaklar **gerçekten** bitsin | Outcome |
-| 17 | Family calendar | One calendar for the whole **family** | Tüm **aile** tek takvimde | Consolidation |
-| 18 | Photo editor | **Erase** anything in one tap | İstemediğin her şeyi **sil** | Demo |
-| 19 | Video editor | Pro edits from your **phone** | Telefonundan **profesyonel** kurgu | Outcome |
-| 20 | AI writing | A writing partner, **always** on | Her an hazır **yazı** ortağın | Analogy |
-| 21 | Doc scanner | Scan anything to **PDF** | Her belgeyi **PDF'e** tara | Verb + object |
-| 22 | VPN | Public Wi-Fi, made **private** | Halka açık Wi-Fi'da bile **gizli** | Pain |
-| 23 | Password manager | Stop resetting **passwords** | Şifre **sıfırlamaya** son | Enemy |
-| 24 | Recipes | What's for **dinner**? | Bu akşam ne **pişirsem**? | Question |
-| 25 | Grocery list | Shop together, forget **nothing** | Birlikte alışveriş, **eksiksiz** liste | Outcome |
-| 26 | Dating | Dates that start with **real** talk | **Gerçek** sohbetle başlayan tanışmalar | Category + twist |
-| 27 | Neighbourhood app | Trusted by **{users}** neighbours | **{users}** komşu burada | Proof (App Store only) |
-| 28 | Travel planner | Your whole trip, one **plan** | Tüm seyahatin **tek planda** | Consolidation |
-| 29 | Prayer times | Prayer times for **your city** | Şehrine göre **namaz vakitleri** | Local anchor |
-| 30 | Focus timer | Deep work, **zero** pings | Bildirim yok, **derin** odak | X without Y |
-| 31 | Pet care | Every vaccine, **on time** | Dostunun **aşıları** hep zamanında | Pain |
-| 32 | Weather | Rain alerts **before** the rain | Yağmurdan **önce** haber al | Outcome |
+| # | Niche | Hook | Type |
+|---|---|---|---|
+| 1 | Budgeting | A budget that **builds itself** | Category + twist |
+| 2 | Bill reminders | No more **late fees** | Pain |
+| 3 | Bill splitting | Split the bill, keep the **friends** | Outcome |
+| 4 | Portfolio tracker | Every investment, one **screen** | Consolidation |
+| 5 | Sleep | Fall asleep **faster** tonight | Outcome |
+| 6 | Sleep (shift work) | Sleep for **night-shift** workers | Identity |
+| 7 | Meditation | Calm, one **breath** at a time | Outcome |
+| 8 | Home workouts | Strong at home, **no gym** | X without Y |
+| 9 | Running | Run your first **5 km** | Outcome |
+| 10 | Calorie counter | Snap your plate, see the **calories** | Demo |
+| 11 | Cycle tracking | Know your cycle, plan your **month** | Outcome |
+| 12 | Language learning | English you can **speak** | Outcome |
+| 13 | Exam prep | The SAT, one **day** at a time | Local anchor |
+| 14 | Kids learning | Screen time that **teaches** | Contrast |
+| 15 | Notes | Never lose an **idea** again | Pain |
+| 16 | To-do | Your to-dos, **finally** done | Outcome |
+| 17 | Family calendar | One calendar for the whole **family** | Consolidation |
+| 18 | Photo editor | **Erase** anything in one tap | Demo |
+| 19 | Video editor | Pro edits from your **phone** | Outcome |
+| 20 | AI writing | A writing partner, **always** on | Analogy |
+| 21 | Doc scanner | Scan anything to **PDF** | Verb + object |
+| 22 | VPN | Public Wi-Fi, made **private** | Pain |
+| 23 | Password manager | Stop resetting **passwords** | Enemy |
+| 24 | Recipes | What's for **dinner**? | Question |
+| 25 | Grocery list | Shop together, forget **nothing** | Outcome |
+| 26 | Dating | Dates that start with **real** talk | Category + twist |
+| 27 | Neighbourhood app | Trusted by **{users}** neighbours | Proof (App Store only) |
+| 28 | Travel planner | Your whole trip, one **plan** | Consolidation |
+| 29 | Prayer times | Prayer times for **your city** | Local anchor |
+| 30 | Focus timer | Deep work, **zero** pings | X without Y |
+| 31 | Pet care | Every vaccine, **on time** | Pain |
+| 32 | Weather | Rain alerts **before** the rain | Outcome |
 
 ## How to test hooks
 

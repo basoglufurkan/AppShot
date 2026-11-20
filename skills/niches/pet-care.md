@@ -59,25 +59,6 @@ shots: 6
 - Love them **smarter**
 - **{km} km** walked together this week
 
-### Türkçe
-
-- **Can dostun** için en iyi bakım
-- Hiçbir **aşıyı** kaçırma
-- Sağlık kayıtları **hep yanında**
-- Daha **mutlu** bir köpek yetiştir
-- Her yürüyüş **kayıtta**
-- İlaçlar **tam zamanında**
-- **Tüm dostların** için tek uygulama
-- Bakımı **ailenle** paylaş
-- **Kilosunu** takip et
-- Tuvalet eğitimi **adım adım**
-- Veterinere **her an** sor
-- Yavrunun ilk yılı **planlandı**
-- Mama saati mi? **Hatırlattık.**
-- Her **anı** sakla
-- **Patili** dostun güvende
-- Bu hafta birlikte **{km} km** yürüdünüz
-
 ## Supporting elements
 
 - **Pet profile card**: photo, name, breed, age, weight.
@@ -99,11 +80,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Health & reminders** — EN: "pet care app", "pet health tracker", "dog vaccine reminder", "pet medication reminder" — TR: "evcil hayvan bakımı", "köpek aşı takvimi", "kedi aşı takibi"
-- **Training** — EN: "dog training", "puppy training", "clicker training" — TR: "köpek eğitimi", "yavru köpek eğitimi", "tuvalet eğitimi köpek"
-- **Walks & GPS** — EN: "dog walk tracker", "pet gps", "dog walking app" — TR: "köpek yürüyüş takibi", "evcil hayvan gps"
-- **Services** — EN: "pet sitter", "dog walker", "pet boarding" — TR: "pet sitter", "köpek gezdirme", "evcil hayvan oteli"
-- **Vet help** — EN: "online vet", "vet chat", "cat health" — TR: "online veteriner", "kedi sağlığı", "köpek hastalıkları"
+- **Health & reminders** — EN: "pet care app", "pet health tracker", "dog vaccine reminder", "pet medication reminder"
+- **Training** — EN: "dog training", "puppy training", "clicker training"
+- **Walks & GPS** — EN: "dog walk tracker", "pet gps", "dog walking app"
+- **Services** — EN: "pet sitter", "dog walker", "pet boarding"
+- **Vet help** — EN: "online vet", "vet chat", "cat health"
 
 ## Avoid
 

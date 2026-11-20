@@ -59,25 +59,6 @@ shots: 6
 - Busy week? **Under control.**
 - **{events}** events, zero clashes
 
-### Türkçe
-
-- Tüm **takvimlerin** tek ekranda
-- Gününü **görsel** planla
-- Haftan **bir bakışta**
-- Etkinliği **yazarak** ekle
-- Önemli olana **zaman ayır**
-- Çakışan **randevulara** son
-- Tüm **aile** aynı takvimde
-- Müsaitliğini **tek linkle** paylaş
-- Her yere **zamanında** çık
-- Programın **kilit ekranında**
-- Ajandanı **kendine göre** tasarla
-- **Kendine** de zaman ayır
-- Saat dilimleri **dert değil**
-- Toplantı ayarlamak artık **kolay**
-- Yoğun hafta mı? **Kontrol sende.**
-- Ders programın hep **cebinde**
-
 ## Supporting elements
 
 - **Event card**: "Design review · 10:00–11:00 · Room 2" with a calendar colour dot.
@@ -99,11 +80,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Calendar apps** — EN: "calendar app", "shared calendar", "family calendar", "calendar widget" — TR: "takvim uygulaması", "ortak takvim", "aile takvimi", "takvim widget"
-- **Planners** — EN: "daily planner", "weekly planner", "digital planner", "agenda" — TR: "günlük planlayıcı", "haftalık plan", "dijital ajanda", "ajanda uygulaması"
-- **Time management** — EN: "time blocking", "schedule maker", "daily schedule" — TR: "zaman yönetimi", "program yapma", "günlük program"
-- **Scheduling** — EN: "appointment scheduling", "booking app", "meeting scheduler" — TR: "randevu takvimi", "randevu alma", "toplantı planlama"
-- **Students & shifts** — EN: "class schedule", "timetable", "shift calendar" — TR: "ders programı", "vardiya takvimi", "geri sayım"
+- **Calendar apps** — EN: "calendar app", "shared calendar", "family calendar", "calendar widget"
+- **Planners** — EN: "daily planner", "weekly planner", "digital planner", "agenda"
+- **Time management** — EN: "time blocking", "schedule maker", "daily schedule"
+- **Scheduling** — EN: "appointment scheduling", "booking app", "meeting scheduler"
+- **Students & shifts** — EN: "class schedule", "timetable", "shift calendar"
 
 ## Avoid
 

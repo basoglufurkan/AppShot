@@ -57,25 +57,6 @@ This is a low-consideration install. Shots 1–2 do almost all the work, and 5 s
 - Drink water, **grow** your plant
 - Track **every** drink
 
-### Türkçe
-
-- **Yeterince** su iç, zahmetsizce
-- Günlük **su** hedefin
-- Su içmeyi **unutma**
-- Her bardak **tek** dokunuş
-- Yudum yudum **hedefe**
-- Gününe **uyan** hatırlatıcılar
-- Hedefin **dolarken** izle
-- **Sana göre** ayarlanan hedef
-- Ana ekrandan **kaydet**
-- Serini **akışta** tut
-- Küçük yudumlar, **büyük** alışkanlık
-- Su içmek artık **düzenli**
-- Her içecek **kayıtta**
-- Haftalık **su** grafiğin
-- Su içtikçe **çiçeğin** açsın
-- **Her** içeceği takip et
-
 ## Supporting elements
 
 - Filling bottle or wave progress: "{intake} ml of {goal} ml", with percent.
@@ -95,11 +76,11 @@ This is a low-consideration install. Shots 1–2 do almost all the work, and 5 s
 
 ## Keyword clusters
 
-- **Core** — EN: water tracker, drink water reminder, hydration tracker, water app — TR: su takip, su içme hatırlatıcı, su içme uygulaması, su takibi
-- **Intake** — EN: daily water intake calculator, how much water should i drink — TR: günlük su ihtiyacı hesaplama, ne kadar su içmeliyim
-- **Reminders** — EN: water reminder, hydration reminder, water alarm — TR: su hatırlatma, su içme alarmı, su içme bildirimi
-- **Gamified** — EN: water plant app, water pet, drink water game — TR: su içtikçe büyüyen bitki, su içme oyunu
-- **Widget** — EN: water widget, water tracker widget — TR: su widget, su takip widget
+- **Core** — EN: water tracker, drink water reminder, hydration tracker, water app
+- **Intake** — EN: daily water intake calculator, how much water should i drink
+- **Reminders** — EN: water reminder, hydration reminder, water alarm
+- **Gamified** — EN: water plant app, water pet, drink water game
+- **Widget** — EN: water widget, water tracker widget
 
 ## Avoid
 

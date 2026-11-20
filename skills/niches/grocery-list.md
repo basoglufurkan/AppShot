@@ -17,7 +17,7 @@ shots: 5
 - Couples and families coordinating over chat ("we need milk", "which brand?") and wanting one live list instead.
 - The weekly meal planner who wants ingredients to land on the list automatically.
 - Budget-conscious shoppers who want to buy only what they need.
-- In Turkey: "market listesi" and "pazar listesi" for the weekly bazaar. After installing they want to feel: organised, in sync, done faster.
+- After installing they want to feel: organised, in sync, done faster.
 
 ## What wins the install
 
@@ -58,25 +58,6 @@ shots: 5
 - Your weekly shop, **simplified**
 - **{items}** items, one shared list
 
-### Türkçe
-
-- Birlikte alışveriş, **anında senkron**
-- **Sütü** bir daha unutma
-- Listen **reyonlara göre** sıralı
-- Ürünleri **saniyeler** içinde ekle
-- Kim **ne ekledi**, gör
-- Tüm **aileye** tek liste
-- Bitmek üzere mi? **Hemen ekle.**
-- Daha hızlı market, **eksiksiz** dönüş
-- Tariften listeye **tek dokunuş**
-- Söyle, **listeye eklensin**
-- Sadece **ihtiyacın** olanı al
-- Her markete **ayrı** liste
-- Aldıkça **işaretle**
-- Aynı şeyi **iki kez** alma
-- Pazar listen hep **cebinde**
-- Haftalık market **kolaylaştı**
-
 ## Supporting elements
 
 - **Live notification**: "{name} added Eggs", "{name} is shopping now".
@@ -93,20 +74,20 @@ shots: 5
 - Big tap targets and large item text — it's a utility used one-handed in a busy store.
 - Illustrated item icons or tiles (Bring!-style) make lists instantly "grocery", not "to-do".
 - Leaders (AnyList, Bring!, OurGroceries, Listonic) keep shots simple: one list, one interaction, one caption.
-- Show a realistic list of 6–9 items with quantities; locale-appropriate products (simit, ayran and beyaz peynir for TR).
+- Show a realistic list of 6–9 items with quantities; locale-appropriate products.
 - Light themes outperform; keep backgrounds uncluttered.
 
 ## Keyword clusters
 
-- **Lists** — EN: "grocery list", "shopping list", "grocery list app", "shopping list app" — TR: "alışveriş listesi", "market listesi", "pazar listesi"
-- **Sharing** — EN: "shared shopping list", "family grocery list", "couples shopping list" — TR: "ortak alışveriş listesi", "aile alışveriş listesi", "paylaşımlı liste"
-- **Meal planning** — EN: "meal planner with grocery list", "recipe to shopping list" — TR: "yemek planı alışveriş listesi", "tariften alışveriş listesi"
-- **Pantry** — EN: "pantry inventory", "kitchen inventory", "pantry tracker" — TR: "kiler takibi", "ev stok takibi", "mutfak envanteri"
-- **Budget** — EN: "grocery budget", "grocery list with prices" — TR: "market harcaması", "fiyatlı alışveriş listesi"
+- **Lists** — EN: "grocery list", "shopping list", "grocery list app", "shopping list app"
+- **Sharing** — EN: "shared shopping list", "family grocery list", "couples shopping list"
+- **Meal planning** — EN: "meal planner with grocery list", "recipe to shopping list"
+- **Pantry** — EN: "pantry inventory", "kitchen inventory", "pantry tracker"
+- **Budget** — EN: "grocery budget", "grocery list with prices"
 
 ## Avoid
 
-- Supermarket logos (Migros, BİM, Walmart, Tesco) and branded product packaging in screenshots — trademarks (Apple 5.2.1, Google Play IP policy).
+- Supermarket logos (Walmart, Tesco) and branded product packaging in screenshots — trademarks (Apple 5.2.1, Google Play IP policy).
 - Prices or "save money" figures you can't substantiate (2.3.1, 2.3.7).
 - Real family names or photos; use neutral first names and simple avatars.
 - Showing Android devices in iOS sets (2.3.10).

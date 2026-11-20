@@ -58,25 +58,6 @@ shots: 6
 - Plant care, **made easy**
 - Recognizes **{species}** species
 
-### Türkçe
-
-- Her **bitkiyi** anında tanı
-- Yapraklar neden **sararıyor**?
-- Bitkini **yeniden** canlandır
-- **Sulamayı** bir daha unutma
-- **Evine özel** bakım önerileri
-- **Kedin** için güvenli mi?
-- Sorunları **anında** teşhis et
-- Bitkine **en uygun** köşeyi bul
-- Bahçen artık **düzenli**
-- Çiçekler, ağaçlar, **sukulentler**
-- Evini **yeşillendir**
-- Sana **uyum sağlayan** hatırlatıcılar
-- Zararlıları **erkenden** fark et
-- Her yaprağı **anla**
-- Bitki bakımı artık **çok kolay**
-- **{species}** bitki türünü tanır
-
 ## Supporting elements
 
 - **ID result card**: "{plantName} · {confidence}% match" — confidence as the app actually reports it.
@@ -98,11 +79,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Identification** — EN: "plant identifier", "plant identification", "identify plants by picture", "what plant is this" — TR: "bitki tanıma", "fotoğraftan bitki bulma", "bu bitki ne"
-- **Care** — EN: "plant care", "watering reminder", "houseplant care" — TR: "bitki bakımı", "sulama hatırlatıcı", "saksı bitkisi bakımı"
-- **Diagnosis** — EN: "plant disease identifier", "plant doctor", "yellow leaves" — TR: "bitki hastalıkları", "yapraklar neden sararır", "bitki doktoru"
-- **Flowers & trees** — EN: "flower identifier", "tree identifier", "leaf identifier" — TR: "çiçek tanıma", "ağaç tanıma", "yaprak tanıma"
-- **Gardening** — EN: "garden planner", "gardening app", "vegetable garden" — TR: "bahçe planlama", "bahçecilik", "sebze bahçesi"
+- **Identification** — EN: "plant identifier", "plant identification", "identify plants by picture", "what plant is this"
+- **Care** — EN: "plant care", "watering reminder", "houseplant care"
+- **Diagnosis** — EN: "plant disease identifier", "plant doctor", "yellow leaves"
+- **Flowers & trees** — EN: "flower identifier", "tree identifier", "leaf identifier"
+- **Gardening** — EN: "garden planner", "gardening app", "vegetable garden"
 
 ## Avoid
 

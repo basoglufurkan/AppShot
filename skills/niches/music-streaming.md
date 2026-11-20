@@ -59,25 +59,6 @@ shots: 6
 - Radio from **around the world**
 - **{tracks}** tracks, zero interruptions
 
-### Türkçe
-
-- Senin müziğin, **senin modun**
-- **Sana özel** karışımlar
-- **İnternetsiz** dinle, her yerde
-- Her şarkı, **senin tarzında**
-- **Canlı sözlerle** eşlik et
-- Sesini **kendine göre** ayarla
-- **Bası** hisset
-- **Kendi** arşivini çal
-- Yeni **favorini** keşfet
-- Her an için bir **çalma listesi**
-- Her **detayı** duy
-- Seninle **hareket eden** müzik
-- Kesintisiz **geçişler**
-- Spor salonunda **ritmini** yakala
-- Dünyanın dört bir yanından **radyo**
-- Kilit ekranında **şık** bir oynatıcı
-
 ## Supporting elements
 
 - **Now-playing card** with waveform/progress and artwork-tinted background.
@@ -99,11 +80,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Players** — EN: "music player", "offline music player", "mp3 player", "local music player" — TR: "müzik çalar", "internetsiz müzik dinle", "mp3 çalar"
-- **Listening** — EN: "music streaming", "listen to music", "music app" — TR: "müzik dinle", "şarkı dinle", "müzik uygulaması"
-- **Sound tools** — EN: "equalizer", "bass booster", "music equalizer" — TR: "ekolayzır", "bas güçlendirici", "ses ayarı"
-- **Lyrics** — EN: "lyrics", "song lyrics", "karaoke" — TR: "şarkı sözleri", "karaoke", "sözlü şarkılar"
-- **Radio** — EN: "radio", "fm radio", "online radio" — TR: "radyo dinle", "canlı radyo", "fm radyo"
+- **Players** — EN: "music player", "offline music player", "mp3 player", "local music player"
+- **Listening** — EN: "music streaming", "listen to music", "music app"
+- **Sound tools** — EN: "equalizer", "bass booster", "music equalizer"
+- **Lyrics** — EN: "lyrics", "song lyrics", "karaoke"
+- **Radio** — EN: "radio", "fm radio", "online radio"
 
 ## Avoid
 

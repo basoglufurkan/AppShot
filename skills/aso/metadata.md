@@ -17,13 +17,13 @@ One Markdown file per locale in `appshot/metadata/<locale>.md`, fields under bol
 `**Promotional text**`, `**Keywords**`, `**Description**`, `**What's New**`, optional `**Play title**`,
 `**Play short description**`, `**Play full description**`, `**Terms of Use**`). Text above the first label and after a
 `---` line is notes. App-wide fields (Support / Privacy / Marketing URL, Terms of Use, categories, copyright) live in
-`metadata/_shared.md`. Localised labels are read too (`**Ad**`, `**Alt başlık**`, `**Nombre**`, `**Palabras clave**`…).
+`metadata/_shared.md`. Localised labels are read too (`**Nom**`, `**Untertitel**`, `**Nombre**`, `**Palabras clave**`…).
 
 ```bash
 node scripts/metadata.mjs import AppStore/metadata.md       # a multi-locale document ("## English (U.S.)" sections) or fastlane/metadata
 node scripts/metadata.mjs init --locales es-ES,de-DE         # one file per locale to write in, with the context
 node scripts/metadata.mjs check                               # every locale; exit 1 on errors (check.mjs blocks on them too)
-node scripts/metadata.mjs keywords --locale tr --write        # pack the 100-byte field without name/subtitle words
+node scripts/metadata.mjs keywords --locale de-DE --write     # pack the 100-byte field without name/subtitle words
 node scripts/metadata.mjs show                                # lengths per locale and field
 node scripts/metadata.mjs export                              # fastlane deliver / supply text (export.mjs does it too)
 ```
@@ -34,13 +34,13 @@ translations** for the terms the source text uses (read from `.xcstrings`, `<lan
 `values-<lang>/strings.xml`, Flutter `.arb`). Use those words: the listing and the app should say the same thing.
 
 `check` reports, per locale:
-- **errors** (the console or review would refuse): over a limit (the keyword field in **bytes**: ç, é, ü, ı take 2),
+- **errors** (the console or review would refuse): over a limit (the keyword field in **bytes**: é, ü, ß take 2),
   unfilled `TODO` / placeholders, prices or ranking words in a Play title, another company's trademark in the keyword
   field, Android in App Store text, a paid tier the description never mentions (Apple 2.3.2);
 - **warnings**: keyword-field words already in the name or subtitle (wasted bytes), duplicates, spaces after commas,
   generic words ("app", "iPhone"), "free" or rankings in the name or subtitle, a subscription without a Terms of Use
-  (EULA) link (Apple 3.1.2), Spanish without ¿ ¡, Latin American words in a Spain listing, Turkish typed without
-  ç ğ ı ö ş ü, keyword stuffing in a Play description;
+  (EULA) link (Apple 3.1.2), Spanish without ¿ ¡, Latin American words in a Spain listing, keyword
+  stuffing in a Play description;
 - **info**: superlatives in context ("your best day" is a feature, "the best app" is a claim), the category name in the
   keyword field, plan keywords missing from the indexed fields, no privacy URL.
 
@@ -125,40 +125,9 @@ testimonials and keyword lists in the description.
 - Frame 1 caption: `Plan your **budget** in minutes`. Frame 2: `Every **expense**, sorted for you`.
   Frame 3: `Never miss a **bill**`.
 
-## Turkish example: "Pennio" (fictional), written natively
-
-- Apple name: `Pennio: Bütçe Takibi` (20 characters / 22 bytes)
-- Apple subtitle: `Harcama takibi, fatura uyarısı` (30 characters)
-- Apple keywords: `para,gider,gelir,birikim,hedef,fiş,tarama,borç,aylık,aile,ortak,cüzdan,kasa,plan` (84 bytes)
-- Promo text: `Yeni: çiftler için ortak bütçe. Partnerinle birlikte planla, tüm faturaları tek yerde gör, ödeme gününden önce hatırlatma al.` (125)
-- Play title: `Pennio: Bütçe ve Harcama` (24)
-- Play short: `Harcamalarını takip et, faturalarını planla, birikim hedefine adım adım ulaş.` (77)
-- Description hook: `Pennio ile paranın nereye gittiğini gör, faturalar gelmeden önce hatırlatma al.`
-- Frame 1 caption: `**Bütçeni** dakikalar içinde planla`. Frame 2: `Her **harcama** otomatik sıralanır`.
-  Frame 3: `Hiçbir **faturayı** kaçırma`.
-
 Second pattern, habit tracker "Tikko" (fictional):
 - EN: `Tikko: Habit Tracker` / `Build routines, keep streaks` / Play short
   `Build daily habits with reminders, streaks and clear weekly progress charts.` (76)
-- TR: `Tikko: Alışkanlık Takibi` / `Rutin oluştur, serini koru` / Play short
-  `Hatırlatıcılar ve serilerle günlük alışkanlık kazan, ilerlemeni haftalık gör.` (77)
-
-## Turkish-specific notes
-
-- **Bytes:** ç ğ ı İ ö ş ü take 2 bytes each in Apple's 100-byte keyword field. Count bytes.
-- **Suffixes:** Turkish is agglutinative. People search with the root plus a suffix ("bütçe",
-  "bütçe takibi", "harcama takip"). Put the root in the keyword field, and the most-searched inflected
-  phrase in the name or subtitle. Check both stores' autocomplete in Turkish.
-- **Diacritics:** many users type without them ("butce"). Neither Apple nor Google documents how they
-  fold diacritics. Check autocomplete before spending bytes on ASCII variants.
-- **Casing:** never ALL CAPS Turkish without `lang="tr"`. `takibi` must become `TAKİBİ`, not
-  `TAKIBI`. Prefer sentence case anyway.
-- **Length:** Turkish captions run about 20–35% longer than English. Plan for 3 headline lines, or
-  shorter wording. Never shrink the font below the legibility floor (`first-impression.md`).
-- **Tone:** use the informal "sen" form (`planla`, `kaçırma`) for consumer apps, and "siz" for
-  finance, health or B2B if the app UI uses it. Match the in-app register.
-- **Storefront:** Apple's Türkiye storefront defaults to English (U.K.), with Turkish as an additional
-  language. Localize both ([App Store localizations](https://developer.apple.com/help/app-store-connect/reference/app-information/app-store-localizations)).
 
 ## Checklist
 
@@ -169,4 +138,4 @@ Second pattern, habit tracker "Tikko" (fictional):
 - [ ] No prices in the name, subtitle or images. Promotions go only in promo text (Apple) or time-boxed copy (Play).
 - [ ] Play text has no CTA, rank words, emojis, ★ or ALL CAPS. Short description is 80 characters or less.
 - [ ] Subscription apps include terms and Terms of Use / Privacy links.
-- [ ] TR and other locales are written natively, with lengths and bytes verified.
+- [ ] Every locale is written natively, with lengths and bytes verified.

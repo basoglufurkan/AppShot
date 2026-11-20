@@ -4,8 +4,7 @@
     "name": "Pulse",
     "icon": "raw/icon.png",
     "subtitle": {
-      "en-US": "AI Home Workout Plans",
-      "tr": "Yapay Zekâ ile Ev Antrenmanı"
+      "en-US": "AI Home Workout Plans"
     }
   },
   "niche": "home-workout",
@@ -22,8 +21,7 @@
     "android-phone"
   ],
   "locales": [
-    "en-US",
-    "tr"
+    "en-US"
   ],
   "defaultLocale": "en-US",
   "keywords": {
@@ -34,13 +32,6 @@
       "no equipment",
       "strength",
       "streak"
-    ],
-    "tr": [
-      "ev antrenmanı",
-      "antrenman",
-      "yapay zekâ koçu",
-      "ekipman",
-      "güç"
     ]
   },
   "storeOverrides": {
@@ -58,21 +49,15 @@
       "layout": "hero-device",
       "screen": "raw/today.png",
       "headline": {
-        "en-US": "Home workouts that **adapt to you**",
-        "tr": "Sana **uyan** ev antrenmanları"
+        "en-US": "Home workouts that **adapt to you**"
       },
       "subhead": {
-        "en-US": "A fresh 25-minute plan every morning. No equipment.",
-        "tr": "Her sabah 25 dakikalık yeni bir plan. Ekipman gerekmez."
+        "en-US": "A fresh 25-minute plan every morning. No equipment."
       },
       "alternatives": {
         "en-US": [
           "Get fit at home in **25 minutes**",
           "Your **personal trainer**, built in"
-        ],
-        "tr": [
-          "Evde **25 dakikada** forma gir",
-          "Cebindeki **kişisel antrenör**"
         ]
       }
     },
@@ -81,12 +66,10 @@
       "layout": "zoom-callout",
       "screen": "raw/workout.png",
       "headline": {
-        "en-US": "Perfect form, **every rep**",
-        "tr": "Her tekrarda **doğru form**"
+        "en-US": "Perfect form, **every rep**"
       },
       "subhead": {
-        "en-US": "Your AI coach checks your form. Video stays on your phone.",
-        "tr": "Yapay zekâ koçun formunu kontrol eder. Video telefonunda kalır."
+        "en-US": "Your AI coach checks your form. Video stays on your phone."
       },
       "zoom": {
         "rect": [
@@ -103,31 +86,26 @@
       "layout": "floating-cards",
       "screen": "raw/progress.png",
       "headline": {
-        "en-US": "Watch your **strength** grow",
-        "tr": "**Gücünün** arttığını izle"
+        "en-US": "Watch your **strength** grow"
       },
       "cards": [
         {
           "icon": "🏆",
           "value": {
-            "en-US": "+5 kg",
-            "tr": "+5 kg"
+            "en-US": "+5 kg"
           },
           "title": {
-            "en-US": "New squat record",
-            "tr": "Yeni squat rekoru"
+            "en-US": "New squat record"
           },
           "pos": "tr"
         },
         {
           "icon": "🔥",
           "value": {
-            "en-US": "12 days",
-            "tr": "12 gün"
+            "en-US": "12 days"
           },
           "title": {
-            "en-US": "Workout streak",
-            "tr": "Antrenman serisi"
+            "en-US": "Workout streak"
           },
           "pos": "ml"
         },
@@ -135,8 +113,7 @@
           "icon": "📈",
           "value": "+18%",
           "title": {
-            "en-US": "Strength score",
-            "tr": "Güç skoru"
+            "en-US": "Strength score"
           },
           "pos": "br"
         }
@@ -147,12 +124,10 @@
       "layout": "tilted-device",
       "screen": "raw/plans.png",
       "headline": {
-        "en-US": "400+ workouts, **zero equipment**",
-        "tr": "400+ antrenman, **sıfır ekipman**"
+        "en-US": "400+ workouts, **zero equipment**"
       },
       "subhead": {
-        "en-US": "From 8-minute desk resets to 6-week strength plans",
-        "tr": "8 dakikalık molalardan 6 haftalık güç planlarına"
+        "en-US": "From 8-minute desk resets to 6-week strength plans"
       },
       "options": {
         "rotate": 7
@@ -163,37 +138,30 @@
       "layout": "notification-stack",
       "screen": "raw/today.png",
       "headline": {
-        "en-US": "Keep your **streak** alive",
-        "tr": "**Serini** bozma"
+        "en-US": "Keep your **streak** alive"
       },
       "subhead": {
-        "en-US": "Friendly nudges at the time that suits you",
-        "tr": "Sana uyan saatte nazik hatırlatmalar"
+        "en-US": "Friendly nudges at the time that suits you"
       },
       "notifications": [
         {
           "title": {
-            "en-US": "Time to move 💪",
-            "tr": "Hareket zamanı 💪"
+            "en-US": "Time to move 💪"
           },
           "body": {
-            "en-US": "Your 25-min plan is ready",
-            "tr": "25 dakikalık planın hazır"
+            "en-US": "Your 25-min plan is ready"
           },
           "time": "8:00"
         },
         {
           "title": {
-            "en-US": "12-day streak!",
-            "tr": "12 günlük seri!"
+            "en-US": "12-day streak!"
           },
           "body": {
-            "en-US": "A quick 15-min core session keeps it going",
-            "tr": "15 dakikalık kısa bir core antrenmanı yeter"
+            "en-US": "A quick 15-min core session keeps it going"
           },
           "time": {
-            "en-US": "now",
-            "tr": "şimdi"
+            "en-US": "now"
           }
         }
       ]
@@ -203,19 +171,13 @@
       "layout": "feature-list",
       "screen": "raw/progress.png",
       "headline": {
-        "en-US": "Built for **your level**",
-        "tr": "**Seviyene** ve gününe uyar"
+        "en-US": "Built for **your level**"
       },
       "bullets": {
         "en-US": [
           "Plans for beginners to advanced",
           "Sessions from 8 to 45 minutes",
           "Syncs with Apple Health"
-        ],
-        "tr": [
-          "Yeni başlayandan ileri seviyeye",
-          "8 ila 45 dakikalık seanslar",
-          "Apple Sağlık ile senkron"
         ]
       },
       "storeOverrides": {
@@ -225,11 +187,6 @@
               "Plans for beginners to advanced",
               "Sessions from 8 to 45 minutes",
               "Syncs with Health Connect"
-            ],
-            "tr": [
-              "Yeni başlayandan ileri seviyeye",
-              "8 ila 45 dakikalık seanslar",
-              "Health Connect ile senkron"
             ]
           }
         }
@@ -239,28 +196,24 @@
       "id": "close",
       "layout": "text-hero",
       "headline": {
-        "en-US": "Your **strongest** year starts today",
-        "tr": "En **güçlü** yılın bugün başlıyor"
+        "en-US": "Your **strongest** year starts today"
       },
       "chips": [
         {
           "text": {
-            "en-US": "No equipment",
-            "tr": "Ekipmansız"
+            "en-US": "No equipment"
           },
           "icon": "🏠"
         },
         {
           "text": {
-            "en-US": "25-min plans",
-            "tr": "25 dk planlar"
+            "en-US": "25-min plans"
           },
           "icon": "⏱️"
         },
         {
           "text": {
-            "en-US": "AI coach",
-            "tr": "Yapay zekâ koçu"
+            "en-US": "AI coach"
           },
           "icon": "✨"
         }

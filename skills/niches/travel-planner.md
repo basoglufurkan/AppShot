@@ -59,25 +59,6 @@ shots: 7
 - Weekend getaway, **sorted**
 - **{days} days** in {city}, planned
 
-### Türkçe
-
-- **Hayalindeki** tatili planla
-- Tüm rezervasyonların **tek yerde**
-- Günlerin **haritada** hazır
-- **Dakikalar** içinde gezi planı
-- **Birlikte** planla, keyifle gez
-- Gizli **cennetleri** keşfet
-- **Kapı değişikliğini** kaçırma
-- Seyahatin **internetsiz** de yanında
-- Bavulunu **eksiksiz** hazırla
-- Kaydettiğin yerlerden **rotaya**
-- Yol tatilinin **rotası** hazır
-- **Yakınında** ne var, keşfet
-- Masrafları **adil** paylaş
-- Her yolculuğu **yeniden** yaşa
-- Hafta sonu kaçamağın **hazır**
-- **{days} günlük** {city} gezin hazır
-
 ## Supporting elements
 
 - **Flight card**: "IST → {city} · Gate {gate} · Boarding {time}" (no fares).
@@ -99,11 +80,11 @@ shots: 7
 
 ## Keyword clusters
 
-- **Planning** — EN: "trip planner", "travel planner", "itinerary planner", "vacation planner" — TR: "gezi planlama", "seyahat planlayıcı", "tatil planı"
-- **AI planning** — EN: "ai travel planner", "ai trip planner", "itinerary generator" — TR: "yapay zeka gezi planı", "gezi rotası oluşturma"
-- **Discovery** — EN: "things to do", "travel guide", "places to visit", "city guide" — TR: "gezilecek yerler", "gezi rehberi", "şehir rehberi"
-- **Road trips** — EN: "road trip planner", "route planner with stops" — TR: "yol tatili rotası", "rota planlama"
-- **Organising** — EN: "packing list", "travel budget", "trip organizer" — TR: "bavul listesi", "seyahat bütçesi", "rezervasyon takibi"
+- **Planning** — EN: "trip planner", "travel planner", "itinerary planner", "vacation planner"
+- **AI planning** — EN: "ai travel planner", "ai trip planner", "itinerary generator"
+- **Discovery** — EN: "things to do", "travel guide", "places to visit", "city guide"
+- **Road trips** — EN: "road trip planner", "route planner with stops"
+- **Organising** — EN: "packing list", "travel budget", "trip organizer"
 
 ## Avoid
 

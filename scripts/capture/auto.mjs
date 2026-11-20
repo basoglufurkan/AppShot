@@ -58,7 +58,7 @@ const target = (s, kind, locale) => {
 };
 const appleArgs = (locale) => {
   const [lang, region] = locale.split('-');
-  const R = { en: 'US', tr: 'TR', hi: 'IN', id: 'ID', ja: 'JP', ko: 'KR', vi: 'VN', th: 'TH', ru: 'RU', pl: 'PL', sv: 'SE', he: 'IL', it: 'IT' }[lang] || 'US';
+  const R = { en: 'US', hi: 'IN', id: 'ID', ja: 'JP', ko: 'KR', vi: 'VN', th: 'TH', ru: 'RU', pl: 'PL', sv: 'SE', he: 'IL', it: 'IT' }[lang] || 'US';
   const reg = region && region.length === 2 ? region : R;
   const appleLang = locale.startsWith('zh') ? locale : region && region.length === 2 && ['pt', 'es', 'en', 'fr', 'zh'].includes(lang) ? `${lang}-${region}` : lang;
   return ['-AppleLanguages', `(${appleLang})`, '-AppleLocale', `${lang}_${reg}`];

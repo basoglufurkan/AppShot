@@ -70,18 +70,18 @@ opener is exempt: its pixels do the stopping).
 - Break at meaning boundaries: subject | promise. Keep the highlighted phrase on one line. A pill that wraps across two
   lines works (`box-decoration-break: clone`) but looks broken.
 - Long single words can't wrap: `overflow-wrap` is off for non-CJK, and the box shrinks the whole headline to make
-  them fit. In Turkish, German and Finnish, rewrite instead ("kişiselleştirilmiş" → "sana özel").
+  them fit. In German and Finnish, rewrite instead ("Benachrichtigungseinstellungen" → "Hinweise").
 - Headlines never hyphenate by default (`hyphens: manual`). For `de-DE`, `nl-NL` and `sv` (`hyphens` in
   `locales.json`) the fit loop hyphenates words of 11 or more characters **only** when the headline still fails at
   `min`. The report then shows `hyphenated: true`. Treat that as "rewrite": a hyphenated hero word looks careless.
-- Never end a line on a lone article or preposition ("a", "for", "ile", "için"). Add a `\n` earlier.
+- Never end a line on a lone article or preposition ("a", "for", "mit", "von"). Add a `\n` earlier.
 
 ## Case, weight, tracking
 
 - Sentence case is the default and the safest choice. Only `ember` sets `case: "upper"` (Anton, a condensed face
   that stays narrow in caps). Forcing `"themeOverrides": { "case": "upper" }` on a wide grotesk shouts and shrinks.
 - **Never type capitals in the source text.** Let the theme transform it. The page has `lang="<locale>"`, so CSS
-  uppercasing is locale-correct: Turkish "kişisel" becomes "KİŞİSEL" and "ılık" becomes "ILIK", and German ß becomes SS.
+  uppercasing is locale-correct: German ß becomes SS.
   Copy lint flags all-caps source text.
 - Grotesk headlines are already tight (`tracking` −0.035 to −0.05 em, `leading` 0.98–1.06, weight 800–900). Don't
   loosen them for Latin scripts. Loosen `leading` for scripts with tall marks (below).
@@ -119,11 +119,11 @@ was used. Re-render online before export.
 Fonts that don't cover a script fall back **per glyph** to the system font, so a hero word gets letters in a second
 typeface. These results come from rendering each theme face from Google Fonts:
 
-| Display face | Themes | Turkish | Cyrillic | Vietnamese |
-|---|---|---|---|---|
-| Inter, Manrope, Playfair Display, Nunito, system | clean-light, midnight, mono, volt, brand, calm, mint, finance-pro, luxe, soft-gray | ✓ | ✓ | ✓ |
-| Plus Jakarta Sans, Space Grotesk, Bricolage, Anton, Baloo 2, Instrument Serif, Fraunces | glass, ocean, neon, sunset, ember, playful, editorial, forest | ✓ | ✗ | ✓ |
-| Sora, Outfit, Poppins, Archivo Black, DM Serif Display | aurora, sky, pastel, rose, brutal, cream | ✓ | ✗ | ✗ |
+| Display face | Themes | Cyrillic | Vietnamese |
+|---|---|---|---|
+| Inter, Manrope, Playfair Display, Nunito, system | clean-light, midnight, mono, volt, brand, calm, mint, finance-pro, luxe, soft-gray | ✓ | ✓ |
+| Plus Jakarta Sans, Space Grotesk, Bricolage, Anton, Baloo 2, Instrument Serif, Fraunces | glass, ocean, neon, sunset, ember, playful, editorial, forest | ✗ | ✓ |
+| Sora, Outfit, Poppins, Archivo Black, DM Serif Display | aurora, sky, pastel, rose, brutal, cream | ✗ | ✗ |
 
 For `ru`, `uk` or `vi` with an ✗ theme, scope a face to that language. The page sets `lang`, so this works:
 `"css": ":lang(ru) .hd,:lang(ru) .sh{font-family:Inter,-apple-system,sans-serif}"` (Inter is already loaded by
@@ -137,8 +137,6 @@ These are system fonts. A Linux render without Noto shows tofu, so render on mac
 
 ## Script-specific rules
 
-- **Turkish:** dotted and dotless I are handled by `lang="tr"`. Never write "ISTANBUL" by hand. Check ğ, ş, İ in any
-  brand font. Keep *mi/mı* with its word. See `skills/locales/tr.md`.
 - **CJK:** `line-break: strict` (all CJK) and `word-break: keep-all` (Korean) are set automatically. Budget 14–18
   characters (`maxHeadline`). Use `\n` to break at a phrase boundary, because the fit loop otherwise breaks wherever
   width runs out. Don't add Latin-style tracking. Don't rely on `**highlight**` as the only emphasis: colour works,

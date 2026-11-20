@@ -25,7 +25,7 @@ shots: 6
 2. **Beginner-friendly guidance.** A "start here" course signals no experience needed.
 3. **Breadth for life's moments.** Stress, sleep, focus, gratitude. People install for one need and stay for the library.
 4. **Calming aesthetics.** The screenshots themselves should lower the viewer's heart rate, and that feeling is the proof.
-5. **Voices and languages.** Native-language narration is a big differentiator in non-English markets (for example Turkish).
+5. **Voices and languages.** Native-language narration is a big differentiator in non-English markets.
 6. **A gentle habit.** Mindful minutes and soft streaks, without guilt.
 
 ## Story (shot by shot)
@@ -59,26 +59,6 @@ shots: 6
 - Make mindfulness a **habit**
 - **{sessions}+** guided sessions
 
-### Türkçe
-
-- Dakikalar içinde **sakinleş**
-- Nefes al. **Bırak.**
-- Zihnindeki **gürültüyü** kıs
-- Meditasyona yeni misin? **Buradan** başla
-- Her gün daha **sakin** bir zihin
-- **Hikâyelerle** uykuya dal
-- **Odağını** bul
-- **{minutes}** dakikalık mola
-- Her an için **huzur**
-- Günlük **sessizlik** molan
-- **Yumuşak** seslerin rehberliğinde
-- Uykudan önce **gevşe**
-- Yoğun günlerde **nefes** al
-- Küçük **huzur** anları
-- Her gün biraz **şükran**
-- Farkındalığı **alışkanlık** yap
-- **{sessions}+** rehberli seans
-
 ## Supporting elements
 
 - Breathing circle: "Inhale 4 · Hold 4 · Exhale 4", with a soft expanding ring.
@@ -98,11 +78,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Core** — EN: meditation app, guided meditation, mindfulness app — TR: meditasyon uygulaması, rehberli meditasyon, farkındalık, mindfulness
-- **Stress** — EN: stress relief, relax, calm down, relaxation app — TR: stres atma, rahatlama, sakinleşme, rahatlama uygulaması
-- **Breathing** — EN: breathing exercises, box breathing, breathwork — TR: nefes egzersizleri, kutu nefesi, nefes çalışması
-- **Sleep** — EN: sleep meditation, sleep stories, meditation for sleep — TR: uyku meditasyonu, uyku hikayeleri, uyumadan önce meditasyon
-- **Affirmations and focus** — EN: daily affirmations, focus meditation, gratitude journal — TR: olumlamalar, günlük olumlama, odaklanma meditasyonu, şükran günlüğü
+- **Core** — EN: meditation app, guided meditation, mindfulness app
+- **Stress** — EN: stress relief, relax, calm down, relaxation app
+- **Breathing** — EN: breathing exercises, box breathing, breathwork
+- **Sleep** — EN: sleep meditation, sleep stories, meditation for sleep
+- **Affirmations and focus** — EN: daily affirmations, focus meditation, gratitude journal
 
 ## Avoid
 

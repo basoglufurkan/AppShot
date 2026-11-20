@@ -86,7 +86,7 @@ the row — keep previews portrait when the screenshots are portrait.
    10-frame dissolves, a 2.2 s end frame, total 15.4–29.6 s. Apple's default poster frame (5 s) is moved onto a
    finished caption; the board also marks the strongest pick (inside the hook).
 7. **End frame.** The last scene blurs behind the app icon, name and subtitle, plus the localised purchase disclosure
-   ("Some features require a subscription." in 23 languages) when the scan finds subscriptions or purchases.
+   ("Some features require a subscription." in 22 languages) when the scan finds subscriptions or purchases.
    `end: "disclosure"` keeps only the disclosure (strictest reading of the rules), `"none"` removes the end frame.
 8. **Touches and spotlight.** Taps saved next to a clip (`<clip>.taps.json`) become touch hotspots — the graphic
    Apple allows: a white dot with a thin dark rim appears 0.18 s before the press, presses to 85 %, and releases into
@@ -134,7 +134,7 @@ has rejected exactly that framing in App Store previews.
 
 ```bash
 node scripts/preview.mjs record --name focus --seconds 8 --url myapp://focus     # iOS Simulator (booted)
-node scripts/preview.mjs record --name focus --locale tr --seconds 8               # → raw/tr/clips/focus.mp4
+node scripts/preview.mjs record --name focus --locale de-DE --seconds 8            # → raw/de-DE/clips/focus.mp4
 node scripts/preview.mjs record --android --name focus --seconds 8                 # emulator or device
 ```
 
@@ -177,7 +177,7 @@ capture (same UI, same data), and cut the matching moment into the workspace —
 
 ```bash
 node scripts/preview.mjs clip --from ../Marketing/Captures/en/26-universe.mp4 --name universe --start 1.2
-node scripts/preview.mjs clip --from ~/Movies/take3.mov --name focus --start 4 --end 9 --locale tr
+node scripts/preview.mjs clip --from ~/Movies/take3.mov --name focus --start 4 --end 9 --locale de-DE
 ```
 
 `clip` writes `raw/[<locale>/]clips/<name>.mp4` (constant 30 fps H.264) and records the source and window in

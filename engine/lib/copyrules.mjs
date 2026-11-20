@@ -7,8 +7,7 @@ import { readJson, ENGINE_DIR, L } from './util.mjs';
 
 const LOCALES = readJson(path.join(ENGINE_DIR, 'locales.json')).locales;
 
-const STOP = new Set(('a an the and or of to in on for with your you my our it is are be at by from as this that all any every more most ' +
-  'bir ve ile için de da bu şu o en çok daha her sen seni senin sana gibi ya mi mı mu mü').split(' '));
+const STOP = new Set(('a an the and or of to in on for with your you my our it is are be at by from as this that all any every more most').split(' '));
 
 const RX = {
   placeholder: /\{[a-z_][\w.-]*\}/i,
@@ -16,16 +15,16 @@ const RX = {
   otherPlatformIos: /\b(android|google play|play store|galaxy|pixel phone)\b/i,
   otherPlatformAndroid: /\b(iphone|ipad|ios|app store|apple watch)\b/i,
   price: /([$€£₺¥₹]\s?\d)|(\d+([.,]\d{1,2})?\s?(usd|eur|gbp|tl|try|₺|\$|€|£))\b|\b\d+[.,]99\b/i,
-  promo: /(\d+\s?%\s?(off|indirim))|\b(sale|discount|limited[- ]time|black friday|promo code|coupon|indirim|kampanya|fırsat|kupon)\b/i,
-  freeTrial: /\b(free trial|ücretsiz deneme|try (it )?free|gratis)\b/i,
-  free: /\b(free|ücretsiz|bedava)\b/i,
-  ranking: /(#\s?1\b|\bno\.?\s?1\b|number one|\bbest\b|\btop[- ]rated\b|\btop \d+\b|\bleading\b|award[- ]winning|(app|game) of the (day|year)|editors'? choice|apple design award|best of play|\ben iyi\b|1 numara|lider|ödüllü|günün uygulaması)/i,
-  url: /(\bhttps?:\/\/\S+|\bwww\.\S+|\b[\w-]+\.(com|net|org|io|app|ai|co|me|tr)\b)/i,
+  promo: /(\d+\s?%\s?off)|\b(sale|discount|limited[- ]time|black friday|promo code|coupon)\b/i,
+  freeTrial: /\b(free trial|try (it )?free|gratis)\b/i,
+  free: /\b(free)\b/i,
+  ranking: /(#\s?1\b|\bno\.?\s?1\b|number one|\bbest\b|\btop[- ]rated\b|\btop \d+\b|\bleading\b|award[- ]winning|(app|game) of the (day|year)|editors'? choice|apple design award|best of play)/i,
+  url: /(\bhttps?:\/\/\S+|\bwww\.\S+|\b[\w-]+\.(com|net|org|io|app|ai|co|me)\b)/i,
   copyright: /(©|\(c\)|\bcopyright\b|®|™)/i,
-  cta: /(\b(download (it )?now|install (it )?now|get it now|tap to download|play now)\b)|((hemen|şimdi|simdi) (indir|yükle|yukle))|(\bindir ve\b)/i,
-  medical: /\b(cure[sd]?|treat(s|ment)?|diagnos\w*|heal(s|ing)? (your|the)|prevent(s)? (disease|illness)|clinically proven|doctor[- ]approved|fda[- ]approved|tedavi|teşhis|iyileştirir|hastalığı önler)\b/i,
-  weasel: /\b(simply|easily|seamless(ly)?|revolutionary|ultimate|powerful|innovative|next[- ]gen|cutting[- ]edge|game[- ]changer|world[- ]class|amazing|awesome|incredible|harika|muhteşem|devrim niteliğinde|mükemmel)\b/i,
-  featureSpeak: /\b(functionality|module|feature set|interface|settings screen|dashboard screen|özellik seti|modül)\b/i,
+  cta: /(\b(download (it )?now|install (it )?now|get it now|tap to download|play now)\b)/i,
+  medical: /\b(cure[sd]?|treat(s|ment)?|diagnos\w*|heal(s|ing)? (your|the)|prevent(s)? (disease|illness)|clinically proven|doctor[- ]approved|fda[- ]approved)\b/i,
+  weasel: /\b(simply|easily|seamless(ly)?|revolutionary|ultimate|powerful|innovative|next[- ]gen|cutting[- ]edge|game[- ]changer|world[- ]class|amazing|awesome|incredible)\b/i,
+  featureSpeak: /\b(functionality|module|feature set|interface|settings screen|dashboard screen)\b/i,
   emoji: /\p{Extended_Pictographic}/gu,
 };
 
@@ -33,8 +32,8 @@ const RX = {
 export const BRANDS = ['chatgpt', 'openai', 'gemini', 'instagram', 'tiktok', 'snapchat', 'whatsapp', 'facebook', 'youtube', 'spotify', 'netflix',
   'duolingo', 'myfitnesspal', 'evernote', 'headspace', 'fitbit', 'peloton', 'capcut', 'lightroom', 'photoshop',
   'tinder', 'uber', 'airbnb', 'google', 'microsoft', 'todoist', 'things 3', 'revolut', 'paypal', 'venmo', 'cash app',
-  'ynab', 'shazam', 'grammarly', 'telegram', 'pinterest', 'linkedin', 'twitter', 'x.com', 'trendyol', 'yemeksepeti'];
-export const COMMON_WORD_BRANDS = ['calm', 'mint', 'notion', 'threads', 'discord', 'getir', 'amazon', 'excel', 'strava', 'bumble', 'hinge', 'canva'];
+  'ynab', 'shazam', 'grammarly', 'telegram', 'pinterest', 'linkedin', 'twitter', 'x.com'];
+export const COMMON_WORD_BRANDS = ['calm', 'mint', 'notion', 'threads', 'discord', 'amazon', 'excel', 'strava', 'bumble', 'hinge', 'canva'];
 
 export const words = (t) => plain(t).split(/\s+/).filter(Boolean);
 
@@ -94,8 +93,6 @@ export function lintCaption(text, { locale = 'en-US', kind = 'headline', store =
   if (brand) add('warn', 'trademark', `Mentions "${brand}" — third-party trademarks/competitors are a common rejection (Apple 2.3.7, 5.2.1).`);
   if (RX.weasel.test(t)) add('info', 'vague', `"${t.match(RX.weasel)[0]}" is filler — replace with the concrete benefit.`);
   if (RX.featureSpeak.test(t)) add('info', 'feature-speak', 'Feature-speak — say what the user gets, not what the screen is.');
-  if (locale === 'tr' && !/[çğıöşüÇĞİÖŞÜ]/.test(t) && (chars > 26 || /\b(gun|icin|cok|ogren|sagl|hizli|sayac|simdi|ozel|guc|ucretsiz|yasam|kisisel|degis|gorun|duzen|uyku|basla|yuksel|gelis)\w*/i.test(t)))
-    add('warn', 'tr-ascii', 'Looks like Turkish typed without ç ğ ı ö ş ü — fix the characters.');
   return { issues, metrics: { words: w.length, chars } };
 }
 
@@ -157,10 +154,10 @@ export function lintPlan(plan, { locale, store = 'ios', size, profile = {}, layo
   return { shots, set };
 }
 
-/** Rough stem so inflected forms still count (TR: antrenmanı ~ antrenmanları, EN: workout ~ workouts). */
+/** Rough stem so inflected forms still count (EN: workout ~ workouts; agglutinative languages: a shorter prefix). */
 export function stem(w, locale) {
   w = w.toLocaleLowerCase(locale);
-  if (locale === 'tr' || /^(fi|hu|et)/.test(locale)) return w.length > 5 ? w.slice(0, Math.max(4, w.length - 2)) : w;
+  if (/^(fi|hu|et)/.test(locale)) return w.length > 5 ? w.slice(0, Math.max(4, w.length - 2)) : w;
   // "focus" is not a plural: keep a final s after u or s (focus, glass), strip it elsewhere.
   if (/^en/.test(locale)) return w.replace(/ies$/, 'y').replace(/(ing|ed)$/, '').replace(/([^us])(es|s)$/, '$1') || w;
   return w.length > 6 ? w.slice(0, w.length - 2) : w;

@@ -39,8 +39,8 @@ Write these findings straight into `brief.md` (step 5).
 
 `node scripts/niche.mjs --explain`. Read `skills/niches/<chosen>.md` completely. If the runner-up is within ~25 %,
 read it too and decide which searcher this app really serves (e.g. home-workout vs fitness-workout). Override with
-`--set <id>`. The niche file gives you the searcher, what wins the install, a shot-by-shot story, headline banks in
-English and Turkish, supporting elements, visual direction, keyword clusters and policy traps. Adapt it — never paste it.
+`--set <id>`. The niche file gives you the searcher, what wins the install, a shot-by-shot story, headline banks,
+supporting elements, visual direction, keyword clusters and policy traps. Adapt it — never paste it.
 
 ## 4 · Ask (one round, ≤ 3 questions)
 

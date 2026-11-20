@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "root": "examples/pulse",
-  "scannedAt": "2026-11-16T13:39:54.154Z",
+  "root": "/Users/basoglu/Desktop/AppShot/examples/pulse",
+  "scannedAt": "2026-11-20T08:38:46.994Z",
   "app": {
     "displayName": "Pulse",
     "slug": "pulse-home-workouts",
@@ -37,8 +37,7 @@
     ],
     "npmName": "pulse",
     "locales": [
-      "en",
-      "tr"
+      "en"
     ],
     "name": "Pulse",
     "category": "Health & Fitness",
@@ -57,7 +56,7 @@
     "evidence": [
       "expo in package.json/app.json"
     ],
-    "fileCount": 21
+    "fileCount": 20
   },
   "store": {
     "locales": [],
@@ -257,8 +256,7 @@
   },
   "strings": {
     "locales": [
-      "en",
-      "tr"
+      "en"
     ],
     "count": 30,
     "samples": [
@@ -455,14 +453,14 @@
     {
       "id": "gamification",
       "label": "Streaks & achievements",
-      "score": 4,
+      "score": 3.4,
       "confidence": "medium",
       "benefitSeeds": [
         "Build a streak you will not break",
         "Earn rewards as you go"
       ],
       "evidence": [
-        "3 file(s): locales/en.json, locales/tr.json, app/(tabs)/index.tsx"
+        "2 file(s): locales/en.json, app/(tabs)/index.tsx"
       ]
     }
   ],
@@ -577,7 +575,7 @@
       {
         "id": "language-learning",
         "name": "Language Learning",
-        "score": 21.2,
+        "score": 21.6,
         "matched": [
           "streak"
         ],
@@ -599,7 +597,7 @@
         ],
         "shots": 7,
         "file": "skills/niches/language-learning.md",
-        "confidence": 0.41
+        "confidence": 0.42
       },
       {
         "id": "health-vitals",
@@ -630,5 +628,5 @@
     ],
     "chosen": "fitness-workout"
   },
-  "scanMs": 139
+  "scanMs": 112
 }

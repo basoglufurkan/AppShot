@@ -59,26 +59,6 @@ shots: 7
 - Tell it in **one** frame
 - Show off your **shop** beautifully
 
-### Türkçe
-
-- Tasarımcı elinden çıkmış **hikâyeler**
-- **{templates}+** şablon, sıfır uğraş
-- Saniyede kusursuz **kolaj**
-- Fotoğrafları koy, **bitti**
-- Hikâyen, **markana** uygun
-- Yazı tipi, sticker, **senin** tarzın
-- Herkesin **bayılacağı** doğum günü postları
-- Tatil özetin **kolayca** hazır
-- Kesintisiz **kaydırmalı** postlar
-- Profiline uyumlu **öne çıkan** kapaklar
-- Profilin **göz** doldursun
-- Tasarımcı **gerekmez**
-- Anılarından **albüm** yap
-- Dakikalar içinde **mood board**
-- Tek dokunuşla **tüm** boyutlar
-- Her şeyi **tek** karede anlat
-- Dükkânını **şık** tanıt
-
 ## Supporting elements
 
 - Template category chips: Birthday, Travel, Love, Minimal, Sale, Photo dump.
@@ -100,11 +80,11 @@ shots: 7
 
 ## Keyword clusters
 
-- **Collage** — EN: collage maker, photo collage, photo grid, picture collage — TR: kolaj yapma, fotoğraf kolajı, fotoğraf birleştirme, resim kolajı
-- **Stories** — EN: story maker, story templates, instagram story templates — TR: hikaye şablonları, instagram hikaye yapma, story tasarımı
-- **Highlights** — EN: highlight covers, story highlight icons — TR: öne çıkan kapak, hikaye kapak ikonları
-- **Carousel** — EN: carousel maker, seamless carousel, panorama post — TR: kaydırmalı post, panorama post yapma
-- **Occasions** — EN: birthday collage, scrapbook app, photo dump template — TR: doğum günü kolajı, dijital albüm, fotoğraf dump şablonu
+- **Collage** — EN: collage maker, photo collage, photo grid, picture collage
+- **Stories** — EN: story maker, story templates, instagram story templates
+- **Highlights** — EN: highlight covers, story highlight icons
+- **Carousel** — EN: carousel maker, seamless carousel, panorama post
+- **Occasions** — EN: birthday collage, scrapbook app, photo dump template
 
 ## Avoid
 

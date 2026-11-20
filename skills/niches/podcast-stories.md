@@ -59,25 +59,6 @@ shots: 6
 - Pick up where you **paused**
 - **{minutes} min** saved with smart speed
 
-### Türkçe
-
-- **Bırakamayacağın** hikâyeler
-- Tüm programlar **tek oynatıcıda**
-- Yeni bölümler **otomatik** insin
-- Daha az zamanda **daha çok** dinle
-- **Sessizlikleri** atla
-- **Metin dökümüyle** takip et
-- Dinleme sıran **senin kuralların**
-- Sıradaki bölüme **hemen** geç
-- Bir **hikâyeyle** uykuya dal
-- **Seveceğin** programları bul
-- **İnternetsiz** dinle, her yerde
-- İstediğin **bölüme** atla
-- En sevdiğin **anı** paylaş
-- Aşk, gerilim, **gizem**
-- **Kaldığın yerden** dinle
-- Akıllı hızla **{minutes} dk** kazandın
-
 ## Supporting elements
 
 - **Cover art** (original or licensed) with a one-line logline card for fiction series.
@@ -99,11 +80,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Podcast players** — EN: "podcast app", "podcast player", "podcasts" — TR: "podcast dinle", "podcast uygulaması", "podcast oynatıcı"
-- **Audio fiction** — EN: "audio stories", "audio drama", "audio series", "audio novels" — TR: "sesli hikâye", "sesli dizi", "sesli roman"
-- **Genres** — EN: "true crime podcasts", "romance stories", "horror stories" — TR: "gerilim hikâyeleri", "aşk hikâyeleri", "korku hikâyeleri"
-- **Bedtime** — EN: "sleep stories", "bedtime stories for adults" — TR: "uyku hikâyeleri", "uyumadan önce dinle"
-- **Player features** — EN: "podcast transcripts", "speed listening", "podcast downloader" — TR: "hızlı dinleme", "podcast indir"
+- **Podcast players** — EN: "podcast app", "podcast player", "podcasts"
+- **Audio fiction** — EN: "audio stories", "audio drama", "audio series", "audio novels"
+- **Genres** — EN: "true crime podcasts", "romance stories", "horror stories"
+- **Bedtime** — EN: "sleep stories", "bedtime stories for adults"
+- **Player features** — EN: "podcast transcripts", "speed listening", "podcast downloader"
 
 ## Avoid
 

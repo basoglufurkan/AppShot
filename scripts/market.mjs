@@ -31,7 +31,7 @@ const file = path.join(dir, store === 'play' ? 'market-play.json' : 'market.json
 const plan = readJson(path.join(ws, 'plan.json'), {});
 const profile = readJson(path.join(ws, 'profile.json'), {});
 
-const COUNTRY = { 'en-US': 'us', 'en-GB': 'gb', 'pt-BR': 'br', 'es-MX': 'mx', 'es-ES': 'es', 'de-DE': 'de', 'fr-FR': 'fr', it: 'it', 'nl-NL': 'nl', tr: 'tr', ja: 'jp', ko: 'kr', 'zh-Hans': 'cn', 'zh-Hant': 'tw', 'ar-SA': 'sa', he: 'il', ru: 'ru', pl: 'pl', sv: 'se', id: 'id', hi: 'in', vi: 'vn', th: 'th' };
+const COUNTRY = { 'en-US': 'us', 'en-GB': 'gb', 'pt-BR': 'br', 'es-MX': 'mx', 'es-ES': 'es', 'de-DE': 'de', 'fr-FR': 'fr', it: 'it', 'nl-NL': 'nl', ja: 'jp', ko: 'kr', 'zh-Hans': 'cn', 'zh-Hant': 'tw', 'ar-SA': 'sa', he: 'il', ru: 'ru', pl: 'pl', sv: 'se', id: 'id', hi: 'in', vi: 'vn', th: 'th' };
 
 if (cmd === 'show') {
   if (!exists(file)) die('No market scan yet: node scripts/market.mjs scan');

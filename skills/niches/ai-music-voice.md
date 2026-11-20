@@ -61,26 +61,6 @@ This niche covers several intents. Lead the set with the app's primary one (song
 - Every mood, **its own** song
 - Make **music** without instruments
 
-### Türkçe
-
-- Sözlerin **şarkıya** dönüşsün
-- Fikrin, **tam** bir şarkı
-- Herkese **özel** şarkı yap
-- Stüdyo yok, **yetenek** şart değil
-- Yapay zekayla **şarkı sözü** yaz
-- Türünü seç, **oluştur**
-- Eşsiz bir **doğum günü** şarkısı
-- Sesini anında **değiştir**
-- **{voices}** farklı sesle seslendirme
-- Pop, rap, lo-fi, **sen** seç
-- Vokali kaldır, **eşlik** et
-- Metnin **doğal** sesle okunsun
-- Tek dokunuşla **beat**
-- Mırıldan, **şarkı** olsun
-- Parçanı **her yerde** paylaş
-- Her ruh haline **bir** şarkı
-- Enstrümansız **müzik** yap
-
 ## Supporting elements
 
 - Now-playing card: cover art, "{trackTitle}", genre tag, duration and a scrub bar mid-play.
@@ -102,11 +82,11 @@ This niche covers several intents. Lead the set with the app's primary one (song
 
 ## Keyword clusters
 
-- **Song generation** — EN: ai song generator, make a song, ai music maker, text to music — TR: yapay zeka şarkı yapma, şarkı oluşturma, yapay zeka müzik, yazıdan şarkı
-- **Lyrics** — EN: lyrics generator, ai songwriter, rap lyrics maker — TR: şarkı sözü yazma, yapay zeka söz yazarı, rap sözü yazma
-- **Voice** — EN: voice changer, ai voice, text to speech, voiceover app — TR: ses değiştirici, yapay zeka ses, metni sese çevirme, seslendirme uygulaması
-- **Vocals** — EN: vocal remover, karaoke maker, isolate vocals — TR: vokal silme, karaoke yapma, vokal ayırma
-- **Gift** — EN: birthday song with name, love song maker — TR: isme özel doğum günü şarkısı, sevgiliye şarkı yapma
+- **Song generation** — EN: ai song generator, make a song, ai music maker, text to music
+- **Lyrics** — EN: lyrics generator, ai songwriter, rap lyrics maker
+- **Voice** — EN: voice changer, ai voice, text to speech, voiceover app
+- **Vocals** — EN: vocal remover, karaoke maker, isolate vocals
+- **Gift** — EN: birthday song with name, love song maker
 
 ## Avoid
 

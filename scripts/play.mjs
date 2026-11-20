@@ -2,7 +2,7 @@
 //   node scripts/play.mjs check [--draft]        tagline area ≤ 20 % of the image (from the render report's measured
 //                                                 text boxes), ≥ 4 phone screenshots per language (large-format
 //                                                 promotion), 9:16, device imagery, Play-banned words, the feature graphic
-//   node scripts/play.mjs experiments [--variants dir-b,dir-c] [--locales en-US,tr]
+//   node scripts/play.mjs experiments [--variants dir-b,dir-c] [--locales en-US,de-DE]
 //        render each variant's Play phone set and package it as out/play-experiments/<variant>/<playLocale>/ (→ export/)
 //        with a README for Play Console → Store listing experiments (record the result: results.mjs add --store android)
 // Competitors on Play: there is no public Play search API — save their screenshots into folders (one per app) and run

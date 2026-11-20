@@ -60,28 +60,6 @@ shots: 7
 - See your skin **week by week**
 - Tips from **dermatologists**
 
-### Türkçe
-
-- **Cildine** özel rutin
-- **Cilt tipini** keşfet
-- Ürünü okut, **içinde** ne var bil
-- Sabah ve akşam rutinin **hazır**
-- Işıltı **düzenle** başlar
-- İçerikler artık **anlaşılır**
-- **Güneş kremini** unutma
-- Cildinin **gelişimini** izle
-- **Birbiriyle uyumlu** ürünler
-- Daha az ürün, **daha iyi** rutin
-- Ürün rafın **düzende**
-- Cilt bakımı artık **basit**
-- **Cildini** yakından tanı
-- **Uyumsuz** içerikleri fark et
-- **Her** cilde uygun rutinler
-- Cildini **hafta hafta** gör
-- **Dermatologlardan** ipuçları
-
-Use the dermatologist lines only when named, qualified experts actually contribute.
-
 ## Supporting elements
 
 - Routine card: AM / PM tabs with steps and generic bottle illustrations (no brand labels).
@@ -101,11 +79,11 @@ Use the dermatologist lines only when named, qualified experts actually contribu
 
 ## Keyword clusters
 
-- **Routine** — EN: skincare routine, skin care app, routine planner, skincare tracker — TR: cilt bakım rutini, cilt bakım uygulaması, cilt bakım takibi
-- **Analysis** — EN: skin analysis, face scanner, skin type test — TR: cilt analizi, cilt tipi testi, yüz tarama
-- **Ingredients** — EN: ingredient checker, cosmetic ingredient scanner, product scanner — TR: kozmetik içerik kontrol, ürün içerik tarama, içerik analizi
-- **Concerns** — EN: acne routine, anti aging skincare, dark spot routine — TR: sivilce bakımı, yaşlanma karşıtı bakım, leke bakımı
-- **Beauty** — EN: makeup app, face yoga, beauty routine — TR: makyaj uygulaması, yüz yogası, güzellik rutini
+- **Routine** — EN: skincare routine, skin care app, routine planner, skincare tracker
+- **Analysis** — EN: skin analysis, face scanner, skin type test
+- **Ingredients** — EN: ingredient checker, cosmetic ingredient scanner, product scanner
+- **Concerns** — EN: acne routine, anti aging skincare, dark spot routine
+- **Beauty** — EN: makeup app, face yoga, beauty routine
 
 ## Avoid
 

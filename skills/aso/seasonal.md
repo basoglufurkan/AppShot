@@ -70,10 +70,10 @@ in a timely manner" ([Preview assets](https://support.google.com/googleplay/andr
 | Late Dec – Jan | New Year resolutions | Fitness, diet, habits, finance, language learning, meditation |
 | Late Jan – Feb | Lunar New Year (6 Feb 2027) | Games, social, finance (red envelopes), travel in East and Southeast Asia |
 | Feb | Valentine's Day (14 Feb) | Dating, photo, gifts, couples apps |
-| about Feb–Mar 2027 | Ramadan, then Eid al-Fitr / Ramazan Bayramı (dates move about 11 days earlier each year; confirm locally) | Religion, food and recipes, fasting and health, finance, shopping in MENA, TR, ID, MY |
-| Mar–May | Spring cleaning, Mother's Day (UK in March; US, TR and many others on the 2nd Sunday of May) | Home, organisation, photo, gifts |
-| about May 2027 | Eid al-Adha / Kurban Bayramı (confirm locally) | Travel, family, finance |
-| Jun | WWDC (iOS betas: start planning the September refresh), exam season (TR: YKS) | Education, productivity |
+| about Feb–Mar 2027 | Ramadan, then Eid al-Fitr (dates move about 11 days earlier each year; confirm locally) | Religion, food and recipes, fasting and health, finance, shopping in MENA, ID, MY |
+| Mar–May | Spring cleaning, Mother's Day (UK in March; US and many others on the 2nd Sunday of May) | Home, organisation, photo, gifts |
+| about May 2027 | Eid al-Adha (confirm locally) | Travel, family, finance |
+| Jun | WWDC (iOS betas: start planning the September refresh), exam season | Education, productivity |
 | Jun–Aug | Summer travel | Travel, maps, translation, photo, fitness (outdoor) |
 | Aug–Sep | Back to school | Education, productivity, notes, calendar |
 | Sep | New iPhones and the major iOS release | All apps on Apple: refresh frames and system UI |

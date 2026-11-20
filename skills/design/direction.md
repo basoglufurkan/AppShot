@@ -39,7 +39,7 @@ competitor's set as a reference means "this tone and structure", not "this desig
 
 ```bash
 node scripts/market.mjs scan                          # terms from plan.keywords; country from the default locale
-node scripts/market.mjs scan --terms "focus timer,pomodoro" --country tr --limit 15
+node scripts/market.mjs scan --terms "focus timer,pomodoro" --country de --limit 15
 ```
 
 Apple's public iTunes Search API (no key, nothing about the user sent) returns the top apps for each search; the first

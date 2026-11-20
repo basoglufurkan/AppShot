@@ -59,26 +59,6 @@ shots: 7
 - Eyes up, **coach** on
 - **{runs}** runs and counting
 
-### Türkçe
-
-- İlk **5K**'nı koş
-- Her **kilometre** kayıtta
-- **Temponu** anlık bil
-- Koltuktan **bitiş çizgisine**
-- Gün gün **yarış** planın
-- Kulağında bir **koç**
-- Kişisel **rekorunu** kır
-- Her **rotanı** haritala
-- Her hafta **daha uzağa** pedalla
-- Yokuşlara **güvenle** tırman
-- Ara süreler **gelişimini** anlatır
-- Canlı **konum** paylaşımıyla güvende koş
-- **Yarı maratona** hazırlan
-- **Rehberli** interval koşuları
-- Haftanı **kilometrelerle** gör
-- Gözün yolda, **koçun** yanında
-- **{runs}** koşu ve devam
-
 ## Supporting elements
 
 - Stat trio card: Distance {distance} · Pace {pace} · Time {time}.
@@ -99,11 +79,11 @@ shots: 7
 
 ## Keyword clusters
 
-- **Running** — EN: running app, run tracker, gps running app, running tracker — TR: koşu uygulaması, koşu takip, gps koşu, koşu takip uygulaması
-- **Beginner plans** — EN: couch to 5k, beginner running plan, 5k training plan — TR: koşuya başlama, 5 km koşu programı, yeni başlayanlar için koşu
-- **Races** — EN: half marathon training, marathon training plan, 10k plan — TR: yarı maraton antrenman programı, maraton hazırlık, 10 km koşu programı
-- **Cycling** — EN: cycling tracker, bike computer, ride tracker, cycling app — TR: bisiklet takip, bisiklet uygulaması, bisiklet km sayacı
-- **Walking and pace** — EN: pace calculator, walking tracker, running pace — TR: tempo hesaplama, yürüyüş takip, koşu temposu
+- **Running** — EN: running app, run tracker, gps running app, running tracker
+- **Beginner plans** — EN: couch to 5k, beginner running plan, 5k training plan
+- **Races** — EN: half marathon training, marathon training plan, 10k plan
+- **Cycling** — EN: cycling tracker, bike computer, ride tracker, cycling app
+- **Walking and pace** — EN: pace calculator, walking tracker, running pace
 
 ## Avoid
 

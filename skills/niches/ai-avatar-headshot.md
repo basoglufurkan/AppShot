@@ -61,26 +61,6 @@ For fun avatar packs, swap shot 2 for a style-pack grid and open with the most v
 - Avatars that **look like you**
 - Star in **every** style
 
-### Türkçe
-
-- Selfie'lerinden **stüdyo** portresi
-- Fotoğrafçısız **profesyonel** görün
-- En iyi **profil** fotoğrafın
-- Selfie ver, **portre** al
-- Yine **sen**, sadece daha şık
-- Tek yüklemeyle **{photos}** portre
-- **Kıyafetini** ve fonunu seç
-- **CV'n** için hazır
-- Profil fotoğrafını **yenile**
-- Stüdyo yok, **randevu** yok
-- Evden **iş** portresi
-- Yüzün, **{styles}** farklı stil
-- İnternette **kendinden emin** görün
-- İlk izlenimin artık **kusursuz**
-- Selfie'lerin **gizli** kalır
-- **Sana** benzeyen avatarlar
-- Her stilde **başrol** sensin
-
 ## Supporting elements
 
 - Input stack: 3–4 small casual selfies labeled "{minPhotos}+ selfies", with an arrow to a finished portrait.
@@ -100,10 +80,10 @@ For fun avatar packs, swap shot 2 for a style-pack grid and open with the most v
 
 ## Keyword clusters
 
-- **Professional** — EN: ai headshot generator, professional headshot, business photo, linkedin profile photo — TR: profesyonel profil fotoğrafı, iş fotoğrafı, cv fotoğrafı, linkedin fotoğrafı
-- **Avatar** — EN: ai avatar, avatar maker, anime avatar, cartoon yourself — TR: yapay zeka avatar, avatar yapma, anime avatar, kendini çizgi film karakteri yap
-- **Portrait** — EN: ai portrait, ai photoshoot, selfie to portrait — TR: yapay zeka portre, yapay zeka fotoğraf çekimi, selfie'den portre
-- **Trends** — EN: ai yearbook photos, fantasy avatar, ai profile picture — TR: yapay zeka trend fotoğraf, fantastik avatar, yapay zeka profil fotoğrafı
+- **Professional** — EN: ai headshot generator, professional headshot, business photo, linkedin profile photo
+- **Avatar** — EN: ai avatar, avatar maker, anime avatar, cartoon yourself
+- **Portrait** — EN: ai portrait, ai photoshoot, selfie to portrait
+- **Trends** — EN: ai yearbook photos, fantasy avatar, ai profile picture
 
 ## Avoid
 

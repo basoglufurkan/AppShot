@@ -60,28 +60,6 @@ Decide first what the app actually offers: licensed professionals, self-guided e
 - Care on **your** terms
 - Built with **clinicians**
 
-### Türkçe
-
-- Zor günler için **destek**
-- Bununla **yalnız** değilsin
-- **Lisanslı** bir terapistle konuş
-- Kaygılı anlar için **araçlar**
-- Düşünce **karmaşasını** çöz
-- Her an **duyulduğunu** hisset
-- Küçük adımlar, **gerçek** destek
-- **Kalıplarını** fark et
-- Bunaltıcı anlarda **topraklan**
-- BDT becerileri **cebinde**
-- Kendine **nasılsın** de
-- Sana ait, **güvenli** bir alan
-- **Kendi** programına göre terapi
-- Yargılayan iç sesini **dönüştür**
-- **Hissedebileceğin** bir ilerleme
-- Seni **olduğun yerde** karşılayan destek
-- **Uzmanlarla** birlikte geliştirildi
-
-Use "licensed therapist", "therapy" and "built with clinicians" lines only when literally true for every market the screenshots ship in.
-
 ## Supporting elements
 
 - Mood check-in card: a 5-point color scale or soft faces with "How are you today?".
@@ -101,11 +79,11 @@ Use "licensed therapist", "therapy" and "built with clinicians" lines only when 
 
 ## Keyword clusters
 
-- **Therapy** — EN: online therapy, talk to a therapist, counseling app, therapist near me — TR: online terapi, psikologla görüşme, online psikolog, terapist bul
-- **Anxiety and stress** — EN: anxiety relief, stress management, panic attack help — TR: kaygı ile başa çıkma, stres yönetimi, panik atak
-- **CBT tools** — EN: cbt app, thought diary, coping skills app — TR: bilişsel davranışçı terapi, düşünce günlüğü, başa çıkma becerileri
-- **Self-care** — EN: mental health app, self care app, emotional wellbeing — TR: ruh sağlığı uygulaması, öz bakım, duygusal iyi oluş
-- **Support** — EN: emotional support, someone to talk to, vent app — TR: duygusal destek, konuşacak birini bulmak, dertleşme
+- **Therapy** — EN: online therapy, talk to a therapist, counseling app, therapist near me
+- **Anxiety and stress** — EN: anxiety relief, stress management, panic attack help
+- **CBT tools** — EN: cbt app, thought diary, coping skills app
+- **Self-care** — EN: mental health app, self care app, emotional wellbeing
+- **Support** — EN: emotional support, someone to talk to, vent app
 
 ## Avoid
 

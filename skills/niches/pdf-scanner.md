@@ -16,7 +16,7 @@ shots: 6
 - Someone who has to send a signed document *right now* — a lease, an HR form, a bank document — and has no printer or scanner.
 - A small business owner or freelancer drowning in receipts and paperwork at tax time.
 - A student scanning notes, handouts and book pages to study or share.
-- In Turkey: scanning kimlik, diplomas, e-Devlet printouts or contracts for official applications.
+- Scanning IDs, diplomas, government printouts or contracts for official applications.
 - After installing they want to feel: done in a minute, and the result looks professional.
 
 ## What wins the install
@@ -59,25 +59,6 @@ shots: 6
 - Your pocket **office**
 - **{pages}** pages scanned, zero printers
 
-### Türkçe
-
-- Her şeyi **saniyeler** içinde tara
-- Fotoğraftan **kusursuz PDF**'e
-- Belgeleri **her yerde** imzala
-- Her sayfadan **metni** kopyala
-- Tarayıcın yok mu? **Sorun değil.**
-- Kenarlar **otomatik** algılansın
-- Birleştir, sıkıştır, **dönüştür**
-- Yazıcıya gerek yok, **formu doldur**
-- Fiş, kimlik, **sözleşme**
-- Az ışıkta bile **net** taramalar
-- Tek dokunuşla **PDF** paylaş
-- Her belgen **bulunabilir**
-- Taramaların **cihazında** kalsın
-- Çok sayfalı belgeyi **tek seferde** tara
-- Cebindeki **ofis**
-- Fotokopiciye **gitmene** gerek yok
-
 ## Supporting elements
 
 - **Scan frame**: corner brackets snapping onto a fictional lease or invoice.
@@ -99,15 +80,15 @@ shots: 6
 
 ## Keyword clusters
 
-- **Scanning** — EN: "scanner app", "document scanner", "pdf scanner", "scan documents" — TR: "tarayıcı uygulaması", "belge tarayıcı", "pdf tarama", "belge tarama"
-- **Conversion** — EN: "scan to pdf", "jpg to pdf", "pdf converter", "pdf to word" — TR: "pdf'e dönüştür", "jpg pdf çevirici", "pdf word çevirme"
-- **Signing & forms** — EN: "sign pdf", "sign documents", "fill pdf form" — TR: "pdf imzalama", "belge imzalama", "pdf form doldurma"
-- **OCR** — EN: "ocr", "image to text", "text scanner" — TR: "resimden yazıya", "metin tanıma", "fotoğraftan metin çıkarma"
-- **PDF tools** — EN: "pdf editor", "merge pdf", "compress pdf" — TR: "pdf düzenleme", "pdf birleştirme", "pdf küçültme"
+- **Scanning** — EN: "scanner app", "document scanner", "pdf scanner", "scan documents"
+- **Conversion** — EN: "scan to pdf", "jpg to pdf", "pdf converter", "pdf to word"
+- **Signing & forms** — EN: "sign pdf", "sign documents", "fill pdf form"
+- **OCR** — EN: "ocr", "image to text", "text scanner"
+- **PDF tools** — EN: "pdf editor", "merge pdf", "compress pdf"
 
 ## Avoid
 
-- "Legally binding" or "e-imza" claims for drawn signatures — in Turkey e-imza is a qualified electronic signature under Law 5070 with certified hardware; elsewhere legal effect varies by document. Say "sign PDFs", not "legally binding".
+- "Legally binding" claims for drawn signatures — legal effect varies by jurisdiction and document. Say "sign PDFs", not "legally binding".
 - Real IDs, passports or anything mimicking a government document (emblems, real names, ID numbers) — personal data and impersonation risk; use an obviously generic "ID card" mock.
 - Apple 4.3 (spam): scanner apps are saturated; screenshots must show genuine differentiation, not a reskin.
 - Brand logos of cloud services or Adobe/CamScanner names in captions (5.2.1, 2.3.7).

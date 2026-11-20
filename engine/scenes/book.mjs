@@ -9,7 +9,7 @@ export const meta = {
   variants: ['letters'],
 };
 
-const GLYPHS = ['A', 'é', 'ß', 'ğ', 'Ж', 'あ', '字', 'ع', 'ñ', 'Ω', '한', 'ü'];
+const GLYPHS = ['A', 'é', 'ß', 'ø', 'Ж', 'あ', '字', 'ع', 'ñ', 'Ω', '한', 'ü'];
 
 export function render(ctx, o = {}) {
   const { hero = true, intensity = 1, variant } = o;

@@ -3,7 +3,7 @@
 // picture, no borders or gradients (the App Store adds its own), video loops — so the app's key-art scene carries it.
 //   node scripts/event.mjs new <id> --badge "Special Event" --start 2026-12-20 --end 2026-12-31 [--scene night-sky]
 //   node scripts/event.mjs check [id]           name 30 (title case), short 50, long 120, badge, dates, no prices / #1
-//   node scripts/event.mjs render <id> [--video] [--draft] [--locales en-US,tr]
+//   node scripts/event.mjs render <id> [--video] [--draft] [--locales en-US,de-DE]
 //   node scripts/event.mjs list
 // Events live in appshot/events/<id>.json: { badge, start, end, scene?, variant?, locales: { "en-US": { name, short, long } } }.
 // Output: appshot/out/events/<id>/<locale>/card.png|mp4, details.png|mp4; export.mjs copies them to upload/ios/<locale>/events/.

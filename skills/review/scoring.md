@@ -5,7 +5,7 @@ pixels. Shots 1–3 weigh 1.6× the rest.
 
 | Part | Max | Measures |
 | --- | --- | --- |
-| Copy | 35 | lint errors (−12) / warnings (−4) from `engine/lib/copyrules.mjs`; 2–6 words; benefit signal (verb start, "you/sen", a number, Turkish verb ending); highlight present and on a content word; subhead length |
+| Copy | 35 | lint errors (−12) / warnings (−4) from `engine/lib/copyrules.mjs`; 2–6 words; benefit signal (verb start, "you", a number); highlight present and on a content word; subhead length |
 | Legibility | 25 | headline size at App Store search-thumbnail scale (≈120 pt wide): < 7 pt bad, ≥ 10.5 pt good; fit; 3-line headlines in shots 1–3 (unless set at poster size, ≥ 12 u); text shrunk below 82 % of its max |
 | Contrast | 15 | p10/p90 luminance inside the headline box of the rendered PNG: < 2.2:1 bad, ≥ 4.5:1 full |
 | Composition | 15 | placeholders (−12), caption over device, broken images, text-only frames in shots 2–3 |

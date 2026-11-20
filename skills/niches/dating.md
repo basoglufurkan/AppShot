@@ -58,28 +58,6 @@ shots: 6
 - Be **yourself**, get matched
 - Find something **real**
 
-### Türkçe
-
-- **Aynı şeyi** isteyenlerle tanış
-- Ciddi **niyetli** tanışmalar
-- Gerçek insanlar, **doğrulanmış** profiller
-- Boş muhabbeti **geç**
-- **Kişiliği** olan profiller
-- Gerçekten **konuşan** eşleşmeler
-- **{community}** eşleşmeni bul
-- Kıvılcım bir **soruyla** başlar
-- Önce **sesini** duy
-- Daha az kaydır, **daha çok** buluş
-- Kendi kurallarınla **güvenle** tanış
-- Tipin, **senin** filtrelerin
-- Her profil **fotoğrafla** doğrulandı
-- Eşleşmeden **ilk buluşmaya**
-- **Yakınındaki** bekarlar
-- **Kendin** ol, eşleş
-- **Gerçek** bir bağ bul
-
-Use "verified" lines only if every profile shown really passes verification.
-
 ## Supporting elements
 
 - Profile card: photo, first name and age, a prompt answer ("My ideal Sunday is…") and a verified badge.
@@ -99,11 +77,11 @@ Use "verified" lines only if every profile shown really passes verification.
 
 ## Keyword clusters
 
-- **Core** — EN: dating app, meet singles, online dating, date app — TR: arkadaşlık uygulaması, tanışma uygulaması, flört uygulaması, bekarlar
-- **Serious** — EN: serious relationship app, find a partner, marriage minded dating — TR: ciddi ilişki uygulaması, evlilik amaçlı tanışma, hayat arkadaşı bulma
-- **Local** — EN: meet people nearby, local dating, dating near me — TR: yakınımdaki insanlarla tanış, şehrimde tanışma, yakınımdaki bekarlar
-- **Community** — EN: {community} dating, over 40 dating, lgbtq dating — TR: {community} tanışma, 40 yaş üstü tanışma, lgbti tanışma
-- **Chat** — EN: chat with singles, video dating — TR: bekarlarla sohbet, görüntülü tanışma
+- **Core** — EN: dating app, meet singles, online dating, date app
+- **Serious** — EN: serious relationship app, find a partner, marriage minded dating
+- **Local** — EN: meet people nearby, local dating, dating near me
+- **Community** — EN: {community} dating, over 40 dating, lgbtq dating
+- **Chat** — EN: chat with singles, video dating
 
 ## Avoid
 

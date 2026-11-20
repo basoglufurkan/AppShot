@@ -15,7 +15,7 @@ if (exists(out) && !args.force) die('brief.md exists (use --force to regenerate 
 const p = readJson(path.join(ws, 'profile.json'), null) || die('Run node scripts/scan.mjs first.');
 const nicheId = p.niche?.chosen;
 const niche = nicheId ? loadNiche(nicheId) : null;
-const kw = nicheId ? nicheKeywords(nicheId) : { en: [], tr: [] };
+const kw = nicheId ? nicheKeywords(nicheId) : { en: [] };
 const feats = (p.features || []).filter((f) => f.confidence !== 'low');
 const bullet = (arr, fmt = (x) => x) => (arr?.length ? arr.map((x) => `- ${fmt(x)}`).join('\n') : '- (none found)');
 
@@ -72,7 +72,6 @@ ${bullet((p.app?.permissions || []).slice(0, 8), (x) => `${x.key}: "${x.text}"`)
 ## Keywords — TODO (skills/aso/keywords.md)
 
 Seeds from the niche (en): ${kw.en.slice(0, 20).join(', ') || '—'}
-Seeds from the niche (tr): ${kw.tr.slice(0, 12).join(', ') || '—'}
 
 - Primary (put in shots 1–3 captions naturally): TODO
 - Secondary: TODO

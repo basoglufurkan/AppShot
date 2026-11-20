@@ -58,26 +58,6 @@ shots: 6
 - Flexibility, one **flow** at a time
 - **{classes}+** guided classes
 
-### Türkçe
-
-- {minutes} dakikada **daha iyi** hisset
-- **Kendi** temponda yoga
-- **Duvar pilatesi** artık çok kolay
-- Her gün **daha dik** dur
-- **Her** bedene uygun akışlar
-- Sabahını **yenile**
-- Masa başı gerginliğini **esneterek** at
-- Güçlü karın, **sakin** zihin
-- Eklemlere nazik, **gerçek** gelişim
-- Yogaya yeni misin? **Buradan** başla
-- **{minutes}** dakikalık dersler
-- Seninle **büyüyen** bir plan
-- Nefes al, hareket et, **gevşe**
-- Evde pilates, **aletsiz**
-- Matını ser, **başlat**
-- Esneklik, her **akışla** biraz daha
-- **{classes}+** rehberli ders
-
 ## Supporting elements
 
 - Pose card: pose name in English (plus Sanskrit where the app shows it) and a "Hold {seconds}s" ring.
@@ -97,11 +77,11 @@ shots: 6
 
 ## Keyword clusters
 
-- **Yoga** — EN: yoga for beginners, daily yoga, yoga at home, yoga app — TR: yeni başlayanlar için yoga, evde yoga, günlük yoga, yoga uygulaması
-- **Pilates** — EN: pilates at home, wall pilates, mat pilates, pilates workout — TR: evde pilates, duvar pilatesi, mat pilates, pilates egzersizleri
-- **Stretch and mobility** — EN: stretching app, flexibility training, mobility routine — TR: esneme hareketleri, esneklik egzersizleri, mobilite çalışması
-- **Posture and desk** — EN: posture exercises, desk stretches, back stretches — TR: duruş bozukluğu egzersizleri, masa başı egzersizleri, sırt esnetme
-- **Gentle trends** — EN: chair yoga, somatic exercises, somatic yoga — TR: sandalye yogası, somatik egzersiz, somatik yoga
+- **Yoga** — EN: yoga for beginners, daily yoga, yoga at home, yoga app
+- **Pilates** — EN: pilates at home, wall pilates, mat pilates, pilates workout
+- **Stretch and mobility** — EN: stretching app, flexibility training, mobility routine
+- **Posture and desk** — EN: posture exercises, desk stretches, back stretches
+- **Gentle trends** — EN: chair yoga, somatic exercises, somatic yoga
 
 ## Avoid
 

@@ -57,11 +57,11 @@ exception is a `sticker` promise on a billboard shot 1, which is meant to look u
 4. **The differentiator** when shot 2 or 3 answers "why this app": "Works **offline**", "Your data stays **on
    device**".
 5. **Never a filler word.** If every highlighted word is a stop word or shorter than 3 letters ("**your**",
-   "**the**", "**ve**"), the scorer deducts 3.
+   "**the**", "**and**"), the scorer deducts 3.
 6. **One per headline, two at most.** Copy lint warns at 3. Across a set, vary where the highlight sits (start,
    middle, end). If every shot accents its last word, the set looks templated.
-7. **1–3 words, whole words.** Never split a word (`**seri**ni`). In Turkish, highlight the inflected word as a
-   whole: "**Serini** bozma", "Her tekrarda **doğru form**".
+7. **1–3 words, whole words.** Never split a word (`**work**out`). In inflected languages, highlight the inflected
+   word as a whole.
 8. **Localise the highlight.** The key word moves when transcreated, so choose it again for each locale. Don't copy
    its position from English. In CJK, highlight a 2–4 character compound. In Arabic and Hebrew, `color` and `pill`
    work, while `underline` collides with descenders and marks.

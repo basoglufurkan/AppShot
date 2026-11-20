@@ -3,7 +3,7 @@ id: astrology-tarot
 name: Astrology & Tarot
 appStoreCategory: Lifestyle
 playCategory: Lifestyle
-keywords: [astrology, horoscope, horoscopes, zodiac, zodiac sign, birth chart, natal chart, sun sign, moon sign, rising sign, ascendant, big three, compatibility, synastry, transit, transits, retrograde, mercury retrograde, planets, houses, aspects, tarot, tarot reading, tarot card, daily card, numerology, moon phase, angel numbers, psychic, astrologer, coffee reading, fortune, fal, aries, scorpio, cosmic]
+keywords: [astrology, horoscope, horoscopes, zodiac, zodiac sign, birth chart, natal chart, sun sign, moon sign, rising sign, ascendant, big three, compatibility, synastry, transit, transits, retrograde, mercury retrograde, planets, houses, aspects, tarot, tarot reading, tarot card, daily card, numerology, moon phase, angel numbers, psychic, astrologer, coffee reading, fortune, aries, scorpio, cosmic]
 themes: [aurora, midnight, luxe, rose]
 layouts: [full-bleed, hero-device, duo-devices, trio-fan, chat-bubbles, notification-stack, floating-cards, big-number]
 shots: 7
@@ -16,7 +16,7 @@ shots: 7
 - Curious about love right now: a new crush, a breakup, "are we compatible?" — the single strongest trigger in this niche.
 - The daily ritualist who reads their horoscope with morning coffee and wants it to feel personal, not generic.
 - The self-explorer who just learned about the "big three" and wants their full birth chart explained.
-- In Turkey: kahve falı and tarot falı are social entertainment — shared with friends, screenshot-worthy.
+- For many, tarot and coffee-cup readings are social entertainment — shared with friends, screenshot-worthy.
 - After installing they want to feel: "Seen. This was written about *me*." It's entertainment and reflection — keep it that way.
 
 ## What wins the install
@@ -59,25 +59,6 @@ shots: 7
 - Talk to an **astrologer**
 - What does **{sign}** bring today?
 
-### Türkçe
-
-- Doğum haritanı **keşfet**
-- Yıldızlarda **senin** hikâyen
-- İkiniz **uyumlu** musunuz?
-- Gezegenlere göre **senin günün**
-- Günün **kartını** çek
-- Güneş, Ay ve **Yükselenini** öğren
-- **Merkür retrosuna** hazır mısın?
-- Kartlara **her şeyi** sor
-- Aşk, kariyer, **netlik**
-- Doğum saatine **özel** yorumlar
-- Kendini **daha derinden** tanı
-- Kahve falın **hazır**
-- Kozmik **eşini** bul
-- Bu hafta seni **neler** bekliyor?
-- Bir **astrologla** konuş
-- Yükselenin **ne diyor**?
-
 ## Supporting elements
 
 - **Chart wheel** with houses and planet glyphs, rendered from a sample profile.
@@ -86,24 +67,24 @@ shots: 7
 - **Three-card spread** labelled Past / Present / Future with card names.
 - **Notifications**: "Moon enters {sign} tonight", "Mercury retrograde starts {date}".
 - **Chat bubbles**: "Should I take the new job?" → a reflective answer that suggests themes, not certainties.
-- **Coffee-cup card** (Turkish fal apps): cup photo → reading card.
+- **Coffee-cup card**: cup photo → reading card.
 
 ## Visual direction
 
 - Deep indigo, violet and black with gold line art, star fields and soft aurora gradients; elegant serif display (Cormorant, Playfair) plus a fine sans for UI.
 - Two winning styles: mystical-premium (luxe gold, rich gradients) and stark-modern (black-and-white, typographic, Co-Star-like); pick one and keep it across all shots.
 - Card art and chart wheels are the hero objects — make them large and crisp.
-- Romance angles suit rose/pink gradients; Turkish fal apps lean purple and pink with coffee-cup photography.
-- Leaders (Co-Star, The Pattern, Nebula, Labyrinthos, Faladdin) make every shot feel personal with a name, date or sign on screen.
+- Romance angles suit rose/pink gradients.
+- Leaders (Co-Star, The Pattern, Nebula, Labyrinthos) make every shot feel personal with a name, date or sign on screen.
 - Avoid clip-art zodiac grids; one sign or one chart per shot reads far better.
 
 ## Keyword clusters
 
-- **Horoscopes** — EN: "horoscope", "daily horoscope", "zodiac signs", "horoscope today" — TR: "burç yorumları", "günlük burç", "bugünkü burç yorumu"
-- **Birth chart** — EN: "birth chart", "natal chart", "rising sign calculator" — TR: "doğum haritası", "yükselen burç hesaplama", "astroloji haritası"
-- **Tarot** — EN: "tarot reading", "tarot cards", "yes no tarot", "daily tarot" — TR: "tarot falı", "tarot kartları", "evet hayır falı"
-- **Love compatibility** — EN: "love compatibility", "zodiac compatibility", "synastry" — TR: "burç uyumu", "aşk uyumu", "sinastri"
-- **Fortune readings** — EN: "coffee cup reading", "palm reading", "numerology" — TR: "kahve falı", "fal baktır", "el falı", "numeroloji"
+- **Horoscopes** — EN: "horoscope", "daily horoscope", "zodiac signs", "horoscope today"
+- **Birth chart** — EN: "birth chart", "natal chart", "rising sign calculator"
+- **Tarot** — EN: "tarot reading", "tarot cards", "yes no tarot", "daily tarot"
+- **Love compatibility** — EN: "love compatibility", "zodiac compatibility", "synastry"
+- **Fortune readings** — EN: "coffee cup reading", "palm reading", "numerology"
 
 ## Avoid
 

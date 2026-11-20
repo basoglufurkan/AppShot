@@ -4,7 +4,6 @@
 
 const SUBSCRIPTION = {
   en: 'Some features require a subscription.',
-  tr: 'Bazı özellikler abonelik gerektirir.',
   de: 'Einige Funktionen erfordern ein Abonnement.',
   fr: 'Certaines fonctionnalités nécessitent un abonnement.',
   es: 'Algunas funciones requieren una suscripción.',
@@ -28,7 +27,6 @@ const SUBSCRIPTION = {
 
 const PURCHASES = {
   en: 'Offers in-app purchases.',
-  tr: 'Uygulama içi satın alımlar sunar.',
   de: 'Bietet In-App-Käufe.',
   fr: 'Propose des achats intégrés.',
   es: 'Ofrece compras dentro de la app.',

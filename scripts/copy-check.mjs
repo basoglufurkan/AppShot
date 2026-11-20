@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Lint every caption in the plan against store policy and conversion rules, per locale and store.
-//   node scripts/copy-check.mjs [--locale tr] [--store ios|android] [--strict]   (exit 1 on errors; --strict also on warnings)
+//   node scripts/copy-check.mjs [--locale de-DE] [--store ios|android] [--strict]   (exit 1 on errors; --strict also on warnings)
 //   node scripts/copy-check.mjs --text "Track **every** workout" --locale en-US   (lint one line)
 
 import path from 'node:path';

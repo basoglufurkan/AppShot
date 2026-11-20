@@ -58,25 +58,6 @@ shots: 6
 - Know what you're **buying**
 - **{items}** finds catalogued
 
-### Türkçe
-
-- **Ne bulduğunu** öğren
-- Fotoğrafını çek, **tanı**
-- Paran **nadir** mi?
-- Tahmini **değerini** gör
-- Her **detay** çözüldü
-- **Koleksiyonunu** oluştur
-- Her buluntunun ardındaki **hikâye**
-- Taşlar, kristaller, **değerli taşlar**
-- Bu böcek ne? **Hemen öğren.**
-- Şarap etiketini **anında** oku
-- **Darphane işaretini** yakala
-- Koleksiyonunun **değerini** takip et
-- Merakın **cevaplandı**
-- Cebindeki **saha rehberi**
-- Bit pazarında **ne aldığını** bil
-- **{items}** parça kataloğunda
-
 ## Supporting elements
 
 - **Result card**: "{itemName} · {confidence}% match" with 3 key facts.
@@ -98,18 +79,18 @@ shots: 6
 
 ## Keyword clusters
 
-- **Coins** — EN: "coin identifier", "coin value checker", "coin scanner", "old coin value" — TR: "madeni para tanıma", "eski para değeri", "koleksiyon para"
-- **Rocks & crystals** — EN: "rock identifier", "crystal identifier", "gemstone identifier" — TR: "taş tanıma", "kristal tanıma", "değerli taş tanıma"
-- **Insects** — EN: "insect identifier", "bug identifier", "spider identification" — TR: "böcek tanıma", "örümcek türleri", "böcek bulucu"
-- **Nature** — EN: "mushroom identifier", "bird identifier", "bird sound id" — TR: "mantar tanıma", "kuş tanıma", "kuş sesi tanıma"
-- **Wine & antiques** — EN: "wine scanner", "antique identifier", "antique value" — TR: "şarap etiketi okuma", "antika değeri", "antika tanıma"
+- **Coins** — EN: "coin identifier", "coin value checker", "coin scanner", "old coin value"
+- **Rocks & crystals** — EN: "rock identifier", "crystal identifier", "gemstone identifier"
+- **Insects** — EN: "insect identifier", "bug identifier", "spider identification"
+- **Nature** — EN: "mushroom identifier", "bird identifier", "bird sound id"
+- **Wine & antiques** — EN: "wine scanner", "antique identifier", "antique value"
 
 ## Avoid
 
 - Mushroom/insect safety framed as clearance ("Is it edible? Find out") — poisoning and bite risk; Apple 1.4.1. Always "never eat or handle based on an app".
 - Value hype: "Your coin could be worth thousands!", extreme rare-coin values as typical — misleading under Apple 2.3.1; say "estimate", never "appraisal" or "certified".
 - Apple 4.3 (spam): identifier apps are among the most cloned; screenshots must show genuine differentiation.
-- Antiquities: Turkey's Law 2863 tightly restricts trading archaeological items — never promote selling ancient coins or artefacts.
-- Wine scanners: alcohol content needs the right age rating; Turkey restricts alcohol promotion — keep TR screenshots informational, no drinking imagery.
+- Antiquities: many countries tightly restrict trading archaeological items — never promote selling ancient coins or artefacts.
+- Wine scanners: alcohol content needs the right age rating; some markets restrict alcohol promotion — keep screenshots informational, no drinking imagery.
 - Prices or "free" when scans/values are paywalled (2.3.7).
 - Conversion mistakes: a category menu as the hook, generic magnifying-glass icons, blurry phone photos as "before", tiny facts text.

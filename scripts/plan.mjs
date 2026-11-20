@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Create, validate and inspect plan.json.
-//   node scripts/plan.mjs init [--theme midnight | --no-director] [--count 7] [--locales en-US,tr] [--sizes iphone-6.9,android-phone] [--panorama] [--force]
+//   node scripts/plan.mjs init [--theme midnight | --no-director] [--count 7] [--locales en-US,de-DE] [--sizes iphone-6.9,android-phone] [--panorama] [--force]
 //   node scripts/plan.mjs validate
 //   node scripts/plan.mjs show
 // init drafts the STRUCTURE (story order, layouts, screens, sizes, locales, keywords) from profile.json + the niche;
@@ -90,9 +90,9 @@ if (cmd === 'init') {
     return shot;
   });
 
-  const kw = nicheId ? nicheKeywords(nicheId) : { en: [], tr: [] };
+  const kw = nicheId ? nicheKeywords(nicheId) : { en: [] };
   const keywords = {};
-  for (const l of locales) keywords[l] = (l === 'tr' ? kw.tr : l.startsWith('en') ? kw.en : []).slice(0, 8);
+  for (const l of locales) keywords[l] = (l.startsWith('en') ? kw.en : []).slice(0, 8);
 
   const plan = {
     $schema: 'appshot/plan@1',

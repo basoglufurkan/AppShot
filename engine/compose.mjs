@@ -153,7 +153,7 @@ function placeholderScreen(label, theme, aspect) {
 function resolveScreen(ref, { workspace, kind, assetUrl, theme, fallbackAspect, label, locale }) {
   let p = ref;
   if (p && typeof p === 'object') p = p[kind] || p.phone || p.tablet || Object.values(p)[0];
-  // Localised captures: "raw/{locale}/today.png" → raw/tr/today.png, falling back to raw/today.png.
+  // Localised captures: "raw/{locale}/today.png" → raw/de-DE/today.png, falling back to raw/today.png.
   if (typeof p === 'string' && p.includes('{locale}')) {
     const lang = String(locale).split('-')[0];
     const cands = [p.replace('{locale}', locale), p.replace('{locale}', lang), p.replace('/{locale}', '').replace('{locale}/', '')];

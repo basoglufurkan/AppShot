@@ -17,16 +17,11 @@ so the user can just accept. Use AskUserQuestion when available; otherwise one s
 ## The default three
 
 1. **Markets** — "Which languages should the screenshots ship in first?" Options: the detected locales (recommended),
-   English only, English + Turkish, other.
+   English only, English + German, other.
 2. **Proof** — "Do you have a real App Store/Play rating, award, press mention or usage number we may show?"
    Options: "No — skip social proof" (recommended when unsure), "Yes, I'll type it" (then capture value + source + date).
 3. **Avoid** — "Anything that must not appear?" Options: "Nothing", "Hide beta/unfinished features", "Don't mention
    competitors or prices" (always true anyway), other.
-
-Turkish phrasing example:
-- "Ekran görüntüleri önce hangi dillerde yayınlansın?" — Türkçe + İngilizce (önerilen) · Sadece İngilizce · Diğer
-- "Gösterebileceğimiz gerçek bir puan, ödül ya da kullanıcı sayısı var mı?" — Yok, sosyal kanıtı atla (önerilen) · Var, yazacağım
-- "Görünmemesi gereken bir şey var mı?" — Yok · Beta özellikleri gizle · Diğer
 
 ## After the answers
 

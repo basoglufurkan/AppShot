@@ -1,6 +1,6 @@
 ---
 name: appshot
-description: Create App Store and Google Play screenshots for the app in the current project. Scans the code (Expo/React Native, Flutter, SwiftUI/UIKit, Android/Compose, web), detects the niche, writes ASO-optimised captions in any language (native Turkish included), designs the set (24 themes, 23 layouts — a scroll-stopping billboard opener, then layouts that show the app — device frames, panorama), renders store-exact PNGs with headless Chrome, makes App Store header and search-results creative assets (animated key art, images and looping videos) and app preview videos (from simulator recordings, with the screenshot captions), scores variants and exports fastlane-ready folders. Use whenever the user wants store screenshots, listing images, ASO screenshots, a Play feature graphic, a header / search results asset, an app preview or promo video, or wants to refresh, localise, critique, A/B test or match a reference look — also in Turkish ("App Store ekran görüntüsü", "mağaza görselleri", "tanıtım videosu").
+description: Create App Store and Google Play screenshots for the app in the current project. Scans the code (Expo/React Native, Flutter, SwiftUI/UIKit, Android/Compose, web), detects the niche, writes ASO-optimised captions in any language, designs the set (24 themes, 23 layouts — a scroll-stopping billboard opener, then layouts that show the app — device frames, panorama), renders store-exact PNGs with headless Chrome, makes App Store header and search-results creative assets (animated key art, images and looping videos) and app preview videos (from simulator recordings, with the screenshot captions), scores variants and exports fastlane-ready folders. Use whenever the user wants store screenshots, listing images, ASO screenshots, a Play feature graphic, a header / search results asset, an app preview or promo video, or wants to refresh, localise, critique, A/B test or match a reference look.
 ---
 
 # Appshot
@@ -76,7 +76,7 @@ step 11 renders + score), `run.mjs final` (step 14). Your judgement steps (2, 4,
 | 10 | Design | `design.mjs directions --write` (three directions with reasons) · `themes.mjs board`, `layouts.mjs board` · `plan.mjs validate`. Never ship the niche default unexamined: two apps in one category must not get the same set | `skills/design/direction.md`, `taste.md`, `themes.md`, `color.md` |
 | 11 | Draft, look, score, fix | `render.mjs --draft` · `sheet.mjs --draft` · **Read the PNGs** · `score.mjs --draft` | `skills/review/critique.md`, `skills/review/scoring.md` |
 | 12 | Find the best | `variants.mjs make --hooks` · `variants.mjs tournament` (ranks by score + distinctiveness vs the market + match to the reference) · look · `variants.mjs adopt <name>` · keep two runners-up as PPO treatments | `skills/aso/testing.md`, `skills/design/direction.md` |
-| 13 | Localise | `localize.mjs add tr,de-DE` · `localize.mjs sheet tr` → write · `localize.mjs apply` · `copy-check.mjs --locale tr` | `skills/locales/<id>.md`, `skills/aso/localization.md` |
+| 13 | Localise | `localize.mjs add de-DE` · `localize.mjs sheet de-DE` → write · `localize.mjs apply` · `copy-check.mjs --locale de-DE` | `skills/locales/<id>.md`, `skills/aso/localization.md` |
 | 14 | Final + export | `render.mjs` · `sheet.mjs` · `creative.mjs --video` (iOS header + search; Read `review/creative-<locale>.png`) · `preview.mjs` when the user wants an app preview (Read `review/preview-<locale>.png`) · `graphic.mjs` (Play) · `check.mjs` · `export.mjs --zip` | `skills/core/export.md`, `skills/aso/apple-rules.md`, `google-play-rules.md` |
 | 15 | Metadata + hand-off | `metadata.mjs import <the app's metadata>` or `init` → write every locale's file (glossary of the app's own terms included) → `metadata.mjs check` (limits in bytes, keyword repeats, Apple/Play rules, purchase disclosure, Terms of Use) → `export.mjs` writes fastlane `metadata/`. Then summary, scores, paths, what to test next | `skills/aso/metadata.md`, `skills/locales/<id>.md`, `skills/core/method.md` § Hand-off |
 
@@ -88,7 +88,7 @@ nothing a top-grossing app would not ship. Typical: 2–4 iterations.
 | Folder | Use it for |
 | --- | --- |
 | `skills/core/` | the method, interview, brief, story, capture, plan format, render, review loop, export, modes, troubleshooting |
-| `skills/niches/` | 69 niche playbooks: searcher, what wins the install, shot-by-shot story, headline banks (EN + TR), visuals, keyword clusters, policy pitfalls |
+| `skills/niches/` | 69 niche playbooks: searcher, what wins the install, shot-by-shot story, headline banks, visuals, keyword clusters, policy pitfalls |
 | `skills/copy/` | hooks, formulas, voice, power words, proof, anti-patterns, length, sequence, rewrite drills, headline bank |
 | `skills/aso/` | Apple and Google rules and specs, creative assets (header / search results), app preview videos, keywords, caption indexing, first impression, conversion, testing (PPO / experiments), metadata, localisation, seasonal refresh |
 | `skills/design/` | taste, layouts and themes catalogues, typography, colour, devices, composition, panorama, highlights, motion (looping video, 19 animated key-art scenes), tablet, accessibility, anti-patterns |
@@ -103,13 +103,13 @@ nothing a top-grossing app would not ship. Typical: 2–4 iterations.
 {
   "app": { "name": "Pulse", "icon": "raw/icon.png" },
   "theme": "volt", "themeOverrides": { "accent": "#C6F432" }, "panorama": false,
-  "sizes": ["iphone-6.9", "iphone-6.3", "android-phone"], "locales": ["en-US", "tr"],
-  "keywords": { "en-US": ["home workouts", "ai coach"], "tr": ["ev antrenmanı"] },
+  "sizes": ["iphone-6.9", "iphone-6.3", "android-phone"], "locales": ["en-US"],
+  "keywords": { "en-US": ["home workouts", "ai coach"] },
   "storeOverrides": { "android": { "theme": { "device": { "frame": "flat" } } } },
   "shots": [
     { "id": "hook", "layout": "billboard", "screen": "raw/today.png", "pop": { "rect": [0.043, 0.409, 0.914, 0.155] },
-      "headline": { "en-US": "Home workouts that **adapt**", "tr": "Sana **uyan** ev antrenmanları" },
-      "subhead": { "en-US": "25 minutes. Zero equipment.", "tr": "Günde 25 dakika, ekipmansız" },
+      "headline": { "en-US": "Home workouts that **adapt**" },
+      "subhead": { "en-US": "25 minutes. Zero equipment." },
       "alternatives": { "en-US": ["Get fit at home in **25 minutes**"] } },
     { "id": "form", "layout": "zoom-callout", "screen": "raw/workout.png", "zoom": { "rect": [0.045, 0.57, 0.91, 0.105] },
       "headline": { "en-US": "Perfect form, **every rep**" } }

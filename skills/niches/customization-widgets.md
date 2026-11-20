@@ -59,25 +59,6 @@ shots: 7
 - Clean, **minimal**, perfect
 - StandBy, **styled**
 
-### Türkçe
-
-- Telefonunu **kendine** benzet
-- **Dakikalar** içinde estetik görünüm
-- Her tarza **{themes}** tema
-- Fotoğrafların **ana ekranında**
-- **Göz alıcı** widget'lar
-- **Uyumlu** ikonlar
-- **Bayılacağın** bir kilit ekranı
-- Sıradandan **büyüleyiciye**
-- **Fark yaratan** yazı tipleri
-- **Tarzınla** yaz
-- Arkadaşlarının fotoğrafları **anında** ekranında
-- Her mevsim **yeni** bir görünüm
-- Önemli günlere **geri sayım**
-- Her kilit açışta **senin tarzın**
-- Sade, **minimal**, kusursuz
-- Bekleme modu artık **şık**
-
 ## Supporting elements
 
 - **Widget tiles**: clock, photo, battery, weather-style, countdown "{days} days to {event}".
@@ -99,11 +80,11 @@ shots: 7
 
 ## Keyword clusters
 
-- **Widgets** — EN: "widgets", "widget app", "photo widget", "clock widget" — TR: "widget", "ana ekran widget", "fotoğraf widget", "saat widget"
-- **Aesthetic setups** — EN: "aesthetic home screen", "app icons", "icon changer", "home screen themes" — TR: "estetik ana ekran", "uygulama ikonları", "ikon değiştirme", "ana ekran teması"
-- **Wallpapers** — EN: "wallpapers", "4k wallpapers", "live wallpaper", "lock screen wallpaper" — TR: "duvar kağıtları", "hareketli duvar kağıdı", "4k duvar kağıdı"
-- **Lock Screen** — EN: "lock screen themes", "lock screen widgets", "standby widgets" — TR: "kilit ekranı teması", "kilit ekranı widget"
-- **Fonts & keyboards** — EN: "fonts", "cool fonts", "keyboard themes", "fancy text" — TR: "yazı tipleri", "havalı yazı", "klavye teması", "süslü yazı"
+- **Widgets** — EN: "widgets", "widget app", "photo widget", "clock widget"
+- **Aesthetic setups** — EN: "aesthetic home screen", "app icons", "icon changer", "home screen themes"
+- **Wallpapers** — EN: "wallpapers", "4k wallpapers", "live wallpaper", "lock screen wallpaper"
+- **Lock Screen** — EN: "lock screen themes", "lock screen widgets", "standby widgets"
+- **Fonts & keyboards** — EN: "fonts", "cool fonts", "keyboard themes", "fancy text"
 
 ## Avoid
 

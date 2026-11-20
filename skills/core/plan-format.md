@@ -1,7 +1,7 @@
 # plan.json reference
 
 Lives at `appshot/plan.json`. Paths are relative to `appshot/`. Any caption-like value can be a string (all locales)
-or an object keyed by locale (`{"en-US": "…", "tr": "…"}`); lookup falls back to the same language, then
+or an object keyed by locale (`{"en-US": "…", "de-DE": "…"}`); lookup falls back to the same language, then
 `defaultLocale`, then the first key.
 
 ## Top level
@@ -33,7 +33,7 @@ or an object keyed by locale (`{"en-US": "…", "tr": "…"}`); lookup falls bac
 | --- | --- |
 | `id` | short slug; output file `NN-<id>.png` |
 | `layout` | one of `engine/templates/*` (`node scripts/layouts.mjs list`) |
-| `screen` | path, `{phone, tablet}` object, or a `{locale}` pattern: `raw/{locale}/today.png` → `raw/tr/today.png`, falls back to `raw/today.png` |
+| `screen` | path, `{phone, tablet}` object, or a `{locale}` pattern: `raw/{locale}/today.png` → `raw/de-DE/today.png`, falls back to `raw/today.png` |
 | `screens` | array for multi-device layouts (duo-devices, trio-fan, before-after, screen-grid) |
 | `headline` | loc · `**word**` highlight, `_word_` emphasis, `\n` forced break |
 | `subhead` | loc · optional, ≤ 12 words |
@@ -79,7 +79,7 @@ app — scene, layouts, motion, phrase, loop — and writes its reasons to `revi
 ```json
 "creative": {
   "screens": ["raw/today.png", "raw/workout.png", "raw/progress.png", "raw/plans.png"],
-  "headline": { "en-US": "Your **pocket** trainer", "tr": "Cebindeki **antrenör**" },
+  "headline": { "en-US": "Your **pocket** trainer" },
   "cards": [{ "icon": "🔥", "value": "12 days", "title": "Workout streak" }],
   "scene": "heartbeat",          // force the scene (engine/scenes); otherwise picked from the niche
   "motion": "gentle",            // none | calm | gentle | lively

@@ -59,26 +59,6 @@ shots: 7
 - Develop your **roll**
 - Story-ready **vintage** looks
 
-### Türkçe
-
-- 90'lardaki gibi **çek**
-- Cebinde bir **film** makinesi
-- Her kare bir **anı**
-- Gerçek **gren**, gerçek his
-- Çekmeden **önce** efekti gör
-- **{cameras}** vintage kamera, tek uygulama
-- Doğal **ışık sızıntıları**
-- Tarih damgası **geri** döndü
-- Tek kullanımlık kamera havası, **beklemeden**
-- Telefonun **analog** hissettirsin
-- Galerin artık **estetik**
-- Şipşak fotoğraf **havası**
-- VHS geceleri, **retro** günler
-- Çek, **hisset**
-- Daha az kusursuz, daha çok **sen**
-- Filmini **banyo** et
-- Hikâyelik **vintage** efektler
-
 ## Supporting elements
 
 - Orange seven-segment date stamp in the photo corner. Use a stylised date and keep it consistent across shots.
@@ -98,11 +78,11 @@ shots: 7
 
 ## Keyword clusters
 
-- **Film** — EN: film camera, film filter, analog camera, 35mm camera app — TR: film kamera, analog kamera, film efekti, 35mm filtre
-- **Disposable and retro** — EN: disposable camera, retro camera, vintage camera — TR: tek kullanımlık kamera, retro kamera, eski fotoğraf makinesi
-- **Effects** — EN: light leak effect, film grain, date stamp camera — TR: ışık sızıntısı efekti, gren efekti, tarihli fotoğraf
-- **Retro video** — EN: vhs camera, camcorder app, y2k filter — TR: vhs efekti, eski kamera videosu, y2k filtre
-- **Aesthetic** — EN: aesthetic camera, instant camera, vintage filter app — TR: estetik kamera, polaroid efekti, vintage filtre
+- **Film** — EN: film camera, film filter, analog camera, 35mm camera app
+- **Disposable and retro** — EN: disposable camera, retro camera, vintage camera
+- **Effects** — EN: light leak effect, film grain, date stamp camera
+- **Retro video** — EN: vhs camera, camcorder app, y2k filter
+- **Aesthetic** — EN: aesthetic camera, instant camera, vintage filter app
 
 ## Avoid
 
