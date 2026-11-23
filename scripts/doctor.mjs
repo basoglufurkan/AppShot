@@ -8,6 +8,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { findChrome, withBrowser } from '../engine/lib/cdp.mjs';
 import { parseArgs, SKILL_DIR, log } from '../engine/lib/util.mjs';
+import { listSimulators, pickSimulator } from '../engine/lib/simulators.mjs';
 
 const args = parseArgs();
 const has = (cmd) => { try { execSync(`command -v ${cmd}`, { stdio: 'ignore', shell: '/bin/sh' }); return true; } catch { return false; } };
@@ -31,7 +32,10 @@ if (isMac) {
   const xcode = out('xcode-select -p');
   row(xcode ? true : null, 'Xcode (iOS capture)', xcode || 'not installed — optional', 'Install Xcode from the App Store, then: sudo xcode-select -s /Applications/Xcode.app');
   const booted = out('xcrun simctl list devices booted 2>/dev/null | grep -c Booted');
-  row(booted && booted !== '0' ? true : null, 'Booted iOS Simulator', booted && booted !== '0' ? `${booted} booted` : 'none booted — optional', 'open -a Simulator (or boot one: xcrun simctl boot "iPhone 17 Pro Max")');
+  const none = !booted || booted === '0';
+  let phone = null;
+  if (none) try { phone = pickSimulator(listSimulators(), 'phone').device; } catch {}
+  row(none ? null : true, 'Booted iOS Simulator', none ? 'none booted — optional' : `${booted} booted`, `open -a Simulator${phone ? ` (or boot one: xcrun simctl boot "${phone.name}")` : ''}`);
 }
 row(has('adb') ? true : null, 'adb (Android capture)', has('adb') ? out('adb version | head -1') : 'not found — optional', 'Install Android platform-tools');
 row(has('maestro') ? true : null, 'Maestro (flow capture)', has('maestro') ? 'found' : 'not found — optional', 'curl -Ls "https://get.maestro.mobile.dev" | bash');

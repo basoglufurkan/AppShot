@@ -17,7 +17,7 @@
           2736
         ]
       ],
-      "label": "iPhone 6.9\" — Dynamic Island large (16/17 Pro Max, Air)",
+      "label": "iPhone 6.9\" — Dynamic Island large (16/17/18 Pro Max, Air)",
       "required": false,
       "frame": "iphone",
       "fastlane": "APP_IPHONE_69"

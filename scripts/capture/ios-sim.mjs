@@ -3,11 +3,13 @@
 //   node scripts/capture/ios-sim.mjs --name home [--url myapp://home] [--wait 2] [--appearance dark]
 //   node scripts/capture/ios-sim.mjs --list
 //   node scripts/capture/ios-sim.mjs --statusbar clear
-// Tip: boot the simulator that matches the target canvas (iPhone 17 Pro Max → 1320×2868; iPad Pro 13" → 2064×2752).
+// Tip: boot the simulator that matches the target canvas (a 6.9" iPhone such as iPhone 18 Pro Max → 1320×2868;
+// iPad Pro 13" → 2064×2752). With none booted, --list says which one to boot.
 
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { parseArgs, findWorkspace, ensureDir, slug, log, die } from '../../engine/lib/util.mjs';
+import { listSimulators, pickSimulator } from '../../engine/lib/simulators.mjs';
 import { record } from './_manifest.mjs';
 
 const args = parseArgs();
@@ -21,7 +23,11 @@ try { sim('help'); } catch { die('xcrun simctl not available — install Xcode a
 if (args.list) {
   const j = JSON.parse(sim('list', 'devices', 'booted', '-j'));
   const booted = Object.entries(j.devices).flatMap(([rt, ds]) => ds.map((d) => ({ ...d, runtime: rt.split('.').pop() })));
-  if (!booted.length) die('No booted simulator. Boot one: xcrun simctl boot "iPhone 17 Pro Max" && open -a Simulator');
+  if (!booted.length) {
+    let d = null;
+    try { d = pickSimulator(listSimulators(), 'phone').device; } catch {}
+    die(`No booted simulator. Boot one: ${d ? `xcrun simctl boot "${d.name}" && ` : ''}open -a Simulator`);
+  }
   for (const d of booted) console.log(`${d.udid}  ${d.name}  (${d.runtime})`);
   process.exit(0);
 }

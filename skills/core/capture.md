@@ -4,7 +4,7 @@ Screenshots sell the real product. Capture at the device's native resolution so 
 
 | Target canvas | Simulator / device to capture on | Capture size |
 | --- | --- | --- |
-| iphone-6.9 / 6.3 | iPhone 17 Pro Max (or 16 Pro Max) | 1320×2868 |
+| iphone-6.9 / 6.3 | a 6.9" iPhone: iPhone 18, 17 or 16 Pro Max | 1320×2868 |
 | ipad-13 | iPad Pro 13-inch (M4/M5) | 2064×2752 |
 | android-phone | Pixel 9 / any 1080-wide emulator | 1080×2400 (framed into 9:16) |
 | web / PWA | `capture/web.mjs --device iphone` | 1320×2868 |
@@ -29,7 +29,7 @@ to the screen, `screenshot`). Save each capture into `appshot/raw/<name>.png` (c
 script below once the screen is showing).
 
 ```bash
-xcrun simctl boot "iPhone 17 Pro Max" && open -a Simulator     # once
+xcrun simctl boot "iPhone 18 Pro Max" && open -a Simulator     # once; any 6.9" iPhone this Mac has
 node $SKILL_DIR/scripts/capture/ios-sim.mjs --name today                      # whatever is on screen
 node $SKILL_DIR/scripts/capture/ios-sim.mjs --name workout --url pulse://workout/full-body-burn --wait 2
 node $SKILL_DIR/scripts/capture/ios-sim.mjs --name today --appearance dark
@@ -55,7 +55,10 @@ node scripts/capture/auto.mjs run --android --yes                   # Android: p
 ```
 
 `plan.capture`:
-- `ios.bundleId`, `ios.device` (default iPhone 17 Pro Max), `ios.tablet`, `ios.app` (a built .app to install first);
+- `ios.bundleId`, `ios.app` (a built .app to install first);
+- `ios.device` / `ios.tablet`: leave them out — the run picks the newest 6.9" iPhone (1320×2868) / 13" iPad
+  (2064×2752) simulator on this Mac by screen size, and the dry run names it. A named simulator this Mac lacks (plans
+  from an older Xcode say "iPhone 17 Pro Max") is swapped for one with the same screen, with a warning;
 - `ios.launchArgs`: the app's own debug flags — demo content, skip onboarding, and **an in-memory or test store**, so
   the run never touches the user's real data in the simulator (for example `-demo-data 40 -skip-onboarding
   -in-memory-store`, whatever the app's own UI tests use);

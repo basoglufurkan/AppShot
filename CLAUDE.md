@@ -47,7 +47,8 @@ running the scripts with `--project <app path>`.
   niche, prompt), `engine/lib/cutout.mjs` (white background → alpha), `scripts/hero.mjs`, `skills/design/hero-art.md`.
 - Store specs live only in `engine/sizes.json` and `engine/locales.json`.
 
-- Capture: `scripts/capture/auto.mjs` (per-locale launch arguments, deep links, settled screenshots, preview clips).
+- Capture: `scripts/capture/auto.mjs` (per-locale launch arguments, deep links, settled screenshots, preview clips);
+  which simulator: `engine/lib/simulators.mjs` (by screen size, never a hard-coded model name — Xcode renames them yearly).
   Learning: `engine/lib/learning.mjs` + `scripts/results.mjs` (~/.appshot/learning.json, read by the director).
   Play: `scripts/play.mjs`. In-App Events: `scripts/event.mjs` (sizes `event-card` / `event-details`, `limits.event`).
   Caption OCR: `engine/native/ocr.swift` (macOS Vision, compiled once) via `engine/lib/ocr.mjs`. Audio QA: `audioQA` in

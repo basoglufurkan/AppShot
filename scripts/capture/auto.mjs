@@ -9,7 +9,7 @@
 //        without --yes it prints every step and changes nothing (a dry run)
 //
 // plan.capture = {
-//   ios: { bundleId, app?: "path/to/App.app" (installed first), device?: "iPhone 17 Pro Max", tablet?: "iPad Pro 13-inch (M5)",
+//   ios: { bundleId, app?: "path/to/App.app" (installed first), device?: "iPhone 18 Pro Max", tablet?: "iPad Pro 13-inch (M5)",
 //          launchArgs?: ["-demo-data"]  (the app's own debug flags: demo content, skip onboarding, an in-memory store) },
 //   android: { package, serial? },
 //   appearance?: "dark" | "light",
@@ -17,12 +17,15 @@
 // }
 // Screens with neither url nor launchArgs are listed as manual. The locale reaches the app as -AppleLanguages /
 // -AppleLocale launch arguments (iOS) or a per-app locale (Android 13+), so the simulator's own language never changes.
+// Without ios.device / ios.tablet, or when this Mac lacks the named one, the simulator is picked by screen: the newest
+// one with the store's canvas, 1320×2868 iPhone / 2064×2752 iPad (engine/lib/simulators.mjs). The dry run shows which.
 
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync, spawnSync } from 'node:child_process';
 import { parseArgs, findWorkspace, readJson, writeJson, exists, ensureDir, list, slug, die, log } from '../../engine/lib/util.mjs';
 import { loadImage } from '../../engine/lib/visual.mjs';
+import { listSimulators, pickSimulator } from '../../engine/lib/simulators.mjs';
 
 const args = parseArgs();
 const cmd = args._[0] || 'plan';
@@ -67,7 +70,7 @@ const appleArgs = (locale) => {
 if (cmd === 'init') {
   const scheme = profile.app?.urlSchemes?.[0];
   const screens = Object.fromEntries(screensOfPlan().map((s) => [s.name, scheme ? { url: `${scheme}://${s.name}`, guess: true, wait: 2.5 } : { manual: 'how to reach this screen' }]));
-  plan.capture = { ios: { bundleId: profile.app?.bundleId || 'TODO', device: 'iPhone 17 Pro Max', tablet: 'iPad Pro 13-inch (M5)', launchArgs: [] }, ...(profile.platform?.stores?.includes('android') ? { android: { package: profile.app?.packageName || 'TODO' } } : {}), screens, ...(plan.capture || {}) };
+  plan.capture = { ios: { bundleId: profile.app?.bundleId || 'TODO', launchArgs: [] }, ...(profile.platform?.stores?.includes('android') ? { android: { package: profile.app?.packageName || 'TODO' } } : {}), screens, ...(plan.capture || {}) };
   writeJson(planFile, plan);
   log.ok(`plan.capture written — ${Object.keys(screens).length} screens. Fix every guessed url (the app's real routes), add the app's own debug launch arguments (demo data, skip onboarding, an in-memory store), then: node scripts/capture/auto.mjs plan`);
   process.exit(0);
@@ -121,14 +124,12 @@ if (args.android) {
 const ios = cap.ios || die('plan.capture.ios { bundleId } is missing — node scripts/capture/auto.mjs init');
 if (!ios.bundleId || ios.bundleId === 'TODO') die('plan.capture.ios.bundleId is missing');
 const sim = (...a) => execFileSync('xcrun', ['simctl', ...a], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] });
-const devices = () => { const j = JSON.parse(sim('list', 'devices', 'available', '-j')); return Object.entries(j.devices).flatMap(([rt, ds]) => ds.map((d) => ({ ...d, runtime: rt }))); };
-/** A simulator by name (the newest runtime wins), booted if needed. */
-async function device(name) {
-  const all = devices().filter((d) => d.name === name).sort((a, b) => b.runtime.localeCompare(a.runtime, undefined, { numeric: true }));
-  const d = all.find((x) => x.state === 'Booted') || all[0];
-  if (!d) die(`No simulator named "${name}" — xcrun simctl list devices`);
-  if (d.state !== 'Booted') await doStep(`boot ${name} (${d.runtime.split('.').pop()})`, async () => { sim('boot', d.udid); sim('bootstatus', d.udid, '-b'); });
-  return d.udid;
+// A dry run only prints the steps, so a Mac without Xcode or without the right simulator still gets to see them.
+let sims = null;
+try { sims = listSimulators(); } catch {
+  const msg = 'xcrun simctl not available — install Xcode and run: sudo xcode-select -s /Applications/Xcode.app';
+  if (!dry) die(msg);
+  log.warn(`${msg} (dry run: the steps below show no simulator)`);
 }
 /** Screenshot once the screen has settled: launch animations, splash fades and scrolling must be over. */
 async function settledShot(udid, out, { max = 8 } = {}) {
@@ -149,10 +150,16 @@ async function settledShot(udid, out, { max = 8 } = {}) {
   }
   fs.renameSync(tmp, out);
 }
-const kinds = [['phone', ios.device || 'iPhone 17 Pro Max'], ...(args.tablet ? [['tablet', ios.tablet || 'iPad Pro 13-inch (M5)']] : [])];
-for (const [kind, name] of kinds) {
-  const udid = dry ? `<${name}>` : await device(name);
-  if (dry) await device(name).catch(() => {});
+const kinds = [['phone', ios.device], ...(args.tablet ? [['tablet', ios.tablet]] : [])];
+for (const [kind, wanted] of kinds) {
+  // The plan's simulator when this Mac has it, else the newest one with the same screen (or the store's canvas).
+  const pick = sims ? pickSimulator(sims, kind, wanted) : {};
+  if (pick.error) { if (!dry) die(pick.error); log.warn(pick.error); }
+  if (pick.note) log.warn(pick.note);
+  const d = pick.device;
+  const name = d?.name || wanted || (kind === 'tablet' ? 'iPad' : 'iPhone');
+  const udid = d?.udid;
+  if (d && d.state !== 'Booted') await doStep(`boot ${name} (${d.runtime.split('.').pop()})`, async () => { sim('boot', udid); sim('bootstatus', udid, '-b'); });
   if (ios.app) await doStep(`${name}: install ${ios.app}`, async () => sim('install', udid, path.resolve(path.dirname(ws), ios.app)));
   await doStep(`${name}: status bar 9:41, full bars${cap.appearance ? `, ${cap.appearance} appearance` : ''}`, async () => {
     sim('status_bar', udid, 'override', '--time', '9:41', '--dataNetwork', 'wifi', '--wifiMode', 'active', '--wifiBars', '3', '--cellularMode', 'active', '--cellularBars', '4', '--operatorName', '', '--batteryState', 'charged', '--batteryLevel', '100');

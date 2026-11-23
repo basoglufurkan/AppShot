@@ -18,7 +18,8 @@
 | Editor blank | plan.json invalid JSON | `plan.mjs validate`; the editor shows the error in its log |
 | Preview segment shows a still, not the recording | no clip named like the capture, the clip is another device class, or the capture is localised and the clip is not | `preview.mjs --explain` says which; name it `raw/[<locale>/]clips/<screen>.mp4` (`preview.mjs clip` / `record`) |
 | Recording is 0.1 s long | the Simulator only writes frames when the screen changes | Appshot holds the last frame to the real length; record while the app moves |
-| `simctl recordVideo failed` | no booted Simulator | `xcrun simctl boot "iPhone 17 Pro Max" && open -a Simulator`, or `--device <udid>` |
+| `simctl recordVideo failed` | no booted Simulator | `xcrun simctl boot "iPhone 18 Pro Max" && open -a Simulator` (any 6.9" iPhone), or `--device <udid>` |
+| `No "iPhone 17 Pro Max" simulator on this Mac — using …` | the plan names a model this Xcode does not ship | nothing to fix: the capture runs on the newest simulator with the same screen; to choose another, set `plan.capture.ios.device` (`xcrun simctl list devices`) |
 | Preview first frame looks empty | the hook clip starts on a loading state | re-cut it later (`preview.mjs clip --start …`): the first frame is the thumbnail |
 | App Store Connect rejects the preview | resolution, length, fps or audio | `check.mjs` lists the exact rule; previews need 15–30 s, ≤ 30 fps, 886×1920 for Face ID iPhones, stereo audio |
 

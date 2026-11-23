@@ -216,8 +216,8 @@ for the app preview.
    ```bash
    node scripts/capture/auto.mjs init
    ```
-   This adds `plan.capture` to `plan.json`: the bundle id, the simulator models and one entry per screen. Fill in
-   how each screen is reached:
+   This adds `plan.capture` to `plan.json`: the bundle id and one entry per screen. Fill in how each screen is
+   reached:
    - `url`: a deep link (`init` guesses `myapp://<screen>`; check the guesses against the app's real routes);
    - `launchArgs` or `launch: true`: launch arguments that open the screen, or the screen the app opens on;
    - `ios.launchArgs` for every launch: the app's own debug flags for demo content and, if it has one, an
@@ -232,7 +232,10 @@ for the app preview.
    node scripts/capture/auto.mjs run --locales pt-BR --record --yes
    ```
    Add `--tablet` for iPad screens and `--android` for an Android device (per-app language and deep links). The
-   language reaches the app as launch arguments, so the simulator's own language never changes.
+   language reaches the app as launch arguments, so the simulator's own language never changes. The dry run also
+   shows the simulator it will use: the newest 6.9" iPhone (1320 × 2868) or 13" iPad on this Mac, unless
+   `ios.device` / `ios.tablet` names one. A named simulator this Mac lacks is swapped for one with the same screen,
+   with a warning.
 4. Screens that need taps (a finished session, a shared room) are listed as manual. Capture them with the app's own
    UI tests or by hand, and bring recordings in with `preview.mjs clip`.
 
@@ -243,7 +246,7 @@ Screenshots show real UI only. Each capture is saved as `appshot/raw/<name>.png`
 
 | Source | Steps |
 | --- | --- |
-| iOS Simulator | Boot iPhone 17 Pro Max (for 1320 × 2868) or iPad Pro 13" (for 2064 × 2752), open the screen, then `node scripts/capture/ios-sim.mjs --name home`. Add `--url myapp://home --wait 2` to open a deep link first and `--appearance dark` for dark mode. |
+| iOS Simulator | Boot a 6.9" iPhone such as iPhone 18 Pro Max (for 1320 × 2868) or iPad Pro 13" (for 2064 × 2752), open the screen, then `node scripts/capture/ios-sim.mjs --name home`. Add `--url myapp://home --wait 2` to open a deep link first and `--appearance dark` for dark mode. |
 | Android | Start an emulator, then `node scripts/capture/android.mjs --name home --serial emulator-5554`. Demo mode gives a clean status bar; `--demo off` turns it off. |
 | Web app or PWA | `node scripts/capture/web.mjs --url http://localhost:3000/dashboard --name dashboard --device iphone --dark` |
 | Your own files | `node scripts/capture/import.mjs ~/Desktop/shots/*.png` |
@@ -1053,7 +1056,8 @@ maestro test appshot/capture.yaml
 node scripts/capture/statusbar.mjs on --time 9:41
 ```
 
-Boot the simulator that matches the target canvas: iPhone 17 Pro Max for 1320×2868, iPad Pro 13" for 2064×2752.
+Boot the simulator that matches the target canvas: a 6.9" iPhone (16, 17 or 18 Pro Max) for 1320×2868, iPad Pro 13"
+for 2064×2752. `capture/auto.mjs` picks one by screen size on its own.
 Missing screens render as labelled placeholders; the scorer and the store check block them.
 
 ---
@@ -1166,7 +1170,7 @@ All store specs live only in `engine/sizes.json` and `engine/locales.json`.
 
 | Size id | Pixels | Store | Notes |
 | --- | --- | --- | --- |
-| iphone-6.9 | 1320 × 2868 | App Store | 16/17 Pro Max, Air |
+| iphone-6.9 | 1320 × 2868 | App Store | 16/17/18 Pro Max, Air |
 | iphone-6.5 | 1284 × 2778 | App Store | required only if 6.9" is missing |
 | iphone-6.3 | 1206 × 2622 | App Store | **required class** |
 | iphone-6.1 | 1170 × 2532 | App Store | |

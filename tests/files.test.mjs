@@ -3,7 +3,6 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
-import { spawnSync } from 'node:child_process';
 import { validatePlan } from '../engine/schema.mjs';
 import { glossary } from '../engine/lib/glossary.mjs';
 import { readJson } from '../engine/lib/util.mjs';
@@ -36,12 +35,14 @@ test('the glossary reads the app\'s own String Catalog', () => {
   assert.deepEqual(g.map((x) => [x.term, x.translation]), [['Garden', 'Jardín']]);
 });
 
-test('auto capture writes a phone screen to the phone path even when an iPad-only shot shares its name', { skip: spawnSync('xcrun', ['simctl', 'help']).status !== 0 && 'no simctl' }, () => {
+// A dry run needs no simulator (or Xcode), so this runs everywhere; it used to name a model newer Xcodes do not ship.
+test('auto capture writes a phone screen to the phone path even when an iPad-only shot shares its name', () => {
   const ws = workspace({ locales: ['en-US'], shots: [
     { id: 'a', layout: 'hero-device', screens: ['raw/{locale}/garden.png', 'raw/{locale}/stats.png'] },
     { id: 'b', layout: 'hero-device', screen: 'raw/ipad/{locale}/garden.png' },
-  ], capture: { ios: { bundleId: 'com.example.app', device: 'iPhone 17 Pro Max' }, screens: { garden: { url: 'x://garden' } } } });
+  ], capture: { ios: { bundleId: 'com.example.app' }, screens: { garden: { url: 'x://garden' } } } });
   const r = run('capture/auto.mjs', ['run', '--workspace', ws, '--only', 'garden']);
+  assert.equal(r.status, 0, r.stderr);
   assert.match(r.stdout, /→ raw\/en-US\/garden\.png/);
   assert.doesNotMatch(r.stdout, /phone.*raw\/ipad/);
 });
